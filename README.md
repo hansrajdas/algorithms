@@ -1,2 +1,2 @@
 # Algorithms
-Algorithms in python and C
+Algorithms in python and C language
