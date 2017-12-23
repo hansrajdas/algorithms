@@ -4,3 +4,4 @@
 - [Rabin Karp](rabin_karp.c): Hashing based substring matching algo.
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Check prime](is_prime.go): Check if a number is prime or not.
+- [Babylonian - Square root](babylonian_square_root.go): Babylonian method to find square root of a number.
