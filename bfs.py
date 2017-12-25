@@ -45,13 +45,19 @@ class Graph:
 
     while queue:
       current_node = queue.pop(0)
-      print current_node,
+      print current_node
       
       visited[current_node] = True
 
       for node in self.graph[current_node]:
-        if visited[node] == False:
-          queue.append(node)
+        if visited.has_key(node):
+          if visited[node] == False:
+            queue.append(node)
+            visited[node] = True
+          else:
+            pass
+        else:
+          print "{0} - don't have any adjacent node".format(node)
           visited[node] = True
 
 
@@ -63,5 +69,6 @@ g.add_edge(11, 12)
 g.add_edge(12, 10)
 g.add_edge(12, 13)
 g.add_edge(13, 12)
+g.add_edge(13, 14)
 
-g.bfs(13)
+g.bfs(10)
