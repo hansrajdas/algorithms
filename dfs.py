@@ -2,7 +2,13 @@
 
 # Description:
 # Depth first search of a directed graph. Dictionary is used to store graph
-# information as adjacency list.
+# information as adjacency list. Uses dictionary to store adjacency list of   
+# graph having list of adjacent nodes corresponding to each node.
+#
+# Complexity: 
+# O(V + E)
+# V = number of vertexes/nodes
+# E = number of edges
 
 from collections import defaultdict
 
