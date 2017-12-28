@@ -6,3 +6,4 @@
 - [Check prime](is_prime.go): Check if a number is prime or not.
 - [Babylonian - Square root](babylonian_square_root.go): Babylonian method to find square root of a number.
 - [BFS traversal](bfs.py): Creates a directed graph and performs BFS traversal.
+- [DFS traversal](dfs.py): Creates a directed graph and performs DFS traversal.
