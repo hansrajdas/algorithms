@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Description:
-# Programs checks if there exists a cycle in a graph or not.
+# Programs to check if there exists a cycle in a graph or not.
 #
 # Complexity: 
 # O(V + E)
