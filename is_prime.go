@@ -1,4 +1,6 @@
 /*
+ * Date: 2017-12-23
+ *
  * Implementation:
  * 1. All numbers can be represented in the form of 6k + i for i = -1, 0, 1, 2,
  *    3 and 4.

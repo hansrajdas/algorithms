@@ -1,4 +1,6 @@
 /*
+ * Date: 2017-12-24
+ *
  * Reference: 
  * https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
  *

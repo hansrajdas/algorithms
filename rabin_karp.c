@@ -1,4 +1,6 @@
 /*
+ * Date: 2017-12-16
+ *
  * Rabin karp algo to find all occurences of a pattern string from a large text
  * string.
  * 

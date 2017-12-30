@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Date: 2017-12-25
+#
 # Description:
 # Program creates a graph, adds few nodes to it and performs
 # breadth first traversal of graph. Uses dictionary to store adjacency list of
@@ -22,6 +24,7 @@ class Graph:
 
     Example: {0:[1, 2], 1:[0], 2: [0, 3]...}
     """
+
     self.graph = defaultdict(list)
 
   def add_edge(self, start, end):
@@ -31,6 +34,7 @@ class Graph:
     otherwise it updates existing node's adjacency list.
     Adds directed edge to graph.
     """
+
     self.graph[start].append(end)
 
   def bfs(self, start_node):
@@ -39,6 +43,7 @@ class Graph:
     Initially marks all nodes as not visited(marked false) then starts with
     current node, traverses its adjacency list and goes in the same fashion.
     """
+
     visited = {z: False for z in self.graph.keys()}
     queue = []
     queue.append(start_node)

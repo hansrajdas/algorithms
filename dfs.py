@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Date: 2017-12-28
+#
 # Description:
 # Depth first search of a directed graph. Dictionary is used to store graph
 # information as adjacency list. Uses dictionary to store adjacency list of   

@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Date: 2017-12-17
+#
 # Description: Karatsuba algo an efficiant way to multiply very large
 #              numbers. Conventional way of multiplication has complexity
 #              of O(n^2) as every bit of one number is multiplied by every
