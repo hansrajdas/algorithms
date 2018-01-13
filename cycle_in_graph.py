@@ -34,7 +34,7 @@ class Graph(object):
     for x in self.graph[current_vertex]:
       if visited.has_key(x):
         if visited[x] == False:
-          return self.dfs_util(x, visited)
+          return self.cycle_wrt_vertex(x, visited)
         else:
           return True
 
