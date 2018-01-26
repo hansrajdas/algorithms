@@ -41,10 +41,10 @@ class Graph(object):
           pass
       else:
           if adjacent_vertex not in stack:
-            stack.insert(0, adjacent_vertex)
+            stack.append(adjacent_vertex)
           else:
             pass
-    stack.insert(0, current_node)
+    stack.append(current_node)
 
   def topological_sort(self):
     """Finds topological ordering of DAG 'self'."""
@@ -57,6 +57,7 @@ class Graph(object):
       if visited[vertex] == False:
         self.topological_sort_util(vertex, visited, stack)
 
+    stack.reverse()
     print stack
 
 
