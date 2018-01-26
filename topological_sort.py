@@ -5,7 +5,7 @@
 # Description:
 # Find lenear topological order of a directed acyclic graph(DAG).
 # In topological order of DAG is such that if in a graph there is a edge from
-# u to v then in topological order u should be before v.
+# u to v then in topological order, u should be before v.
 # Topological sort is not possible if graph is not DAG.
 #
 # Applications: Used for dependent job scheduling like makefiles.
@@ -69,3 +69,5 @@ g.add_edge(2, 3)
 g.add_edge(3, 1)
 
 g.topological_sort()
+
+# Output: [5, 4, 0, 2, 3, 1]
