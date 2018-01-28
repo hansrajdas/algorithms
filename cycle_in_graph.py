@@ -3,7 +3,13 @@
 # Date: 2017-12-29
 #
 # Description:
-# Program to check if there exists a cycle in a graph or not.
+# - Program to check if there exists a cycle in a graph or not.
+# - Graph has cycle if it contains a back edge(there is some other path which
+#   reaches to the same vertex from a source vertex).
+# - This uses DFS approach to find back edge.
+# - This is implemented for directed graph, for undirected graph we just have to
+#   edge corresponding to each edge(for each edge u to v there should be an
+#   edge from v to u)
 #
 # Complexity: 
 # O(V + E)
