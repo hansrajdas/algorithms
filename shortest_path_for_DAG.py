@@ -28,7 +28,8 @@ class Graph(object):
     self.dist = {}
 
   def add_edge(self, u, v, w):
-    """Adds an edge to graph.
+    """Adds an edge to graph and initialzes distance to vertexes added as
+       infinity.
     
     Args:
       u: Source vertex in edge.
