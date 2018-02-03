@@ -12,8 +12,9 @@
 #   reachable from source with infinite distance.
 # - Push all vertexes in a priority(distance 0 means highest priority) queue and
 #   iterate over queue till queue is empty.
-# - In each iteration check and update distance of all adjacent vertexes of
-#   fetched vertex from queue.
+# - In each iteration relax edges going out of current vertex .i.e check and
+#   update(if required) distance to all adjacent vertexes of fetched vertex from
+#   queue.
 # - When loop completes we will get shortest path from source to all reachable
 #   vertex and non reachable remains infinite as initialized.
 #
