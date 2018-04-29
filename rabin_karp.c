@@ -55,9 +55,7 @@ void karp_rabin(char *str, int n, char *pat, int m) {
    unsigned long long i = 0, j = 0;
 
    /* Preprocessing to computes 2^(m-1) */
-   for (i = 1; i < m; ++i) {
-      d = (d<<1);
-   }
+   d = d << m - 1;
 
    for (i = 0; i < m; ++i) {
       hx = ((hx<<1) + pat[i]);
