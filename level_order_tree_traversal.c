@@ -2,7 +2,7 @@
 #include "stdlib.h"
 
 /*
- * Date: 2017-01-07
+ * Date: 2018-01-07
  *
  * Implementation:
  * Find height of tree and traverse recursively printing left and right node
