@@ -17,10 +17,21 @@
  *  Space: O(mxn)
  */
 
+
+/* Finds minimum of 3 numbers. */
 int min(int a, int b, int c) {
   return a < b ? (a < c ? a : c): (b < c ? b : c);
 }
 
+/*
+ * Finds minimum distance to convert str1 to str2.
+ *
+ * Args:
+ *  str1: Source string.
+ *  str2: Target string.
+ *  m: Length of source string.
+ *  n: Length of target string.
+ */
 int edit_distance(char s1[], char s2[], int m, int n) {
   int i = 0, j = 0;
 
