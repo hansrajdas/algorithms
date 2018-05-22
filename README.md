@@ -15,3 +15,4 @@
 - [Dijkstra algo](dijkstra.py): Pending :(
 - [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE).
 - [Edit distance](edit_distance.c): Find minimum operations required to convert a source string to target string.
+- [Flip your caps](flip_your_cap.c): You all will conform | flip your cap(s) puzzle.
