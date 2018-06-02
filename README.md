@@ -18,3 +18,4 @@
 - [Flip your caps](flip_your_cap.c): You all will conform | flip your cap(s) puzzle.
 - [Find 1-D peak](find_peak_element.c): Find 1-D peak from an array.
 - [Find 2-D peak](find_2d_peak.c): Find 2-D peak from a 2-D array.
+- [Find second largest number](second_largest_in_array.c): Find second largest number from an array.
