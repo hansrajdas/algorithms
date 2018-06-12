@@ -21,3 +21,4 @@
 - [Find second largest number](second_largest_in_array.c): Find second largest number from an array.
 - [Find element with rank k](rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(n).
 - [Find element with rank k - log(n)](rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(n)).
+- [Search element in rotated sorted array](search_in_rotated_sorted_array.c): Search an element from rotated sorted array.
