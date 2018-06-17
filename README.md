@@ -24,3 +24,5 @@
 - [Search element in rotated sorted array](search_in_rotated_sorted_array.c): Search an element from rotated sorted array.
 - [Heap sort using max heap](heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order.
 - [Heap sort using min heap](heap_sort_using_min_heap.c): Build a min heap and sort array in descending order.
+- [Check strings has unique characters](unique_characters_check_in_string.c): Check if a string has all unique characters or not.
+- [2 strings are permutations](strings_permutation_check.c): Check if 2 strings are permutations of each other or not.
