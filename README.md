@@ -26,3 +26,4 @@
 - [Heap sort using min heap](heap_sort_using_min_heap.c): Build a min heap and sort array in descending order.
 - [Check strings has unique characters](unique_characters_check_in_string.c): Check if a string has all unique characters or not.
 - [2 strings are permutations](strings_permutation_check.c): Check if 2 strings are permutations of each other or not.
+- [Update input string](url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n).
