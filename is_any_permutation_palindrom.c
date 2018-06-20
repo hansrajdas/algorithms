@@ -19,6 +19,17 @@
 #include "stdio.h"
 #include "string.h"
 
+/*
+ * Validates input string.
+ *
+ * Args:
+ * s: Input string
+ * l: Length of input string
+ *
+ * Returns:
+ * 1 - String is valid
+ * 0 - String is onvalid
+ */
 int validate_input(char s[], unsigned short int l) {
   unsigned short int i = 0;
   for(i = 0; i < l; i++) {
@@ -28,6 +39,17 @@ int validate_input(char s[], unsigned short int l) {
   return 1;
 }
 
+/*
+ * Checks if any permutation of string can be palindrom.
+ *
+ * Args:
+ * s: Input string
+ * l: Length of input string
+ *
+ * Retruns:
+ * 1 - Palindrom possible
+ * 0 - Palindrom not possible
+ */
 int is_any_permutation_palindrom(char s[], unsigned short int l) {
   unsigned int bit_vector = 0;
   unsigned short int i = 0;
