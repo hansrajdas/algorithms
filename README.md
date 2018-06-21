@@ -11,7 +11,7 @@
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) solution.
 - [Level order tree traversal using queue](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue.
-- [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vetrex to all reachable vertex | O(V + E).
+- [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Dijkstra algo](dijkstra.py): Pending :(
 - [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE).
 - [Edit distance](edit_distance.c): Find minimum operations required to convert a source string to target string.
@@ -27,4 +27,4 @@
 - [Check strings has unique characters](unique_characters_check_in_string.c): Check if a string has all unique characters or not.
 - [2 strings are permutations](strings_permutation_check.c): Check if 2 strings are permutations of each other or not.
 - [Update input string](url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n).
-- [Is permutation palindrom](is_any_permutation_palindrom.c): Check if any permutation of given string is palindrom or not.
+- [Is permutation palindrome](is_any_permutation_palindrome.c): Check if any permutation of given string is palindrome or not.
