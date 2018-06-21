@@ -2,10 +2,10 @@
  * Date: 2018-06-20
  *
  * Description:
- * Check if any permutation of a given string is palindrom or not.
- * For any string to become palindrom it can have at most one character which is
+ * Check if any permutation of a given string is palindrome or not.
+ * For any string to become palindrome it can have at most one character which is
  * getting repeated odd number of times. Other characters must occur even number
- * of times. So using a bit vector, we can check odd occurence of one character.
+ * of times. So using a bit vector, we can check odd occurrence of one character.
  *
  * As we are using bit vector which restricts us to use just only lower(or only
  * upper) case characters in input string. If we want to support other
@@ -28,7 +28,7 @@
  *
  * Returns:
  * 1 - String is valid
- * 0 - String is onvalid
+ * 0 - String is invalid
  */
 int validate_input(char s[], unsigned short int l) {
   unsigned short int i = 0;
@@ -40,17 +40,17 @@ int validate_input(char s[], unsigned short int l) {
 }
 
 /*
- * Checks if any permutation of string can be palindrom.
+ * Checks if any permutation of string can be palindrome.
  *
  * Args:
  * s: Input string
  * l: Length of input string
  *
- * Retruns:
- * 1 - Palindrom possible
- * 0 - Palindrom not possible
+ * Returns:
+ * 1 - Palindrome possible
+ * 0 - Palindrome not possible
  */
-int is_any_permutation_palindrom(char s[], unsigned short int l) {
+int is_any_permutation_palindrome(char s[], unsigned short int l) {
   unsigned int bit_vector = 0;
   unsigned short int i = 0;
   for (i = 0; i < l; i++) {
@@ -75,7 +75,7 @@ int main() {
     printf("Input is invalid!\n");
     return -1;
   }
-  if (is_any_permutation_palindrom(input, len - 1)) {
+  if (is_any_permutation_palindrome(input, len - 1)) {
     printf("Yes\n");
   } else {
     printf("No\n");
