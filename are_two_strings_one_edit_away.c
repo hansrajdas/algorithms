@@ -22,7 +22,7 @@
 #define FALSE 0
 #define TRUE 1
 
-void swap(unsigned int *A, unsigned int *B) {
+void swap(unsigned short int *A, unsigned short int *B) {
   *A = *A + (*B);
   *B = *A - (*B);
   *A = *A - (*B);
@@ -41,10 +41,12 @@ void swap(unsigned int *A, unsigned int *B) {
  * 1 - If both strings are max one edit away.
  * 0 - If 2 strings are more than one edit away.
  */
-unsigned int are_two_strings_one_edit_away(char s1[], unsigned int l1,
-                                           char s2[], unsigned int l2) {
-  unsigned int idx_1 = 0, idx_2 = 0;
-  unsigned int one_diff_found = FALSE;
+unsigned short int are_two_strings_one_edit_away(char s1[],
+                                                 unsigned short int l1,
+                                                 char s2[],
+                                                 unsigned short int l2) {
+  unsigned short int idx_1 = 0, idx_2 = 0;
+  unsigned short int one_diff_found = FALSE;
   char *temp_1 = NULL, *temp_2 = NULL;
 
   // If difference in string lengths are more than one, they can't be one edit
@@ -89,7 +91,7 @@ unsigned int are_two_strings_one_edit_away(char s1[], unsigned int l1,
 
 int main() {
 	char string_1[MAX_LEN] = {'\0'}, string_2[MAX_LEN] = {'\0'};
-  unsigned short len_1 = 0, len_2 = 0;
+  unsigned short int len_1 = 0, len_2 = 0;
 
   printf("Enter first string: ");
 	fgets(string_1, MAX_LEN, stdin);
