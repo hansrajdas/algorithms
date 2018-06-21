@@ -91,11 +91,11 @@ int main() {
 	char string_1[MAX_LEN] = {'\0'}, string_2[MAX_LEN] = {'\0'};
   unsigned short len_1 = 0, len_2 = 0;
 
-  printf("Enter first strinrg: ");
+  printf("Enter first string: ");
 	fgets(string_1, MAX_LEN, stdin);
   len_1 = strlen(string_1);
 
-  printf("Enter second strinrg: ");
+  printf("Enter second string: ");
 	fgets(string_2, MAX_LEN, stdin);
   len_2 = strlen(string_2);
 
