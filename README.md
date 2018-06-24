@@ -30,3 +30,4 @@
 - [Is permutation palindrome](is_any_permutation_palindrome.c): Check if any permutation of given string is palindrome or not.
 - [Check 2 strings, one edit away](are_two_strings_one_edit_away.c): Check if 2 strings are max one edit away or not | O(n).
 - [String compression](string_compression.c): Compress string, show count for consecutive repeating characters | O(n).
+- [Rotate square matrix](rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n).
