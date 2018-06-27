@@ -32,3 +32,4 @@
 - [String compression](string_compression.c): Compress string, show count for consecutive repeating characters | O(n).
 - [Rotate square matrix](rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n).
 - [Clear row and column if 0 found](clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN).
+- [2 strings are rotations](are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n).
