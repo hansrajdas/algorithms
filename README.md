@@ -35,3 +35,4 @@
 - [2 strings are rotations](are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n).
 - [Longest increainng subsequence - O(n^2)](LIS_O_n2.c): Find length of longest increaing subsequence from an unsorted array | O(n^2).
 - [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increaing subsequence from an unsorted array | O(nlogn).
+- [Binary representation](binary_representation.c): Print binary representation of an integer.
