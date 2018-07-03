@@ -20,12 +20,13 @@ void binary_representation(int n) {
   for (i = 1 << size - 1; i > 0; i = i/2) {
     if (space == 4) {
       space = 0;
-      (n & i) ? printf(" 1") : printf(" 0");
+      (n & i) ? printf(" 1") : printf(" 0");  // Add space between each nibble.
     } else {
       (n & i) ? printf("1") : printf("0");
     }
     space++;
   }
+  printf("\n");
 }
 
 int main() {
@@ -33,7 +34,6 @@ int main() {
   printf("Enter number: ");
   scanf("%d", &n);
   binary_representation(n);
-  printf("\n");
   return 0;
 }
 
