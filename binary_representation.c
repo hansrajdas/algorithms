@@ -17,8 +17,8 @@ void binary_representation(int n) {
   printf("Binary representation of %d is: ", n);
 
   // Checking bit at individual position and printing 0 or 1.
-  for (i = 1 << size - 1; i > 0; i = i/2) {
-    if (space == 4) {
+  for (i = 1 << size - 1; i > 0; i = i >> 1) {
+    if (space & 0x04) {
       space = 0;
       (n & i) ? printf(" 1") : printf(" 0");  // Add space between each nibble.
     } else {
