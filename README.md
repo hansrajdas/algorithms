@@ -36,3 +36,4 @@
 - [Longest increainng subsequence - O(n^2)](LIS_O_n2.c): Find length of longest increaing subsequence from an unsorted array | O(n^2).
 - [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increaing subsequence from an unsorted array | O(nlogn).
 - [Binary representation](binary_representation.c): Print binary representation of an integer.
+- [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j.
