@@ -1,5 +1,5 @@
 /*
- * Date: 2018-07-03
+ * Date: 2018-07-04
  *
  * Description:
  * Given 2 32-bit numbers, N and M, and 2 bit positions i and j. Write a method
