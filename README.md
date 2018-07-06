@@ -37,3 +37,4 @@
 - [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increaing subsequence from an unsorted array | O(nlogn).
 - [Binary representation](binary_representation.c): Print binary representation of an integer.
 - [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j.
+- [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation
