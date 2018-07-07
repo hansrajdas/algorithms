@@ -38,3 +38,4 @@
 - [Binary representation](binary_representation.c): Print binary representation of an integer.
 - [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j.
 - [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation
+- [Flip a bit, get max sequence of 1s](flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence.
