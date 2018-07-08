@@ -63,7 +63,7 @@ void binary_representation(int n) {
 }
 
 int main() {
-  int number = 0.0;
+  int number = 0;
   printf("Enter a number: ");
   scanf("%d", &number);
   binary_representation(number);
