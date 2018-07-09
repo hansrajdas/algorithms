@@ -6,10 +6,12 @@
  * of 1 bits in their binary representation.
  *
  * Approach:
- * 1. Find position of rightmost non-trailing 0, p.
- * 2. Set that bit position, p.
- * 3. Clear all bits to right of non-trailing zero, p - 1 to 0.
- * 4. Insert as many 1s to right of p that was cleared in step 3.
+ * 1. Find number of trailing 0s, c0.
+ * 2. Find number of 1s to the left of trailing 0s, c1.
+ * 3. Find position of rightmost non-trailing 0, p = c0 + c1.
+ * 4. Set that bit position, p.
+ * 5. Clear all bits to right of non-trailing zero, p - 1 to 0.
+ * 6. Insert c1 - 1 ones to right of bit position p.
  *
  * Complexity:
  * Time(: O(b), b number of bits in number.
@@ -78,8 +80,10 @@ int main() {
   scanf("%d", &number);
   binary_representation(number);
   res = next_largest_with_number_of_bits_set(number);
-  if (!res)
+  if (!res) {
+    printf("\nSolution *NOT* possible\n");
     return -1;
+  }
 
   printf("\nNext largest number with same number of bits set as in %d is: %d\n",
       number, res);
