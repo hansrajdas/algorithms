@@ -21,13 +21,13 @@ unsigned int next_largest_with_number_of_bits_set(unsigned int n) {
   unsigned short int c0 = 0, c1 = 0, p = 0;
   unsigned int c = n;
 
-  // Counting number of trailing 0s.
+  // Counting number of trailing 0s, c0.
   while (!(c & 1) && c) {
     c0++;
     c >>= 1;
   }
 
-  // Counting number of 1s in sequence after trailing 0s.
+  // Counting number of 1s in sequence after trailing 0s, c1.
   while (c & 1) {
     c1++;
     c >>= 1;
