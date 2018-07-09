@@ -1,6 +1,12 @@
 # Algorithms in C and Python
 
 ## List of Algorithms
+
+### Level 1: Easy
+### Level 2: Medium
+### Level 3: Hard
+### Level 4: Memory based
+
 - [Rabin karp](rabin_karp.c): Hashing based substring matching algo.
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Check prime](is_prime.go): Check if a number is prime or not.
