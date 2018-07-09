@@ -46,3 +46,4 @@
 - [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
 - [Flip a bit, get max sequence of 1s](flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
 - [Next largest number, same set bits](next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
+- [Previous number, same set bits](previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
