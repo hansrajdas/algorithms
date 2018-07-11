@@ -27,7 +27,7 @@
 - [Find second largest number](second_largest_in_array.c): Find second largest number from an array | Level 1.
 - [Find element with rank k](rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(n) | Level 1.
 - [Find element with rank k - log(n)](rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(n)) | Level 3.
-- [Search element in rotated sorted array](search_in_rotated_sorted_array.c): Search an element from rotated sorted array.
+- [Search element in rotated sorted array](search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Heap sort using max heap](heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order.
 - [Heap sort using min heap](heap_sort_using_min_heap.c): Build a min heap and sort array in descending order.
 - [Check strings has unique characters](unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
@@ -47,3 +47,4 @@
 - [Flip a bit, get max sequence of 1s](flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
 - [Next largest number, same set bits](next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
 - [Previous number, same set bits](previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
+- [Bit flips required to convert](bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
