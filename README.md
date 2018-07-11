@@ -48,3 +48,4 @@
 - [Next largest number, same set bits](next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
 - [Previous number, same set bits](previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
 - [Bit flips required to convert](bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
+- [Swap odd and even bits](swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
