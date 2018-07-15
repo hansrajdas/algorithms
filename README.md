@@ -50,3 +50,4 @@
 - [Bit flips required to convert](bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
 - [Swap odd and even bits](swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
+- [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(n*W) | Level 4
