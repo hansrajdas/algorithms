@@ -42,7 +42,7 @@ int knapsack(int weights[], int values[]) {
       // Base case: value of knapsack matrix will be 0 in 2 cases:
       // 1. If there is no item to select, item = 0
       // 2. Weight of knapsack is 0, W = 0
-      if (item == 0 || weight == 0)
+      if (!item || !weight)
         knapsack[item][weight] = 0;
 
       // Current item is selected if current items weight is less than or equal
