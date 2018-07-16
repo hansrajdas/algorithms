@@ -1,7 +1,12 @@
 /*
- * Date: 2018-07-15
+ * Date: 2018-07-16
  *
  * Description:
+ * In a variant of the Knapsack problem, all the items in the vault are gold
+ * bars. The value of a gold bar is directly proportional to its weight.
+ * Therefore, in order to make the most amount of money, you must fill your
+ * knapsack up to its full capacity of W pounds. Can you find a subset of the
+ * gold bars whose weights add up to exactly W?
  *
  * Approach:
  *
@@ -29,19 +34,22 @@ int knapsack_maximize_weight(int weights[]) {
   int knapsack[n + 1][W + 1];
   int item = 0, weight = 0;
 
+  // Solved using bottom up manner.
+  // knapsack[i][j] represents max weight (upto j) achieved using items from
+  // 0 to i - 1.
+  // As first column row and column of knapsack matrix is used as base condition
+  // knapsack taken is of size (n + 1) * (W + 1) and current items are accessed
+  // using item - 1.
   for (item = 0; item <= n; item++) {
     for (weight = 0; weight <= W; weight++) {
-      // Base condition.
-      if (!item) {
-        if (!weight)
-          knapsack[item][weight] = 1;
-        else
+      // Base condition: If no item is present or weight of knapsack is 0.
+      if (!item || !weight)
           knapsack[item][weight] = 0;
-      }
+      // Can current item be accommodated in current knapsack size (weight).
       else if (weights[item - 1] <= weight)
         knapsack[item][weight] = max(
             knapsack[item - 1][weight],
-            knapsack[item - 1][weight - weights[item - 1]]);
+            weights[item - 1] + knapsack[item - 1][weight - weights[item - 1]]);
       else
         knapsack[item][weight] = knapsack[item - 1][weight];
     }
@@ -62,6 +70,8 @@ int main() {
  * Output:
  *
  * wt = {5, 4, 6, 3}, n = 4, W = 10
+ * Max weight with given configuration (W and weights) is: 10
  *
  * wt = {10, 20, 30}, n = 3, W = 50
+ * Max weight with given configuration (W and weights) is: 50
  */
