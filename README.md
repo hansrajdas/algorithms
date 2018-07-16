@@ -51,4 +51,4 @@
 - [Swap odd and even bits](swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
 - [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(n*W) | Level 4.
-- [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No value given | O(n*W) | Level 4.
+- [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(n*W) | Level 4.
