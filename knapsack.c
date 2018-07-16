@@ -37,6 +37,9 @@ int knapsack(int weights[], int values[]) {
   // Building table knapsack using bottom up manner.
   // knapsack[i][j] is the maximum value that can be obtained by using subset of
   // the items 0...i-1 (first i-1) items which weighs at most j pounds.
+  // As first column row and column of knapsack matrix is used as base condition
+  // knapsack taken is of size (n + 1) * (W + 1) and current items are accessed
+  // using item - 1.
   for (item = 0; item <= n; item++) {
     for (weight = 0; weight <= W; weight++) {
       // Base case: value of knapsack matrix will be 0 in 2 cases:
