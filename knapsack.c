@@ -90,13 +90,9 @@ int main() {
 /*
  * Output:
  *
- * values = {10, 40, 30, 50};
- * wt = {5, 4, 6, 3};
- * With n = 4, W = 10
- * Max value with given knapsack is: 90
+ * values = {10, 40, 30, 50}, wt = {5, 4, 6, 3}, n = 4, W = 10
+ * Max value with given configuration (W, values and weights) is: 90
  *
- * values = {60, 100, 120}
- * wt = {10, 20, 30};
- * With n = 3, W = 50
- * Max value with given knapsack is: 220
+ * values = {60, 100, 120}, wt = {10, 20, 30}, n = 3, W = 50
+ * Max value with given configuration (W, values and weights) is: 220
  */
