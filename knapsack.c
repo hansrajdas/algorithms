@@ -14,7 +14,7 @@
  * Time: O(n*W), Space(n*W)
  * This is polynomial (in fact linear as exponent is 1, n^1) in terms in input
  * size n but exponential in terms of W, so this is called pseudo polynomial.
- * 
+ *
  * Pseudo polynomial behavior is explained here:
  * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec21.pdf
  */
@@ -35,6 +35,8 @@ int knapsack(int weights[], int values[]) {
   int item = 0, weight = 0;
 
   // Building table knapsack using bottom up manner.
+  // knapsack[i][j] is the maximum value that can be obtained by using subset of
+  // the items 0...i-1 (first i-1) items which weighs at most j pounds.
   for (item = 0; item <= n; item++) {
     for (weight = 0; weight <= W; weight++) {
       // Base case: value of knapsack matrix will be 0 in 2 cases:
@@ -42,7 +44,7 @@ int knapsack(int weights[], int values[]) {
       // 2. Weight of knapsack is 0, W = 0
       if (item == 0 || weight == 0)
         knapsack[item][weight] = 0;
-      
+
       // Current item is selected if current items weight is less than or equal
       // to running weight of knapsack.
       else if (weights[item - 1] <= weight)
