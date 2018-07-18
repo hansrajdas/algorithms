@@ -53,3 +53,4 @@
 - [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(n*W) | Level 4.
 - [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(n*W) | Level 4.
 - [Merge 2 sorted arrays, in place](merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
+- [Groups anagrams](group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
