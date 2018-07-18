@@ -2,10 +2,15 @@
  * Date: 2018-07-17
  *
  * Description:
+ * Given 2 sorted arrays, A and B, where A has a large enough buffer at the end
+ * to hold B. Write a method to merge B into A in sorted order.
  *
  * Approach:
+ * Start scanning from last elements and put larger ones at end of array A.
+ * This way we don't have to shift all elements to right.
  *
  * Complexity:
+ * O(A.length + B.length)
  */
 
 #include "stdio.h"
@@ -24,6 +29,7 @@ void merged_2_sorted_arrays_in_place(int A[], int a_len, int B[], int b_len) {
   int a_idx = a_len - 1;
   int b_idx = b_len - 1;
   int merged_idx = a_len + b_len - 1;
+
   while (b_idx >= 0) {
     if (a_idx >= 0 && A[a_idx] > B[b_idx])
       A[merged_idx--] = A[a_idx--];
