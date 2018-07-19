@@ -4,6 +4,10 @@
  * Description:
  * Search an element from rotated sorted array like [5, 1, 2, 3, 4].
  *
+ * Approach:
+ * Either left or right half of the array will surely be sorted so we can check
+ * if element lies in sorted part or not otherwise search other half of array.
+ *
  * Complexity: O(log(n))
  */
 
@@ -16,10 +20,10 @@
  * -1.
  *
  * Args:
- * A: Base address of array
- * low: low index
- * high: high index
- * key: Key element to be searched
+ * A: Base address of array.
+ * low: low index.
+ * high: high index.
+ * key: Key element to be searched.
  */
 int search_in_rotated_sorted_array(int A[], int low, int high, int key) {
   int mid = low + (high - low)/2;
