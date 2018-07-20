@@ -55,3 +55,4 @@
 - [Merge 2 sorted arrays, in place](merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(M*N*log(N)) | Level 2.
 - [Sorted search, no size](search_in_infinite_sorted_array.c): Search an element from an infinite sized (size of array not given) sorted array | O(log(p)) | Level 1.
+- [Search in sparse array](search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
