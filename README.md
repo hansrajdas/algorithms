@@ -57,3 +57,4 @@
 - [Sorted search, no size](search_in_infinite_sorted_array.c): Search an element from an infinite sized (size of array not given) sorted array | O(log(p)) | Level 1.
 - [Search in sparse array](search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
 - [Find all duplicates in array](find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
+- [Search in sorted matrix](sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 3.
