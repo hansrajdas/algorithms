@@ -12,23 +12,21 @@
 # Output: {5, 1, 3, 2, 3}
 #
 # Approach:
-# Sort the array in ascending order then swap current and last element. Current
-# element would start from 0 and increment by 2 so we would require only n/2
-# swaps to get required array.
+# Sort the array in ascending order then swap adjacent elements since every
+# three elements appear in the order small <= medium <= large, swapping these
+# elements will always put medium as a peak and small as valley:
+# medium <= small <= large.
 #
 # Complexity:
 # O(nlogn)
 
 def getPeaksAndValleys(a, n):
-  idx = 0
+  idx = 1
   # Sort a in ascending order, O(nlogn) operation.
   a.sort()
 
-  # Swap current and last element.
-  a[idx], a[n - 1] = a[n - 1], a[idx]
-  idx += 3
   while idx < n:
-    a[idx], a[n - 1] = a[n - 1], a[idx]
+    a[idx - 1], a[idx] = a[idx], a[idx - 1]  # Swap adjacent elements.
     idx += 2
   return a
 
