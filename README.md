@@ -50,13 +50,14 @@
 - [Bit flips required to convert](bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
 - [Swap odd and even bits](swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
-- [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(n*W) | Level 4.
-- [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(n*W) | Level 4.
+- [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(nxW) | Level 4.
+- [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Merge 2 sorted arrays, in place](merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
-- [Groups anagrams](group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(M*N*log(N)) | Level 2.
+- [Groups anagrams](group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 - [Sorted search, no size](search_in_infinite_sorted_array.c): Search an element from an infinite sized (size of array not given) sorted array | O(log(p)) | Level 1.
 - [Search in sparse array](search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
 - [Find all duplicates in array](find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
 - [Search in sorted matrix](sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 3.
-- [Remove obstacle](remove_obstacle.py): Remove obstacle, amazon online test | O(M*N) | Level 2.
+- [Remove obstacle](remove_obstacle.py): Remove obstacle, amazon online test | O(MxN) | Level 2.
 - [Rank from stream](rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
+- [Peaks and valleys, sorting method](peaks_and_valleys_O_nlogn.py): Arrange array elements in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
