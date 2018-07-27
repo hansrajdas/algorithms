@@ -7,7 +7,7 @@
 ###### Level 3: Hard
 ###### Level 4: Memory based
 
-- [Rabin karp](rabin_karp.c): Hashing based substring matching algo.
+- [Rabin karp](rabin_karp.c): Hashing based substring matching algorithm.
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Check prime](is_prime.go): Check if a number is prime or not.
 - [Babylonian - Square root](babylonian_square_root.go): Babylonian method to find square root of a number.
@@ -39,8 +39,8 @@
 - [Rotate square matrix](rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n) | Level 3.
 - [Clear row and column if 0 found](clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
 - [2 strings are rotations](are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
-- [Longest increainng subsequence - O(n^2)](LIS_O_n2.c): Find length of longest increaing subsequence from an unsorted array | O(n^2) | Level 3.
-- [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increaing subsequence from an unsorted array | O(nlogn) | Level 3.
+- [Longest increainng subsequence - O(n^2)](LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
+- [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Binary representation](binary_representation.c): Print binary representation of an integer | Level 1.
 - [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
 - [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
@@ -60,4 +60,5 @@
 - [Search in sorted matrix](sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 3.
 - [Remove obstacle](remove_obstacle.py): Remove obstacle, amazon online test | O(MxN) | Level 2.
 - [Rank from stream](rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
-- [Peaks and valleys, sorting method](peaks_and_valleys_O_nlogn.py): Arrange array elements in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
+- [Peaks and valleys, sorting method](peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
+- [Peak and valley, O(n) method](peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
