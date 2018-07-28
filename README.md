@@ -15,8 +15,8 @@
 - [DFS traversal](dfs.py): Creates a directed graph and performs DFS traversal.
 - [Check cycle in graph](cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
-- [Level order tree traversal](level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) solution.
-- [Level order tree traversal using queue](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue.
+- [Level order tree traversal](level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
+- [Level order tree traversal using queue](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Dijkstra algo](dijkstra.py): Pending :(
 - [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE).
@@ -64,3 +64,4 @@
 - [Peak and valley, O(n) method](peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 - [Count ways to run n steps](count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
+- [Min from sorted rotated](min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
