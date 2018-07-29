@@ -65,3 +65,4 @@
 - [Count ways to run n steps](count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
+- [Tree level with max width](level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
