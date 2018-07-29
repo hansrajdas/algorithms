@@ -8,6 +8,15 @@
  * Like A = [-3, -1, 2, 5, 10], magic index = 2.
  *            0   1  2  3  4
  * Approach:
+ * Search left half value at mid is larger than mid otherwise right half as
+ * array is sorted and has distinct elements.
+ *
+ * Note:
+ * This solution does not work if array has duplicates as we cannot be sure that
+ * if value at mid is larger then magic index will be on left half. Like in
+ * below example:
+ * A = [-10, -5, 2, 2, 2, 3, 4, 8, 9, 12, 13], magic index = 2
+ *        0   1  2  3  4  5  6  7  8  9   10
  *
  * Complexity:
  * O(log(n))
