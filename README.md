@@ -67,3 +67,4 @@
 - [Min from sorted rotated](min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
 - [Find magic index](magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
+- [Find magic index, duplicates allowed](magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
