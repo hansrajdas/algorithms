@@ -45,7 +45,6 @@ def main():
       x = input("Enter value of a[%d] : " % i)
       a.append(x)
 
-  # Call function here.
   subsets = generateAllSubsets(a, n)
   print "\nAll subsets are: "
   for i in range(len(subsets)):
@@ -56,7 +55,7 @@ if __name__ == '__main__':
 
 # Output:
 # *************************
-# python create_all_subsets.py 
+# python generate_all_subsets.py 
 # Enter number of elements: 2
 # Enter value of a[0] : 1
 # Enter value of a[1] : 2
@@ -67,7 +66,7 @@ if __name__ == '__main__':
 # 2: set([2])
 # 3: set([1, 2])
 #
-# python create_all_subsets.py 
+# python generate_all_subsets.py 
 # Enter number of elements: 3
 # Enter value of a[0] : 1
 # Enter value of a[1] : 2
