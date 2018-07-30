@@ -7,6 +7,8 @@
 ###### Level 3: Hard
 ###### Level 4: Memory based
 
+#### **: If there multiple solutions for a given solution, go with this.
+
 - [Rabin karp](rabin_karp.c): Hashing based substring matching algorithm.
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Check prime](is_prime.go): Check if a number is prime or not.
@@ -16,7 +18,7 @@
 - [Check cycle in graph](cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
-- [Level order tree traversal using queue](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
+- [Level order tree traversal using queue**](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Dijkstra algo](dijkstra.py): Pending :(
 - [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE).
@@ -26,7 +28,7 @@
 - [Find 2-D peak](find_2d_peak.c): Find 2-D peak from a 2-D array | Level 3.
 - [Find second largest number](second_largest_in_array.c): Find second largest number from an array | Level 1.
 - [Find element with rank k](rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(n) | Level 1.
-- [Find element with rank k - log(n)](rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(n)) | Level 3.
+- [Find element with rank k - log(n)**](rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(n)) | Level 3.
 - [Search element in rotated sorted array](search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Heap sort using max heap](heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order.
 - [Heap sort using min heap](heap_sort_using_min_heap.c): Build a min heap and sort array in descending order.
@@ -40,7 +42,7 @@
 - [Clear row and column if 0 found](clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
 - [2 strings are rotations](are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
 - [Longest increainng subsequence - O(n^2)](LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
-- [Longest increainng subsequence - O(nlogn)](LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
+- [Longest increainng subsequence - O(nlogn)**](LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Binary representation](binary_representation.c): Print binary representation of an integer | Level 1.
 - [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
 - [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
@@ -61,12 +63,12 @@
 - [Remove obstacle](remove_obstacle.py): Remove obstacle, amazon online test | O(MxN) | Level 2.
 - [Rank from stream](rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Peaks and valleys, sorting method](peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
-- [Peak and valley, O(n) method](peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
+- [Peak and valley, O(n) method**](peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 - [Count ways to run n steps](count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
 - [Find magic index](magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
-- [Find magic index, duplicates allowed](magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
+- [Find magic index, duplicates allowed**](magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
 - [Generate all subsets of a set](generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
-- [Generate all subsets, binary method](generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
+- [Generate all subsets, binary method**](generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
