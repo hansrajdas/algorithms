@@ -74,5 +74,6 @@
 - [Generate all subsets, binary method**](generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
 - [Multiply 2 integers](multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 3.
 - [Print fibonacci numbers](fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
+- [Tower of hanoi](tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 - [PENDING](cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2) | Level 3.
 - [PENDING](cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3) | Level 3.
