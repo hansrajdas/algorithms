@@ -20,8 +20,8 @@
 - [Level order tree traversal](level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
 - [Level order tree traversal using queue**](level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
-- [Dijkstra algo](dijkstra.py): Pending :(
-- [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE).
+- [Dijkstra algo](Pending/dijkstra.py): Pending :(
+- [Bellman ford](bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Edit distance](edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
 - [Flip your caps](flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Find 1-D peak](find_peak_element.c): Find 1-D peak from an array | Level 2.
@@ -78,5 +78,5 @@
 - [Compute all permutations - Unique chars**](compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | level 4.
 - [Compute all permutations - Repeated chars](compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | level 4+.
 - [Pair of valid parens](Level-2/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(n * n!) | Level 2.
-- [PENDING](cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2) | Level 3.
-- [PENDING](cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3) | Level 3.
+- [PENDING](Pending/cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2) | Level 3.
+- [PENDING](Pending/cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3) | Level 3.
