@@ -79,5 +79,5 @@
 - [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | Level 4+.
 - [Pair of valid parens](Level-2/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(n * n!) | Level 2.
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(2^r * 2^c) | Level 2.
-- [PENDING](Pending/cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2).
-- [PENDING](Pending/cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3).
+- [Cut rod, maximize profit](Pending/cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2).
+- [Cut rod with min cost](Pending/cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3).
