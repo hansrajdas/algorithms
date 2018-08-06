@@ -47,13 +47,13 @@
 - [Insert M into N](insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
 - [Decimal fraction to binary](decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
 - [Flip a bit, get max sequence of 1s](flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
-- [Next largest number, same set bits](next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
-- [Previous number, same set bits](previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
+- [Next largest number, same set bits](Level-4/next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
+- [Previous number, same set bits](Level-4/previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
 - [Bit flips required to convert](bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
 - [Swap odd and even bits](swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
-- [Knapsack problem](knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(nxW) | Level 4.
-- [Knapsack problem - Maximize weight](knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
+- [Knapsack problem](Level-4/knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, Select items such that value is maximized | O(nxW) | Level 4.
+- [Knapsack problem - Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Merge 2 sorted arrays, in place](merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 - [Sorted search, no size](search_in_infinite_sorted_array.c): Search an element from an infinite sized (size of array not given) sorted array | O(log(p)) | Level 1.
@@ -75,8 +75,8 @@
 - [Multiply 2 integers](multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 3.
 - [Print fibonacci numbers](fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
 - [Tower of hanoi](tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
-- [Compute all permutations - Unique chars**](compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | level 4.
-- [Compute all permutations - Repeated chars](compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | level 4+.
+- [Compute all permutations - Unique chars**](Level-4/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 4.
+- [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | Level 4+.
 - [Pair of valid parens](Level-2/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(n * n!) | Level 2.
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(2^r * 2^c) | Level 2.
 - [PENDING](Pending/cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2) | Level 3.
