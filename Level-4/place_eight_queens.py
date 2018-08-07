@@ -28,12 +28,12 @@ def checkValid(columns, row1, col1):
   return True
 
 def placeQueens(row, columns, results):
-  if row == GRID_SIZE:
+  if row == GRID_SIZE:  # Found valid placement for 8 queens.
     results.append(columns[:])  # Make deep copy and append to results.
   else:
     for col in range(GRID_SIZE):
       if checkValid(columns, row, col):
-        columns[row] = col
+        columns[row] = col  # Valid position, place queen at this row, col.
         placeQueens(row + 1, columns, results)
 
 def printQueenPositions(columns):
