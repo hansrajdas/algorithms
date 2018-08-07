@@ -7,7 +7,10 @@
  * ways  of representing n cents.
  *
  * Approach:
- * ...
+ * Recursive approach followed, initially used all bigger denoms then again
+ * called the same function for remaining amount to be consumed with smaller
+ * denoms. This is done for all values of amount i.e 0 to amount.
+ * For more details on implementation please refer CTCI 8.11.
  *
  * Complexity:
  * O(n * NUM_OF_DENOMS)
@@ -44,13 +47,14 @@ int makeChange(int amount, int denoms[], int index, int **map) {
 int main() {
   int i = 0, j = 0;
   int amount = 0;
+  int **map = NULL;
   int denoms[MAX_DENOMS] = {
     25,  // Quarters
     10,  // Dimes
     5,  // Nickels
     1  // Pennies
   };
-  int **map = NULL;
+
   printf("Enter amount: ");
   scanf("%d", &amount);
 
