@@ -82,4 +82,4 @@
 - [Cut rod, maximize profit](Pending/cut_rod_to_max_profit.c): https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ | O(n^2).
 - [Cut rod with min cost](Pending/cut_sequence_for_min_cost.c): 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf | O(n^3).
 - [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
-- [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(8^3) | Level 4.
+- [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
