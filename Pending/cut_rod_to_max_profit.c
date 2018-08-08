@@ -1,5 +1,5 @@
 /*
- * Date: 2018-xx-xx
+ * Date: 2018-08-02
  *
  * Description:
  * https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/
