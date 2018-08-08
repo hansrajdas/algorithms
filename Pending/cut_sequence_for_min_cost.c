@@ -11,7 +11,7 @@
  *
  * For example: length of rod, n = 10 and lengths = [2, 4, 7]
  *
- * Not clear, refer: 1st problem from https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf
+ * Not clear, refer: First problem from - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/recitation-videos/MIT6_006F11_rec24.pdf
  *
  * Approach:
  *
