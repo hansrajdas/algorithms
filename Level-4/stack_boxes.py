@@ -10,9 +10,15 @@
 # The height of a stack is the sum of the heights of each box.
 #
 # Approach:
+# Sorted boxes in descending order with respect any parameter (height here).
+# Then recursively checked for each box whether to include box or not,
+# if possible to include. Inclusion or non-inclusion of box is done on basis of
+# max height will be achieved with or without this box.
+# Memoization also used to save max height attained on using a box i as bottom
+# most box.
 #
 # Complexity:
-# O(2^n)
+# Time - O(n), Space - O(n)
 
 import collections
 
