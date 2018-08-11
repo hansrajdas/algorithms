@@ -44,6 +44,17 @@ def characterToBoolean(s):
   return True if s == '1' else False
 
 def countEval(s, result, memo):
+  """Counts number of ways to results to expected value.
+
+  Numbers of ways in which parenthesis can be applied to a boolean expression
+  so that it evaluates to expected result.
+
+  Args:
+    s: Boolean expression.
+    result: Expected result - True or False.
+    memo: Dictionary which maps to string boolean expression + expected result
+      to number of ways to get expected result.
+  """
   if not len(s):
     return 0
   
