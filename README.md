@@ -85,3 +85,4 @@
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
 - [Largest square parking space](Pending/largest_square_parking_space.c): Find largest square parking space | O(n^2).
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
+- [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
