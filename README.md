@@ -82,3 +82,4 @@
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
+- [Print prime numbers](Level-3/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
