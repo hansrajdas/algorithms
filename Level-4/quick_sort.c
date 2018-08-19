@@ -48,6 +48,11 @@ int partition(int a[], int low, int high) {
   int pivot = a[high];
 
   for (j = low; j < high; j++) {
+    // Goal in this loop and if condition is to find correct place for pivot
+    // element (last element). Variable i hold that position and outside loop
+    // last element is swapped with that correct position, i.
+    // This can be better memorized by assuming an array in ascending and
+    // descending order.
     if (a[j] <= pivot) {
       swap(&a[i], &a[j]);
       i++;
