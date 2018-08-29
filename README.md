@@ -85,3 +85,4 @@
 - [Print prime numbers](Level-3/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Quick sort](Level-4/quick_sort.c): Implement quick sort for array of random numbers | O(nlogn) | Level 4.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n*k) | Level 3.
+- [Shortest winter days](Level-3/shortest_winter_days.c): Find shortest winter days from temperatures given in an array | Zalando | O(n) | Level 3.
