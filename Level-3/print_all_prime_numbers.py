@@ -42,14 +42,16 @@ def getNextPrime(primeNumbers, prime):
 
 def sieveOfEratosthenes(n):
   """Prints all prime numbers from 1 to n.
-  
+
   Args:
     n: Number till where prime numbers are required.
   """
   # Initially assume all numbers are prime.
   primeNumbers = [True for i in range(n + 1)]
-  primeNumbers[0] = primeNumbers[1] = False
+  primeNumbers[0] = False
+  primeNumbers[1] = False
   prime = 2
+
   while prime * prime < n:
     crossOff(primeNumbers, prime)
     prime = getNextPrime(primeNumbers, prime)
