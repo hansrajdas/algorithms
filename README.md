@@ -87,5 +87,5 @@
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n*k) | Level 3.
 - [Shortest winter days](Level-3/shortest_winter_days.c): Find shortest winter days from temperatures given in an array | O(n) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
-- [Season with max amplitude](Level-2/season_with_max_amplitude.py): ########### Update file header ######### | O(n) | Level 2.
+- [Season with max amplitude](Level-2/season_with_max_amplitude.py): Find season with max amplitude | O(n) | Level 2.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b | O(A + B) | Level 3.
