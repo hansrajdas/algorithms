@@ -89,3 +89,5 @@
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Season with max amplitude](Level-2/season_with_max_amplitude.py): Find season with max amplitude | O(n) | Level 2.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b | O(A + B) | Level 3.
+- [Modified fibonacci](Level-1/modified_fibonacci.py): ######### File header pending ############# | Level 1.
+- [Next word in dictionary](Level-2/next_word_in_dictionary.py): ########### FIle header pending ########## | Level 2.
