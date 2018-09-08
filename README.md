@@ -84,16 +84,16 @@
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
 - [Print prime numbers](Level-3/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Quick sort](Level-4/quick_sort.c): Implement quick sort for array of random numbers | O(nlogn) | Level 4.
-- [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n*k) | Level 3.
+- [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n\*k) | Level 3.
 - [Shortest winter days](Level-3/shortest_winter_days.c): Find shortest winter days from temperatures given in an array | O(n) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Season with max amplitude](Level-2/season_with_max_amplitude.py): Find season with max amplitude | O(n) | Level 2.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b | O(A + B) | Level 3.
-- [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ingoring case | Level 1.
+- [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ignoring case | Level 1.
 - [Multiple of 4](Level-1/check_multiple_of_4.c): Check if a number of 4 or not | Level 1.
 - [Find 7n/8](Level-1/find_7by8_of_n.c): Find 7n/8 without using * and / operators | Level 1.
-- [Clear both elements](Level-1/unset_both.c): Clear both array elements having atleast a 0 and 1 | Level 1.
-- [Binary palindrom](Level-2/is_num_binary_palindrdom.c): Check if a numbers binary representation is palidrom or not | Level 1.
+- [Clear both elements](Level-1/unset_both.c): Clear both array elements having at least a 0 and 1 | Level 1.
+- [Binary palindrom](Level-2/is_num_binary_palindrdom.c): Check if a numbers binary representation is palindrome or not | Level 1.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
 - [Modified fibonacci](Level-1/modified_fibonacci.py): ######### File header pending ############# | Level 1.
 - [Next word in dictionary](Level-2/next_word_in_dictionary.py): ########### File header pending ########## | Level 2.
