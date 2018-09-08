@@ -101,3 +101,4 @@
 - [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
 - [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
+- [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
