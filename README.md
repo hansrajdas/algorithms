@@ -98,3 +98,6 @@
 - [Modified fibonacci](Level-1/modified_fibonacci.py): ######### File header pending ############# | Level 1.
 - [Next word in dictionary](Level-2/next_word_in_dictionary.py): ########### File header pending ########## | Level 2.
 - [Find log(n)](Level-1/find_log_n.c): Write one liner program to find log(n) with some base | O(n/b) | Level 1
+- [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
+- [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
+- [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
