@@ -44,7 +44,7 @@ void swap(int *a, int *b) {
  */
 int partition(int a[], int low, int high) {
   int i = low;  // Holds counter for smaller values than pivot.
-  int j = 0;  // For iterating over array.
+  int j = low;  // For iterating over array.
   int pivot = a[high];
 
   for (j = low; j < high; j++) {
@@ -70,15 +70,15 @@ int partition(int a[], int low, int high) {
  * array this takes O(logn) as array is divided by 2 in each call to this
  * function via pivot from partition function.
  *
- * If input array is sorted (increasing or decreasing) array is not evenly
- * divided, it gets divided with 1 element on left and n - 1 on right side so
- * becomes skewed kind of tree which takes complexity of O(n) instead of
- * O(logn).
+ * If input array is sorted in increasing or decreasing order or array is not
+ * evenly divided, like it gets divided with 1 element on left and n - 1 on
+ * right side so becomes skewed kind of tree which takes complexity of O(n)
+ * instead of O(logn).
  *
  * Args:
- * a: Array
- * low: Start index of array
- * high: End index of array
+ *   a: Array
+ *   low: Start index of array
+ *   high: End index of array
  */
 void quickSort(int a[], int low, int high) {
   int pivot = 0;
