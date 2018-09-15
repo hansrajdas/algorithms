@@ -47,3 +47,7 @@ https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
 
 radix_sort.c
 http://www.geeksforgeeks.org/radix-sort/
+
+Level-3/binary_search_tree.c
+http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
