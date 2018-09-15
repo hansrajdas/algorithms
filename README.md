@@ -105,3 +105,4 @@
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits\*(n + base)) | Level 4.
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [Binary search tree](Level-3/binary_search_tree.c): BST insert, traverse, delete operations | Level 3.
+- [AVL trees](Level-4/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 4.

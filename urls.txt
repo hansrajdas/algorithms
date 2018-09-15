@@ -51,3 +51,7 @@ http://www.geeksforgeeks.org/radix-sort/
 Level-3/binary_search_tree.c
 http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+
+Level-4/avl_balanced_tree.c
+http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+http://www.geeksforgeeks.org/avl-tree-set-2-deletion/

@@ -86,16 +86,16 @@ node* search(node *root, int k) {
   else if (root->key == k)
     return root;
   else if(root->key > k)
-    search(root->left, k);
+    return search(root->left, k);
   else
-    search(root->right, k);
+    return search(root->right, k);
 }
 
 /*
  * Finds minimum element in the sub tree rooted with node passed.
  *
  * Args:
- *   node: Root of sub tree(whose min element is required).
+ *  node: Root of sub tree(whose min element is required).
  *
  * Returns: Reference to min element.
  */
