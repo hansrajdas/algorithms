@@ -1,13 +1,17 @@
 #!/usr/bin/python
 
-# Date: 2018-
+# Date: 2018-09-16
 #
 # Description:
 # Reverse a linked list.
 #
 # Approach:
+# Take 3 pointers to keep track of previous, current and next node in linked
+# list. Loop until current is not null and reverse pointers.
+# After loop update head with previous
 #
 # Complexity:
+# O(n)
 
 
 class Node:
@@ -37,6 +41,19 @@ class LinkedList:
       current = current.next
     current.next = new_node
 
+  def reverse(self):
+    """Reverses a linked list."""
+    previous = None
+    current = self.head
+    nxt = None
+
+    while current:
+      nxt = current.next
+      current.next = previous
+      previous = current
+      current = nxt
+    self.head = previous
+
 def main():
   linked_list = LinkedList()
 
@@ -45,7 +62,10 @@ def main():
   linked_list.insert_at_end(3)
   linked_list.insert_at_end(4)
   linked_list.insert_at_end(5)
+  linked_list.traverse()
 
+  linked_list.reverse()
+  print ('\nReversed linked list')
   linked_list.traverse()
 
 
@@ -55,3 +75,15 @@ if __name__ == '__main__':
 
 # Output:
 # -------------
+# 1
+# 2
+# 3
+# 4
+# 5
+
+# Reversed linked list
+# 5
+# 4
+# 3
+# 2
+# 1
