@@ -106,3 +106,4 @@
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [Binary search tree](Level-3/binary_search_tree.c): BST insert, traverse, delete operations | Level 3.
 - [AVL trees](Level-4/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 4.
+- [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | Level 3.
