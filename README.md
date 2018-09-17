@@ -114,3 +114,4 @@
 - [Reverse linked list](Level-3/reverse_linked_list.py): Reverse a linked list | O(n) | Level 3.
 - [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search traversal of directed graph | O(V + E) | Level 3.
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
+- [Partitio linked list](Level-2/partition_linked_list.py): Partition 2 linked lists with respect to a given value | O(n) | Level 2.
