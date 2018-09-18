@@ -37,19 +37,19 @@ class LinkedList:
       node.next = new_node
 
     def list_print(self):
-        node = self.head  # Cant point to ll!
+        node = self.head
         while node:
             print node.data
             node = node.next
 
 
-ll = LinkedList()
-ll.add_node_at_start(1)
-ll.add_node_at_start(2)
-ll.add_node_at_start(3)
-ll.add_node_at_end(4)
+linked_list = LinkedList()
+linked_list.add_node_at_start(1)
+linked_list.add_node_at_start(2)
+linked_list.add_node_at_start(3)
+linked_list.add_node_at_end(4)
 
-ll.list_print()
+linked_list.list_print()
 
 
 # Output:
