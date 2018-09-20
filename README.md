@@ -118,3 +118,4 @@
 - [Sum digits of 2 linked list, digits in forward order](Level-3/sum_of_linked_list_same_order.py): Add 2 numbers stored in linked list in forward order(12 is 1->2) | O(n) | Level 3.
 - [Is linked list palindrome](Level-2/is_linked_list_palindrome.py): Check if linked list is palindrome or not | O(n) | Level 2.
 - [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
+- [Linked list intersection](Level-2/linked_list_intersection.py): Find if two linked list intersect each other | O(m + n) | Level 2.
