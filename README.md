@@ -121,3 +121,4 @@
 - [Linked list intersection](Level-2/linked_list_intersection.py): Find if two linked list intersect each other | O(m + n) | Level 2.
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [LCA in binary tree](Level-4/lowest_common_ancestor_in_binary_tree.py): Find lowest common ancestor in binary tree | O(n) | Level 4.
+- [LCA in BST](Level-3/lowest_common_ancestor_in_binary_search_tree.py): Find lowest common ancestor in binary search tree | O(logn) | Level 3.
