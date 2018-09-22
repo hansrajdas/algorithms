@@ -123,3 +123,4 @@
 - [LCA in binary tree](Level-4/lowest_common_ancestor_in_binary_tree.py): Find lowest common ancestor in binary tree | O(n) | Level 4.
 - [LCA in BST](Level-3/lowest_common_ancestor_in_binary_search_tree.py): Find lowest common ancestor in binary search tree | O(logn) | Level 3.
 - [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find startig node of loop | O(n) | Level 4.
+- [Spiral matrix](Level-4/starting_of_loop_in_linked_list.py): Given a number N, create matrix having values from 1 to N^2 in spiral form | O(N^2) | Level 4.
