@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Date: 2018-09-16
+# Date: 2018-09-22
 #
 # Description:
 # Given a circular linked list, implement an algorithm that returns the node
