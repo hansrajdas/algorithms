@@ -130,3 +130,4 @@
 - [Vertical level order tree traversal](Level-2/vertical_level_order_tree_traversal.py): Perform vertical level order tree traversal | O(n) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem | O(n) | Level 2.
 - [Track kth largest, stream of numbers](Level-2/track_kth_largest_stream_of_nums.py): Keep track of kth largest number from a stream of numbers | O(k) | Level 2.
+- [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
