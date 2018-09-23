@@ -40,7 +40,8 @@ void max_heapify(int arr[], int n, int i) {
 
   // Check if current element is larger than it's left and right child.
   // If not take index of largest element between left and right child as
-  // largest index.
+  // largest index. Also larger among left and right child should become parent
+  // of current node so 2 if used instead of if..else if.
   if (left_idx < n && arr[largest_idx] < arr[left_idx])
     largest_idx = left_idx;
   if (right_idx < n && arr[largest_idx] < arr[right_idx])
