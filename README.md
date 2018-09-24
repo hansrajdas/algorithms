@@ -10,7 +10,6 @@
 #### **: If there multiple solutions for a given solution, go with this.
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
-- [DFS traversal](dfs.py): Creates a directed graph and performs DFS traversal.
 - [Check cycle in graph](cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
@@ -131,3 +130,4 @@
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
 - [Substring matching, Rabin karp](Level-4/rabin_karp.c): Implement rabin karp algo for substring matching | O(m + n) | Level 4.
+- [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + K) | Level 3.
