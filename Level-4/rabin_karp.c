@@ -1,13 +1,18 @@
 /*
  * Date: 2017-12-16
  *
+ * Description:
  * Rabin karp algo to find all occurrences of a pattern string from a large text
  * string.
  * 
+ * Approach:
+ * Idea behind rabin karp is a rolling hash is used which can be used to
+ * compute new hash from existing hash when a new character is added at end and
+ * an existing character is removed from beginning.
+ *
  * Complexity:
- *    Space: O(1)
- *    Time: Average case - O(n + m)
- *          Worst case - O(m*(n-m))
+ * Space: O(1)
+ * Time: Average case - O(n + m), Worst case - O(m*(n-m))
  */
 
 #include "stdio.h"
