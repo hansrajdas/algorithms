@@ -9,10 +9,7 @@
 
 #### **: If there multiple solutions for a given solution, go with this.
 
-- [Rabin karp](rabin_karp.c): Hashing based substring matching algorithm.
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
-- [Check prime](is_prime.go): Check if a number is prime or not.
-- [Babylonian - Square root](babylonian_square_root.go): Babylonian method to find square root of a number.
 - [DFS traversal](dfs.py): Creates a directed graph and performs DFS traversal.
 - [Check cycle in graph](cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
@@ -133,3 +130,4 @@
 - [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
+- [Substring matching, Rabin karp](Level-4/rabin_karp.c): Implement rabin karp algo for substring matching | O(m + n) | Level 4.
