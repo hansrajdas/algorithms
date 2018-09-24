@@ -4,15 +4,18 @@
 #
 # Description:
 # Find lenear topological order of a directed acyclic graph(DAG).
-# In topological order of DAG is such that if in a graph there is a edge from
+#
+# Approach:
+# Topological order of DAG is such that if in a graph there is a edge from
 # u to v then in topological order, u should be before v.
 # Topological sort is not possible if graph is not DAG.
+# Perfomed using DFS and stack.
 #
 # Applications: Used for dependent job scheduling like makefiles.
 #
 # Complexity: O(V + E)
 
-from collections import defaultdict
+import collections
 
 
 class Graph(object):
@@ -20,12 +23,10 @@ class Graph(object):
 
   def __init__(self):
     """Initialises a dictionary to store adjacency list of each vertex."""
-    
-    self.graph = defaultdict(list)
+    self.graph = collections.defaultdict(list)
 
   def add_edge(self, start, end):
     """Adds an edge to graph, updates adjacency list of source vertex."""
-    
     self.graph[start].append(end)
 
   def topological_sort_util(self, current_node, visited, stack):
@@ -34,7 +35,7 @@ class Graph(object):
     visited[current_node] = True
     for adjacent_vertex in self.graph[current_node]:
       if self.graph.has_key(adjacent_vertex):
-        if visited[adjacent_vertex] == False:
+        if not visited[adjacent_vertex]:
           self.topological_sort_util(adjacent_vertex, visited, stack)
         else:
           pass
@@ -51,9 +52,9 @@ class Graph(object):
     # Maintain topological order in stack.
     stack = []
 
-    visited = {v : False for v in self.graph.keys()}
-    for vertex in self.graph.keys():
-      if visited[vertex] == False:
+    visited = {v : False for v in self.graph}
+    for vertex in self.graph:
+      if not visited[vertex]:
         self.topological_sort_util(vertex, visited, stack)
 
     stack.reverse()
