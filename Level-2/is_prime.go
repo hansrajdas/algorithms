@@ -1,7 +1,10 @@
 /*
  * Date: 2017-12-23
  *
- * Implementation:
+ * Description:
+ * Check if a number is prime or not.
+ *
+ * Approach:
  * 1. All numbers can be represented in the form of 6k + i for i = -1, 0, 1, 2,
  *    3 and 4.
  * 2. And 6k, 6k + 2, 6k + 4 will always be divisible by 2.
@@ -11,6 +14,9 @@
  * 5. Also we don't have to check for 1 to n or n/2, we only have to check upto
  *    sqrt(n) as larger factor n must be multiple of smaller factor of n that
  *    has been already checked. 
+ *
+ * Complexity:
+ * O(sqrt(n))
  */
 
 package main
