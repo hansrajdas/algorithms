@@ -52,7 +52,7 @@ class Graph:
       start_ndoe: Start node for BFS traversal.
     """
 
-    visited = {z: False for z in self.graph.keys()}
+    visited = {z: False for z in self.graph}
     queue = []
     queue.append(start_node)
 
