@@ -25,6 +25,9 @@
 # So using above fact we can take 2 list indicating row/col directions and
 # compute new row, col. If row/col is not valid, we can use next direction.
 #
+# This can also be done used 4 loops for 4 directions like this:
+# Level-3/print_matrix_in_spiral.py
+#
 # Complexity:
 # O(N^2)
 
