@@ -133,3 +133,7 @@
 - [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
+- [Next power of 2](Level-1/next_pow_of_2.c): Find next power of 2 for a given number | Level 1.
+- [Round off float](Level-1/round_off.c): Round off a float number to nearest integer | Level 1.
+- [Sum of digits](Level-1/sum_num.c): Find sum of digits of a given integer | Level 1.
+- [Generic linked list](Level-3/generic_linked_list.c): Generic linked list in C language | Level 3.
