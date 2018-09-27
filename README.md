@@ -134,3 +134,12 @@
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
 - [Connections in matrix](Level-2/connections_in_matrix.py): Count possible connections in matrix of 0s and 1s | O(MxN) | Level 2.
+- [Next power of 2](Level-1/next_pow_of_2.c): Find next power of 2 for a given number | Level 1.
+- [Round off float](Level-1/round_off.c): Round off a float number to nearest integer | Level 1.
+- [Sum of digits](Level-1/sum_num.c): Find sum of digits of a given integer | Level 1.
+- [Generic linked list](Level-3/generic_linked_list.c): Generic linked list in C language | Level 3.
+- [Count frequency of numbers](Level-1/frequency_of_elements.c): Count frequency of numbers in array | O(N) time and space | Level 1.
+- [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
+- [Repeating numbers](Level-2/find_repeating_elements.c): Find all repeating numbers in a array | O(N) | Level 2.
+- [Inversion of 3](Level-2/inversion_of_3.c): Find number of combinations which follows: a[i] > a[j] > a[k] with i < j < k in a unsorted array | O(N^2) | Level 2.
+- [Equilibrium index](Level-2/find_equilibrium_index.c): Find equilibrium index in a array(Equal sum of left and right sub array) | O(N) | Level 2.
