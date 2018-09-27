@@ -137,3 +137,6 @@
 - [Round off float](Level-1/round_off.c): Round off a float number to nearest integer | Level 1.
 - [Sum of digits](Level-1/sum_num.c): Find sum of digits of a given integer | Level 1.
 - [Generic linked list](Level-3/generic_linked_list.c): Generic linked list in C language | Level 3.
+- [Count frequency of numbers](Level-1/frequency_of_elements.c): Count frequency of numbers in array | O(N) time and space | Level 1.
+- [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
+- [Repeating numbers](Level-2/find_repeating_elements.c): Find all repeating numbers in a array | O(N) | Level 2.
