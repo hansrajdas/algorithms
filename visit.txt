@@ -1,1 +1,2 @@
 Level-2/inversion_of_3.c
+Level-2/majority_element_in_array.c
