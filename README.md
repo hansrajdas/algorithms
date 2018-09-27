@@ -141,3 +141,4 @@
 - [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
 - [Repeating numbers](Level-2/find_repeating_elements.c): Find all repeating numbers in a array | O(N) | Level 2.
 - [Inversion of 3](Level-2/inversion_of_3.c): Find number of combinations which follows: a[i] > a[j] > a[k] with i < j < k in a unsorted array | O(N^2) | Level 2.
+- [Equilibrium index](Level-2/find_equilibrium_index.c): Find equilibrium index in a array(Equal sum of left and right sub array) | O(N) | Level 2.
