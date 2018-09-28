@@ -148,3 +148,4 @@
 - [Odd occuring numberr](Level-2/find_2_odd_occurring_numbers.c): A array has all numbers occurring even numbers of times and 2 occurring odd number of times, find these 2 numbers | O(N) | Level 2.
 - [Even occurring numbers](Level-3/find_2_even_occurring_numbers.c): Find 2 numbers in array(numbers from 1 to n - 2) occurring even number of times, other all occur odd number of times | O(N) | Level 3.
 - [Common in 3 sorted arrays](Level-1/common_elements_in_3_sorted_array.c): Find common elements in 3 sorted arrays | O(n1 + n2 + n3) | Level 1.
+- [Sorted subsequence of size 3](Level-3/sorted_subsequence_of_size_3.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time and space | Level 3.
