@@ -19,17 +19,6 @@
 # Complexity:
 # O(m*n)
 
-def main():
-  a = []
-  n = input('Enter number of elements: ')
-  for i in xrange (n):
-      x = input('Enter value of a[%d]: ' % i)
-      a.append(x)
-
-
-if __name__ == '__main__':
-  main()
-
 def get_connections(m, n, matrix):
   count = 0
   for row in range(0, m):
