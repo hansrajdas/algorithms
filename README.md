@@ -150,3 +150,4 @@
 - [Common in 3 sorted arrays](Level-1/common_elements_in_3_sorted_array.c): Find common elements in 3 sorted arrays | O(n1 + n2 + n3) | Level 1.
 - [Sorted subsequence of size 3](Level-3/sorted_subsequence_of_size_3.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time and space | Level 3.
 - [Sorted subsequence of size 3, O(1) space](Level-4/sorted_subsequence_of_size_3_without_space.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time | Level 4.
+- [Max average of len K](Level-2/max_average_of_len_k.c): Find sub array of len K having maximum average | O(N) | Level 2.
