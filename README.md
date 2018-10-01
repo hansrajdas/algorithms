@@ -155,3 +155,4 @@
 - [Trie implementation](Level-3/trie_insert_search_delete.py): Implement trie and perform insert, search and delete operations | O(L) | Level 3.
 - [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE*N*L) | Level 3.
 - [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE*N*L) | Level 2.
+- [Trie, longest prefix matching](Level-2/trie_longest_prefix_matching.py): Given a string, find a word from trie which matches longest prefix | O(n) | Level 2.
