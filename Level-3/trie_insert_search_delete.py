@@ -49,7 +49,7 @@ class TrieNode:
     self.children = [None for i in range(ALPHABET_SIZE)]
     self.is_end_of_word = False
 
-  def is_free_node(self):
+  def has_children(self):
     """
     Checks if node is free or not. If a node don't have any children it is a
     free node.
@@ -122,7 +122,7 @@ class Trie:
         curr_node.is_end_of_word = False
 
       # If this is a free/empty node, have no children - this should be deleted
-      return curr_node.is_free_node()
+      return curr_node.has_children()
 
     else:  # Search recursively and delete node(s) if required
       index = self._char_to_array_index(key[level])
@@ -131,7 +131,7 @@ class Trie:
 
         # If current node is not an end of word and it doesn't has any children
         # then this node should be deleted.
-        return not curr_node.is_end_of_word and curr_node.is_free_node()
+        return not curr_node.is_end_of_word and curr_node.has_children()
  
       return False
 
