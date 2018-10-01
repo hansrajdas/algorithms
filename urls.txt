@@ -55,3 +55,7 @@ http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
 Level-4/avl_balanced_tree.c
 http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
 http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+
+Level-3/trie_insert_search_delete.py
+https://www.geeksforgeeks.org/trie-insert-and-search/
+https://www.geeksforgeeks.org/trie-delete/
