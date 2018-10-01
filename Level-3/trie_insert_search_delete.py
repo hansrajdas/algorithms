@@ -29,7 +29,7 @@
 # cases to be handled, explained in delete() below.
 #
 # Complexity:
-# Space to store trie - O(ALPHABET_SET * N)
+# Space to store trie - O(ALPHABET_SET*L*N)
 # Insert - O(L)
 # Search - O(L)
 # Delete - O(L)
