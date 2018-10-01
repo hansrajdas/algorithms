@@ -4,7 +4,6 @@
 #
 # Description:
 # - Pattern matching using trie suffixes: https://www.geeksforgeeks.org/pattern-searching-using-trie-suffixes/
-# - Longest prefix matching: https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-in-java/
 #
 # Approach:
 #
