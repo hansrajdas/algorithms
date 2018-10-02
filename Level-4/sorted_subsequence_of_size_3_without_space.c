@@ -37,12 +37,9 @@ int main() {
   }
 
   for (i = 0; i < n; i++) {
-    // Track smallest element
-    if (small >= A[i])
+    if (small >= A[i])  // Track smallest element
       small = A[i];
-
-    // Track second largest element
-    else if (large >= A[i])
+    else if (large >= A[i])  // Track second largest element
       large = A[i];
     else
       break;
