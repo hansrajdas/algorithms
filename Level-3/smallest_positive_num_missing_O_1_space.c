@@ -31,10 +31,14 @@ int abs(int n) {
 
 int find_min_positive_missing(int arr[], int n) {
   int i;
+
+  // Mark positive elements as visited by making them negative.
   for (i = 0; i < n; i++) {
     if ((arr[i] <= n) && (arr[abs(arr[i]) - 1] > 0))
       arr[abs(arr[i]) - 1] = -arr[abs(arr[i]) - 1];
   }
+
+  // Return first missing positive number.
   for (i = 0; i < n; i++) {
     if (arr[i] > 0)
       return i + 1;
@@ -57,6 +61,7 @@ int main() {
     scanf("%d",&a[i]);
   }
 
+  // Move all non positives to beginning of array.
   for (i = 0; i < n; i++) {
     if (0 >= a[i]) {
       tmp = a[non_positive];
