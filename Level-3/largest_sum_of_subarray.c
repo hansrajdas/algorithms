@@ -45,3 +45,31 @@ int main() {
   printf("Max sum of subarray is: %d\n", max_sum);
   return 0;
 }
+
+
+/*
+ * Output:
+ * ---------------------------
+ * Enter number of elements: 5
+ * Enter element[0]: -2
+ * Enter element[1]: 3
+ * Enter element[2]: 5
+ * Enter element[3]: -5
+ * Enter element[4]: 7
+ * Max sum of subarray is: 10
+ *
+ * Enter number of elements: 6
+ * Enter element[0]: 2
+ * Enter element[1]: 3
+ * Enter element[2]: 4
+ * Enter element[3]: -20
+ * Enter element[4]: 2
+ * Enter element[5]: 3
+ * Max sum of subarray is: 9
+ *
+ * Enter number of elements: 3
+ * Enter element[0]: 3
+ * Enter element[1]: 4
+ * Enter element[2]: 5
+ * Max sum of subarray is: 12
+ */
