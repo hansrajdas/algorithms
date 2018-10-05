@@ -163,3 +163,4 @@
 - [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
 - [Largest sum of rotated subarray](Level-3/largest_sum_of_rotated_subarray.c): Find max sum of rotated subarray | O(N) | Level 3.
 - [Triplet having given sum](Level-2/triplets_with_given_sum.c): Find triplets in a sorted array which sums to a given sum | O(N^2) | Level 2.
+- [Triplet having smaller sum](Level-2/triplets_with_smaller_sum.c): Find triplets in a sorted array which sums less than given sum | O(N^2) | Level 2.
