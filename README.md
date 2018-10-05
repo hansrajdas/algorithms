@@ -162,4 +162,4 @@
 - [ASCII to int](Level-2/atoi_using_bitwise.c): Given an ascii string convert it to integer, atoi conversion | O(N) | Level 2.
 - [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
 - [Largest sum of rotated subarray](Level-3/largest_sum_of_rotated_subarray.c): Find max sum of rotated subarray | O(N) | Level 3.
-- [Triplet having given sum](Level-2/triplet_with_given_sum.c): Find triplets in a sorted array which sums to a given sum | O(N^2) | Level 2.
+- [Triplet having given sum](Level-2/triplets_with_given_sum.c): Find triplets in a sorted array which sums to a given sum | O(N^2) | Level 2.
