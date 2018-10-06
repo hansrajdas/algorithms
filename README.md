@@ -167,3 +167,4 @@
 - [Distinct pairs](Level-4/number_of_distinct_pairs.c): Find number of distinct pairs in unsorted array | O(N) | Level 4.
 - [Is array subset](Level-1/is_subset_of_array.c): Given 2 sorted arrays, check if arr2 is subset of arr1 | O(N) | Level 1.
 - [Count 0s in sorted array](Level-2/count_num_of_zeros.c): Given a sorted array of 1s and 0s, find number of 0s in that array | O(logn) | Level 2.
+- [Merge required to make palindrome](Level-2/num_of_merges_to_make_palindrome.c): Numbe of merge operations required to make an unsorted array palindrome | O(N) | Level 2.
