@@ -166,3 +166,4 @@
 - [Triplet having smaller sum](Level-2/triplets_with_smaller_sum.c): Find triplets in a sorted array which sums less than given sum | O(N^2) | Level 2.
 - [Distinct pairs](Level-4/number_of_distinct_pairs.c): Find number of distinct pairs in unsorted array | O(N) | Level 4.
 - [Is array subset](Level-1/is_subset_of_array.c): Given 2 sorted arrays, check if arr2 is subset of arr1 | O(N) | Level 1.
+- [Count 0s in sorted array](Level-2/count_num_of_zeros.c): Given a sorted array of 1s and 0s, find number of 0s in that array | O(logn) | Level 2.
