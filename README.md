@@ -173,3 +173,4 @@
 - [Subarray with equal 0 and 1](Level-2/subarray_with_equal_0_and_1.c): Find max subarray having equal 0s and 1s | O(N^2) | Level 2.
 - [Max diff btwn elements](Level-2/max_diff_btwn_2_elements.c): Find max diff btwn 2 elements in array such that larger appears later | O(N) | Level 2.
 - [Maximize index diff](Level-3/maximize_index_diff.c): Find max(j - i) such that A[j] > A[i] | O(N) | Level 3.
+- [Max subarray len, arrange contiguous](Level-2/max_contiguous_subarray_len.c): Max subarray len whose elements can be arranged in contiguous sequence | O(N^2) | Level 2.
