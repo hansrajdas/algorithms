@@ -171,3 +171,4 @@
 - [Jolly jumper sequence](Level-2/is_jolly_jumper_sequence.c): Check if an unsorted array is jolly jumper sequence | O(N) | Level 2.
 - [Min number not possible](Level-4/min_number_not_possible.c): Find the min num not possible as any subset of sorted array | O(N) | Level 4.
 - [Subarray with equal 0 and 1](Level-2/subarray_with_equal_0_and_1.c): Find max subarray having equal 0s and 1s | O(N^2) | Level 2.
+- [Maximize index diff](Level-3/maximize_index_diff.c): Find max(j - i) such that A[j] > A[i] | O(N) | Level 3.

@@ -62,3 +62,6 @@ https://www.geeksforgeeks.org/trie-delete/
 
 Level-3/trie_autocomplete.py
 https://www.geeksforgeeks.org/auto-complete-feature-using-trie/
+
+Level-3/maximize_index_diff.c
+https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
