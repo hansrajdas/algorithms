@@ -174,3 +174,4 @@
 - [Max diff btwn elements](Level-2/max_diff_btwn_2_elements.c): Find max diff btwn 2 elements in array such that larger appears later | O(N) | Level 2.
 - [Maximize index diff](Level-3/maximize_index_diff.c): Find max(j - i) such that A[j] > A[i] | O(N) | Level 3.
 - [Max subarray len, arrange contiguous](Level-2/max_contiguous_subarray_len.c): Max subarray len whose elements can be arranged in contiguous sequence | O(N^2) | Level 2.
+- [String anagram having given md5 hash](Level-4/permutation_having_given_hash.py): Given an input string, md5 hashes and long list of words, find anagram of given string which has given hash | Level 4.
