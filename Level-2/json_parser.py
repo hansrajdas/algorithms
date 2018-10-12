@@ -65,7 +65,13 @@ def isdigit(s):
     return s in "01234567890"
     
 def parse_string(string):
-    pass
+    parsed = []
+    for s in string[1:]:  # Skip first double quote
+        if s == Token.STRING_END:
+            break
+        else:
+            parsed.append(s)
+    return ''.join(parsed), string[len(parsed) + 2:]  # Skip 2 double quotes
 
 def parse_number(string):
     number = []
@@ -76,11 +82,32 @@ def parse_number(string):
             break
     return int("".join(number)), string[len(number):]
 
+import json
 def parse_list(string):
-    pass
+    parsed = []
+    bracket_count = 0
+    for s in string:
+        parsed.append(s)
+        if s == Token.LIST_BEGIN:
+            bracket_count += 1
+        elif s == Token.LIST_END:
+            bracket_count -= 1
+        if not bracket_count:  # When open and closing brackets are same
+            break
+    return json.loads(''.join(parsed)), string[len(parsed):]
 
 def parse_dict(string):
-    pass
+    parsed = []
+    bracket_count = 0
+    for s in string:
+        parsed.append(s)
+        if s == Token.DICT_BEGIN:
+            bracket_count += 1
+        elif s == Token.DICT_END:
+            bracket_count -= 1
+        if not bracket_count:  # When open and closing brackets are same
+            break
+    return json.loads(''.join(parsed)), string[len(parsed):]
 
 def parse(string):
     s = string[0]
