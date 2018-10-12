@@ -7,12 +7,13 @@
 # given md5 hash.
 # You are also given a wordlist file having around 0.1 million words, which
 # might help you out.
+# This is the wordlist:
+# https://drive.google.com/file/d/13qjOPs4R6nHZcKyArRHHZZl62nQf8AON/view?usp=sharing
 #
 # Approach:
 # - Filter words from wordlist file given, which can't be anagram.
 # - Find the length of maximum string left in wordlist after filtering, it
 # comes out to be 11.
-#
 # - We know length of input string is 18(20 - 2) so we find all triplets which
 # sums to 18 and compute all combinations.
 #
