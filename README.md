@@ -178,3 +178,4 @@
 - [Max product of subarray, size k](Level-2/max_product_of_subarray_size_k.c): Find max product of a subarray, size k | O(N) | Level 2.
 - [Max and min product of subset](Level-2/max_and_min_prod_of_subset.c): Find max and min product of subset in array | O(N) | Level 2.
 - [Max subarray product, 2 traversal](Level-3/max_subarray_product_2_traversal.c): Find max subarray product, 2 traversals used | O(N) | Level 3.
+- [Max subarray product, single traversal\*\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.

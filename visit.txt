@@ -10,6 +10,7 @@ Level-3/smallest_positive_num_missing_O_1_space.c
 Level-3/largest_sum_of_rotated_subarray.c
 Level-3/maximize_index_diff.c
 Level-3/max_subarray_product_2_traversal.c
+Level-3/max_subarray_product.c
 
 
 Level-3/trie_insert_search_delete.py
