@@ -19,7 +19,7 @@ we must return a python string as output.
 
 How does the parser work?
 
-The driver function and the starting point of this parser is the parse function. Parse function looks at the first character of its 
+The driver function and the starting point of this parser is the parse function. Parse function looks at the first character of its
 input and simply calls the corresponding functions. The semantics of the parse function and other parse_<type> functions are as
 follows:
 
@@ -65,8 +65,14 @@ class ParserException(Exception):
 
 def isdigit(s):
     return s in "01234567890"
-    
+
 def parse_string(string):
+    """
+    Parses first enclosing string in given string.
+
+    Returns tuple with parsed string object and remaining literal part as
+    string.
+    """
     parsed = []
     for s in string[1:]:  # Skip first double quote
         if s == Token.STRING_END:
@@ -85,6 +91,12 @@ def parse_number(string):
     return int("".join(number)), string[len(number):]
 
 def parse_list(string):
+    """
+    Parses first list literal in the given string. This also supports nested
+    lists or any other data structure inside list.
+
+    Returns tuple with parsed list and remaining unparsed literal as string.
+    """
     parsed = []
     bracket_count = 0
     for s in string:
@@ -98,6 +110,13 @@ def parse_list(string):
     return json.loads(''.join(parsed)), string[len(parsed):]
 
 def parse_dict(string):
+    """
+    Parses first dictionary literal in the given string. This also supports
+    nested dictionaries or any other data structure inside dictionary.
+
+    Returns tuple with parsed dictionary and remaining unparsed literal as
+    string.
+    """
     parsed = []
     bracket_count = 0
     for s in string:
@@ -123,7 +142,7 @@ def parse(string):
     else:
         raise ParserException("Unknown Token: %s" % s)
 
-assert parse('123') == (123, '') 
+assert parse('123') == (123, '')
 assert parse('123abc') == (123, 'abc')
 assert parse('"123"abc') == ('123', 'abc')
 assert parse('"abc"[123]') == ('abc', '[123]')
@@ -138,3 +157,10 @@ assert parse('{}') == ({}, '')
 assert parse('{}abc') == ({}, 'abc')
 assert parse('{"a":[[[]]]}') == ({"a":[[[]]]}, '')
 assert parse('{"a":1,"b":[1,2,3],"c":{"d":1}}') == ({"a":1,"b":[1,2,3],"c":{"d":1}}, '')
+
+
+# Other cases
+assert parse('"123""hello"abc') == ('123', '"hello"abc')
+assert parse('[]') == ([], '')
+assert parse('[1,2,[3]]{1: 20}') == ([1,2,[3]], '{1: 20}')
+assert parse('{"1":1}') == ({"1":1}, '')
