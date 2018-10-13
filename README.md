@@ -176,3 +176,4 @@
 - [Max subarray len, arrange contiguous](Level-2/max_contiguous_subarray_len.c): Max subarray len whose elements can be arranged in contiguous sequence | O(N^2) | Level 2.
 - [String anagram having given md5 hash](Level-3/anagram_having_given_hash.py): Given an input string, md5 hashes and long list of words, find anagram of given string which has given hash | Level 3.
 - [Max product of subarray, size k](Level-2/max_product_of_subarray_size_k.c): Find max product of a subarray, size k | O(N) | Level 2.
+- [Max and min product of subset](Level-2/max_and_min_prod_of_subset.c): Find max and min product of subset in array | O(N) | Level 2.
