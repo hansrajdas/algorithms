@@ -47,6 +47,8 @@ Hints:
 
 """
 
+import json
+
 class Token:
     STRING_BEGIN = STRING_END = '"'
     LIST_BEGIN = '['
@@ -82,7 +84,6 @@ def parse_number(string):
             break
     return int("".join(number)), string[len(number):]
 
-import json
 def parse_list(string):
     parsed = []
     bracket_count = 0
