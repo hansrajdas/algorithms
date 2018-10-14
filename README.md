@@ -182,3 +182,4 @@
 - [Max subarray product, single traversal\*\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
 - [Triplet with max product](Level-2/triplet_with_max_product.c): Find triplet in array with max product | O(N) | Level 2.
 - [Max product - index diff and min](Level-2/max_product_of_indx_diff_and_min.c): Find max value of abs(i - j)\*MIN(a[i], a[j]) from unsorted array | O(N) | Level 2.
+- [Max product of increasing triplet](Level-3/max_prod_of_increasing_triplet.c): Find max product of increasing triplet from unsorted array | O(N^2) | Level 3.
