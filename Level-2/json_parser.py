@@ -97,28 +97,18 @@ def parse_list(string):
 
     Returns tuple with parsed list and remaining unparsed literal as string.
     """
-    p = []
+    n = 1
     parsed = []
-    bracket_count = 0
-    for s in string:
-        p.append(s)
-        if s == Token.LIST_BEGIN:
-            bracket_count += 1
-        elif s == Token.LIST_END:
-            bracket_count -= 1
-        if not bracket_count:  # When open and closing brackets are same
-            break
-
-    print 'string: ---------------', string
-    print 'p: ---------------', ''.join(p[1:-1])
-    temp = ''.join(p[1:-1]).split(',')
-    for x in temp:
-      if not x:
-        pass
-      else:
-        parsed.append(parse(x)[0])
+    while n < len(string):
+      print string[n:]
+      if string[n] in (Token.LIST_DELIMITER, Token.LIST_END):
+        n += 1
+        continue
+      value = parse(string[n:])
+      parsed.append(value[0])
+      n += 1
     print parsed
-    return parsed, string[len(p):]
+    return parsed, ''
 
 def parse_dict(string):
     """
