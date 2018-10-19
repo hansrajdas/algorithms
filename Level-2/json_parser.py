@@ -47,8 +47,6 @@ Hints:
 
 """
 
-import json
-
 class Token:
     STRING_BEGIN = STRING_END = '"'
     LIST_BEGIN = '['
@@ -97,18 +95,31 @@ def parse_list(string):
 
     Returns tuple with parsed list and remaining unparsed literal as string.
     """
+    # Find what part of string should be parsed
+    to_be_parsed = []
+    bracket_count = 0
+    for s in string:
+        to_be_parsed.append(s)
+        if s == Token.LIST_BEGIN:
+            bracket_count += 1
+        elif s == Token.LIST_END:
+            bracket_count -= 1
+        if not bracket_count:  # When open and closing brackets are same
+            break
+
+    # Parse list
     n = 1
     parsed = []
-    while n < len(string):
-      print string[n:]
-      if string[n] in (Token.LIST_DELIMITER, Token.LIST_END):
+    parsed_str = ''.join(to_be_parsed)
+    unparsed = string[len(to_be_parsed):]
+    while n < len(parsed_str):
+      if parsed_str[n] in (Token.LIST_END, Token.LIST_DELIMITER):
         n += 1
         continue
-      value = parse(string[n:])
+      value = parse(parsed_str[n:])
       parsed.append(value[0])
-      n += 1
-    print parsed
-    return parsed, ''
+      n += len(parsed_str[n:]) - len(value[1])
+    return parsed, unparsed
 
 def parse_dict(string):
     """
@@ -118,17 +129,41 @@ def parse_dict(string):
     Returns tuple with parsed dictionary and remaining unparsed literal as
     string.
     """
-    parsed = []
+    raise NotImplementedError
+
+    """
+    # Find what part of string should be parsed
+    to_be_parsed = []
     bracket_count = 0
     for s in string:
-        parsed.append(s)
+        to_be_parsed.append(s)
         if s == Token.DICT_BEGIN:
             bracket_count += 1
         elif s == Token.DICT_END:
             bracket_count -= 1
         if not bracket_count:  # When open and closing brackets are same
             break
-    return json.loads(''.join(parsed)), string[len(parsed):]
+
+    # Parse dictionary
+    n = 1
+    parsed = {}
+    parsed_str = ''.join(to_be_parsed)
+    unparsed = string[len(to_be_parsed):]
+    is_key = True
+    while n < len(parsed_str):
+      if parsed_str[n] in (Token.DICT_END, Token.DICT_DELIMITER):
+        n += 1
+        continue
+      if parsed_str[n] == Token.DICT_SYMBOL:
+        n += 1
+        is_key = False
+        continue
+
+      value = parse(parsed_str[n:])
+      parsed.append(value[0])
+      n += len(parsed_str[n:]) - len(value[1])
+    return parsed, unparsed
+    """
 
 def parse(string):
     s = string[0]
@@ -152,6 +187,13 @@ assert parse('[1,2,3][abc]') == ([1,2,3], '[abc]')
 assert parse('[[[]]]') == ([[[]]], '')
 assert parse('[[],[[]]]') == ([[],[[]]], '')
 assert parse('["a",123,["x","y"]]') == (["a", 123, ["x", "y"]], '')
+
+# Other cases
+assert parse('"123""hello"abc') == ('123', '"hello"abc')
+assert parse('[]') == ([], '')
+assert parse('[1,2,[3]]{1: 20}') == ([1,2,[3]], '{1: 20}')
+
+# Dictionary
 assert parse('{"a":1}') == ({"a": 1}, '')
 assert parse('{"a":1,"b":2}') == ({"a":1,"b":2},'')
 assert parse('{}') == ({}, '')
@@ -159,9 +201,4 @@ assert parse('{}abc') == ({}, 'abc')
 assert parse('{"a":[[[]]]}') == ({"a":[[[]]]}, '')
 assert parse('{"a":1,"b":[1,2,3],"c":{"d":1}}') == ({"a":1,"b":[1,2,3],"c":{"d":1}}, '')
 
-
-# Other cases
-assert parse('"123""hello"abc') == ('123', '"hello"abc')
-assert parse('[]') == ([], '')
-assert parse('[1,2,[3]]{1: 20}') == ([1,2,[3]], '{1: 20}')
 assert parse('{"1":1}') == ({"1":1}, '')
