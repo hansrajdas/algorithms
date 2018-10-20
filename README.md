@@ -186,3 +186,4 @@
 - [Max min, value index pair](Level-2/max_min_value_index_pair.c): Find max value of (a[i] - i) - (a[j] - j) from an unsorted array | O(N) | Level 2.
 - [Min unique array sum](Level-2/min_unique_array_sum.py): Increment array elements until all elements become unique and find sum of all unique elements | O(N) | Level 2.
 - [Max K such that K elements >= K](Level-2/max_k_having_k_greater_elements.c): Find max k such that array has k elements greater than equal to k | O(N) | Level 2.
+- [Min subarray len, sum > X](Level-3/min_subarray_len_with_sum_greater_than_x.c): Min subarray len having sum greater than X | O(N) | Level 3.
