@@ -190,3 +190,4 @@
 - [Max sum with no elements adjacent](Level-3/max_sum_with_no_elements_adjacent.c): Find max sum with no 2 elements adjacent | O(N) | Level 3.
 - [Longest bitonic subsequence](Level-3/longest_bitonic_subsequence.c): Find longest bitonic subsequence in a array | O(N) | Level 3.
 - [Rotations to maximize sum(i\*a[i])](Level-2/num_of_rotations_to_maximize_sum.c): Find number of right rotations required to maximize sum(i\*a[i]) | O(N) | Level 2.
+- [RGB merging, get min count](Level-2/RGB_merging_min_count.c): Array has RGBs, merge different element and get min elements left O(N) | Level 2.
