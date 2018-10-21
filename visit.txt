@@ -8,6 +8,7 @@ Level-2/max_product_of_indx_diff_and_min.c
 Level-2/max_min_value_index_pair.c
 Level-2/num_of_rotations_to_maximize_sum.c
 Level-2/RGB_merging_min_count.c
+Level-2/count_strictly_increasing_subarrays.c
 
 Level-3/peaks_and_valleys_O_n.py
 Level-3/subarray_having_given_sum.c
