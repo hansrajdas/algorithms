@@ -192,3 +192,4 @@
 - [Rotations to maximize sum(i\*a[i])](Level-2/num_of_rotations_to_maximize_sum.c): Find number of right rotations required to maximize sum(i\*a[i]) | O(N) | Level 2.
 - [RGB merging, get min count](Level-2/RGB_merging_min_count.c): Array has RGBs, merge different element and get min elements left O(N) | Level 2.
 - [Count strictly increasing subarrays](Level-2/count_strictly_increasing_subarrays.c): Count the number of strictly increasing subarrays possible | O(N) | Level 2.
+- [Count subarrays with even sum](Level-3/count_subarrays_with_even_sum.c): Given an unsorted array, count the number of subarrays with even sum | O(N) | Level 3.
