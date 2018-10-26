@@ -194,3 +194,4 @@
 - [Count strictly increasing subarrays](Level-2/count_strictly_increasing_subarrays.c): Count the number of strictly increasing subarrays possible | O(N) | Level 2.
 - [Count subarrays with even sum](Level-3/count_subarrays_with_even_sum.c): Given an unsorted array, count the number of subarrays with even sum | O(N) | Level 3.
 - [Smallest number missing](Level-2/find_smallest_num_missing.c): Given a sorted array - size n, elements 0 to n - 1. Find smallest number missing | O(logn) | Level 2.
+- [Max sum path, 2 sorted arrays](Level-3/max_sum_path_of_2_sorted_arrays.c): Given 2 sorted arrays, find max sum path | O(M + N) | Level 3.
