@@ -196,3 +196,4 @@
 - [Smallest number missing](Level-2/find_smallest_num_missing.c): Given a sorted array - size n, elements 0 to n - 1. Find smallest number missing | O(logn) | Level 2.
 - [Max sum path, 2 sorted arrays](Level-3/max_sum_path_of_2_sorted_arrays.c): Given 2 sorted arrays, find max sum path | O(M + N) | Level 3.
 - [Min distance between 2 elements - O(N^2)](Level-2/min_distance_bw_2_nums_O_n2.c): Find min distance 2 elements in unsorted array | O(N^2) | Level 2.
+- [Min distance between 2 elements - O(N)](Level-3/min_distance_bw_2_nums_O_n.c): Find min distance 2 elements in unsorted array | O(N) | Level 3.

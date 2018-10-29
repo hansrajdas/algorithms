@@ -22,6 +22,7 @@ Level-3/max_sum_with_no_elements_adjacent.c
 Level-3/longest_bitonic_subsequence.c
 Level-3/count_subarrays_with_even_sum.c
 Level-3/max_sum_path_of_2_sorted_arrays.c
+Level-3/min_distance_bw_2_nums_O_n.c
 
 
 Level-3/trie_insert_search_delete.py
