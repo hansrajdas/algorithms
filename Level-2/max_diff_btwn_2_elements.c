@@ -3,7 +3,10 @@
  *
  * Description:
  * Find maximum difference between 2 elements in a array such that larger
- * element appears at right of smaller element
+ * element appears at right of smaller element.
+ *
+ * This is also stock buy sell problem to maximize profit when only one
+ * transaction is allowed.
  *
  * Approach:
  * - Take an initial diff between first 2 elements.
