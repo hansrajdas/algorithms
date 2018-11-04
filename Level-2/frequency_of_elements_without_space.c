@@ -66,9 +66,9 @@ int main() {
  * Enter element 2: 4
  * Enter element 3: 5
  * Enter element 4: 5
- * 1 -> 2
+ * 1 -> 0
  * 2 -> 0
- * 3 -> 0
+ * 3 -> 1
  * 4 -> 2
- * 5 -> 3
+ * 5 -> 2
  */
