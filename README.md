@@ -200,3 +200,4 @@
 - [Stock buy sell to maximize profit](Level-3/stock_buy_sell_max_profit.c): Given stock prices, find days to buy and sell so that profit can be maximized | O(N) | Level 3.
 - [Merge 2 sorted arrays as contiguous sorted](Level-4/merge_2_sorted_array_as_contigous_sorted.c): Given 2 sorted arrays, merge them as contiguous sorted arrays | O(M\*N) | Level 4.
 - [Steps to get given array](Level-2/steps_to_get_given_array.c): Find the number of steps required to get given array from all 0s array | O(K\*N) | Level 2.
+- [Index of 0 flipped to get max 1 seq](Level-3/indx_of_0_for_max_1_seq.c): Find the index of 0 to be changed to 1 to get max 1s sequence | O(N) | Level 3.

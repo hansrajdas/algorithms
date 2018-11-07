@@ -68,3 +68,6 @@ https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-
 
 Level-2/steps_to_get_given_array.c
 https://www.geeksforgeeks.org/count-minimum-steps-get-given-desired-array/
+
+Level-3/indx_of_0_for_max_1_seq.c
+https://www.geeksforgeeks.org/find-index-0-replaced-1-get-longest-continuous-sequence-1s-binary-array/
