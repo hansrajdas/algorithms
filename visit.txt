@@ -11,6 +11,7 @@ Level-2/RGB_merging_min_count.c
 Level-2/count_strictly_increasing_subarrays.c
 Level-2/max_diff_btwn_2_elements.c
 Level-2/frequency_of_elements_without_space.c
+Level-2/steps_to_get_given_array.c
 
 Level-3/peaks_and_valleys_O_n.py
 Level-3/subarray_having_given_sum.c

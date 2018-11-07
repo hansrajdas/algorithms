@@ -65,3 +65,6 @@ https://www.geeksforgeeks.org/auto-complete-feature-using-trie/
 
 Level-3/maximize_index_diff.c
 https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
+
+Level-2/steps_to_get_given_array.c
+https://www.geeksforgeeks.org/count-minimum-steps-get-given-desired-array/
