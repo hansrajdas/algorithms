@@ -202,3 +202,5 @@
 - [Steps to get given array](Level-2/steps_to_get_given_array.c): Find the number of steps required to get given array from all 0s array | O(K\*N) | Level 2.
 - [Index of 0 flipped to get max 1 seq](Level-3/indx_of_0_for_max_1_seq.c): Find the index of 0 to be changed to 1 to get max 1s sequence | O(N) | Level 3.
 - [Max sum after k negations](Level-2/max_sum_after_k_negations.c): Find max sum of array elements after k negations | O(K\*N) | Level 2.
+- [Max 0s after flipping subarray - O(N^2)](Level-2/max_0s_in_array_after_subarray_flip_n2.c): Find max 0s in binary array after flipping a subarray | O(N^2) | Level 2.
+- [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
