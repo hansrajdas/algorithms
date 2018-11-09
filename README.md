@@ -204,3 +204,4 @@
 - [Max sum after k negations](Level-2/max_sum_after_k_negations.c): Find max sum of array elements after k negations | O(K\*N) | Level 2.
 - [Max 0s after flipping subarray - O(N^2)](Level-2/max_0s_in_array_after_subarray_flip_n2.c): Find max 0s in binary array after flipping a subarray | O(N^2) | Level 2.
 - [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
+- [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
