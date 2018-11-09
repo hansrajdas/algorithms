@@ -19,6 +19,10 @@
 #
 # DLL requirement arises from the fact we require insert at head and remove from
 # tail as fast as possible.
+#
+# NOTE:
+# This is a sample code NOT a running one. Just to get an idea of implementation
+# details.
 
 
 class Node:
