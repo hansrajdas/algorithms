@@ -208,3 +208,4 @@
 - [Find floor and ceil in array - O(N)](Level-1/find_ceil_n_floor_in_array_O_n.c): Find floor and ceil of X from sorted array | O(N) | Level 1.
 - [Find floor and ceil in array - O(logn)](Level-2/find_ceil_n_floor_in_array_logn.c): Find floor and ceil of X from sorted array | O(logn) | Level 2.
 - [Convert integer to comma format](Level-2/format_nums.cc): Given an integer, convert it to string with comma notation - Indian and US | O(N) | Level 2.
+- [Reverse sentence](Level-2/reverse_sentence.cc): Given a sentence, reverse it's individual words | O(N) | Level 2.
