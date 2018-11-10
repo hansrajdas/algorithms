@@ -205,3 +205,5 @@
 - [Max 0s after flipping subarray - O(N^2)](Level-2/max_0s_in_array_after_subarray_flip_n2.c): Find max 0s in binary array after flipping a subarray | O(N^2) | Level 2.
 - [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
 - [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
+- [Find floor and ceil in array - O(N)](Level-1/find_ceil_n_floor_in_array_O_n.c): Find floor and ceil of X from sorted array | O(N) | Level 1.
+- [Find floor and ceil in array - O(logn)](Level-2/find_ceil_n_floor_in_array_logn.c): Find floor and ceil of X from sorted array | O(logn) | Level 2.
