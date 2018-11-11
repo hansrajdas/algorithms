@@ -210,3 +210,4 @@
 - [Convert integer to comma format](Level-2/format_nums.cc): Given an integer, convert it to string with comma notation - Indian and US | O(N) | Level 2.
 - [Reverse sentence](Level-2/reverse_sentence.cc): Given a sentence, reverse it's individual words | O(N) | Level 2.
 - [Is BST valid](Level-3/is_valid_bst.py): Check if a tree is valid BST or not | O(N) | Level 3.
+- [Is symmetric tree](Level-2/is_tree_symmetric.py): Check if a given tree is symmetric/self mirror image or not | O(N) | Level 2.
