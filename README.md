@@ -213,3 +213,4 @@
 - [Is symmetric tree](Level-2/is_tree_symmetric.py): Check if a given tree is symmetric/self mirror image or not | O(N) | Level 2.
 - [Find mirror image](Level-2/find_tree_mirror.py): Find mirror image of a given binary tree | O(N) | Level 2.
 - [Left and right views of tree](Level-2/left_right_views_of_tree.py): Print left and right views of binary tree | O(N) | Level 2.
+- [Left/right rotate array](Level-3/rotate_array.py): Rotate array left or right by given number of times | O(N) | Level 3.
