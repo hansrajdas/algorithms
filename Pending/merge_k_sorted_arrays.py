@@ -9,6 +9,8 @@
 #
 # Complexity:
 #
+# Reference:
+# https://www.geeksforgeeks.org/merge-k-sorted-arrays/
 
 def main():
   a = []
