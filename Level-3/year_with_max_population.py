@@ -73,9 +73,11 @@ def get_year_with_population(persons):
 
   max_population_year = 0
   person_count = 0
+  count = 0
   for year in range(len(birth_death_years)):  # O(Y)
-    if person_count < person_count + birth_death_years[year]:
-      person_count += birth_death_years[year]
+    count += birth_death_years[year]
+    if person_count < count:
+      person_count = count
       max_population_year = year
 
   return max_population_year + first_birth
@@ -90,6 +92,11 @@ def main():
   ]
   print ('Year with max population is: %d' % get_year_with_population(persons))
 
+  persons = [
+    Person('P1', 2001, 2005),
+    Person('P2', 2009, 2019),
+  ]
+  print ('Year with max population is: %d' % get_year_with_population(persons))
 
 if __name__ == '__main__':
   main()
@@ -98,3 +105,4 @@ if __name__ == '__main__':
 # Output:
 # ---------------------------------
 # Year with max population is: 2005
+# Year with max population is: 2001
