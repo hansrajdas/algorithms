@@ -13,6 +13,8 @@ Level-2/max_diff_btwn_2_elements.c
 Level-2/frequency_of_elements_without_space.c
 Level-2/steps_to_get_given_array.c
 Level-2/left_right_views_of_tree.py
+Level-2/level_order_tree_traversal_using_queue.c
+Level-2/url_formatter.c
 
 Level-3/peaks_and_valleys_O_n.py
 Level-3/subarray_having_given_sum.c
@@ -34,7 +36,17 @@ Level-3/lru_cache.py
 Level-3/sum_of_linked_list_same_order.py
 Level-3/is_valid_bst.py
 Level-3/rotate_array.py
+Level-3/cycle_in_graph.py
+Level-3/bellman_ford.py
+Level-3/edit_distance.c
+Level-3/flip_your_cap.c
+Level-3/find_2d_peak.c
+Level-3/rank_k_element_in_2_sorted_array_log_k.c
+Level-3/search_in_rotated_sorted_array.c
+Level-3/heap_sort_using_max_heap.c
 
 
 Level-3/trie_insert_search_delete.py
 Level-3/trie_autocomplete.py
+
+Level-4/*

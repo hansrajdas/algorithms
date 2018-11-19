@@ -9,7 +9,8 @@
  * Scan linearly both arrays and stop overall traversal is done for k elements.
  * If any of the array ends, scan the other array till k.
  *
- * Complexity: O(k)
+ * Complexity:
+ * O(k)
  */
 
 #include "stdio.h"
