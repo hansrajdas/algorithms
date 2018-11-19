@@ -10,7 +10,7 @@
 #### **: If there multiple solutions for a given solution, go with this.
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
-- [Check cycle in graph](cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
+- [Check cycle in graph](Level-3/cycle_in_graph.py): Uses DFS approach to check if cycle exists in a directed graph.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
 - [Level order tree traversal using queue\*\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
