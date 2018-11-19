@@ -10,7 +10,8 @@
  * element at index rank/2 is smaller than other array (Can now search in
  * A[0...m] and B[k/2....n] for rank k - k/2).
  *
- * Complexity: O(log(k))
+ * Complexity:
+ * O(log(k))
  */
 
 #include "stdio.h"
