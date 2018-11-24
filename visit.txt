@@ -18,7 +18,6 @@ Level-2/url_formatter.c
 Level-2/is_any_permutation_palindrome.c
 Level-2/are_two_strings_one_edit_away.c
 Level-2/string_compression.c
-Level-2/tree_inorder_traversal_iterative.py
 
 Level-3/peaks_and_valleys_O_n.py
 Level-3/subarray_having_given_sum.c

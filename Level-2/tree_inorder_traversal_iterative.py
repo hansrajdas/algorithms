@@ -1,10 +1,13 @@
 #!/usr/bin/python
 
-# Date: 2018-11-25
+# Date: 2018-11-24
 #
 # Description:
+# Write an iterative program to do inorder traversal of binary tree.
+#
+# Motivation:
 # Recursive programs may cause stack overflow if recursion depth reaches a
-# certain limit. Write an iterative program to do inorder traversal of tree.
+# certain limit.
 #
 # Approach:
 # Take a stack and push all nodes traversing left nodes once we reach leaf print
