@@ -15,6 +15,9 @@
  *    sqrt(n) as larger factor n must be multiple of smaller factor of n that
  *    has been already checked. 
  *
+ * Reference:
+ * http://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/
+ *
  * Complexity:
  * O(sqrt(n))
  */

@@ -18,8 +18,11 @@
 # - When loop completes we will get shortest path from source to all reachable
 #   vertex and non reachable remains infinite as initialized.
 #
-# Complexity: O(E + VlogV) if fibonacci heap is used to implement priority
-# queue.
+# Reference:
+# https://www.geeksforgeeks.org/greedy-algorithms-set-7-dijkstras-algorithm-for-adjacency-list-representation/
+#
+# Complexity:
+# O(E + VlogV) if fibonacci heap is used to implement priority queue.
 
 
 # Pending :(

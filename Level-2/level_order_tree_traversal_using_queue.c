@@ -1,6 +1,3 @@
-#include "stdio.h"
-#include "stdlib.h"
-
 /*
  * Date: 2018-01-11
  *
@@ -10,9 +7,15 @@
  * 3. dequeue a node from queue.
  * 4. Execute while queue is not empty.
  *
- * Complexity: O(n), n is number of node in tree. Requires extra space to
- * maintain queue.
+ * Reference:
+ * https://www.geeksforgeeks.org/?p=2686
+ *
+ * Complexity:
+ * O(n), n is number of node in tree. Requires extra space to maintain queue.
  */
+
+#include "stdio.h"
+#include "stdlib.h"
 
 #define MAX_Q_SIZE 100
 

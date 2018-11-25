@@ -10,6 +10,9 @@
 # Use a queue to store adjacent nodes, loop until queue becomes empty and keep
 # on adding adjacent nodes to queue while traversing.
 #
+# Reference:
+# https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
+#
 # Complexity:
 # O(V + E)
 # V = number of vertexes/nodes

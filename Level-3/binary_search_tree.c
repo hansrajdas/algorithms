@@ -7,6 +7,10 @@
  * - Search in BST
  * - Delete from BST
  *
+ * Reference:
+ * http://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+ * http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+ *
  * Complexity:
  * Insert, search, delete - O(logn)
  * Traversal - O(n)

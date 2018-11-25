@@ -13,6 +13,9 @@
 # Recursion is used to visit all reachable nodes with respect to start node.
 # Use a visited dictionary to keep track all nodes that are already visited.
 #
+# Reference:
+# https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
+#
 # Complexity:
 # O(V + E)
 # V = number of vertexes/nodes

@@ -26,6 +26,9 @@
  * flip his cap. This approach helps to get all caps in same orientation with
  * minimum commands and one iteration only.
  *
+ * Reference:
+ * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/puzzle-1-you-will-all-conform/MIT6_S095IAP18_Puzzle_1.pdf
+ *
  * Complexity: O(n)
  */
 
