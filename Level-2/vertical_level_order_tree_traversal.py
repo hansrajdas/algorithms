@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Date: 2018-
+# Date: 2018-09-xx
 #
 # Description:
 # WAP to print binary tree in vertical level order. If graph is:
@@ -15,8 +15,11 @@
 # and value as list of values which are that distance apart from root.
 # For left side -1 is used, for right +1 used.
 #
+# Reference:
+# https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+#
 # Other approaches:
-# 1. Does without space, but has worse complexity
+# 1. Does without space, but has worse complexity of O(N^2)
 # https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
 #
 # 2. Uses BFS queuing approach
