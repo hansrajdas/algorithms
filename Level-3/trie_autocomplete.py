@@ -12,6 +12,9 @@
 # Keep on incrementing prefix string as we go down the trie. At each node check
 # for all 26 possible children characters.
 #
+# Reference:
+# https://www.geeksforgeeks.org/auto-complete-feature-using-trie/
+#
 # Complexity:
 # O(ALPHABET_SIZE*N*L)
 #

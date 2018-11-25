@@ -1,21 +1,24 @@
-#include "stdio.h"
-#include "string.h"
-#include "stdlib.h"
-
 /*
  * Date: 2018-05-07
  *
  * Description:
- *  Find operations required to change a source string(str1) to target(str2).
- *  Operations allowed are (on source string):
- *    Insert a character 
- *    Remove a character or
- *    Replace a character
+ * Find operations required to change a source string(str1) to target(str2).
+ * Operations allowed are (on source string):
+ * - Insert a character 
+ * - Remove a character or
+ * - Replace a character
+ *
+ * Reference:
+ * https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
  *
  * Complexity:
- *  Time: O(mxn)
- *  Space: O(mxn)
+ * Time: O(mxn)
+ * Space: O(mxn)
  */
+
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
 
 
 /* Finds minimum of 3 numbers. */

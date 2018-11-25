@@ -10,6 +10,10 @@
  * will be an underestimate, or vice versa, and so the average of these two
  * numbers may reasonably be expected to provide a better approximation.
  *
+ * Reference:
+ * https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
+ * https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
+ *
  * Complexity:
  *
  * | n      | Loop count |
@@ -25,10 +29,6 @@
  * |________|____________|
  *
  * So for larger inputs(n > 10) it is very less compared to O(logn).
- *
- * Reference: 
- * https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
- *
  */
 
 package main

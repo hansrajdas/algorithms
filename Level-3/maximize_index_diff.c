@@ -29,6 +29,9 @@
  * are greater than or equal to LMin[i]. Otherwise we must move ahead in RMax[j]
  * to look for a greater j – i value.
  *
+ * Reference:
+ * https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
+ *
  * Complexity:
  * O(N) Time and space
  */

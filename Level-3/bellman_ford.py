@@ -11,6 +11,9 @@
 #   simple path(from source any vertex in graph).
 # - If there is a negative weight cycle then it reports and marks shortest
 #   distance as undefined.
+#
+# Reference:
+# https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
 # 
 # Complexity: O(VE)
 

@@ -14,6 +14,9 @@
  * than maximum so far, then update the maximum.
  * Finally return index of the prev_zero with maximum difference.
  *
+ * Reference:
+ * https://www.geeksforgeeks.org/find-index-0-replaced-1-get-longest-continuous-sequence-1s-binary-array/
+ *
  * Complexity:
  * O(N)
  */

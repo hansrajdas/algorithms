@@ -21,6 +21,9 @@
  * - If all elements has become 0, return number of steps
  * - If odd found, decrement 1 from each odd number
  *
+ * Reference:
+ * https://www.geeksforgeeks.org/count-minimum-steps-get-given-desired-array/
+ *
  * Complexity:
  * O(K*N)
  * K = Some variable factor which depends on distribution of elements given

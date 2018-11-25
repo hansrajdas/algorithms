@@ -12,6 +12,9 @@
 # source) for a vertex v is more than a vertex weight(s, u) + weight(u, v) then
 # update weight(from source) of v as weight(s, u) + weight(u, v).
 #
+# Reference:
+# https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
+#
 # Complexity: O(V + E).
 
 
