@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-# Date: 2018-09-xx
+# Date: 2018-11-25
 #
 # Description:
-# WAP to print binary tree in vertical level order. If graph is:
+# WAP to print binary tree in vertical level order. If tree is:
 #              5
 #             / \
 #            4   6
@@ -11,27 +11,24 @@
 # It should print 4, 5, 6
 #
 # Approach: 
-# Do any tree traversal and populate a hashmap having key as distance from root
-# and value as list of values which are that distance apart from root.
-# For left side -1 is used, for right +1 used.
+# We can use horizontal level order traversal and keep track of horizontal
+# distance in deque itself. Whenever a pop a node from queue we do -1 if we have
+# a left child and +1 if we have right child while pushing in queue.
 #
 # Reference:
-# https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+# https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/
 #
 # Other approaches:
 # 1. Does without space, but has worse complexity of O(N^2)
 # https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
 #
-# 2. Uses BFS queuing approach
-# https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/
+# 2. Uses DFS approach, but order is not maintained.
+# https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
 #
 # Complexity:
-# O(N) time and space, N is number of nodes in tree. In this complexity
-# analysis dictionary is considered to have O(1) complexity for all operations.
-
+# O(N) time and space, N is number of nodes in tree.
 
 import collections
-
 
 class Node:
   def __init__(self, k):
@@ -63,18 +60,27 @@ class BST:
       print root.k
       self.inorder(root.right)
 
-  def vertical_level_order_util(self, root, level_map, level):
-    if root is None:
-      return None
-    self.vertical_level_order_util(root.left, level_map, level - 1)
-    self.vertical_level_order_util(root.right, level_map, level + 1)
-    level_map[level].append(root.k)
-
   def vertical_level_order(self):
     """Prints tree elements on basis of vertical order."""
-    level_order = collections.defaultdict(list)
-    self.vertical_level_order_util(self.root, level_order, 0)
+    if not self.root:
+      return None
 
+    level_order = collections.defaultdict(list)
+    hd = 0  # Horizontal distance from root
+    Q = collections.deque([(self.root, hd)])
+    while Q:
+      tup = Q.popleft()
+      current_node = tup[0]
+      hd = tup[1]
+      
+      level_order[hd].append(current_node.k)
+      if current_node.left:
+        Q.append((current_node.left, hd - 1))
+
+      if current_node.right:
+        Q.append((current_node.right, hd + 1))
+
+    # Print nodes in vertical order
     for k in sorted(level_order.keys()):
       print 'Level: %d, Values: %s' % (k, level_order[k])
 
@@ -109,7 +115,7 @@ if __name__ == '__main__':
 # 
 # Vertical level order traversal...
 # Level: -1, Values: [2]
-# Level: 0, Values: [3, 8, 5]
+# Level: 0, Values: [5, 3, 8]
 # Level: 1, Values: [10]
 # Level: 2, Values: [12]
 # Level: 3, Values: [16]

@@ -13,11 +13,11 @@ Level-2/max_diff_btwn_2_elements.c
 Level-2/frequency_of_elements_without_space.c
 Level-2/steps_to_get_given_array.c
 Level-2/left_right_views_of_tree.py
-Level-2/level_order_tree_traversal_using_queue.c
 Level-2/url_formatter.c
 Level-2/is_any_permutation_palindrome.c
 Level-2/are_two_strings_one_edit_away.c
 Level-2/string_compression.c
+Level-2/vertical_level_order_tree_traversal.py
 
 Level-3/peaks_and_valleys_O_n.py
 Level-3/subarray_having_given_sum.c
