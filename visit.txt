@@ -52,6 +52,7 @@ Level-3/rotate_matrix.c
 Level-3/clear_matrix_rows_and_coulmns.c
 Level-3/LIS_O_nlogn.c
 Level-3/top_view_binary_tree.py
+Level-3/lowest_common_ancestor_in_binary_search_tree.py
 
 
 Level-3/trie_insert_search_delete.py
