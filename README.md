@@ -124,7 +124,6 @@
 - [Print matrix in spiral](Level-3/print_matrix_in_spiral.py): Given a matrix, print its elements in clockwise spiral form | O(MxN) | Level 3.
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.
 - [LCM and HCF](Level-1/gcd_and_lcm.py): Find GCD(or HCF) and LCM of 2 numbers | Level 1.
-- [Vertical level order tree traversal](Level-2/vertical_level_order_tree_traversal.py): Perform vertical level order tree traversal | O(n) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem | O(n) | Level 2.
 - [Track kth largest, stream of numbers](Level-2/track_kth_largest_stream_of_nums.py): Keep track of kth largest number from a stream of numbers | O(k) | Level 2.
 - [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
@@ -217,4 +216,5 @@
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
 - [Tree inorder iterative](Level-2/tree_inorder_traversal_iterative.py): Tree inorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
 - [Tree preorder iterative](Level-2/tree_preorder_traversal_iterative.py): Tree preorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
+- [Vertical level order tree traversal](Level-2/vertical_level_order_tree_traversal.py): Perform vertical level order tree traversal | O(n) | Level 2.
 - [Top view of binary tree](Level-3/top_view_binary_tree.py): Print elements seen from top view of a binary tree | O(N) | Level 3.
