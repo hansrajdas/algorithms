@@ -7,6 +7,10 @@
  * not more than 1 for every node. This can be achieved by rotating the tree
  * after every insert and delete operations if not balanced.
  *
+ * Reference:
+ * http://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+ * http://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+ *
  * Complexity:
  * All operations can be done in log(n) time complexity in AVL trees.
  */

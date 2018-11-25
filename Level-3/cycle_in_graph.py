@@ -13,6 +13,9 @@
 #   edge corresponding to each edge(for each edge u to v there should be an
 #   edge from v to u)
 #
+# Reference:
+# https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+#
 # Complexity: 
 # O(V + E)
 # V = number of vertexes/nodes

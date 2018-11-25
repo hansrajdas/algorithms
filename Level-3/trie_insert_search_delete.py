@@ -28,6 +28,10 @@
 # Recursive approach followed and nodes deleted in bottom up manner. Lot of
 # cases to be handled, explained in delete() below.
 #
+# Reference:
+# https://www.geeksforgeeks.org/trie-insert-and-search/
+# https://www.geeksforgeeks.org/trie-delete/
+#
 # Complexity:
 # Space to store trie - O(ALPHABET_SET*L*N)
 # Insert - O(L)

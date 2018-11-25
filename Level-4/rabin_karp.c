@@ -10,6 +10,9 @@
  * compute new hash from existing hash when a new character is added at end and
  * an existing character is removed from beginning.
  *
+ * Reference:
+ * http://www-igm.univ-mlv.fr/~lecroq/string/node5.html#SECTION0050
+ *
  * Complexity:
  * Space: O(1)
  * Time: Average case - O(n + m), Worst case - O(m*(n-m))

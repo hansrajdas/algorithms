@@ -13,6 +13,9 @@
 #
 # Applications: Used for dependent job scheduling like makefiles.
 #
+# Reference:
+# https://www.geeksforgeeks.org/topological-sorting/
+#
 # Complexity: O(V + E)
 
 import collections
