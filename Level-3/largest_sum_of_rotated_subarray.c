@@ -27,7 +27,6 @@ int kadane(int a[], int n) {
   for (i = 0; i < n; i++) {
     max_so_far += a[i];
     if (0 > max_so_far)
-
       max_so_far = 0;
     if (max < max_so_far)
       max = max_so_far;
