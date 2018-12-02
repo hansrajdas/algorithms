@@ -8,7 +8,10 @@
 # Approach:
 # Take 3 pointers to keep track of previous, current and next node in linked
 # list. Loop until current is not null and reverse pointers.
-# After loop update head with previous
+# After loop update head with previous.
+#
+# Reference:
+# https://medium.com/outco/reversing-a-linked-list-easy-as-1-2-3-560fbffe2088
 #
 # Complexity:
 # O(n)
@@ -45,10 +48,10 @@ class LinkedList:
     """Reverses a linked list."""
     previous = None
     current = self.head
-    nxt = None
+    nxt = self.head
 
     while current:
-      nxt = current.next
+      nxt = nxt.next
       current.next = previous
       previous = current
       current = nxt
