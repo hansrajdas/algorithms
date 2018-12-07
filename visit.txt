@@ -20,6 +20,8 @@ Level-2/string_compression.c
 Level-2/vertical_level_order_tree_traversal.py
 Level-2/flip_a_bit_to_get_max_seq_of_ones.c
 Level-2/swap_odd_even_bits.c
+Level-2/generate_all_subsets_binary_method.py
+Level-2/pair_of_parens.py
 
 Level-3/subarray_having_given_sum.c
 Level-3/smallest_positive_num_missing_O_1_space.c
@@ -57,6 +59,12 @@ Level-3/lowest_common_ancestor_in_binary_search_tree.py
 Level-3/draw_line.c
 Level-3/sorted_matrix_search.c
 Level-3/rank_from_stream.c
+Level-3/robot_in_a_grid.py
+Level-3/min_in_sorted_rotated_array.c
+Level-3/magic_index_with_duplicates.c
+Level-3/generate_all_subsets.py
+Level-3/multiply_integers.c
+Level-3/tower_of_hanoi.c
 
 
 Level-3/trie_insert_search_delete.py
