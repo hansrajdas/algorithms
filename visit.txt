@@ -65,6 +65,8 @@ Level-3/magic_index_with_duplicates.c
 Level-3/generate_all_subsets.py
 Level-3/multiply_integers.c
 Level-3/tower_of_hanoi.c
+Level-3/boolean_evaluation_ways.py
+Level-3/min_range_k_sorted_arrays.c
 
 
 Level-3/trie_insert_search_delete.py
