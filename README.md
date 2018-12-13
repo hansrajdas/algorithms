@@ -84,7 +84,7 @@
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Min positive integer missing - O(1) space\*\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
 - [Season with max amplitude](Level-2/season_with_max_amplitude.py): Find season with max amplitude | O(n) | Level 2.
-- [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b | O(A + B) | Level 3.
+- [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ignoring case | Level 1.
 - [Multiple of 4](Level-1/check_multiple_of_4.c): Check if a number of 4 or not | Level 1.
 - [Find 7n/8](Level-1/find_7by8_of_n.c): Find 7n/8 without using * and / operators | Level 1.
@@ -108,7 +108,7 @@
 - [kth from last in linked list](Level-3/kth_from_last_in_linked_list.py): Find kth element from last of a singly linked list | O(n) | Level 3.
 - [Delete node from linked list](Level-2/delete_node_from_linked_list.py): Given only reference to an arbitary node of a linked list, delete that node | O(1) | Level 2.
 - [Reverse linked list](Level-3/reverse_linked_list.py): Reverse a linked list | O(n) | Level 3.
-- [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search traversal of directed graph | O(V + E) | Level 3.
+- [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
 - [Partitio linked list](Level-2/partition_linked_list.py): Partition 2 linked lists with respect to a given value | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in reverse order](Level-2/sum_of_linked_lists_reverse_order.py): Add 2 numbers stored in linked list in reverse order(12 is 2->1) | O(n) | Level 2.
@@ -119,7 +119,7 @@
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [LCA in binary tree](Level-4/lowest_common_ancestor_in_binary_tree.py): Find lowest common ancestor in binary tree | O(n) | Level 4.
 - [LCA in BST](Level-3/lowest_common_ancestor_in_binary_search_tree.py): Find lowest common ancestor in binary search tree | O(logn) | Level 3.
-- [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find startig node of loop | O(n) | Level 4.
+- [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find starting node of loop | O(n) | Level 4.
 - [Spiral matrix](Level-3/spiral_matrix.py): Given a number N, create matrix having values from 1 to N^2 in spiral form | O(N^2) | Level 3.
 - [Print matrix in spiral](Level-3/print_matrix_in_spiral.py): Given a matrix, print its elements in clockwise spiral form | O(MxN) | Level 3.
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.

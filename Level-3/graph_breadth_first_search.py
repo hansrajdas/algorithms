@@ -73,7 +73,7 @@ class Graph:
           else:
             pass  # Node already visited.
         else:
-          print '{0} - do not have any adjacent node'.format(node)
+          print '{0} - do not have any outgoing adjacent node'.format(node)
 
 
 g = Graph()
@@ -95,4 +95,4 @@ g.bfs(10)
 # 11
 # 12
 # 13
-# 14 - do not have any adjacent node
+# 14 - do not have any outgoing adjacent node
