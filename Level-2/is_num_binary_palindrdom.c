@@ -20,7 +20,7 @@ int main() {
   l = 1 << 31;
   r = 1;
   while (l > r) {
-    if ((a & l ? 1 : 0) != ( a & r ? 1 : 0)) {
+    if ((a & l ? 1 : 0) != (a & r ? 1 : 0)) {
       printf("Not palindrome\n");
       return -1;
     }
