@@ -1,7 +1,11 @@
 /*
  * Date: 2018-01-11
  *
- * Implementation: Uses DFS graph traversal approach.
+ * Description:
+ * Level order traversal of tree.
+ *
+ * Approach:
+ * Uses DFS traversal approach.
  * 1. Prints current node data.
  * 2. enqueue's both left and right child.
  * 3. dequeue a node from queue.
