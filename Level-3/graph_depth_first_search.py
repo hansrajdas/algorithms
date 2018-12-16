@@ -51,7 +51,7 @@ class Graph(object):
 
   def dfs_specific(self, start):
     """
-    Perfoms DFS traversal from a specific vertex - start .i.e will traverse
+    Performs DFS traversal from a specific vertex - start .i.e will traverse
     all vertexes reachable from start
     """
     print '\nTraversing vertexes reachable from {0}'.format(start)
@@ -59,7 +59,7 @@ class Graph(object):
     self.dfs_util(start, visited)
 
   def dfs_all(self):
-    """Perfoms DFS traversal such that all vertexes in a graph gets covered."""
+    """Performs DFS traversal such that all vertexes in a graph gets covered."""
 
     print '\nTraversing all vertexes'
     visited = {k: False for k in self.graph}
