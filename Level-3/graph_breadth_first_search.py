@@ -52,7 +52,7 @@ class Graph:
     current node, traverses its adjacency list and goes in the same fashion.
 
     Args:
-      start_ndoe: Start node for BFS traversal.
+      start_node: Start node for BFS traversal.
     """
 
     visited = {z: False for z in self.graph}
