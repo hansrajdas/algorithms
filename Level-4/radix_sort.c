@@ -18,11 +18,13 @@
  * Only for numbers as it is not comparison sort.
  *
  * Complexity:
- * Time
- *   O(d*(n + b)), n = number of elements, d = digits in max number,
-                   b = base in which number is represented, 10 for decimal.
- * Space
- *   O(n + b)
+ * Time:
+ * O(d*(n + b))
+ * n = number of elements, d = digits in max number,
+ * b = base in which number is represented, 10 for decimal.
+ *
+ * Space:
+ * O(n + b)
  */
 
 #include "stdio.h"
