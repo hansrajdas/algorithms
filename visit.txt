@@ -24,10 +24,6 @@ Level-2/generate_all_subsets_binary_method.py
 Level-2/pair_of_parens.py
 Level-2/is_happy_number.c
 Level-2/is_linked_list_palindrome.py
-Level-3/longest_palindrome_in_a_string.py
-Level-3/lowest_common_ancestor_in_binary_search_tree.py
-Level-3/spiral_matrix.py
-Level-3/print_matrix_in_spiral.py
 Level-2/is_prime.go
 
 Level-3/subarray_having_given_sum.c
@@ -46,7 +42,6 @@ Level-3/stock_buy_sell_max_profit.c
 Level-3/indx_of_0_for_max_1_seq.c
 Level-3/max_0s_in_array_after_subarray_flip_n.c
 Level-3/lru_cache.py
-Level-3/sum_of_linked_list_same_order.py
 Level-3/is_valid_bst.py
 Level-3/rotate_array.py
 Level-3/cycle_in_graph.py
@@ -83,6 +78,10 @@ Level-3/kth_from_last_in_linked_list.py
 Level-3/reverse_linked_list.py
 Level-3/graph_breadth_first_search.py
 Level-3/sum_of_linked_list_same_order.py
+Level-3/longest_palindrome_in_a_string.py
+Level-3/lowest_common_ancestor_in_binary_search_tree.py
+Level-3/spiral_matrix.py
+Level-3/print_matrix_in_spiral.py
 
 
 Level-3/trie_insert_search_delete.py
