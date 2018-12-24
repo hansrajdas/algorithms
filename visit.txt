@@ -1,15 +1,11 @@
-Level-2/inversion_of_3.c
-Level-2/majority_element_in_array.c
+# Start from line 179 - 
 Level-2/find_2_odd_occurring_numbers.c
-Level-2/num_of_merges_to_make_palindrome.c
-Level-2/max_contiguous_subarray_len.c
 Level-2/triplet_with_max_product.c
 Level-2/max_product_of_indx_diff_and_min.c
 Level-2/max_min_value_index_pair.c
 Level-2/num_of_rotations_to_maximize_sum.c
 Level-2/RGB_merging_min_count.c
 Level-2/count_strictly_increasing_subarrays.c
-Level-2/max_diff_btwn_2_elements.c
 Level-2/frequency_of_elements_without_space.c
 Level-2/steps_to_get_given_array.c
 Level-2/left_right_views_of_tree.py
@@ -25,6 +21,11 @@ Level-2/pair_of_parens.py
 Level-2/is_happy_number.c
 Level-2/is_linked_list_palindrome.py
 Level-2/is_prime.go
+Level-2/triplets_with_smaller_sum.c
+Level-2/num_of_merges_to_make_palindrome.c
+Level-2/max_diff_btwn_2_elements.c
+Level-2/max_contiguous_subarray_len.c
+Level-2/max_and_min_prod_of_subset.c
 
 Level-3/subarray_having_given_sum.c
 Level-3/smallest_positive_num_missing_O_1_space.c
@@ -82,6 +83,13 @@ Level-3/longest_palindrome_in_a_string.py
 Level-3/lowest_common_ancestor_in_binary_search_tree.py
 Level-3/spiral_matrix.py
 Level-3/print_matrix_in_spiral.py
+Level-3/graph_depth_first_search.py
+Level-3/cycle_in_graph.py
+Level-2/find_repeating_elements.c
+Level-2/inversion_of_3.c
+Level-2/majority_element_in_array.c
+Level-3/largest_sum_of_subarray.c
+Level-3/largest_sum_of_rotated_subarray.c
 
 
 Level-3/trie_insert_search_delete.py
