@@ -17,7 +17,7 @@
  * Approach:
  * As array elements are distinct, we can keep track of min and max for each
  * subarray and check if max - min = diff of last and first index of subarray,
- * it means that subarray can be arranged as contigous elements.
+ * it means that subarray can be arranged as contiguous elements.
  *
  * Complexity:
  * O(N^2)

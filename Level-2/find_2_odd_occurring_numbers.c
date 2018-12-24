@@ -11,7 +11,7 @@
  *   all even occurring numbers and will contain set bits only at positions
  *   where bit is set for only of the 2 numbers like 01^10 = 11, 111^100 = 011
  *
- * - Now we can first(LSB) set bit in consolidated XOR using:
+ * - Now we can find first(LSB) set bit in consolidated XOR using:
  *   xor & ~(xor - 1) like 6 = 110, set bit = 110 & ~(101) = 110 & 010 = 010
  *   which has second LSB as set and 6 also has first LSB set second position.
  *
