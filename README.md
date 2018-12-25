@@ -180,11 +180,11 @@
 - [Max subarray product, single traversal\*\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
 - [Triplet with max product](Level-2/triplet_with_max_product.c): Find triplet in array with max product | O(N) | Level 2.
 - [Max product - index diff and min](Level-2/max_product_of_indx_diff_and_min.c): Find max value of abs(i - j)\*MIN(a[i], a[j]) from unsorted array | O(N) | Level 2.
-- [Max product of increasing triplet](Level-3/max_prod_of_increasing_triplet.c): Find max product of increasing triplet from unsorted array | O(N^2) | Level 3.
+- [Max product of increasing triplet](Level-2/max_prod_of_increasing_triplet.c): Find max product of increasing triplet from unsorted array | O(N^2) | Level 3.
 - [Max min, value index pair](Level-2/max_min_value_index_pair.c): Find max value of (a[i] - i) - (a[j] - j) from an unsorted array | O(N) | Level 2.
 - [Min unique array sum](Level-2/min_unique_array_sum.py): Increment array elements until all elements become unique and find sum of all unique elements | O(N) | Level 2.
 - [Max K such that K elements >= K](Level-2/max_k_having_k_greater_elements.c): Find max k such that array has k elements greater than equal to k | O(N) | Level 2.
-- [Min subarray len, sum > X](Level-2/min_subarray_len_with_sum_greater_than_x.c): Min subarray len having sum greater than X | O(N) | Level 3.
+- [Min subarray len, sum > X](Level-2/min_subarray_len_with_sum_greater_than_x.c): Min subarray len having sum greater than X | O(N) | Level 2.
 - [Max sum with no elements adjacent](Level-3/max_sum_with_no_elements_adjacent.c): Find max sum with no 2 elements adjacent | O(N) | Level 3.
 - [Longest bitonic subsequence](Level-3/longest_bitonic_subsequence.c): Find longest bitonic subsequence in a array | O(N) | Level 3.
 - [Rotations to maximize sum(i\*a[i])](Level-2/num_of_rotations_to_maximize_sum.c): Find number of right rotations required to maximize sum(i\*a[i]) | O(N) | Level 2.
