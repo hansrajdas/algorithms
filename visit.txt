@@ -1,12 +1,9 @@
 Level-2/find_2_odd_occurring_numbers.c
 Level-2/frequency_of_elements_without_space.c
-Level-2/steps_to_get_given_array.c
-Level-2/left_right_views_of_tree.py
 Level-2/url_formatter.c
 Level-2/is_any_permutation_palindrome.c
 Level-2/are_two_strings_one_edit_away.c
 Level-2/string_compression.c
-Level-2/vertical_level_order_tree_traversal.py
 Level-2/flip_a_bit_to_get_max_seq_of_ones.c
 Level-2/swap_odd_even_bits.c
 Level-2/generate_all_subsets_binary_method.py
@@ -29,20 +26,20 @@ Level-2/count_strictly_increasing_subarrays.c
 Level-2/find_repeating_elements.c
 Level-2/inversion_of_3.c
 Level-2/majority_element_in_array.c
+Level-2/steps_to_get_given_array.c
+Level-2/max_0s_in_array_after_subarray_flip_n2.c
+Level-2/reverse_sentence.cc
+Level-2/is_tree_symmetric.py
+Level-2/find_tree_mirror.py
+Level-2/left_right_views_of_tree.py
+Level-2/tree_inorder_traversal_iterative.py
+Level-2/tree_preorder_traversal_iterative.py
+Level-2/vertical_level_order_tree_traversal.py
 
 Level-3/subarray_having_given_sum.c
 Level-3/smallest_positive_num_missing_O_1_space.c
 Level-3/largest_sum_of_rotated_subarray.c
 Level-3/maximize_index_diff.c
-Level-3/count_subarrays_with_even_sum.c
-Level-3/max_sum_path_of_2_sorted_arrays.c
-Level-3/min_distance_bw_2_nums_O_n.c
-Level-3/stock_buy_sell_max_profit.c
-Level-3/indx_of_0_for_max_1_seq.c
-Level-3/max_0s_in_array_after_subarray_flip_n.c
-Level-3/lru_cache.py
-Level-3/is_valid_bst.py
-Level-3/rotate_array.py
 Level-3/cycle_in_graph.py
 Level-3/bellman_ford.py
 Level-3/edit_distance.c
@@ -51,11 +48,9 @@ Level-3/find_2d_peak.c
 Level-3/rank_k_element_in_2_sorted_array_log_k.c
 Level-3/search_in_rotated_sorted_array.c
 Level-3/heap_sort_using_max_heap.c
-Level-3/knights_shortest_path.py
 Level-3/rotate_matrix.c
 Level-3/clear_matrix_rows_and_coulmns.c
 Level-3/LIS_O_nlogn.c
-Level-3/top_view_binary_tree.py
 Level-3/lowest_common_ancestor_in_binary_search_tree.py
 Level-3/draw_line.c
 Level-3/sorted_matrix_search.c
@@ -89,6 +84,17 @@ Level-3/max_subarray_product_2_traversal.c
 Level-3/max_subarray_product.c
 Level-3/max_sum_with_no_elements_adjacent.c
 Level-3/longest_bitonic_subsequence.c
+Level-3/count_subarrays_with_even_sum.c
+Level-3/max_sum_path_of_2_sorted_arrays.c
+Level-3/min_distance_bw_2_nums_O_n.c
+Level-3/stock_buy_sell_max_profit.c
+Level-3/indx_of_0_for_max_1_seq.c
+Level-3/max_0s_in_array_after_subarray_flip_n.c
+Level-3/lru_cache.py
+Level-3/is_valid_bst.py
+Level-3/rotate_array.py
+Level-3/knights_shortest_path.py
+Level-3/top_view_binary_tree.py
 
 
 Level-3/trie_insert_search_delete.py
