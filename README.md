@@ -218,3 +218,4 @@
 - [Vertical level order tree traversal](Level-2/vertical_level_order_tree_traversal.py): Perform vertical level order tree traversal | O(n) | Level 2.
 - [Top view of binary tree](Level-3/top_view_binary_tree.py): Print elements seen from top view of a binary tree | O(N) | Level 3.
 - [Bottom view of binary tree](Level-3/bottom_view_binary_tree.py): Print elements seen from bottom view of a binary tree | O(N) | Level 3.
+- [Tree nodes level by level](Level-2/print_tree_level_by_level.py): Print binary tree nodes level by level in separate lines | O(N) | Level 2.
