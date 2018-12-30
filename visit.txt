@@ -35,6 +35,7 @@ Level-2/left_right_views_of_tree.py
 Level-2/tree_inorder_traversal_iterative.py
 Level-2/tree_preorder_traversal_iterative.py
 Level-2/vertical_level_order_tree_traversal.py
+Level-2/print_tree_level_by_level.py
 
 Level-3/subarray_having_given_sum.c
 Level-3/smallest_positive_num_missing_O_1_space.c
