@@ -219,3 +219,4 @@
 - [Top view of binary tree](Level-3/top_view_binary_tree.py): Print elements seen from top view of a binary tree | O(N) | Level 3.
 - [Bottom view of binary tree](Level-3/bottom_view_binary_tree.py): Print elements seen from bottom view of a binary tree | O(N) | Level 3.
 - [Tree nodes level by level](Level-2/print_tree_level_by_level.py): Print binary tree nodes level by level in separate lines | O(N) | Level 2.
+- [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
