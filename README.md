@@ -222,3 +222,4 @@
 - [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
 - [Tree spiral level order](Level-3/tree_spiral_level_order.py): Print tree nodes in spiral level order | O(N) | Level 3.
 - [Find diameter(width) of tree](Level-2/diameter_of_tree.py): Find diameter(or max width) of a tree | O(N) | Level 2.
+- [Nodes with K distance from leaf](Level-3/tree_nodes_with_k_distance_from_leaf.py): Nodes with k distance from leaf in tree | O(N) | Level 3.
