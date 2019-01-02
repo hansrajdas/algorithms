@@ -10,11 +10,15 @@
  * ordering of positives and negatives but all positives/zeros and then
  * negatives.
  *
+ * This problem is originally adapted from sorting an array having 0s and 1s in
+ * single iteration.
+ *
  * Approach:
  * Take 2 pointers one at starting of array and pointing to end, keep on
  * comparing if there is a negative number at starting pointer, if found stop
  * there and scan from end towards start to check if there is an positive number
  * once found stop and swap 2 numbers.
+ *
  *
  * Complexity:
  * O(n)
