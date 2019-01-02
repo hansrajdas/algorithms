@@ -223,3 +223,4 @@
 - [Tree spiral level order](Level-3/tree_spiral_level_order.py): Print tree nodes in spiral level order | O(N) | Level 3.
 - [Find diameter(width) of tree](Level-2/diameter_of_tree.py): Find diameter(or max width) of a tree | O(N) | Level 2.
 - [Nodes with K distance from leaf](Level-3/tree_nodes_with_k_distance_from_leaf.py): Nodes with k distance from leaf in tree | O(N) | Level 3.
+- [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
