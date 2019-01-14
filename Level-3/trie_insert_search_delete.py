@@ -68,7 +68,7 @@ class Trie:
   """Implements trie with all basic operations."""
   def __init__(self):
     """Initializes a new trie."""
-    self.root = self.get_new_node();
+    self.root = self.get_new_node()
 
   def get_new_node(self):
     """Initializes a new trie node."""
