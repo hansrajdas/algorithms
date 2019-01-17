@@ -3,6 +3,8 @@
  *
  * Description:
  * Check if any permutation of a given string is palindrome or not.
+ *
+ * Approach:
  * For any string to become palindrome it can have at most one character which is
  * getting repeated odd number of times. Other characters must occur even number
  * of times. So using a bit vector, we can check odd occurrence of one character.
