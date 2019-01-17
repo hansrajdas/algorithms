@@ -6,9 +6,9 @@
  * Operations allowed in edits are inert, replace or delete a char.
  * Like 'abc' and 'ab", 'abc' and 'abd', 'ab' and 'abc'.
  *
- * Approach used to solve is consider insert and delete as same operation (by
- * keeping track of smaller string, if length not same) and checking
- * accordingly.
+ * Approach:
+ * Consider insert and delete as same operation(by keeping track of smaller
+ * string, if length not same) and checking accordingly.
  *
  * Complexity:
  * Time: O(n), Space: O(1)
