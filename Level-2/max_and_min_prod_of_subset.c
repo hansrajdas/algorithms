@@ -59,15 +59,13 @@ int main() {
   if (!num_of_negatives) {
     max_prod = prod_of_all;
     min_prod = is_zero_present ? 0 : min_positive;
-  }
-  else {
+  } else {
     if (0 > prod_of_all) {
-      max_prod = prod_of_all/(max_negative_num);
+      max_prod = prod_of_all/max_negative_num;
       min_prod = prod_of_all;
-    }
-    else {
+    } else {
       max_prod = prod_of_all;
-      min_prod = prod_of_all/(max_negative_num);
+      min_prod = prod_of_all/max_negative_num;
     }
   }
   printf("Max prod: %d\nMin prod: %d\n", max_prod, min_prod);

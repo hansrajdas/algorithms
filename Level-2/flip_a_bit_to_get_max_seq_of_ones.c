@@ -5,7 +5,7 @@
  * Given a number, flip a bit to get max sequence of 1s.
  *
  * Approach:
- * Scan from left to right and keep track of 0s and 1s. If current bit is 1
+ * Scan from LSB to MSB and keep track of 0s and 1s. If current bit is 1
  * increment length otherwise check one previous bit if it is 0 sequence can't
  * be combined (more than one 0 case). If previous bit is 1 set previous length
  * to current length.
