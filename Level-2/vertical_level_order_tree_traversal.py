@@ -12,8 +12,8 @@
 #
 # Approach: 
 # We can use horizontal level order traversal and keep track of horizontal
-# distance in deque itself. Whenever a pop a node from queue we do -1 if we have
-# a left child and +1 if we have right child while pushing in queue.
+# distance in deque itself. Whenever we push a node to queue we do -1 if it has
+# a left child and +1 if it has right child.
 #
 # Reference:
 # https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/

@@ -8,7 +8,10 @@
  * Find height of tree and traverse recursively printing left and right node
  * for each level starting from top(level 1).
  *
- * Complexity: worst case would be O(n^2), in case of skewed tree. 
+ * Complexity:
+ * Worst case would be O(n^2), in case of skewed tree.
+ *
+ * Refer: Level-2/level_order_tree_traversal_using_queue.c
  */
 
 typedef struct node {
