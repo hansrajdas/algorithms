@@ -31,7 +31,7 @@
  *    first: First character of new string.
  *    last: Last character of new string.
  *    prev_hash: Hash value of previous substring.
- *    d : 2^(m - 1), m is length of pattern string.
+ *    d: 2^(m - 1), m is length of pattern string.
  *    
  * Returns:
  *    New hash value.   
