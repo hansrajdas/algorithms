@@ -3,13 +3,13 @@
 # Date: 2017-12-30
 #
 # Description:
-# Find lenear topological order of a directed acyclic graph(DAG).
+# Find linear topological order of a directed acyclic graph(DAG).
 #
 # Approach:
 # Topological order of DAG is such that if in a graph there is a edge from
 # u to v then in topological order, u should be before v.
 # Topological sort is not possible if graph is not DAG.
-# Perfomed using DFS and stack.
+# Performed using DFS and stack.
 #
 # Applications: Used for dependent job scheduling like makefiles.
 #

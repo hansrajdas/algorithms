@@ -39,7 +39,7 @@ class Graph(object):
     """
 
     # As we are required to iterate over edges so it's better to keep edges as
-    # list instead of coventionaly way of adjacency list.
+    # list instead of coventional way of adjacency list.
     self.edges.append([src, dst, wgt])
     self.dist[src] = float("Inf")
     self.dist[dst] = float("Inf")
