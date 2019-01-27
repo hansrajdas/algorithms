@@ -5,9 +5,9 @@
 # Description:
 # Given a number N, form a matrix having numbers from 1 to N*N in spiral form.
 # N = 3
-# 123
-# 894
-# 765
+# 1 2 3
+# 8 9 4
+# 7 6 5
 #
 # N = 4
 # 01 02 03 04
@@ -26,7 +26,7 @@
 # compute new row, col. If row/col is not valid, we can use next direction.
 #
 # This can also be done used 4 loops for 4 directions like this:
-# Level-3/print_matrix_in_spiral.py
+# https://github.com/hansrajdas/algorithms/blob/master/Level-3/print_matrix_in_spiral.py
 #
 # Complexity:
 # O(N^2)
@@ -71,9 +71,8 @@ def create_spiral_matrix(n):
       direction = (direction + 1) % 4
       row += dr[direction]
       col += dc[direction]
-      
   return matrix
-    
+
 
 def main():
   n = input('Enter N: ')
