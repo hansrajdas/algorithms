@@ -12,7 +12,10 @@
 # according to the position of pivot.
 #
 # Reference:
-# https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+# Method 4: https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+#
+# Heap method is also given at above link which solves problem in
+# O(k + (n-k)logk) complexity in worst case.
 #
 # Complexity:
 # Average case - O(N)
