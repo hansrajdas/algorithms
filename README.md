@@ -226,3 +226,4 @@
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
 - [Kth largest number, Heap method](Level-2/find_kth_largest_num.py): Find Kth largest number from an unsorted array | O(k + (n-k)logk) | Level 2.
 - [Kth smallest number, QuickSort method](Level-3/find_kth_smallest_num.py): Find Kth smallest number from an unsorted array | O(N) | Level 3.
+- [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M\*N) | Level-3.
