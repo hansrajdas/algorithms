@@ -15,7 +15,7 @@
 # https://www.hackerrank.com/challenges/red-knights-shortest-path/problem
 #
 # Approach:
-# DFS can be used to find the shortest path from source to destination.
+# BFS can be used to find the shortest path from source to destination.
 # - A NxN matrix is used to store number of moves from source to that position.
 # - Coordinates of source is set to 0 and other positions with -1 to indicate
 #   it's reachable with infinite moves and will be updated as we uncover that
