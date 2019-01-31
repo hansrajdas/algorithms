@@ -227,3 +227,4 @@
 - [Kth largest number, Heap method](Level-2/find_kth_largest_num.py): Find Kth largest number from an unsorted array | O(k + (n-k)logk) | Level 2.
 - [Kth smallest number, QuickSort method](Level-3/find_kth_smallest_num.py): Find Kth smallest number from an unsorted array | O(N) | Level 3.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M\*N) | Level-3.
+- [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level-3.
