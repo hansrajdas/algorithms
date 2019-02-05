@@ -12,4 +12,5 @@ Level-3/knights_shortest_path.py
 Level-4/place_eight_queens.py
 Level-4/rabin_karp.c
 Level-4/lowest_common_ancestor_in_binary_tree.py
+Level-3/binary_tree_to_doubly_linked_list.py
 Level-4/node_with_k_distance_in_tree.py

@@ -230,3 +230,4 @@
 - [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N\*SUM) | Level 3.
 - [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level 3.
 - [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
+- [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
