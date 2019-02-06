@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Date: 2018-08-02
+# Date: 2019-02-05
 #
 # Description:
 # Given a rod of length n inches and an array of prices that contains prices of
@@ -21,7 +21,7 @@
 #
 # Complexity:
 # O(N^2)
-# N for recursion and for each call new function with new N, loop runs from
+# N for recursion and for each call to function with new N and loop runs from
 # 1 to N - 1 hence overall complexity comes out to be N^2
 
 def max_profit(prices, n, memo):
