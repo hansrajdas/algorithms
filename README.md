@@ -82,7 +82,6 @@
 - [Shortest winter days](Level-3/shortest_winter_days.c): Find shortest winter days from temperatures given in an array | O(n) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Min positive integer missing - O(1) space\*\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
-- [Season with max amplitude](Level-2/season_with_max_amplitude.py): Find season with max amplitude | O(n) | Level 2.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ignoring case | Level 1.
 - [Multiple of 4](Level-1/check_multiple_of_4.c): Check if a number of 4 or not | Level 1.
