@@ -68,9 +68,9 @@ def placeQueens(row, columns, results):
         placeQueens(row + 1, columns, results)
 
 def printQueenPositions(columns):
-  print '*****************************'
+  print ('*****************************')
   for idx in range(len(columns)):
-    print 'row={row}, col={col}'.format(row=idx, col=columns[idx])
+    print ('row={row}, col={col}'.format(row=idx, col=columns[idx]))
 
 def main():
   results = []
@@ -83,7 +83,7 @@ def main():
 
   for positions in results:
     printQueenPositions(positions)
-  print 'Total number of solutions: {count}'.format(count=len(results))
+  print ('Total number of solutions: {count}'.format(count=len(results)))
 
 
 if __name__ == '__main__':
