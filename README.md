@@ -7,7 +7,7 @@
 ###### Level 3: Hard
 ###### Level 4: Memory based
 
-#### **: If there multiple solutions for a given solution, go with this.
+#### **: If there are multiple solutions for a given solution, go with double star.
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
