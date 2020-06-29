@@ -61,7 +61,7 @@ def setsWithEqualSumPossible(A):
     for j in range(1, n + 1):
 
       # If sum i is possible with subset of element from A[0..j-2] then same sum
-      # is also possible with subsets of elements from A[0..j-1].
+      # is also possible with subsets of elements from A[0..j-1]
       dp[i][j] = dp[i][j - 1]
 
       # In case d[i][j] comes to be false and current element is less than
@@ -76,3 +76,7 @@ def setsWithEqualSumPossible(A):
 assert setsWithEqualSumPossible([3, 1, 1, 2, 2, 1]) == True  # 3,1,1 == 2,2,1
 assert setsWithEqualSumPossible([3, 1, 1, 2, 2, 10]) == False
 assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7]) == True
+assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setsWithEqualSumPossible([1, 10, 5, 21, 4]) == False
+assert setsWithEqualSumPossible([1, 10, 5, 21, 4, 1]) == True
