@@ -1,5 +1,5 @@
 /*
- * Date: 15-Nov-2017
+ * Date: 2017-11-15
  *
  * Description:
  * Implement AVL tree with insert and delete operations.
