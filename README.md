@@ -1,18 +1,13 @@
 # Algorithms in C and Python
+* All programs are categorized in level 1 to 4(1 being easiest and 4 being hardest)
 
 ## List of Algorithms
-
-###### Level 1: Easy
-###### Level 2: Medium
-###### Level 3: Hard
-###### Level 4: Memory based
-
-#### **: If there are multiple solutions for a given solution, go with double star.
+* If there are multiple solutions of same problem, go with star marked
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
-- [Level order tree traversal using queue\*\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
+- [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Edit distance](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
@@ -21,7 +16,7 @@
 - [Find 2-D peak](Level-3/find_2d_peak.c): Find 2-D peak from a 2-D array | Level 3.
 - [Find second largest number](Level-1/second_largest_in_array.c): Find second largest number from an array | Level 1.
 - [Find element with rank k](Level-1/rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 1.
-- [Find element with rank k - log(n)\*\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
+- [Find element with rank k - log(n)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Heap sort using max heap](Level-3/heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order.
 - [Heap sort using min heap](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order.
@@ -35,7 +30,7 @@
 - [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
 - [2 strings are rotations](Level-2/are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
 - [Longest increainng subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
-- [Longest increainng subsequence - O(nlogn)\*\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
+- [Longest increainng subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Binary representation](Level-1/binary_representation.c): Print binary representation of an integer | Level 1.
 - [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
 - [Decimal fraction to binary](Level-1/decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
@@ -55,19 +50,19 @@
 - [Search in sorted matrix](Level-3/sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 3.
 - [Rank from stream](Level-3/rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
-- [Peak and valley, O(n) method\*\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
+- [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 - [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](Level-3/robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](Level-3/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
 - [Find magic index](Level-2/magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
-- [Find magic index, duplicates allowed\*\*](Level-3/magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
+- [Find magic index, duplicates allowed\*](Level-3/magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
 - [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
-- [Generate all subsets, binary method\*\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
+- [Generate all subsets, binary method\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
 - [Multiply 2 integers](Level-3/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 3.
 - [Print fibonacci numbers](Level-1/fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
 - [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
-- [Compute all permutations - Unique chars\*\*](Level-4/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 4.
+- [Compute all permutations - Unique chars\*](Level-4/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 4.
 - [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | Level 4+.
 - [Pair of valid parens](Level-2/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(n * n!) | Level 2.
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(2^r * 2^c) | Level 2.
@@ -78,9 +73,9 @@
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Quick sort](Level-3/quick_sort.c): Implement quick sort(C) for array of random numbers | O(nlogn) | Level 3.
 - [Quick sort - python](Level-3/quick_sort.py): Implement quick sort(python) for array of random numbers | O(nlogn) | Level 3.
-- [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n\*k) | Level 3.
+- [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
-- [Min positive integer missing - O(1) space\*\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
+- [Min positive integer missing - O(1) space\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ignoring case | Level 1.
 - [Multiple of 4](Level-1/check_multiple_of_4.c): Check if a number of 4 or not | Level 1.
@@ -95,7 +90,7 @@
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
 - [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
 - [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
-- [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits\*(n + base)) | Level 4.
+- [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [Binary search tree](Level-2/binary_search_tree.c): BST insert, traverse, delete operations | Level 2.
 - [Binary search tree - python](Level-2/binary_search_tree.py): BST insert, traverse, delete operations | Level 2.
@@ -151,8 +146,8 @@
 - [Max average of len K](Level-2/max_average_of_len_k.c): Find sub array of len K having maximum average | O(N) | Level 2.
 - [Subarray having given sum](Level-3/subarray_having_given_sum.c): Find a sub array(positive numbers) having sum | O(N) | Level 3.
 - [Trie implementation](Level-3/trie_insert_search_delete.py): Implement trie and perform insert, search and delete operations | O(L) | Level 3.
-- [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE*N*L) | Level 3.
-- [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE*N*L) | Level 2.
+- [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE * N * L) | Level 3.
+- [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE * N * L) | Level 2.
 - [Trie, longest prefix matching](Level-2/trie_longest_prefix_matching.py): Given a string, find a word from trie which matches longest prefix | O(n) | Level 2.
 - [Pattern matching using suffix tries](Level-4/pattern_matching_using_suffix_tries.py): Implement suffix tries for pattern matching | O(m) | Level 4.
 - [Triplets in GP](Level-2/find_triplets_in_gp.c): Given a sorted array, print triplets in GP | O(N^2) | Level 2.
@@ -176,9 +171,9 @@
 - [Max product of subarray, size k](Level-2/max_product_of_subarray_size_k.c): Find max product of a subarray, size k | O(N) | Level 2.
 - [Max and min product of subset](Level-2/max_and_min_prod_of_subset.c): Find max and min product of subset in array | O(N) | Level 2.
 - [Max subarray product, 2 traversal](Level-3/max_subarray_product_2_traversal.c): Find max subarray product, 2 traversals used | O(N) | Level 3.
-- [Max subarray product, single traversal\*\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
+- [Max subarray product, single traversal\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
 - [Triplet with max product](Level-2/triplet_with_max_product.c): Find triplet in array with max product | O(N) | Level 2.
-- [Max product - index diff and min](Level-2/max_product_of_indx_diff_and_min.c): Find max value of abs(i - j)\*MIN(a[i], a[j]) from unsorted array | O(N) | Level 2.
+- [Max product - index diff and min](Level-2/max_product_of_indx_diff_and_min.c): Find max value of abs(i - j) * MIN(a[i], a[j]) from unsorted array | O(N) | Level 2.
 - [Max product of increasing triplet](Level-2/max_prod_of_increasing_triplet.c): Find max product of increasing triplet from unsorted array | O(N^2) | Level 3.
 - [Max min, value index pair](Level-2/max_min_value_index_pair.c): Find max value of (a[i] - i) - (a[j] - j) from an unsorted array | O(N) | Level 2.
 - [Min unique array sum](Level-2/min_unique_array_sum.py): Increment array elements until all elements become unique and find sum of all unique elements | O(N) | Level 2.
@@ -186,7 +181,7 @@
 - [Min subarray len, sum > X](Level-2/min_subarray_len_with_sum_greater_than_x.c): Min subarray len having sum greater than X | O(N) | Level 2.
 - [Max sum with no elements adjacent](Level-3/max_sum_with_no_elements_adjacent.c): Find max sum with no 2 elements adjacent | O(N) | Level 3.
 - [Longest bitonic subsequence](Level-3/longest_bitonic_subsequence.c): Find longest bitonic subsequence in a array | O(N) | Level 3.
-- [Rotations to maximize sum(i\*a[i])](Level-2/num_of_rotations_to_maximize_sum.c): Find number of right rotations required to maximize sum(i\*a[i]) | O(N) | Level 2.
+- [Rotations to maximize sum(i * a[i])](Level-2/num_of_rotations_to_maximize_sum.c): Find number of right rotations required to maximize sum(i * a[i]) | O(N) | Level 2.
 - [RGB merging, get min count](Level-2/RGB_merging_min_count.c): Array has RGBs, merge different element and get min elements left O(N) | Level 2.
 - [Count strictly increasing subarrays](Level-2/count_strictly_increasing_subarrays.c): Count the number of strictly increasing subarrays possible | O(N) | Level 2.
 - [Count subarrays with even sum](Level-3/count_subarrays_with_even_sum.c): Given an unsorted array, count the number of subarrays with even sum | O(N) | Level 3.
@@ -195,10 +190,10 @@
 - [Min distance between 2 elements - O(N^2)](Level-2/min_distance_bw_2_nums_O_n2.c): Find min distance 2 elements in unsorted array | O(N^2) | Level 2.
 - [Min distance between 2 elements - O(N)](Level-3/min_distance_bw_2_nums_O_n.c): Find min distance 2 elements in unsorted array | O(N) | Level 3.
 - [Stock buy sell to maximize profit](Level-3/stock_buy_sell_max_profit.c): Given stock prices, find days to buy and sell so that profit can be maximized | O(N) | Level 3.
-- [Merge 2 sorted arrays as contiguous sorted](Level-4/merge_2_sorted_array_as_contigous_sorted.c): Given 2 sorted arrays, merge them as contiguous sorted arrays | O(M\*N) | Level 4.
-- [Steps to get given array](Level-2/steps_to_get_given_array.c): Find the number of steps required to get given array from all 0s array | O(K\*N) | Level 2.
+- [Merge 2 sorted arrays as contiguous sorted](Level-4/merge_2_sorted_array_as_contigous_sorted.c): Given 2 sorted arrays, merge them as contiguous sorted arrays | O(M * N) | Level 4.
+- [Steps to get given array](Level-2/steps_to_get_given_array.c): Find the number of steps required to get given array from all 0s array | O(K * N) | Level 2.
 - [Index of 0 flipped to get max 1 seq](Level-3/indx_of_0_for_max_1_seq.c): Find the index of 0 to be changed to 1 to get max 1s sequence | O(N) | Level 3.
-- [Max sum after k negations](Level-2/max_sum_after_k_negations.c): Find max sum of array elements after k negations | O(K\*N) | Level 2.
+- [Max sum after k negations](Level-2/max_sum_after_k_negations.c): Find max sum of array elements after k negations | O(K * N) | Level 2.
 - [Max 0s after flipping subarray - O(N^2)](Level-2/max_0s_in_array_after_subarray_flip_n2.c): Find max 0s in binary array after flipping a subarray | O(N^2) | Level 2.
 - [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
 - [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
@@ -225,8 +220,8 @@
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
 - [Kth largest number, Heap method](Level-2/find_kth_largest_num.py): Find Kth largest number from an unsorted array | O(k + (n-k)logk) | Level 2.
 - [Kth smallest number, QuickSort method](Level-3/find_kth_smallest_num.py): Find Kth smallest number from an unsorted array | O(N) | Level 3.
-- [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M\*N) | Level 3.
-- [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N\*SUM) | Level 3.
+- [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
+- [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
 - [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level 3.
 - [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
 - [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
