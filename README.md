@@ -92,7 +92,7 @@
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [Binary search tree](Level-2/binary_search_tree.c): BST insert, traverse, delete operations | Level 2.
 - [Binary search tree - python](Level-2/binary_search_tree.py): BST insert, traverse, delete operations | Level 2.
-- [AVL trees](Level-4/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 4.
+- [AVL trees](Level-3/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 3.
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
 - [Linked list in python](Level-1/linked_list.py): Implement linked list in python.
 - [Remove duplicates from linked list](Level-2/remove_duplicates_from_linked_list.py): Remove duplicates from a linked list | O(n) time and space | Level 2.
