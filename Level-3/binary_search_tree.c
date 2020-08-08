@@ -1,5 +1,5 @@
 /*
- * Date: 07-Nov-2017
+ * Date: 2017-11-07
  *
  * Description:
  * - Insert in Binary search tree(BST)
@@ -106,7 +106,6 @@ node* search(node *root, int k) {
 node* find_min_element_in_bst(node *node) {
   while (node->left != NULL)
     node = node->left;
-
   return node;
 }
 
@@ -142,6 +141,7 @@ node* delete(node *root, int key) {
       root->right = delete(root->right, tmp->key);
     }
   }
+  return root;
 }
 
 int main() {
