@@ -2,8 +2,6 @@
 * All programs are categorized in level 1 to 4(1 being easiest and 4 being hardest)
 
 ## List of Algorithms
-* If there are multiple solutions of same problem, go with star marked
-
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
