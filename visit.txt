@@ -38,6 +38,3 @@ Level-2/vertical_level_order_tree_traversal.py
 Level-2/print_tree_level_by_level.py
 Level-2/diameter_of_tree.py
 Level-2/sort_array_of_0s_1s_and_2s.py
-
-Level-3/*
-Level-4/*
