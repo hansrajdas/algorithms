@@ -227,3 +227,4 @@
 - [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
 - [Cut rod to have max profit](Level-3/cut_rod_to_max_profit.py): Find max profit obtainable by cutting up the rod and selling the pieces | O(N^2) | Level 3.
 - [Max product, rope cutting](Level-3/max_product_cutting.py): Find max product obtained by cutting rope of different sizes | O(N^2) | Level 3.
+- [Custom split string](Level-2/custom_split.py): Split string with substrings enclosed in quotes as single | O(N) | Level 2.
