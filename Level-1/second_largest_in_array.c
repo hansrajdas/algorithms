@@ -1,7 +1,8 @@
 /*
  * Date: 2017-01-27
  *
- * Description: Find second largest number from a unsorted array.
+ * Description:
+ * Find second largest number from a unsorted array of positive numbers.
  *
  * Complexity: O(n)
  */
