@@ -13,7 +13,8 @@
 - [Find 1-D peak](Level-2/find_peak_element.c): Find 1-D peak from an array | Level 2.
 - [Find 2-D peak](Level-3/find_2d_peak.c): Find 2-D peak from a 2-D array | Level 3.
 - [Find second largest number](Level-1/second_largest_in_array.c): Find second largest number from an array | Level 1.
-- [Find element with rank k](Level-1/rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 1.
+- [Find element with rank k](Level-2/rank_k_element_in_2_sorted_array_O_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 1.
+- [Find element with rank k - python](Level-2/rank_k_element_in_2_sorted_arrays_O_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 2.
 - [Find element with rank k - log(n)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Heap sort using max heap](Level-3/heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order.
