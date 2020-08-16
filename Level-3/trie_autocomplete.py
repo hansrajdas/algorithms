@@ -77,7 +77,7 @@ class Trie:
   def suggestions_rec(self, curr_root, curr_prefix):
     # If current prefix itself is a complete word, print it.
     if curr_root.is_end_of_word:
-      print curr_prefix
+      print(curr_prefix)
 
     # If no children below this node, no more suggestions possible
     if curr_root.is_leaf_node():
@@ -91,7 +91,7 @@ class Trie:
  
   def print_auto_suggestions(self, query):
     """Prints suggestions for a given query string."""
-    print '\nSuggestions for query string {QUERY!r} are:'.format(QUERY=query)
+    print('\nSuggestions for query string {QUERY!r} are:'.format(QUERY=query))
 
     # Scan query string and search if this is present in trie or not, if this
     # query is not present then can't be any suggestions for given query.
@@ -99,7 +99,7 @@ class Trie:
     for ch in query:
       index = self._char_to_array_index(ch)
       if not ptr.children[index]:
-        print 'No suggestions found'
+        print('No suggestions found')
         return -1
 
       ptr = ptr.children[index]
