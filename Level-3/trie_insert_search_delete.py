@@ -114,7 +114,7 @@ class Trie:
       length: Length of key.
     """
     if not curr_node:
-      print 'Deletion failed, {KEY!r} not found'.format(KEY=key)
+      print('Deletion failed, %r not found' % key)
       return None
 
     # We have found key in trie
@@ -122,7 +122,7 @@ class Trie:
       # If this is end of word, mark that false as we have to delete this key
       # so can't be end of word now
       if curr_node.is_end_of_word:
-        print '{KEY!r} found, deleting'.format(KEY=key)
+        print('%r found, deleting' % key)
         curr_node.is_end_of_word = False
 
       # If this is a leaf node, have no children - this should be deleted
@@ -154,20 +154,20 @@ def main():
     trie.insert(word)
 
   # Search
-  print '\nSearching words...'
-  print trie.search('by')  # True
-  print trie.search('ans')  # False
-  print trie.search('the')  # True
-  print trie.search('there')  # True
-  print trie.search('abs')  # False
-  print trie.search('a')  # True
+  print('\nSearching words...')
+  print(trie.search('by'))  # True
+  print(trie.search('ans'))  # False
+  print(trie.search('the'))  # True
+  print(trie.search('there'))  # True
+  print(trie.search('abs'))  # False
+  print(trie.search('a'))  # True
 
   # Delete
-  print '\nDeleting words...'
+  print('\nDeleting words...')
   trie.delete('Hello')  # Deletion failed, Hello not found
 
   trie.delete('by')
-  print trie.search('by')  # False
+  print(trie.search('by'))  # False
 
   trie.delete('by')  # Deletion failed, 'by' not found
 
