@@ -9,7 +9,7 @@
  *
  * Approach:
  * Scan string from right to left and take its 4 LSB bits(this will give us
- * integer part as '0' is 0x30 and 4 LSB would be 0 and so on for others).
+ * integer part, as '0' is 0x30 and 4 LSB would be 0 and so on for others).
  * Multiply existing result by 10 so that it gets shifted left by 1 place and
  * current digit at 0s place.
  *
