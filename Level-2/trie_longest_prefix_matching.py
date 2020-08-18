@@ -104,13 +104,13 @@ def main():
   for word in words:
     trie.insert(word)
 
-  print trie.longest_prefix_matched('are')  # are
-  print trie.longest_prefix_matched('arex')  # are
-  print trie.longest_prefix_matched('caterer')  # cater
-  print trie.longest_prefix_matched('basemexy')  # base
-  print trie.longest_prefix_matched('child')  # None
-  print trie.longest_prefix_matched('basement')  # basement
-  print trie.longest_prefix_matched('xyz')  # None
+  print(trie.longest_prefix_matched('are'))  # are
+  print(trie.longest_prefix_matched('arex'))  # are
+  print(trie.longest_prefix_matched('caterer'))  # cater
+  print(trie.longest_prefix_matched('basemexy'))  # base
+  print(trie.longest_prefix_matched('child'))  # None
+  print(trie.longest_prefix_matched('basement'))  # basement
+  print(trie.longest_prefix_matched('xyz'))  # None
 
 
 if __name__ == '__main__':
