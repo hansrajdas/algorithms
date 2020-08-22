@@ -62,6 +62,9 @@ class SuffixTrieNode:
 
     Args:
       pattern: Pattern string to be searched.
+
+    Returns:
+      List of indices where pattern ends in given string.
     """
 
     # If all characters in pattern is processed, return.
@@ -89,15 +92,15 @@ class SuffixTrie:
   def search(self, pattern):
     """Prints all occurrences of pattern in suffix trie."""
 
-    # Get list of indexes where pattern is present in text.
+    # Get list of indexes where pattern ends in text
     indexes = self.root.search(pattern)  # search() of SuffixTrieNode
 
     if indexes is None:
       print('Pattern %r not found' % pattern)
       return None
-    for idx in indexes:
-      print('Pattern %r found at position: %d' % (pattern,
-                                                  (idx - len(pattern))))
+
+    indices = ', '.join(str(i - len(pattern)) for i in indexes)
+    print('Pattern %r found at position: %s' % (pattern, indices))
 
 
 def main():
@@ -107,6 +110,7 @@ def main():
   suffix_trie.search('quiz')
   suffix_trie.search('forgeeks')
   suffix_trie.search('from geek')
+  suffix_trie.search('org')
 
 
 if __name__ == '__main__':
