@@ -5,7 +5,7 @@
  * Given 2 strings s1 and s2, check if string s2 is rotation of s1 or not.
  *
  * Approach:
- * If string s2 is rotation of s1 then, s2 must be substring of s1 + s2.
+ * If string s2 is rotation of s1 then, s2 must be substring of s1 + s1.
  *
  * Complexity:
  * Time: O(n), Space: O(n), n = length of string.
