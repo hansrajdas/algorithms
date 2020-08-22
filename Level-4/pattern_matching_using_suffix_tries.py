@@ -93,19 +93,20 @@ class SuffixTrie:
     indexes = self.root.search(pattern)  # search() of SuffixTrieNode
 
     if indexes is None:
-      print 'Pattern {PAT!r} not found'.format(PAT=pattern)
-    else:
-      for idx in indexes:
-        print 'Pattern {PAT!r} found at position: {POS}'.format(
-          PAT=pattern, POS=(idx - len(pattern)))
+      print('Pattern %r not found' % pattern)
+      return None
+    for idx in indexes:
+      print('Pattern %r found at position: %d' % (pattern,
+                                                  (idx - len(pattern))))
 
 
 def main():
-  suffix_trie = SuffixTrie('geeksforgeeks.org')
+  suffix_trie = SuffixTrie('This is from geeksforgeeks.org')
   suffix_trie.search('ee')
   suffix_trie.search('geek')
   suffix_trie.search('quiz')
   suffix_trie.search('forgeeks')
+  suffix_trie.search('from geek')
 
 
 if __name__ == '__main__':
