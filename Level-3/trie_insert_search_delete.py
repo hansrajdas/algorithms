@@ -41,7 +41,15 @@
 # ALPHABET_SET - Size of alphabet set, 26 if trie has all lower case chars
 # N - Number of words in trie
 # L - Length of a word
-
+#
+# Limitation:
+# This trie is useful in searching words separated with delimeter like
+# dictionary where each word is independent of each other. In cases where full
+# text search is required in a document this is not useful. We can use suffix
+# tries for that.
+#
+# Another problem is lot of memory is wasted in tries(in suffix tris also), to
+# reduce that, we can use compressed tries.
 
 ALPHABET_SIZE = 26
 
