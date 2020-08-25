@@ -73,7 +73,7 @@ int main() {
   print_array(a, n, "Min-heap");
 
   // Sort in descending order.
-  for (i = n - 1; i >=0; i--) {
+  for (i = n - 1; i > 0; i--) {
     swap(&a[0], &a[i]);
     min_heapify(a, i, 0);
   }

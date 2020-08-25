@@ -42,7 +42,7 @@ def heap_sort(A):
         min_heapify(A, len(A), i)
 
     # Sort in descending order
-    for i in range(len(A) - 1, -1, -1):
+    for i in range(len(A) - 1, 0, -1):
         A[0], A[i] = A[i], A[0]  # Swap first and last element
         min_heapify(A, i, 0)  # Min heapify w.r.t first element
 
