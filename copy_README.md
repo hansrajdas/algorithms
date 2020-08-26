@@ -195,7 +195,6 @@
 - [Find diameter(width) of tree](Level-2/diameter_of_tree.py): Find diameter(or max width) of a tree | O(N) | Level 2.
 - [Nodes with K distance from leaf](Level-3/tree_nodes_with_k_distance_from_leaf.py): Nodes with k distance from leaf in tree | O(N) | Level 3.
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
-- [Kth largest number, Heap method](Level-2/find_kth_largest_num.py): Find Kth largest number from an unsorted array | O(k + (n-k)logk) | Level 2.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
 - [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
 - [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level 3.
