@@ -70,7 +70,6 @@
 - [Clear both elements](Level-1/unset_both.c): Clear both array elements having at least a 0 and 1 | Level 1.
 - [Binary palindrom](Level-2/is_num_binary_palindrdom.c): Check if a numbers binary representation is palindrome or not | Level 1.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
-- [Modified fibonacci](Level-1/modified_fibonacci.py): ######### File header pending ############# | Level 1.
 - [Next word in dictionary](Level-2/next_word_in_dictionary.py): ########### File header pending ########## | Level 2.
 - [Find log(n)](Level-1/find_log_n.c): Write one liner program to find log(n) with some base | O(n/b) | Level 1
 - [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
@@ -78,7 +77,6 @@
 - [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
 - [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
-- [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [AVL trees](Level-3/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 3.
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
 - [Linked list in python](Level-1/linked_list.py): Implement linked list in python.

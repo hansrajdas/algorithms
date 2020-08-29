@@ -93,6 +93,7 @@
 - [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
+- [Merge sort - python](Level-3/merge_sort.c): Implement merge sort in python | O(nlogn) | Level 3.
 - [Binary search tree](Level-2/binary_search_tree.c): BST insert, traverse, delete operations | Level 2.
 - [Binary search tree - python](Level-2/binary_search_tree.py): BST insert, traverse, delete operations | Level 2.
 - [AVL trees](Level-3/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 3.
