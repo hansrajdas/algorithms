@@ -11,13 +11,14 @@
  * Problem:
  * As k increases and dominates over n, both time and space complexity
  * increases. Like if k = n^2 then complexity of this algorithm becomes O(n^2).
- * To solve this problem radix sort is used.
+ * In such cases radix sort can be used.
  *
  * Reference:
  * https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
  *
  * Complexity:
- * O(n + k)
+ * Time - O(n + k)
+ * Space - O(k)
  */
 
 #include "stdio.h"
