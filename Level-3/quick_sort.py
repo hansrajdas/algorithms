@@ -36,6 +36,13 @@ def quick_sort(A, low, high):
         quick_sort(A, pivot_idx + 1, high)
 
 
-A = [2, 3, 10, 5, 6, 1, 3, 9]
-quick_sort(A, 0, len(A) - 1)
-print(A)
+def sort(A):
+    quick_sort(A, 0, len(A) - 1)
+    return A  # To verify assert, otherwise A passed is sorted - inplace sorting
+
+assert sort([2, 3, 10, 5, 6, 1, 3, 9]) == [1, 2, 3, 3, 5, 6, 9, 10]
+assert sort([3, 4, 5, 2, 1]) == [1, 2, 3, 4, 5]
+assert sort([3, 4, 5, 2, 1, 6]) == [1, 2, 3, 4, 5, 6]
+assert sort([]) == []
+assert sort([1]) == [1]
+assert sort([2, 1]) == [1, 2]
