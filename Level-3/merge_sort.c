@@ -9,7 +9,8 @@
  * This is done recursively until all array elements are sorted.
  *
  * Complexity:
- * O(nlogn)
+ * Time - O(nlogn)
+ * Space - O(n)
  */
 
 #include "stdio.h"
