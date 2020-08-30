@@ -6,35 +6,48 @@
 # Implement bubble sort.
 #
 # Approach:
-# Compares adjacent elements and pushes to it's required extreme. Here while
+# Compares adjacent elements and pushes to it's required extreme. While
 # sorting in ascending order largest element reaches at last place after first
-# iteration of outer loop.
+# iteration of outer loop. Vice versa for descending.
 #
 # Complexity:
 # O(n^2)
 
 
-def main():
-    a = []
-    n = input ("Enter number of elements: ")
-    for i in range (n):
-        x = input ("Enter value of a[%d]: " % i)
-        a.append(x)
-
-    for i in range(n):
+def bubble_sort_ascending(A):
+    for i in range(len(A)):
         swap_flag = False;
-        for j in range(0, n - 1 - i, 1):
-            if (a[j] > a[j + 1]):
-                a[j], a[j+1] = a[j+1], a[j]
+        for j in range(0, len(A) - 1 - i, 1):
+            if (A[j] > A[j + 1]):
+                A[j], A[j + 1] = A[j + 1], A[j]
                 swap_flag = True;
 
         if not swap_flag:
             break
 
-    # Print sorted array
-    for i in range(n):
-        print a[i]
+def bubble_sort_descending(A):
+    i = 0
+    while i < len(A):
+        j = 1
+        has_swap = False
+        while j < len(A) - i:
+            if A[j - 1] < A[j]:
+                has_swap = True
+                A[j - 1], A[j] = A[j], A[j - 1]
+            j += 1
+        i += 1
+        if not has_swap:
+            break
+
+def sort(A):
+    B = A[:]
+    bubble_sort_ascending(A)
+    bubble_sort_descending(B)
+    return (A, B)
 
 
-if __name__ == '__main__':
-  main()
+assert sort([3, 4, 5, 2, 1]) == ([1, 2, 3, 4, 5], [5, 4, 3, 2, 1])
+assert sort([3, 4, 5, 2, 1, 6]) == ([1, 2, 3, 4, 5, 6], [6, 5, 4, 3, 2, 1])
+assert sort([]) == ([], [])
+assert sort([1]) == ([1], [1])
+assert sort([2, 1]) == ([1, 2], [2, 1])
