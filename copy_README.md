@@ -68,7 +68,6 @@
 - [Binary palindrom](Level-2/is_num_binary_palindrdom.c): Check if a numbers binary representation is palindrome or not | Level 1.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
 - [Find log(n)](Level-1/find_log_n.c): Write one liner program to find log(n) with some base | O(n/b) | Level 1
-- [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
 - [AVL trees](Level-3/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 3.
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
