@@ -84,8 +84,7 @@
 - [Clear both elements](Level-1/unset_both.c): Clear both array elements having at least a 0 and 1 | Level 1.
 - [Binary palindrom](Level-2/is_num_binary_palindrdom.c): Check if a numbers binary representation is palindrome or not | Level 1.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
-- [Modified fibonacci](Level-1/modified_fibonacci.py): ######### File header pending ############# | Level 1.
-- [Next word in dictionary](Level-2/next_word_in_dictionary.py): ########### File header pending ########## | Level 2.
+- [Next word in dictionary](Level-2/next_word_in_dictionary.py): Given a string, find next dictionary word | Level 2.
 - [Find log(n)](Level-1/find_log_n.c): Write one liner program to find log(n) with some base | O(n/b) | Level 1
 - [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
