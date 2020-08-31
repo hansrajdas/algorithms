@@ -7,7 +7,7 @@
  * Approach:
  * It is application of counting sort, as range of input element(k) becomes
  * larger radix sort is still able sort the array with O(n) complexity.
- * This sorts on basis of number places that is first starts from least
+ * This sorts on basis of number places, that is first starts from least
  * significant digit and then moves to most significant. When sorting is done
  * for all digit places final array is sorted.
  *
@@ -57,9 +57,9 @@ void count_sort(int a[], int n, int place) {
     count[(a[i]/place)%10]++;
 
   // This count is used to keep the numbers in order as per the order of input
-  // elements. Like if place = 1 and array is [2, 200, 100, 30] so 200 should
-  // appear first then 100 then 30 then 2 as 200 was ahead of 100 and 30 in
-  // original array.
+  // elements - stable sorting. Like if place = 1 and array is
+  // [2, 200, 100, 30] so 200 should appear first then 100 then 30 then 2 as
+  // 200 was ahead of 100 and 30 in original array.
   for (i = 1; i < 10; i++)
     count[i] += count[i - 1];
 
