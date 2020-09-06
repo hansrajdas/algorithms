@@ -2,6 +2,29 @@
 * All programs are categorized in level 1 to 4(1 being easiest)
 
 ## List of Algorithms
+### Sorting
+- [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
+- [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
+- [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
+- [Heap sort using max heap](Level-3/heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order | Level 3.
+- [Heap sort using max heap - python](Level-3/heap_sort_using_max_heap.py): Build a max heap and sort array in ascending order | Level 3.
+- [Heap sort using min heap](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order | Level 3.
+- [Heap sort using min heap - python](Level-3/heap_sort_using_min_heap.py): Build a min heap and sort array in descending order | Level 3.
+- [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
+- [Merge sort - python](Level-3/merge_sort.c): Implement merge sort in python | O(nlogn) | Level 3.
+- [Quick sort](Level-3/quick_sort.c): Implement quick sort(C) for array of random numbers | O(nlogn) | Level 3.
+- [Quick sort - python](Level-3/quick_sort.py): Implement quick sort(python) for array of random numbers | O(nlogn) | Level 3.
+- [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
+- [Counting sort - python](Level-2/counting_sort.py): Implement count sort in python | O(n + k) | Level 2.
+- [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
+
+### Trie
+- [Trie implementation](Level-3/trie_insert_search_delete.py): Implement trie and perform insert, search and delete operations | O(L) | Level 3.
+- [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE * N * L) | Level 3.
+- [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE * N * L) | Level 2.
+- [Trie, longest prefix matching](Level-2/trie_longest_prefix_matching.py): Given a string, find a word from trie which matches longest prefix | O(n) | Level 2.
+- [Pattern matching using suffix tries](Level-3/pattern_matching_using_suffix_tries.py): Implement suffix tries for pattern matching | O(m) | Level 3.
+
 ### Graphs
 - [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
@@ -23,10 +46,6 @@
 - [Find element with rank k - python](Level-2/rank_k_element_in_2_sorted_arrays_O_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 2.
 - [Find element with rank k - log(n)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
-- [Heap sort using max heap](Level-3/heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order | Level 3.
-- [Heap sort using max heap - python](Level-3/heap_sort_using_max_heap.py): Build a max heap and sort array in ascending order | Level 3.
-- [Heap sort using min heap](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order | Level 3.
-- [Heap sort using min heap - python](Level-3/heap_sort_using_min_heap.py): Build a min heap and sort array in descending order | Level 3.
 - [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
 - [2 strings are permutations](Level-2/strings_permutation_check.c): Check if 2 strings are permutations of each other or not | Level 2.
 - [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
@@ -78,8 +97,6 @@
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
-- [Quick sort](Level-3/quick_sort.c): Implement quick sort(C) for array of random numbers | O(nlogn) | Level 3.
-- [Quick sort - python](Level-3/quick_sort.py): Implement quick sort(python) for array of random numbers | O(nlogn) | Level 3.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Min positive integer missing - O(1) space\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
@@ -92,14 +109,6 @@
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
 - [Next word in dictionary](Level-2/next_word_in_dictionary.py): Given a string, find next dictionary word | Level 2.
 - [Find log(n)](Level-1/find_log_n.c): Write one liner program to find log(n) with some base | O(n/b) | Level 1
-- [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
-- [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
-- [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
-- [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
-- [Counting sort - python](Level-2/counting_sort.py): Implement count sort in python | O(n + k) | Level 2.
-- [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
-- [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
-- [Merge sort - python](Level-3/merge_sort.c): Implement merge sort in python | O(nlogn) | Level 3.
 - [Binary search tree](Level-2/binary_search_tree.c): BST insert, traverse, delete operations | Level 2.
 - [Binary search tree - python](Level-2/binary_search_tree.py): BST insert, traverse, delete operations | Level 2.
 - [AVL trees](Level-3/avl_balanced_tree.c): Implement AVL balanced trees - Insert, delete, search | Level 3.
@@ -152,11 +161,6 @@
 - [Sorted subsequence of size 3, O(1) space](Level-4/sorted_subsequence_of_size_3_without_space.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time | Level 4.
 - [Max average of len K](Level-2/max_average_of_len_k.c): Find sub array of len K having maximum average | O(N) | Level 2.
 - [Subarray having given sum](Level-3/subarray_having_given_sum.c): Find a sub array(positive numbers) having sum | O(N) | Level 3.
-- [Trie implementation](Level-3/trie_insert_search_delete.py): Implement trie and perform insert, search and delete operations | O(L) | Level 3.
-- [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE * N * L) | Level 3.
-- [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE * N * L) | Level 2.
-- [Trie, longest prefix matching](Level-2/trie_longest_prefix_matching.py): Given a string, find a word from trie which matches longest prefix | O(n) | Level 2.
-- [Pattern matching using suffix tries](Level-3/pattern_matching_using_suffix_tries.py): Implement suffix tries for pattern matching | O(m) | Level 3.
 - [Triplets in GP](Level-2/find_triplets_in_gp.c): Given a sorted array, print triplets in GP | O(N^2) | Level 2.
 - [ASCII to int](Level-2/atoi_using_bitwise.c): Given an ascii string convert it to integer, atoi conversion | O(N) | Level 2.
 - [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
