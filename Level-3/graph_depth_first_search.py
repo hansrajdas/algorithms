@@ -37,7 +37,7 @@ class Graph(object):
 
   def dfs_util(self, current_vertex, visited):
     """Utility function for DFS from some current vertex"""
-    print current_vertex
+    print(current_vertex)
     visited[current_vertex] = True
 
     for x in self.graph[current_vertex]:
@@ -47,28 +47,27 @@ class Graph(object):
         else:
           pass
       else:
-          print '{0} - dont have any adjacent vertex'.format(x)
+          print('{0} - dont have any adjacent vertex'.format(x))
 
   def dfs_specific(self, start):
     """
     Performs DFS traversal from a specific vertex - start .i.e will traverse
     all vertexes reachable from start
     """
-    print '\nTraversing vertexes reachable from {0}'.format(start)
+    print('\nTraversing vertexes reachable from {0}'.format(start))
     visited = {v : False for v in self.graph}
     self.dfs_util(start, visited)
 
   def dfs_all(self):
     """Performs DFS traversal such that all vertexes in a graph gets covered."""
 
-    print '\nTraversing all vertexes'
+    print('\nTraversing all vertexes')
     visited = {k: False for k in self.graph}
 
     for k in self.graph:
       if not visited[k]:
         self.dfs_util(k, visited)
-      else:
-        pass
+
 
 g = Graph()
 g.add_edge(10, 11)
