@@ -1,10 +1,14 @@
 ## List of Algorithms
-- [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
 - [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
-- [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
-- [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
+- [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
+- [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
+- [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
+
+- [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
+- [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
+- [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Edit distance](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Find 1-D peak](Level-2/find_peak_element.c): Find 1-D peak from an array | Level 2.
@@ -74,7 +78,6 @@
 - [kth from last in linked list](Level-3/kth_from_last_in_linked_list.py): Find kth element from last of a singly linked list | O(n) | Level 3.
 - [Delete node from linked list](Level-2/delete_node_from_linked_list.py): Given only reference to an arbitary node of a linked list, delete that node | O(1) | Level 2.
 - [Reverse linked list](Level-3/reverse_linked_list.py): Reverse a linked list | O(n) | Level 3.
-- [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
 - [Partitio linked list](Level-2/partition_linked_list.py): Partition 2 linked lists with respect to a given value | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in reverse order](Level-2/sum_of_linked_lists_reverse_order.py): Add 2 numbers stored in linked list in reverse order(12 is 2->1) | O(n) | Level 2.
@@ -95,8 +98,6 @@
 - [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
-- [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
-- [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
 - [Connections in matrix](Level-2/connections_in_matrix.py): Count possible connections in matrix of 0s and 1s | O(MxN) | Level 2.
 - [Next power of 2](Level-1/next_pow_of_2.c): Find next power of 2 for a given number | Level 1.
