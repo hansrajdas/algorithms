@@ -55,25 +55,20 @@ class Graph:
       start_node: Start node for BFS traversal.
     """
 
-    visited = {z: False for z in self.graph}
-    queue = []
+    visited = set()
+    queue = collections.deque()
     queue.append(start_node)
 
     while queue:
-      current_node = queue.pop(0)
+      current_node = queue.popleft()
       print(current_node)
 
-      visited[current_node] = True
+      visited.add(current_node)
 
       for node in self.graph[current_node]:
-        if node in visited:
-          if not visited[node]:
+        if node not in visited:
             queue.append(node)
-            visited[node] = True
-          else:
-            pass  # Node already visited.
-        else:
-          print('%d - do not have any outgoing adjacent node' % node)
+            visited.add(node)
 
 
 g = Graph()
