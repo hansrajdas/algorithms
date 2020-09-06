@@ -61,19 +61,19 @@ class Graph:
 
     while queue:
       current_node = queue.pop(0)
-      print current_node
+      print(current_node)
 
       visited[current_node] = True
 
       for node in self.graph[current_node]:
-        if visited.has_key(node):
+        if node in visited:
           if not visited[node]:
             queue.append(node)
             visited[node] = True
           else:
             pass  # Node already visited.
         else:
-          print '{0} - do not have any outgoing adjacent node'.format(node)
+          print('%d - do not have any outgoing adjacent node' % node)
 
 
 g = Graph()
