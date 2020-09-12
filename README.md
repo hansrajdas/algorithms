@@ -29,7 +29,7 @@
 - [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
-- [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
+- [Topological sort](Level-3/topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS | O(V + E) | Level 3.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
