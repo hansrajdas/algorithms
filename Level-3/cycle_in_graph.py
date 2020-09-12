@@ -9,9 +9,9 @@
 # - Graph has cycle if it contains a back edge(there is some other path which
 #   reaches to the same vertex from a source vertex).
 # - This uses DFS approach to find back edge.
-# - This is implemented for directed graph, for undirected graph we just have to
-#   edge corresponding to each edge(for each edge u to v there should be an
-#   edge from v to u)
+# - This is implemented for directed graph, for undirected graph we just have
+#   to add an edge corresponding to each edge(for each edge u to v there should
+#   be an edge from v to u)
 #
 # Reference:
 # https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
@@ -52,8 +52,8 @@ class Graph(object):
       visited = {k: False for k in self.graph}
       has_cycle = self.cycle_wrt_vertex(k, visited)
       if has_cycle:
-        print 'Graph has cycle!'
-        print 'Has a back edge with ancestor node - {0}'.format(k)
+        print('Graph has cycle!')
+        print('Has a back edge with ancestor node - {0}'.format(k))
         break
 
 
