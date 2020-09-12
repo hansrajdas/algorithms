@@ -1,7 +1,5 @@
 ## List of Algorithms
-- [Topological sort](topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS.
 - [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
-- [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
