@@ -37,16 +37,11 @@ class Graph(object):
     
     visited[current_node] = True
     for adjacent_vertex in self.graph[current_node]:
-      if self.graph.has_key(adjacent_vertex):
-        if not visited[adjacent_vertex]:
+      if self.graph.has_key(adjacent_vertex) and not visited[adjacent_vertex]:
           self.topological_sort_util(adjacent_vertex, visited, stack)
-        else:
-          pass
       else:
           if adjacent_vertex not in stack:
             stack.append(adjacent_vertex)
-          else:
-            pass
     stack.append(current_node)
 
   def topological_sort(self):
@@ -61,7 +56,7 @@ class Graph(object):
         self.topological_sort_util(vertex, visited, stack)
 
     stack.reverse()
-    print stack
+    print(stack)
 
 
 g = Graph()
