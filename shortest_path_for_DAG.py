@@ -9,7 +9,7 @@
 # 
 # Idea is to first sort graph in topological order with respect to source vertex
 # and then update the weights based on previous weights. If current weight(from
-# source) for a vertex v is more than a vertex weight(s, u) + weight(u, v) then
+# source) to vertex v is more than vertex weight(s, u) + weight(u, v) then
 # update weight(from source) of v as weight(s, u) + weight(u, v).
 #
 # Reference:
@@ -41,8 +41,8 @@ class Graph(object):
     """ 
 
     self.graph[u].append((v, w))
-    self.dist[u] = float("Inf")
-    self.dist[v] = float("Inf")
+    self.dist[u] = float('Inf')
+    self.dist[v] = float('Inf')
 
   def toplogical_sort(self, source, visited, stack):
     """Updates stack with topological order w.r.t source vertex.
@@ -72,24 +72,25 @@ class Graph(object):
     stack = [] # To store topological order.
 
     if self.graph.has_key(s):
-      # Find topological order.
       visited = {v: False for v in self.graph.keys()}
-      self.toplogical_sort(s, visited, stack)
+      self.toplogical_sort(s, visited, stack)  # Find topological order
     else:
-      print "None of the vertex is reachable from {}, so  no shortest path".format(s)
+      print('None of the vertex is reachable from %d, so no shortest path' % s)
+      return None
 
-    stack.reverse() # Get correct topological order.
+    stack.reverse() # Get correct topological order
 
-    # Source node is at 0 distance/weight.
+    # Source node is at 0 distance/weight
     self.dist[s] = 0
     for u in stack:
       for v, w in self.graph[u]:
         if self.dist[v] > self.dist[u] + w:
           self.dist[v] = self.dist[u] + w
 
-    print "\nVertex and distance"
-    for n in self.dist:
-      print "Vertex: {} Distance: {}".format(n, self.dist[n])
+    print('\nVertex and distance')
+    for u in self.dist:
+      print('Vertex: %d Distance: %s' % (u, self.dist[u]))
+
 
 g = Graph()
 g.add_edge(1, 2, 3)
@@ -97,8 +98,17 @@ g.add_edge(1, 3, 4)
 g.add_edge(2, 3, 4)
 g.add_edge(4, 3, 4)
 g.add_edge(5, 3, 4)
+g.shortest_path(3)
+# None of the vertex is reachable from 3, so no shortest path
+
 g.shortest_path(1)
-del g
+# Vertex and distance
+# Vertex: 1 Distance: 0
+# Vertex: 2 Distance: 3
+# Vertex: 3 Distance: 4
+# Vertex: 4 Distance: inf
+# Vertex: 5 Distance: inf
+
 g = Graph()
 g.add_edge(0, 1, 5)
 g.add_edge(0, 2, 3)
@@ -110,15 +120,6 @@ g.add_edge(2, 3, 7)
 g.add_edge(3, 4, -1)
 g.add_edge(4, 5, -2)
 g.shortest_path(1)
-
-# Output:
-# Vertex and distance
-# Vertex: 1 Distance: 0
-# Vertex: 2 Distance: 3
-# Vertex: 3 Distance: 4
-# Vertex: 4 Distance: inf
-# Vertex: 5 Distance: inf
-# 
 # Vertex and distance
 # Vertex: 0 Distance: inf
 # Vertex: 1 Distance: 0
