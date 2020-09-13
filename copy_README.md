@@ -1,5 +1,4 @@
 ## List of Algorithms
-- [Shortest path of DAG](shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E).
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
 - [Karatsuba algo](karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo.
