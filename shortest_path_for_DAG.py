@@ -54,12 +54,12 @@ class Graph(object):
     """
 
     visited[source] = True
-    for adjacent in self.graph[source]:
-      if self.graph.has_key(adjacent[0]) and (not visited[adjacent[0]]):
-        self.toplogical_sort(adjacent[0], visited, stack)
+    for adjacent, weight in self.graph[source]:
+      if self.graph.has_key(adjacent) and (not visited[adjacent]):
+        self.toplogical_sort(adjacent, visited, stack)
       else:
-        if adjacent[0] not in stack:
-          stack.append(adjacent[0])
+        if adjacent not in stack:
+          stack.append(adjacent)
     stack.append(source)
 
   def shortest_path(self, s):
@@ -75,7 +75,7 @@ class Graph(object):
       visited = {v: False for v in self.graph.keys()}
       self.toplogical_sort(s, visited, stack)  # Find topological order
     else:
-      print('None of the vertex is reachable from %d, so no shortest path' % s)
+      print('No outgoing edge from %d' % s)
       return None
 
     stack.reverse() # Get correct topological order
@@ -99,7 +99,7 @@ g.add_edge(2, 3, 4)
 g.add_edge(4, 3, 4)
 g.add_edge(5, 3, 4)
 g.shortest_path(3)
-# None of the vertex is reachable from 3, so no shortest path
+# No outgoing edge from: 3
 
 g.shortest_path(1)
 # Vertex and distance
