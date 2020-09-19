@@ -70,7 +70,7 @@
 - [Knapsack problem - Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
-- [Sorted search, no size](Level-1/search_in_infinite_sorted_array.c): Search an element from an infinite sized (size of array not given) sorted array | O(log(p)) | Level 1.
+- [Sorted search, no size](Level-2/search_in_infinite_sorted_array.c): Search an element from an infinite sized(size of array not given) sorted array | O(log(p)) | Level 2.
 - [Search in sparse array](Level-2/search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
 - [Find all duplicates in array](Level-2/find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
 - [Search in sorted matrix](Level-3/sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 3.
