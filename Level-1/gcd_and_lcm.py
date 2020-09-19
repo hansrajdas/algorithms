@@ -10,14 +10,14 @@ def gcd(a, b):
 
 
 def main():
-  a = input('Enter first number: ')
-  b = input('Enter second number: ')
+  a = int(input('Enter first number: '))
+  b = int(input('Enter second number: '))
   
   g = gcd(a, b)
-  print 'GCD is: %d' % g
+  print('GCD is: %d' % g)
 
   l = (a * b) / g  # Because a*b = lcm*hcf
-  print 'LCM is: %d' % l
+  print('LCM is: %d' % l)
 
 
 if __name__ == '__main__':
