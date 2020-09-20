@@ -1,5 +1,5 @@
 /*
- * Date: 25-Nov-2017
+ * Date: 2017-11-25
  *
  * Description:
  * Find a peak element from an array. Peak is any element in array which is not
@@ -44,13 +44,9 @@ int find_peak(int a[], int n)
       break;
     }
     else if (mid != n - 1 && a[mid] < a[mid + 1])
-    {
       low = mid + 1;
-    }
     else
-    {
       high = mid - 1;
-    }
   }
   return peak;
 }
