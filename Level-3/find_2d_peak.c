@@ -1,5 +1,5 @@
 /*
- * Date: 25-Nov-2017
+ * Date: 2017-11-25
  *
  * Description:
  * Find 2D peak element in a matrix. An element is a 2D peak if it is not
@@ -71,13 +71,9 @@ int main()
       break;
     }
     else if (mid != 0 && max_in_col <= a[row_idx][mid - 1])
-    {
       high = mid - 1;
-    }
     else
-    {
       low = mid + 1;
-    }
   }
   printf("2-D peak is: %d\n", peak);
   return 0;
