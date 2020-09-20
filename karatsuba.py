@@ -60,7 +60,7 @@ def karatsuba(x, y):
   return (a*(10**(m*2)) + e*(10**m) + d)
 
 
-num_1 = raw_input("Enter first number: ")
-num_2 = raw_input("Enter second number: ")
+num_1 = input("Enter first number: ")
+num_2 = input("Enter second number: ")
 
-print (karatsuba(int(num_1), int(num_2)))
+print(karatsuba(int(num_1), int(num_2)))
