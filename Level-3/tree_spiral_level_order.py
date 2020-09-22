@@ -64,7 +64,12 @@ def main():
   #       1
   #   2       3
   # 7    6 5      4
-  print_spiral_order(root)  # 1 2 3 4 5 6 7
+  print_spiral_order(root)
+  # Output
+  # --------
+  # 1
+  # 2 3
+  # 4 5 6 7
 
 
 if __name__ == '__main__':
