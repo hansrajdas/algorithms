@@ -37,7 +37,8 @@
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
 - [Level order tree traversal](Level-2/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 2.
 - [Level order tree traversal - python](Level-2/level_order_tree_traversal.py): Level order traversal of a tree | O(n^2) | Level 2.
-- [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
+- [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) time and space | Level 2.
+- [Level order tree traversal using queue - python\*](Level-2/level_order_tree_traversal_using_queue.py): Level order traversal of a tree using queue | O(n) time and space | Level 2.
 - [Edit distance](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Find 1-D peak](Level-2/find_peak_element.c): Find 1-D peak from an array | Level 2.
