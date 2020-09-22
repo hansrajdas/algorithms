@@ -33,19 +33,22 @@ def print_spiral_order(root):
   while s1 or s2:
     while s1:
       node = s1.pop()
-      print node.data,
+      print(node.data, end=' ')
       if node.right:
         s2.append(node.right)
       if node.left:
         s2.append(node.left)
+    print()
 
     while s2:
       node = s2.pop()
-      print node.data,
+      print(node.data, end=' ')
       if node.left:
         s1.append(node.left)
       if node.right:
         s1.append(node.right)
+    print()
+
 
 def main():
   root = Node(1)
