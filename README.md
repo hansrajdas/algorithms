@@ -35,7 +35,7 @@
 
 ### Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
-- [Level order tree traversal](Level-3/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 3.
+- [Level order tree traversal](Level-2/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 2.
 - [Level order tree traversal - python](Level-2/level_order_tree_traversal.py): Level order traversal of a tree | O(n^2) | Level 2.
 - [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) solution, requires extra space to manage queue | O(n) time and space | Level 2.
 - [Edit distance](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
