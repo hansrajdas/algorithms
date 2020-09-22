@@ -1,18 +1,22 @@
-#include "stdio.h"
-#include "stdlib.h"
-
 /*
  * Date: 2018-01-07
  *
- * Implementation:
+ * Dessciption:
+ * Print level order traversal of binary tree
+ *
+ * Description:
  * Find height of tree and traverse recursively printing left and right node
  * for each level starting from top(level 1).
  *
  * Complexity:
- * Worst case would be O(n^2), in case of skewed tree.
+ * Time: Worst case would be O(n^2), in case of skewed tree.
+ * Space: O(1)
  *
  * Refer: Level-2/level_order_tree_traversal_using_queue.c
  */
+
+#include "stdio.h"
+#include "stdlib.h"
 
 typedef struct node {
   int data;
