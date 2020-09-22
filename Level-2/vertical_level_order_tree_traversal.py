@@ -49,7 +49,7 @@ class BST:
     elif root.k < k:
       root.right = self.insert(root.right, k)
     else:
-      print 'Duplicates not allowed in BST'
+      print('Duplicates not allowed in BST')
       return root
 
     return root
@@ -57,7 +57,7 @@ class BST:
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print root.k
+      print(root.k)
       self.inorder(root.right)
 
   def vertical_level_order(self):
@@ -82,7 +82,7 @@ class BST:
 
     # Print nodes in vertical order
     for k in sorted(level_order.keys()):
-      print 'Level: %d, Values: %s' % (k, level_order[k])
+      print('Level: %d, Values: %s' % (k, level_order[k]))
 
 
 def main():
@@ -91,10 +91,10 @@ def main():
   for i in items:
     bst.root = bst.insert(bst.root, i)
 
-  print 'Inorder traversal...'
+  print('Inorder traversal...')
   bst.inorder(bst.root)
 
-  print '\nVertical level order traversal...'
+  print('\nVertical level order traversal...')
   bst.vertical_level_order()
 
 
