@@ -36,14 +36,14 @@ def insert(root, k):
     elif root.k < k:
         root.right = insert(root.right, k)
     else:
-        print 'Duplicate node: ', k
+        print('Duplicate node: %d' % k)
         return root
     return root
 
 def inorder(root):
     if root:
         inorder(root.left)
-        print root.k,
+        print(root.k, end=' ')
         inorder(root.right)
 
 def print_tree_level_by_level(root):
@@ -53,13 +53,13 @@ def print_tree_level_by_level(root):
         count = len(Q)
         while count:
             node = Q.popleft()
-            print node.k,
+            print(node.k, end=' ')
             if node.left:
                 Q.append(node.left)
             if node.right:
                 Q.append(node.right)
             count -= 1
-        print ''
+        print()
 
 
 def main():
@@ -78,10 +78,10 @@ def main():
   bst.root = insert(bst.root, 10)
   bst.root = insert(bst.root, 1)
 
-  print 'Inorder traversal: '
+  print('Inorder traversal:')
   inorder(bst.root)  # 1 3 4 5 6 8 10
 
-  print '\n\nNodes level by level: '
+  print('\n\nNodes level by level:')
   print_tree_level_by_level(bst.root)
 
 if __name__ == '__main__':
