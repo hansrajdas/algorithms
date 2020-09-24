@@ -26,7 +26,7 @@ class Tree:
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print root.data,
+      print(root.data, end=' ')
       self.inorder(root.right)
 
   def find_mirror(self, root):
@@ -50,13 +50,14 @@ def main():
   t.root.left.right = Node(6)
   t.root.right.left = Node(7)
 
-  print 'Inorder traversal of tree: '
+  print('Inorder traversal of tree: ')
   t.inorder(t.root)  # 4 2 6 1 7 3 5
 
   t.find_mirror(t.root)
   
-  print '\nMirror image of above tree: '
+  print('\nMirror image of above tree: ')
   t.inorder(t.root)  # 5 3 7 1 6 2 4
+  print()
 
 
 if __name__ == '__main__':
