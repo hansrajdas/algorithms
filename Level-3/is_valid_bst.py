@@ -3,7 +3,7 @@
 # Date: 2018-11-11
 #
 # Description:
-# Check if a given BST is valid or not.
+# Check if given binary tree is valid BST or not.
 #
 # Approach:
 # We can't just compare 3 values root.data, left.data and right.data as it may
@@ -47,13 +47,13 @@ class BST:
     elif data > root.data:
       root.right = self.insert(root.right, data)
     else:
-      print 'Duplicate node - %d' % data
+      print('Duplicate node - %d' % data)
     return root
 
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print root.data
+      print(root.data)
       self.inorder(root.right)
 
   def is_valid_bst(self, root, _min, _max):
@@ -79,7 +79,7 @@ def main():
   valid.root = valid.insert(valid.root, 30)
 
   valid.inorder(valid.root)
-  print valid.is_valid_bst(valid.root, -sys.maxint, sys.maxint)  # True
+  print(valid.is_valid_bst(valid.root, -sys.maxint, sys.maxint))  # True
 
   # Invalid BST
   invalid = BST()
@@ -91,7 +91,7 @@ def main():
   # root - 10
   invalid.root.left.right = Node(12)
 
-  print valid.is_valid_bst(invalid.root, -sys.maxint, sys.maxint)  # False
+  print(valid.is_valid_bst(invalid.root, -sys.maxint, sys.maxint))  # False
 
 
 if __name__ == '__main__':
