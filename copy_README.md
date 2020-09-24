@@ -139,12 +139,12 @@
 - [Is symmetric tree](Level-2/is_tree_symmetric.py): Check if a given tree is symmetric/self mirror image or not | O(N) | Level 2.
 - [Find mirror image](Level-2/find_tree_mirror.py): Find mirror image of a given binary tree | O(N) | Level 2.
 - [Left and right views of tree](Level-2/left_right_views_of_tree.py): Print left and right views of binary tree | O(N) | Level 2.
+- [Top view of binary tree](Level-3/top_view_binary_tree.py): Print elements seen from top view of a binary tree | O(N) | Level 3.
+- [Bottom view of binary tree](Level-3/bottom_view_binary_tree.py): Print elements seen from bottom view of a binary tree | O(N) | Level 3.
 - [Left/right rotate array](Level-3/rotate_array.py): Rotate array left or right by given number of times | O(N) | Level 3.
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
 - [Tree inorder iterative](Level-2/tree_inorder_traversal_iterative.py): Tree inorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
 - [Tree preorder iterative](Level-2/tree_preorder_traversal_iterative.py): Tree preorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
-- [Top view of binary tree](Level-3/top_view_binary_tree.py): Print elements seen from top view of a binary tree | O(N) | Level 3.
-- [Bottom view of binary tree](Level-3/bottom_view_binary_tree.py): Print elements seen from bottom view of a binary tree | O(N) | Level 3.
 - [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
 - [Find diameter(width) of tree](Level-2/diameter_of_tree.py): Find diameter(or max width) of a tree | O(N) | Level 2.
 - [Nodes with K distance from leaf](Level-3/tree_nodes_with_k_distance_from_leaf.py): Nodes with k distance from leaf in tree | O(N) | Level 3.
