@@ -52,7 +52,7 @@ def main():
   t.root.left.right = Node(2)
   t.root.right.left = Node(2)
 
-  print t.is_tree_symmetric()  # True
+  print(t.is_tree_symmetric())  # True
 
   ## Case 2
   t = Tree()
@@ -63,7 +63,7 @@ def main():
   t.root.right.right = Node(1)
   t.root.left.right = Node(2)
 
-  print t.is_tree_symmetric()  # False
+  print(t.is_tree_symmetric())  # False
 
 if __name__ == '__main__':
   main()
