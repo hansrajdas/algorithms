@@ -33,14 +33,14 @@ def left_view_util(root, level, max_level):
     return None
 
   if level > max_level[0]:
-    print root.data
+    print(root.data)
     max_level[0] = level
 
   left_view_util(root.left, level + 1, max_level)
   left_view_util(root.right, level + 1, max_level)
 
 def left_view(root):
-  print 'Left view: '
+  print('Left view: ')
   max_level = [0]  # Need a mutable datatype so using list with 1 element
   return left_view_util(root, 1, max_level)
 
@@ -49,14 +49,14 @@ def right_view_util(root, level, max_level):
     return None
 
   if level > max_level[0]:
-    print root.data
+    print(root.data)
     max_level[0] = level
 
   right_view_util(root.right, level + 1, max_level)
   right_view_util(root.left, level + 1, max_level)
 
 def right_view(root):
-  print 'Right view: '
+  print('Right view: ')
   max_level = [0]  # Need a mutable datatype so using list with 1 element
   return right_view_util(root, 1, max_level)
 
