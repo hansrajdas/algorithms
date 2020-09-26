@@ -82,7 +82,8 @@
 - [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](Level-3/robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
-- [Tree level with max width](Level-3/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
+- [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
+- [Tree level with max width - python](Level-2/level_with_max_width.py): Find tree level having max width/nodes | O(n) | Level 2.
 - [Find magic index](Level-2/magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
 - [Find magic index, duplicates allowed\*](Level-3/magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
 - [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
