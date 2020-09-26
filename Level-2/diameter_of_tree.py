@@ -31,10 +31,10 @@ def height(root, diameter):
   """
   if root is None:
     return 0
-  hLeft = height(root.left, diameter)
-  hRight = height(root.right, diameter)
-  diameter[0] = max(diameter[0], 1 + hLeft + hRight)
-  return 1 + max(hLeft, hRight)
+  h_left = height(root.left, diameter)
+  h_right = height(root.right, diameter)
+  diameter[0] = max(diameter[0], 1 + h_left + h_right)
+  return 1 + max(h_left, h_right)
 
 def main():
   root = Node(1)
@@ -52,7 +52,7 @@ def main():
   #   2       3
   # 7    6 5      4
   h = height(root, diameter)
-  print 'Diameter: %d' % diameter[0]  # Diameter: 5
+  print('Diameter: %d' % diameter[0])  # Diameter: 5
 
 
 if __name__ == '__main__':
