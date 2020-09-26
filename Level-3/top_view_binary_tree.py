@@ -94,20 +94,7 @@ if __name__ == '__main__':
   main()
 
 
-# Output:
-# -----------
-# Inorder traversal...
-# 2
-# 3
-# 5
-# 8
-# 10
-# 12
-# 16
-#
-# Top view of binary tree...
-# 2
-# 5
-# 10
-# 12
-# 16
+# Output
+# ------
+# Inorder traversal: 2 3 5 8 10 12 16
+# Top view of binary tree: 2 5 10 12 16
