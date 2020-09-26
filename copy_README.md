@@ -32,7 +32,6 @@
 - [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](Level-3/robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
-- [Tree level with max width](Level-3/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 3.
 - [Find magic index](Level-2/magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
 - [Find magic index, duplicates allowed\*](Level-3/magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
 - [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
@@ -142,12 +141,12 @@
 - [Tree preorder iterative](Level-2/tree_preorder_traversal_iterative.py): Tree preorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
 - [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
 - [Nodes with K distance from leaf](Level-3/tree_nodes_with_k_distance_from_leaf.py): Nodes with k distance from leaf in tree | O(N) | Level 3.
+- [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a binary search tree | O(K) | Level 3.
+- [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
 - [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
-- [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a binary search tree | O(K) | Level 3.
 - [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
-- [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
 - [Cut rod to have max profit](Level-3/cut_rod_to_max_profit.py): Find max profit obtainable by cutting up the rod and selling the pieces | O(N^2) | Level 3.
 - [Max product, rope cutting](Level-3/max_product_cutting.py): Find max product obtained by cutting rope of different sizes | O(N^2) | Level 3.
 
