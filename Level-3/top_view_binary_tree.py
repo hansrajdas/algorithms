@@ -54,7 +54,7 @@ class BST:
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print(root.k)
+      print(root.k, end=' ')
       self.inorder(root.right)
 
 def top_view(root):
@@ -62,12 +62,9 @@ def top_view(root):
   hd = 0  # Horizontal distance
   q = collections.deque([(root, hd)])
   while q:
-    node_tuple = q.popleft()
-    node = node_tuple[0]
-    hd = node_tuple[1]
+    node, hd = q.popleft()
     if hd not in mp:  # this is the first node in level order
-        # print node_tuple[0].k,
-        mp[hd] = node_tuple[0].k
+        mp[hd] = node.k
 
     if node.left:
         q.append((node.left, hd - 1))
@@ -77,7 +74,8 @@ def top_view(root):
 
   # Print in vertical distance wise
   for k in sorted(mp.keys()):
-      print(mp[k])
+      print(mp[k], end=' ')
+  print()
 
 def main():
   bst = BST()
@@ -85,10 +83,10 @@ def main():
   for i in items:
     bst.root = bst.insert(bst.root, i)
 
-  print('Inorder traversal...')
+  print('Inorder traversal:', end=' ')
   bst.inorder(bst.root)
 
-  print('\nTop view of binary tree...')
+  print('\nTop view of binary tree:', end=' ')
   top_view(bst.root)
 
 
