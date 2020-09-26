@@ -46,7 +46,7 @@ class BST:
     elif root.k < k:
       root.right = self.insert(root.right, k)
     else:
-      print 'Duplicates not allowed in BST'
+      print('Duplicates not allowed in BST')
       return root
 
     return root
@@ -54,7 +54,7 @@ class BST:
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print root.k
+      print(root.k)
       self.inorder(root.right)
 
 def top_view(root):
@@ -77,7 +77,7 @@ def top_view(root):
 
   # Print in vertical distance wise
   for k in sorted(mp.keys()):
-      print mp[k]
+      print(mp[k])
 
 def main():
   bst = BST()
@@ -85,10 +85,10 @@ def main():
   for i in items:
     bst.root = bst.insert(bst.root, i)
 
-  print 'Inorder traversal...'
+  print('Inorder traversal...')
   bst.inorder(bst.root)
 
-  print '\nTop view of binary tree...'
+  print('\nTop view of binary tree...')
   top_view(bst.root)
 
 
