@@ -32,6 +32,7 @@ Level-2/reverse_sentence.cc
 Level-2/is_tree_symmetric.py
 Level-2/find_tree_mirror.py
 Level-2/left_right_views_of_tree.py
+Level-2/top_view_binary_tree.py
 Level-2/tree_inorder_traversal_iterative.py
 Level-2/tree_preorder_traversal_iterative.py
 Level-2/vertical_level_order_tree_traversal.py
