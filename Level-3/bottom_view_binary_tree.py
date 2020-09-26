@@ -62,11 +62,9 @@ def bottom_view(root):
   hd = 0  # Horizontal distance
   q = collections.deque([(root, hd)])
   while q:
-    node_tuple = q.popleft()
-    node = node_tuple[0]
-    hd = node_tuple[1]
+    node, hd = q.popleft()
 
-    mp[hd] = node_tuple[0].k  # Keep on updating till last node in level order
+    mp[hd] = node.k  # Keep on updating till last node in level order
 
     if node.left:
         q.append((node.left, hd - 1))
