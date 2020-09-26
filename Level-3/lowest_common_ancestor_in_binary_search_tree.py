@@ -54,9 +54,9 @@ def main():
 
   lca = tree.find_lca(3, 7)
   if lca:
-    print 'Found, key: %d, id: %d' % (lca.key, id(lca))
+    print('Found, key: %d, id: %d' % (lca.key, id(lca)))
   else:
-    print 'One of the 2 nodes not found in tree'
+    print('One of the 2 nodes not found in tree')
 
 
 if __name__ == '__main__':
