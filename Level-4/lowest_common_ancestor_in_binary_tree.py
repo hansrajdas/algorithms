@@ -54,7 +54,7 @@ class BinaryTree:
       return lca_left
 
   def find(self, root, k):
-    """Searches a key in binary tree rooted with root."""
+    """Searches for a key in binary tree rooted with `root`."""
     if root is None:
       return False
     elif root.key == k or self.find(root.left, k) or self.find(root.right, k):
@@ -63,7 +63,7 @@ class BinaryTree:
       return False
 
   def find_lca(self, n1, n2):
-    """Finds and returns LCA for n1 and n2."""
+    """Returns LCA of n1 and n2."""
     found = {n1: False, n2: False}
     lca = self.find_lca_util(self.root, n1, n2, found)
 
@@ -94,9 +94,9 @@ def main():
 
   lca = tree.find_lca(3, 5)
   if lca:
-    print 'Found, key: %d, id: %d' % (lca.key, id(lca))
+    print('Found, key: %d, id: %d' % (lca.key, id(lca)))
   else:
-    print 'One of the 2 nodes not found in tree'
+    print('One of the 2 nodes not found in tree')
 
 
 if __name__ == '__main__':
