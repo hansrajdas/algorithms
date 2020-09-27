@@ -35,8 +35,8 @@ class Node:
 
 def BTtoDLL(root, head):
   """Converts a binary tree with given root pointer to doubly linked list."""
-  if not root:
-    return root
+  if root is None:
+    return None
 
   BTtoDLL(root.right, head)
   root.right = head[0]
@@ -49,18 +49,18 @@ def BTtoDLL(root, head):
 def inorder(root):
   if root:
     inorder(root.left)
-    print root.data,
+    print(root.data, end=' ')
     inorder(root.right)
 
 
 def print_dll(head):
-  print '\nDLL traversal, forward:',
+  print('\nDLL traversal, forward:', end=' ')
   p = head
   while p:
-    print p.data,
+    print(p.data, end=' ')
     p = p.right
 
-  print '\nDLL traversal, backward:',
+  print('\nDLL traversal, backward:', end=' ')
   # Move pointer to end
   p = head
   while p and p.right:
@@ -68,7 +68,7 @@ def print_dll(head):
 
   # Traverse from back
   while p:
-    print p.data,
+    print(p.data, end=' ')
     p = p.left
 
 
@@ -76,7 +76,7 @@ def print_dll(head):
 root = None
 head = [None]  # Make head mutable
 
-print 'Inorder traversal:',
+print('Inorder traversal:', end=' ')
 inorder(root)
 BTtoDLL(root, head)
 print_dll(head[0])
@@ -85,7 +85,7 @@ print_dll(head[0])
 root = Node(1)
 head = [None]
 
-print '\n\nInorder traversal:',
+print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 1
 BTtoDLL(root, head)
 print_dll(head[0])  # forward: 1, backward: 1
@@ -98,7 +98,7 @@ root = Node(1)
 root.left = Node(2)
 head = [None]
 
-print '\n\nInorder traversal:',
+print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 2 1
 BTtoDLL(root, head)
 print_dll(head[0])  # forward: 2 1, backward: 1 2
@@ -112,7 +112,7 @@ root.left = Node(2)
 root.right = Node(3)
 head = [None]
 
-print '\n\nInorder traversal:',
+print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 2 1 3
 BTtoDLL(root, head)
 print_dll(head[0])  # forward: 2 1 3, backward: 3 1 2
