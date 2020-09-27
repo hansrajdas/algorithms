@@ -24,8 +24,8 @@
 # O(k)
 
 class Node:
-  def __init__(self, k):
-    self.k = k
+  def __init__(self, key):
+    self.key = key
     self.left = None
     self.right = None
 
@@ -36,19 +36,21 @@ class BST:
   def inorder(self, root):
     if root:
       self.inorder(root.left)
-      print root.k
+      print(root.key, end=' ')
       self.inorder(root.right)
 
   def kth_smallest(self, root, k):
-    if root:
-      val = self.kth_smallest(root.left, k)
-      if val is not None:
-        return val
-      k[0] = k[0] - 1
-      if not k[0]:
-        print 'res:', root.k
-        return root.k
-      return self.kth_smallest(root.right, k)
+    self.k = k
+    def inorder(root):
+        if root:
+          val = inorder(root.left)
+          if val is not None:
+            return val
+          self.k -= 1
+          if not self.k:
+            return root.key
+          return inorder(root.right)
+    return inorder(root)
 
 def main():
   bst = BST()
@@ -56,22 +58,20 @@ def main():
   bst.root.left = Node(4)
   bst.root.right = Node(6)
 
-  print 'Inorder traversal...'
+  print('Inorder traversal:', end=' ')
   bst.inorder(bst.root)  # 4 5 6
 
-  k = [3]
-  value = bst.kth_smallest(bst.root, k)
+  value = bst.kth_smallest(bst.root, 3)
   if value:
-    print '\nKth smallest(k = %d) element is: %d' % (3, value)  # 6
+    print('\nKth smallest(k = %d) element is: %d' % (3, value))  # 6
   else:
-    print 'Value of k is larger than the number of nodes in BST'
+    print('Value of k is larger than the number of nodes in BST')
 
-  k = [4]
-  value = bst.kth_smallest(bst.root, k)
+  value = bst.kth_smallest(bst.root, 4)
   if value:
-    print '\nKth smallest(k = %d) element is: %d' % (4, value)
+    print('\nKth smallest(k = %d) element is: %d' % (4, value))
   else:
-    print 'Value of k is larger than the number of nodes in BST'  # This executed
+    print('Value of k is larger than the number of nodes in BST')  # This executed
 
 
 if __name__ == '__main__':
