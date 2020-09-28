@@ -46,7 +46,7 @@ def nodes_with_k_distance_from_leaf_utils(root, k, path, visited, path_len):
   if (root.left is None and root.right is None and
       path_len - k - 1 >= 0 and
       not visited[path_len - k - 1]):
-    print path[path_len - k - 1],
+    print(path[path_len - k - 1], end=' ')
     visited[path_len - k - 1] = True
 
   nodes_with_k_distance_from_leaf_utils(root.left, k, path, visited, path_len)
@@ -58,6 +58,7 @@ def nodes_with_k_distance_from_leaf(root, k):
   path = {i: None for i in range(h)}
   visited = {i: False for i in range(h)}
   nodes_with_k_distance_from_leaf_utils(root, k, path, visited, 0)
+  print()
 
 
 def main():
