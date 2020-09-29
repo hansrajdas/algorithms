@@ -35,7 +35,7 @@ def print_k_distance_nodes_below(root, k):
     return
 
   if not k:  # If k = 0, we have reached k(original) distance down, print data
-    print root.data
+    print(root.data, end=' ')
     return
 
   print_k_distance_nodes_below(root.left, k - 1)
@@ -54,7 +54,7 @@ def print_k_distance_nodes(root, target, k):
   if dl != -1:
     # dl is distance from root's left to target so adding 1 while comparing.
     if dl + 1 == k:
-      print root.data
+      print(root.data, end=' ')
     else:
       # Go to right subtree and print all nodes which are k-dl-2 distance away.
       # Right child is 2 nodes away from left child.
@@ -65,7 +65,7 @@ def print_k_distance_nodes(root, target, k):
   # Check if target was found in right subtree
   if dr != -1:
     if dr + 1 == k:
-      print root.data
+      print(root.data, end=' ')
     else:
       print_k_distance_nodes_below(root.left, k - dr - 2)
     return dr + 1
@@ -82,11 +82,12 @@ def main():
 
   root.right = Node(22)
 
-  print 'TC-1'
+  print('TC-1')
   print_k_distance_nodes(root, root.left, 2)  # 10 14 22
 
-  print '\nTC-2'
+  print('\nTC-2')
   print_k_distance_nodes(root, root.left.right.right, 3)  # 4 20
+  print()
  
 
 if __name__ == '__main__':
