@@ -25,24 +25,25 @@ class Node:
     self.left = None
     self.right = None
 
-# def inorder(root):
-#   stack = []
-#   current = root
-# 
-#   while True:
-#     if current is not None:  # Traverse whole left sub tree
-#       stack.append(current)
-#       current = current.left
-#     else:
-#       if not stack:  # current is None and stack is empty - BREAK
-#         break
-#       else:
-#         current = stack.pop()
-#         print current.data,
-#         current = current.right  # We are done with left and root, traverse right sub tree
+def inorder(root):
+  stack = []
+  current = root
+
+  while True:
+    if current is not None:  # Traverse whole left sub tree
+      stack.append(current)
+      current = current.left
+    else:
+      if not stack:  # current is None and stack is empty - BREAK
+        break
+      else:
+        current = stack.pop()
+        print(current.data, end=' ')
+        current = current.right  # We are done with left and root, traverse right sub tree
+  print()
         
 # Above implementation also works but this is simpler than above function
-def inorder(root):
+def inorder_simple(root):
     node = root
     stack = []
     while True:
@@ -69,6 +70,7 @@ def main():
   root.right.right = Node(18)
 
   inorder(root)  # 3 5 8 10 12 15 18
+  inorder_simple(root)  # 3 5 8 10 12 15 18
 
 if __name__ == '__main__':
   main()
