@@ -132,7 +132,6 @@
 - [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
 - [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
 - [Convert integer to comma format](Level-2/format_nums.cc): Given an integer, convert it to string with comma notation - Indian and US | O(N) | Level 2.
-- [Reverse sentence](Level-2/reverse_sentence.cc): Given a sentence, reverse it's individual words | O(N) | Level 2.
 - [Left/right rotate array](Level-3/rotate_array.py): Rotate array left or right by given number of times | O(N) | Level 3.
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
