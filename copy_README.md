@@ -135,7 +135,6 @@
 - [Reverse sentence](Level-2/reverse_sentence.cc): Given a sentence, reverse it's individual words | O(N) | Level 2.
 - [Left/right rotate array](Level-3/rotate_array.py): Rotate array left or right by given number of times | O(N) | Level 3.
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
-- [Tree preorder iterative](Level-2/tree_preorder_traversal_iterative.py): Tree preorder traversal without recursion, iterative approach using stack | O(N) | Level 2.
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
 - [Subset having equal sum](Level-3/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.

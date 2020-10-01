@@ -23,14 +23,14 @@ class Node:
     self.left = None
     self.right = None
 
-def preOrder(root):
+def preorder(root):
   if not root:
     return None
 
   stack = [root]
   while stack:
     current = stack.pop()
-    print current.data,  # print current node, then traverse lower tree
+    print(current.data, end=' ')  # print current node, then traverse lower tree
 
     # In preorder sequence is root(printed above), left then right so we push
     # right first then left as stack is LIFO
@@ -39,6 +39,23 @@ def preOrder(root):
 
     if current.left:
       stack.append(current.left)
+  print()
+
+def preorder_simple(root):
+    # node > left > right
+    stack = []
+    node = root
+    while True:
+        while node:
+            stack.append(node)
+            print(node.data, end=' ')
+            node = node.left
+
+        if not stack:
+            break
+        node = stack.pop()
+        node = node.right
+    print()
 
 def main():
   root = Node(10)
@@ -50,7 +67,8 @@ def main():
   root.right.left = Node(12)
   root.right.right = Node(18)
 
-  preOrder(root)  # 10 5 3 8 15 12 18
+  preorder(root)  # 10 5 3 8 15 12 18
+  preorder_simple(root)  # 10 5 3 8 15 12 18
 
 if __name__ == '__main__':
   main()
