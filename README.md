@@ -40,7 +40,8 @@
 - [Level order tree traversal using queue\*](Level-2/level_order_tree_traversal_using_queue.c): Level order traversal of a tree using queue | O(n) time and space | Level 2.
 - [Level order tree traversal using queue - python\*](Level-2/level_order_tree_traversal_using_queue.py): Level order traversal of a tree using queue | O(n) time and space | Level 2.
 - [Edit distance - O(3^m)](Level-2/edit_distance.py): Find minimum operations required to convert a source string to target string | O(3^m) | Level 3.
-- [Edit distance](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | Level 3.
+- [Edit distance DP approach](Level-3/edit_distance.c): Find minimum operations required to convert a source string to target string | O(MxN) | Level 3.
+- [Edit distance DP approach - python](Level-3/edit_distance_dp.py): Find minimum operations required to convert a source string to target string | O(MxN) | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Find 1-D peak](Level-2/find_peak_element.c): Find 1-D peak from an array | Level 2.
 - [Find 2-D peak](Level-3/find_2d_peak.c): Find 2-D peak from a 2-D array | Level 3.
