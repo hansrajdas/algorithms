@@ -5,7 +5,8 @@
 # bars. The value of a gold bar is directly proportional to its weight.
 # Therefore, in order to make the most amount of money, you must fill your
 # knapsack up to its full capacity of W pounds. Can you find a subset of the
-# gold bars whose weights add up to exactly W?
+# gold bars whose weights add up to exactly W? If not what is max weight that
+# we can accommodate.
 #
 # Approach:
 # Same as knapsack(Level-4/knapsack.py) with small variation - we have to take
