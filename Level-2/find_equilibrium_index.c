@@ -2,8 +2,8 @@
  * Date: 2018-09-27
  *
  * Description:
- * Find equilibrium index of an array that is sum of elements on left and right
- * side are equal.
+ * Find equilibrium index of an array. An index i is said to be equilibrium
+ * index if A[0] + A[1] + ... + A[i - 1] = A[i + 1] + A[i + 2] + ... + A[n - 1]
  *
  * Like in array [2, 3, 10, 1, 4], 2 is the equilibrium index as sum of elements
  * on left side of a[2] is equal to sum of elements on right side of a[2],
@@ -14,8 +14,9 @@
  * Approach:
  * - Take sum of all array elements, call it sum.
  * - Again start with first element and take temp sum.
- * - In each step subtract temp sum and current element from total sum, if these
- *   are equal then current element's index will be the equilibrium index.
+ * - In each step subtract temp_sum and current element from total_sum, if at
+ *   any index temp_sum and total_sum because equal then this index will be
+ *   equilibrium index.
  *
  * Complexity:
  * O(N)
