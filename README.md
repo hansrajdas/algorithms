@@ -242,7 +242,8 @@
 - [Kth largest number, Heap method](Level-2/find_kth_largest_num.py): Find Kth largest number from an unsorted array | O(k + (n-k)logk) | Level 2.
 - [Kth smallest number, QuickSort method](Level-3/find_kth_smallest_num.py): Find Kth smallest number from an unsorted array | O(N) | Level 3.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
-- [Subset having equal sum](Level-3/subset_equal_sum_dp.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
+- [Subset having equal sum](Level-2/subset_equal_sum.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(2^n) | Level 2.
+- [Subset having equal sum, DP](Level-3/subset_equal_sum_dp.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
 - [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level 3.
 - [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
 - [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
