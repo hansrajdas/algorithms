@@ -72,7 +72,8 @@
 - [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
 - [Knapsack problem](Level-4/knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
 - [Knapsack problem - python](Level-4/knapsack.py): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
-- [Knapsack problem - Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
+- [Knapsack problem, Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
+- [Knapsack problem, Maximize weight - python](Level-4/knapsack_maximize_weight.py): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 - [Sorted search, no size](Level-2/search_in_infinite_sorted_array.c): Search an element from an infinite sized(size of array not given) sorted array | O(log(p)) | Level 2.
