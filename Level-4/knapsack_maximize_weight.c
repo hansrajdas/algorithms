@@ -9,6 +9,8 @@
  * gold bars whose weights add up to exactly W?
  *
  * Approach:
+ * Same as knapsack(Level-4/knapsack.c) with small variation - we have to take
+ * care item values here
  *
  * Complexity:
  * Time: O(n*W), Space(n*W)
