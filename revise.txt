@@ -1,3 +1,4 @@
+Level-2/find_equilibrium_index.c
 Level-2/find_2_odd_occurring_numbers.c
 Level-2/frequency_of_elements_without_space.c
 Level-2/url_formatter.c
