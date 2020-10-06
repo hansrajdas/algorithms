@@ -130,7 +130,6 @@
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
 - [Sort array of 0s, 1s and 2s](Level-2/sort_array_of_0s_1s_and_2s.py): Sort array having 0s, 1s and 2s | O(N) | Level 2.
 - [Longest common subsequence](Level-3/longest_common_subsequence.py): Find LCS in given 2 strings | O(M * N) | Level 3.
-- [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
 - [Cut rod to have max profit](Level-3/cut_rod_to_max_profit.py): Find max profit obtainable by cutting up the rod and selling the pieces | O(N^2) | Level 3.
 - [Max product, rope cutting](Level-3/max_product_cutting.py): Find max product obtained by cutting rope of different sizes | O(N^2) | Level 3.
 

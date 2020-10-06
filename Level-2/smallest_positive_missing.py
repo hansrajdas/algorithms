@@ -52,10 +52,10 @@ def solution(A):
 
 
 def main():
-    print (solution([-1, -3, -6, -4, -1, -2]))
-    print (solution([1, 3, 6, 4, 1, 2]))
-    print (solution([1, 2, 3, 4, 5]))
-    print (solution([1, -2, -3, 2, -3, 5]))
+    print(solution([-1, -3, -6, -4, -1, -2]))
+    print(solution([1, 3, 6, 4, 1, 2]))
+    print(solution([1, 2, 3, 4, 5]))
+    print(solution([1, -2, -3, 2, -3, 5]))
 
 
 if __name__ == '__main__':
