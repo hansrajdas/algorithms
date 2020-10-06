@@ -38,7 +38,7 @@ def sort_0_1_and_2(a):
       a[mid], a[high] = a[high], a[mid]
       high -= 1
     else:
-      print 'Invalid input array!'
+      print('Invalid input array!')
       return None
   return a
 
