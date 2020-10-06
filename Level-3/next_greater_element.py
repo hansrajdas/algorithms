@@ -10,7 +10,7 @@
 #
 # Approach:
 # 1. Scan array from last to first element so that when we arrive at a certain
-# index his next greater element will be already in stack and we can directly
+# index its next greater element will be already in stack and we can directly
 # get this element while at the same index.
 #
 # 2. After reaching a certain index we will pop the stack till we get the
@@ -43,9 +43,9 @@ def print_next_greater_element(arr):
     stack.append(arr[i])
 
   # Print element and its NGE in array
-  print 'Elements and its NGE:'
+  print('Elements and its NGE:')
   for i in range(len(arr)):
-    print '%d -> %d' % (arr[i], nge[i])
+    print('%d -> %d' % (arr[i], nge[i]))
 
 
 print_next_greater_element([11, 13, 21, 3])
@@ -67,3 +67,10 @@ print_next_greater_element([5, 4, 3, 2, 1])
 # 3 -> -1
 # 2 -> -1
 # 1 -> -1
+
+print_next_greater_element([11, 15, 10, 12, 13])
+# 11 -> 15
+# 15 -> -1
+# 10 -> 12
+# 12 -> 13
+# 13 -> -1
