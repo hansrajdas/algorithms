@@ -47,6 +47,7 @@ def max_profit(prices, n, memo):
   return memo[n]
 
 
-print max_profit([1, 5, 8, 9, 10, 17, 17, 20], 8, {})  # 22 -> 5*2 + 17*6
-print max_profit([3, 5, 8, 9, 10, 17, 17, 20], 8, {})  # 24 ->  3*8
-print max_profit(range(50), 50, {})  # 49
+print(max_profit([1, 5, 8, 9, 10, 17, 17, 20], 8, {}))  # 22 -> 5*2 + 17*6
+print(max_profit([1, 5, 8, 9, 10, 17, 17, 200], 8, {}))  # 200 -> 200*1
+print(max_profit([3, 5, 8, 9, 10, 17, 17, 20], 8, {}))  # 24 ->  3*8
+print(max_profit(range(50), 50, {}))  # 49
