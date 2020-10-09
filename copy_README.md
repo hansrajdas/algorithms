@@ -1,7 +1,6 @@
 ## List of Algorithms
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
-- [Find element with rank k - log(n)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [2 strings are permutations](Level-2/strings_permutation_check.c): Check if 2 strings are permutations of each other or not | Level 2.
 - [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
@@ -128,7 +127,6 @@
 - [Convert integer to comma format](Level-2/format_nums.cc): Given an integer, convert it to string with comma notation - Indian and US | O(N) | Level 2.
 - [Left/right rotate array](Level-3/rotate_array.py): Rotate array left or right by given number of times | O(N) | Level 3.
 - [Knight's shortest path](Level-3/knights_shortest_path.py): Find shortest path from source to destination for a knight on NxN board | BFS | O(N^2) | Level 3.
-- [Cut rod to have max profit](Level-3/cut_rod_to_max_profit.py): Find max profit obtainable by cutting up the rod and selling the pieces | O(N^2) | Level 3.
 
 ### Leave
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
