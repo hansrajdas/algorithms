@@ -2,8 +2,6 @@
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
-- [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
-- [Check 2 strings, one edit away](Level-2/are_two_strings_one_edit_away.c): Check if 2 strings are max one edit away or not | O(n) | Level 2.
 - [String compression](Level-2/string_compression.c): Compress string, show count for consecutive repeating characters | O(n) | Level 2.
 - [Rotate square matrix](Level-3/rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n) | Level 3.
 - [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
