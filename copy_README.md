@@ -2,9 +2,6 @@
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
-- [String compression](Level-2/string_compression.c): Compress string, show count for consecutive repeating characters | O(n) | Level 2.
-- [Rotate square matrix](Level-3/rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n) | Level 3.
-- [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
 - [Longest increasing subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
 - [Longest increasing subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
@@ -58,7 +55,6 @@
 - [Linked list intersection](Level-2/linked_list_intersection.py): Find if two linked list intersect each other | O(m + n) | Level 2.
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find starting node of loop | O(n) | Level 4.
-- [Spiral matrix](Level-3/spiral_matrix.py): Given a number N, create matrix having values from 1 to N^2 in spiral form | O(N^2) | Level 3.
 - [Print matrix in spiral](Level-3/print_matrix_in_spiral.py): Given a matrix, print its elements in clockwise spiral form | O(MxN) | Level 3.
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem, problem adapted from sort array of 0s and 1s | O(n) | Level 2.
