@@ -60,25 +60,21 @@ def create_spiral_matrix(n):
   while val < n * n:
     val += 1
     matrix[row][col] = val
+    
+    # If new row, col is invalid(out of bound or already used), then change
+    # direction.
+    if is_invalid(matrix, row + dr[direction], col + dc[direction], n):
+      direction = (direction + 1) % 4
     row += dr[direction]
     col += dc[direction]
-    
-    # If new row, col is invalid(out of bound or already used), revert previous
-    # row, col and change direction.
-    if is_invalid(matrix, row, col, n):
-      row -= dr[direction]
-      col -= dc[direction]
-      direction = (direction + 1) % 4
-      row += dr[direction]
-      col += dc[direction]
   return matrix
 
 
 def main():
-  n = input('Enter N: ')
+  n = int(input('Enter N: '))
   matrix = create_spiral_matrix(n)
   for row in matrix:
-    print row
+    print(row)
 
 
 if __name__ == '__main__':
