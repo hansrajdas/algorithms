@@ -25,19 +25,19 @@ def print_matrix_in_spiral(mat):
     # Left to right
     for c in range(col_start, col_end + 1):
       # print 'left to right'
-      print mat[row_start][c]
+      print(mat[row_start][c], end=' ')
       
     # Top to down
     for r in range(row_start + 1, row_end + 1):
       # print 'top to down'
-      print mat[r][col_end]
+      print(mat[r][col_end], end=' ')
       
     # Right to left
     # If there is only row left, that is already covered by left to right
     # traversal
     if row_start < row_end:
       for c in range(col_end - 1, col_start - 1, -1):
-        print mat[row_end][c]
+        print(mat[row_end][c], end=' ')
       
     # Down to top
     # If there is only one column left, that is already covered by top to down
@@ -45,7 +45,7 @@ def print_matrix_in_spiral(mat):
     if col_start < col_end:
       for r in range(row_end - 1, row_start, -1):
         # print 'down to top'
-        print mat[r][col_start]
+        print(mat[r][col_start], end=' ')
       
     row_start += 1
     row_end -= 1
@@ -60,25 +60,12 @@ def main():
     [7, 8, 9, 19, 29],
   ]
   print_matrix_in_spiral(matrix)
+  print()
 
 
 if __name__ == '__main__':
   main()
 
 # Output:
-# --------------
-# 1
-# 2
-# 3
-# 13
-# 23
-# 26
-# 29
-# 19
-# 9
-# 8
-# 7
-# 4
-# 5
-# 6
-# 16
+# ------
+# 1 2 3 13 23 26 29 19 9 8 7 4 5 6 16
