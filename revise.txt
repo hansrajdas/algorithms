@@ -48,6 +48,7 @@ Level-3/search_in_rotated_sorted_array.c
 Level-3/min_in_sorted_rotated_array.c
 Level-3/rotate_matrix.c
 Level-3/spiral_matrix.py
+Level-3/print_matrix_in_spiral.py
 Level-3/reverse_linked_list.py
 Level-3/pairwise_swap_linked_list.py
 Level-3/knights_shortest_path.py
