@@ -15,7 +15,8 @@
 # 11 16 15 06
 # 10 09 08 07
 #
-# Approach:
+# Approach-1:
+# Function name: create_spiral_matrix_simple
 # We know that sequence of direction will be:
 # 1. Left to right: row constant, col increasing
 # 2. Top to down: row decreasing, col constant
@@ -24,6 +25,11 @@
 #
 # So using above fact we can take 2 list indicating row/col directions and
 # compute new row, col. If row/col is not valid, we can use next direction.
+#
+# Approach-2:
+# Function name: create_spiral_matrix_layer
+# This uses layer variable to keep track of boundaries while accessing elements.
+# Approach-1 is simpler than this one
 #
 # This can also be done used 4 loops for 4 directions like this:
 # https://github.com/hansrajdas/algorithms/blob/master/Level-3/print_matrix_in_spiral.py
@@ -39,7 +45,7 @@ def is_invalid(m, r, c, n):
   """
   return r < 0 or c < 0 or r >= n or c >= n or m[r][c] != 0
 
-def create_spiral_matrix(n):
+def create_spiral_matrix_simple(n):
   """Creates a matrix having values from 1 to n^2 in spiral direction."""
   matrix = []
   row = 0
@@ -70,6 +76,8 @@ def create_spiral_matrix(n):
   return matrix
 
 # Alternative approach using layer variable to keep track of rows and cols
+# Above approach is simple than this one so above is recommended, this is an
+# alternative solution
 def create_spiral_matrix_layer(n):
     M = [[0] * n for _ in range(n)]
     v = 0
@@ -101,7 +109,7 @@ def create_spiral_matrix_layer(n):
 
 def main():
   n = int(input('Enter N: '))
-  matrix = create_spiral_matrix(n)
+  matrix = create_spiral_matrix_simple(n)
   for row in matrix:
     print(row)
 
