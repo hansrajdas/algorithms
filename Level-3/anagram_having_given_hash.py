@@ -109,7 +109,7 @@ def string_anagram_with_given_md5hash(string, length, expected_hash):
         for s3 in word_lengths[k]:
             string = s1 + ' ' + s2 + ' ' + s3
             if hashlib.md5(string).hexdigest() in expected_hash:
-              print string
+              print(string)
 
 def main():
   string = 'poultry outwits ants'
