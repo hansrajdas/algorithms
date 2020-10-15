@@ -37,9 +37,12 @@ class LinkedList:
       node.next = new_node
 
     def list_print(self):
+        """
+        Prints the linked list.
+        """
         node = self.head
         while node:
-            print node.data
+            print(node.data)
             node = node.next
 
 
