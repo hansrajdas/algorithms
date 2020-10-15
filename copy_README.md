@@ -42,18 +42,16 @@
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
-- [Remove duplicates from linked list](Level-2/remove_duplicates_from_linked_list.py): Remove duplicates from a linked list | O(n) time and space | Level 2.
-- [kth from last in linked list](Level-3/kth_from_last_in_linked_list.py): Find kth element from last of a singly linked list | O(n) | Level 3.
+- [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
+- [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
+- [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [Delete node from linked list](Level-2/delete_node_from_linked_list.py): Given only reference to an arbitary node of a linked list, delete that node | O(1) | Level 2.
 - [Reverse linked list](Level-3/reverse_linked_list.py): Reverse a linked list | O(n) | Level 3.
-- [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
 - [Partitio linked list](Level-2/partition_linked_list.py): Partition 2 linked lists with respect to a given value | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in reverse order](Level-2/sum_of_linked_lists_reverse_order.py): Add 2 numbers stored in linked list in reverse order(12 is 2->1) | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in forward order](Level-3/sum_of_linked_list_same_order.py): Add 2 numbers stored in linked list in forward order(12 is 1->2) | O(n) | Level 3.
 - [Is linked list palindrome](Level-2/is_linked_list_palindrome.py): Check if linked list is palindrome or not | O(n) | Level 2.
-- [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
 - [Linked list intersection](Level-2/linked_list_intersection.py): Find if two linked list intersect each other | O(m + n) | Level 2.
-- [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find starting node of loop | O(n) | Level 4.
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem, problem adapted from sort array of 0s and 1s | O(n) | Level 2.
@@ -62,7 +60,6 @@
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
-- [Connections in matrix](Level-2/connections_in_matrix.py): Count possible connections in matrix of 0s and 1s | O(MxN) | Level 2.
 - [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
 - [Repeating numbers](Level-2/find_repeating_elements.c): Find all repeating numbers in a array | O(N) | Level 2.
 - [Inversion of 3](Level-2/inversion_of_3.c): Find number of combinations which follows: a[i] > a[j] > a[k] with i < j < k in a unsorted array | O(N^2) | Level 2.
