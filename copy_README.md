@@ -45,9 +45,7 @@
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
 - [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
-- [Delete node from linked list](Level-2/delete_node_from_linked_list.py): Given only reference to an arbitary node of a linked list, delete that node | O(1) | Level 2.
-- [Reverse linked list](Level-3/reverse_linked_list.py): Reverse a linked list | O(n) | Level 3.
-- [Partitio linked list](Level-2/partition_linked_list.py): Partition 2 linked lists with respect to a given value | O(n) | Level 2.
+- [Partitio linked list](Level-2/partition_linked_list.py): Partition a linked lists with respect to a given value | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in reverse order](Level-2/sum_of_linked_lists_reverse_order.py): Add 2 numbers stored in linked list in reverse order(12 is 2->1) | O(n) | Level 2.
 - [Sum digits of 2 linked list, digits in forward order](Level-3/sum_of_linked_list_same_order.py): Add 2 numbers stored in linked list in forward order(12 is 1->2) | O(n) | Level 3.
 - [Is linked list palindrome](Level-2/is_linked_list_palindrome.py): Check if linked list is palindrome or not | O(n) | Level 2.
