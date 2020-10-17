@@ -38,10 +38,10 @@ class LinkedList:
     def list_print(self):
         node = self.head  # Cant point to ll!
         while node:
-            print ('%d->' % node.data),
+            print('%d->' % node.data),
             node = node.next
 
-        print ('None')
+        print('None')
 
     def is_linked_list_palindrome(self):
       """Checks if a linked list is palindrome or not."""
@@ -74,9 +74,9 @@ for d in str(n):
 linked_list.list_print()
 
 if linked_list.is_linked_list_palindrome():
-  print ('YES')
+  print('YES')
 else:
-  print ('NO')
+  print('NO')
 
 
 # Output:

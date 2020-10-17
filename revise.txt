@@ -59,5 +59,6 @@ Level-3/lowest_common_ancestor_in_binary_tree.py
 Level-3/tree_nodes_with_k_distance_from_leaf.py
 Level-3/next_greater_element.py
 Level-3/longest_common_subsequence.py
+Level-3/sum_of_linked_list_same_order.py
 Level-4/knapsack.c
 Level-4/place_eight_queens.py
