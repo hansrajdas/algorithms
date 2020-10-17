@@ -31,7 +31,7 @@ class LinkedList:
   def traverse(self):
     current = self.head
     while current:
-      print current.data
+      print(current.data, end=' ')
       current = current.next
 
   def insert_at_end(self, data):
@@ -53,7 +53,7 @@ class LinkedList:
     while fast and fast.next:
       slow = slow.next
       fast = fast.next.next
-      print slow.data, fast.data
+      print(slow.data, fast.data)
       if slow is fast:  # Collision point
         break
 
@@ -90,10 +90,10 @@ def main():
 
   loop_start = linked_list.find_loop_begining()
   if loop_start:
-    print ('Loop starting node: data[%d], id[%d]' % (
+    print('Loop starting node: data[%d], id[%d]' % (
       loop_start.data, id(loop_start)))
   else:
-    print ('Loop not found in linked list')
+    print('Loop not found in linked list')
 
 
 if __name__ == '__main__':
