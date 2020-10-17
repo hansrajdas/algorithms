@@ -47,9 +47,9 @@ class LinkedList:
     def list_print(self):
         node = self.head
         while node:
-            print ('(data: %d id: %d)->' % (node.data, id(node))),
+            print('(data: %d id: %d)->' % (node.data, id(node))),
             node = node.next
-        print ('None')
+        print('None')
 
     def length(self):
       node = self.head
@@ -116,10 +116,10 @@ linked_list_2.list_print()
 
 common = linked_list_1.linked_list_intersecting_node(linked_list_2)
 if common:
-  print ('\nIntersecting node is: (data: %d, id: %d)' % (
+  print('\nIntersecting node is: (data: %d, id: %d)' % (
     common.data, id(common)))
 else:
-  print ('\nBoth linked list not intersecting each other')
+  print('\nBoth linked list not intersecting each other')
 
 
 # Output:
