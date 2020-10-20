@@ -35,6 +35,7 @@
 
 ### Cracking the coding interview(6th edition)
 - [Route between 2 nodes](Level-2/route_between_2_vertices.py): Given a directed graph, check if there is a route b/w 2 nodes | O(V + E) | Level 2.
+- [Sorted array to BST](Level-3/sorted_list_to_bst.py): Given a sorted array, create BST with minimal height | O(N) | Level 3.
 
 ### Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
