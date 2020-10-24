@@ -27,8 +27,20 @@ class Graph:
     def add_dependency(self, depends_on, dependent):
         self.g[dependent].append(depends_on)
 
+    def cycle_wrt_node(self, node, visited):
+        visited[node] = True
+        for adj in self.g.get(node, []):
+            if adj in visited:
+                if not visited[adj]:
+                    return self.cycle_wrt_node(adj, visited)
+                else:
+                    raise ValueError(
+                        'Project order not possible - have cyclic dependency')
+
     def has_cycle(self):
-        return False
+        for node in self.g:
+            visited = {n: False for n in self.g}
+            self.cycle_wrt_node(node, visited)
 
     def print_topological_order(self, node, visited):
         if node in visited:
