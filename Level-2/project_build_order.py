@@ -21,31 +21,33 @@
 class Graph:
     def __init__(self, nodes):
         self.g = {}
-        for node in nodes:
-            self.g[node] = []
 
     def add_dependency(self, depends_on, dependent):
-        self.g[dependent].append(depends_on)
+        if dependent in self.g:
+            self.g[dependent].append(depends_on)
+        else:
+            self.g[dependent] = [depends_on]
 
     def cycle_wrt_node(self, node, visited):
         visited[node] = True
-        for adj in self.g.get(node, []):
+        for adj in self.g[node]:
             if adj in visited:
                 if not visited[adj]:
                     return self.cycle_wrt_node(adj, visited)
                 else:
-                    raise ValueError(
-                        'Project order not possible - have cyclic dependency')
+                    return True
 
     def has_cycle(self):
         for node in self.g:
             visited = {n: False for n in self.g}
-            self.cycle_wrt_node(node, visited)
+            if self.cycle_wrt_node(node, visited):
+                raise ValueError(
+                    f'Project not possible, cyclic dependency for {node}')
 
     def print_topological_order(self, node, visited):
         if node in visited:
             return
-        for dep in self.g[node]:
+        for dep in self.g.get(node, []):
             self.print_topological_order(dep, visited)
         visited.add(node)
         print(node, end=' ')
@@ -59,6 +61,7 @@ class Graph:
         print()
         
 def main():
+    # Case: 1
     g = Graph(['a', 'b', 'c', 'd', 'e', 'f'])
 
     g.add_dependency('a', 'd')  # d depends on a
@@ -66,7 +69,20 @@ def main():
     g.add_dependency('b', 'd')
     g.add_dependency('f', 'a')
     g.add_dependency('d', 'c')
+    g.add_dependency(None, 'e')
 
-    g.print_project_build_order()
+    g.print_project_build_order()  # f a b d c e
 
-main()  # f a b d c e
+    # Case: 2
+    g = Graph(['a', 'b', 'c', 'd', 'e', 'f'])
+
+    g.add_dependency('a', 'd')  # d depends on a
+    g.add_dependency('f', 'b')
+    g.add_dependency('b', 'd')
+    g.add_dependency('f', 'a')
+    g.add_dependency('d', 'c')
+    g.add_dependency('d', 'a')  # Create cycle
+
+    g.print_project_build_order()  # ValueError: Project not possible, cyclic dependency for d
+
+main()
