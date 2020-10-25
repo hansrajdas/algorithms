@@ -1,5 +1,5 @@
-## List of Algorithms
-- All programs are categorized in level 1 to 4(1 being easiest)
+# List of Algorithms
+All programs are categorized in level 1 to 4(1 being easiest)
 ## Sorting
 - [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
