@@ -1,8 +1,6 @@
-# Algorithms in C and Python
-* All programs are categorized in level 1 to 4(1 being easiest)
-
 ## List of Algorithms
-### Sorting
+- All programs are categorized in level 1 to 4(1 being easiest)
+## Sorting
 - [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort | O(n^2) | Level 2.
 - [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
@@ -18,14 +16,14 @@
 - [Counting sort - python](Level-2/counting_sort.py): Implement count sort in python | O(n + k) | Level 2.
 - [Radix sort](Level-4/radix_sort.c): Implement radix sort | O(digits * (n + base)) | Level 4.
 
-### Trie
+## Trie
 - [Trie implementation](Level-3/trie_insert_search_delete.py): Implement trie and perform insert, search and delete operations | O(L) | Level 3.
 - [Trie autocomplete](Level-3/trie_autocomplete.py): Implement word autocomplete feature using trie | O(ALPHABET_SIZE * N * L) | Level 3.
 - [Trie, sorted strings](Level-2/trie_words_in_sorted_order.py): Print all words in trie, in sorted order | O(ALPHABET_SIZE * N * L) | Level 2.
 - [Trie, longest prefix matching](Level-2/trie_longest_prefix_matching.py): Given a string, find a word from trie which matches longest prefix | O(n) | Level 2.
 - [Pattern matching using suffix tries](Level-3/pattern_matching_using_suffix_tries.py): Implement suffix tries for pattern matching | O(m) | Level 3.
 
-### Graphs
+## Graphs
 - [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
@@ -33,8 +31,8 @@
 - [Shortest path of DAG](Level-3/shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E) | Level 3.
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
-### Cracking the coding interview(6th edition)
-#### Trees and Graphs
+## Cracking the coding interview(6th edition)
+### Trees and Graphs
 - [Route between 2 nodes](Level-2/route_between_2_vertices.py): Given a directed graph, check if there is a route b/w 2 nodes | O(V + E) | Level 2.
 - [Sorted array to BST](Level-3/sorted_list_to_bst.py): Given a sorted array, create binary search tree(BST) with minimal height | O(N) | Level 3.
 - [List of depths](Level-2/list_of_depths.py): Binary tree to linked list for each level | O(N) | Level 2.
@@ -45,7 +43,7 @@
 - [Check subtree](Level-2/check_subtree.py): Given 2 trees, check if one tree is exact subtree of another | O(n + km) | Level 2.
 - [Check subtree - using preorder](Level-2/check_subtree_using_preorder.py): Given 2 trees, check if one tree is exact subtree of another | O(n + m) | Level 2.
 
-### Uncategorised
+## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
 - [Level order tree traversal](Level-2/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 2.
 - [Level order tree traversal - python](Level-2/level_order_tree_traversal.py): Level order traversal of a tree | O(n^2) | Level 2.
