@@ -23,6 +23,8 @@
 # >>> O(N * d - N)
 # >>> O(N * d)
 # >> O(NlogN) time complexity
+#
+# In case of unbalanced binary trees like skew, complexity can upto O(N^2)
 
 class Node:
     def __init__(self, k):
