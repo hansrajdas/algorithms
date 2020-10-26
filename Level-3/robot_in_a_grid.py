@@ -12,6 +12,9 @@
 # Backtracking technique is used. To find a path from the origin, we just work
 # backwards. Starting from the last cell, we try to find a path to each of its
 # adjacent cells and recurse till starting point.
+# Whenever we need to find path, we should go in backward direction otherwise
+# it will be hard to find if from current position can we reach destination or
+# not.
 #
 # Complexity:
 # O(rc) where r = rows, c = columns
