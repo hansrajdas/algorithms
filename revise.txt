@@ -61,6 +61,7 @@ Level-3/next_greater_element.py
 Level-3/longest_common_subsequence.py
 Level-3/sum_of_linked_list_same_order.py
 Level-3/sorted_list_to_bst.py
+Level-3/robot_in_a_grid.py
 Level-4/starting_of_loop_in_linked_list.py
 Level-4/knapsack.c
 Level-4/place_eight_queens.py
