@@ -15,7 +15,7 @@
 # be O(3^n).
 #
 # Complexity:
-# O(n)
+# O(n) time and space
 
 def ways(n, memo):
   """Counts the number of ways to run n steps (with step size of 1, 2 or 3).
@@ -39,7 +39,7 @@ def countWays(n):
 
 def main():
   for n in range(1, 25):
-    print 'N = {n}, Ways = {ways}'.format(n = n, ways=countWays(n))
+    print('N = {n}, Ways = {ways}'.format(n = n, ways=countWays(n)))
 
 if __name__ == '__main__':
   main()
