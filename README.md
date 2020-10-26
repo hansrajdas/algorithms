@@ -32,7 +32,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
 ## Cracking the coding interview(6th edition)
-### Trees and Graphs
+### 4. Trees and graphs
 - [Route between 2 nodes](Level-2/route_between_2_vertices.py): Given a directed graph, check if there is a route b/w 2 nodes | O(V + E) | Level 2.
 - [Sorted array to BST](Level-3/sorted_list_to_bst.py): Given a sorted array, create binary search tree(BST) with minimal height | O(N) | Level 3.
 - [List of depths](Level-2/list_of_depths.py): Binary tree to linked list for each level | O(N) | Level 2.
@@ -44,6 +44,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Check subtree - using preorder](Level-2/check_subtree_using_preorder.py): Given 2 trees, check if one tree is exact subtree of another | O(n + m) | Level 2.
 - Get random node: Pending
 - [Paths with sum](Level-3/paths_with_sum_in_bst.py): Count number of paths in binary tree having given sum | O(nlogn) | Level 3.
+
+### 8. Recursion and dynamic programming
+- [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -96,7 +99,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Rank from stream](Level-3/rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
-- [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](Level-3/robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
