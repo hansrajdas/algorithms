@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python
 
 # Date: 2018-07-28
 #
@@ -83,9 +83,9 @@ def main():
   for maze in mazes:
     path = robotInAGrid(maze)
     if path:
-      print 'Path form top-left to bottom-right is:', '=>'.join(map(str, path))
+      print('Path form top-left to bottom-right is:', '=>'.join(map(str, path)))
     else:
-      print 'Path from top-left to bottom-right does *NOT* exist'
+      print('Path from top-left to bottom-right does *NOT* exist')
 
 if __name__ == '__main__':
   main()

@@ -34,7 +34,7 @@ def ways(n, memo):
   return memo[n]
 
 def countWays(n):
-  memo = [0 for i in range(n + 1)]
+  memo = [0 for i in range(n + 1)]  # We can take dict also
   return ways(n, memo)
 
 def main():
