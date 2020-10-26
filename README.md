@@ -39,9 +39,10 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Is tree balanced](Level-2/check_tree_balanced.py): Check if a binary tree is balanced | O(N) | Level 2.
 - [BST inorder successor](Level-2/bst_inorder_successor.py): Find inorder successor of a node in binary search tree | O(h) | Level 2.
 - [Project build order](Level-2/project_build_order.py): Given projects and there dependent projects, find build order. Graph topological sort problem | O(P + D) | Level 2.
-- BST sequence: This is pending
+- BST sequence: Pending
 - [Check subtree](Level-2/check_subtree.py): Given 2 trees, check if one tree is exact subtree of another | O(n + km) | Level 2.
 - [Check subtree - using preorder](Level-2/check_subtree_using_preorder.py): Given 2 trees, check if one tree is exact subtree of another | O(n + m) | Level 2.
+- Get random node: Pending
 - [Paths with sum](Level-3/paths_with_sum_in_bst.py): Count number of paths in binary tree having given sum | O(nlogn) | Level 3.
 
 ## Uncategorised
