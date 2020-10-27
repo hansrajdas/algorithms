@@ -53,6 +53,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Generate all subsets of a set](Level-2/generate_all_subsets.py): Generate all subsets of a given set | O(n * 2^n) | Level 3.
 - [Generate all subsets, binary method\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n * 2^n) | Level 2.
 - [Multiply 2 integers](Level-2/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 2.
+- [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -109,7 +110,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
 - [Tree level with max width - python](Level-2/level_with_max_width.py): Find tree level having max width/nodes | O(n) | Level 2.
 - [Print fibonacci numbers](Level-1/fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
-- [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 - [Compute all permutations - Unique chars\*](Level-4/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 4.
 - [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | Level 4+.
 - [Pair of valid parens](Level-2/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(n * n!) | Level 2.
