@@ -7,7 +7,6 @@ Level-2/are_two_strings_one_edit_away.c
 Level-2/string_compression.c
 Level-2/flip_a_bit_to_get_max_seq_of_ones.c
 Level-2/swap_odd_even_bits.c
-Level-2/generate_all_subsets_binary_method.py
 Level-2/pair_of_parens.py
 Level-2/is_happy_number.c
 Level-2/is_linked_list_palindrome.py
