@@ -18,8 +18,6 @@
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
-- [Find magic index](Level-2/magic_index.c): Find magic index from an sorted array having distinct elements | O(log(n)) | Level 2.
-- [Find magic index, duplicates allowed\*](Level-3/magic_index_with_duplicates.c): Find magic index from an sorted array (having duplicates) | O(log(n)) | Level 3.
 - [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
 - [Generate all subsets, binary method\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
 - [Multiply 2 integers](Level-3/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 3.
