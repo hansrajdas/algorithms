@@ -105,8 +105,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
 - [Tree level with max width - python](Level-2/level_with_max_width.py): Find tree level having max width/nodes | O(n) | Level 2.
-- [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n2^n) | Level 3.
-- [Generate all subsets, binary method\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n2^n) | Level 2.
+- [Generate all subsets of a set](Level-3/generate_all_subsets.py): Generate all subsets of a given set | O(n * 2^n) | Level 3.
+- [Generate all subsets, binary method\*](Level-2/generate_all_subsets_binary_method.py): Generate all subsets of a given set, binary representation method | O(n * 2^n) | Level 2.
 - [Multiply 2 integers](Level-3/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 3.
 - [Print fibonacci numbers](Level-1/fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
 - [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
