@@ -40,6 +40,13 @@ void towerOfHanoi(int n, char srcTower, char dstTower, char bufferTower) {
     printf("Move disk 1 from tower %c to %c\n", srcTower, dstTower);
     return;
   }
+  /*
+   * While solving consider taking an example of 2 disks in A and what all
+   * steps will be required to move these 2 disks to C:
+   * D1 from source to buffer
+   * D2 from source to dest
+   * D1 from buffer to dest
+   */
   towerOfHanoi(n - 1, srcTower, bufferTower, dstTower);
   printf("Move dist %d from tower %c to %c\n", n, srcTower, dstTower);
   towerOfHanoi(n - 1, bufferTower, dstTower, srcTower);
