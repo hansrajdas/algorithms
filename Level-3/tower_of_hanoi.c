@@ -16,6 +16,9 @@
  * recursively.
  * Calling 3 towers with character - A, B and C.
  *
+ * Reference:
+ * https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
+ *
  * Complexity:
  * O(2^n), For n disks 2^n - 1 steps are required.
  */
