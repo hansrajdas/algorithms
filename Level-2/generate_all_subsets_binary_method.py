@@ -63,15 +63,15 @@ def generateAllSubsets(a, n):
 
 def main():
   a = []
-  n = input("Enter number of elements: ")
-  for i in xrange(n):
-      x = input("Enter value of a[%d] : " % i)
+  n = int(input('Enter number of elements: '))
+  for i in range(n):
+      x = input('Enter value of a[%d] : ' % i)
       a.append(x)
 
   subsets = generateAllSubsets(a, n)
-  print "\nAll subsets are: "
+  print('\nAll subsets are: ')
   for i in range(len(subsets)):
-    print "{idx}: {subset}".format(idx=i, subset=subsets[i])
+    print('{idx}: {subset}'.format(idx=i, subset=subsets[i]))
 
 if __name__ == '__main__':
   main()
