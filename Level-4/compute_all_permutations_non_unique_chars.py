@@ -26,8 +26,11 @@
 # interview, 6th edition.
 #
 # Complexity:
-# O(n) best case, when we have all same chars in input string like "aaaaa"
+# O(n^2) best case, when we have all same chars in input string like "aaaaa"
 # O(n^2 * n!) in worst case
+#
+# Additional O(n) space complexity to store char frequency, in addition to
+# storing all permutations
 
 import collections
 
