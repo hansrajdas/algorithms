@@ -57,6 +57,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Compute all permutations - Unique chars\*](Level-3/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 3.
 - [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n^2 * n!) | Level 4.
 - [Pair of valid parens](Level-3/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(...) | Level 3.
+- [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(r * c) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -113,7 +114,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
 - [Tree level with max width - python](Level-2/level_with_max_width.py): Find tree level having max width/nodes | O(n) | Level 2.
 - [Print fibonacci numbers](Level-1/fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
-- [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(2^r * 2^c) | Level 2.
 - [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
