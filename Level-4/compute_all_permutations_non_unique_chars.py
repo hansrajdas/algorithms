@@ -7,10 +7,27 @@
 # not necessarily unique. The list of permutations should not have duplicates.
 #
 # Approach:
-# Not much clear, refer 8.6 from CTCI.
+# One of way is to follow the same approach as used for unique characters(
+# Level-3/compute_all_permutations_unique_chars.py) and while adding new
+# permutation, check if it already added to the list, we can use set for this
+# instead of list. But this solution will have the same complexity: O(n^2 * n!)
+#
+# We can leverage this fact that, input string can have duplicates and do this
+# in better complexity but worst case would remain the same. This solution will
+# be way faster in cases where we will have lot of duplicates.
+#
+# 1. Create a map haivng count of characters like a = 2, b = 2, c = 1
+# 2. Let's imagine generating a permutation of this string(now in map). The
+#    first choice we make is whether to use a, b or c as the first char. After
+#    that, we have a subproblem to solve: find all permutations of the
+#    remaining chars, and append those to the already picked "prefix".
+#
+# For better explaination, please refer problem 8.8 of cracking the coding
+# interview, 6th edition.
 #
 # Complexity:
-# O(n * n!)
+# O(n) best case, when we have all same chars in input string like "aaaaa"
+# O(n^2 * n!) in worst case
 
 import collections
 
@@ -47,11 +64,11 @@ def getHashMap(string):
     
 def main():
   result = []
-  string = raw_input("Enter input string (having unique characters): ")
+  string = input("Enter input string (having unique characters): ")
   hashMap = getHashMap(string)
   computePermutationsNonUniqueChars(hashMap, "", len(string), result)
   for idx in range(len(result)):
-    print '{idx}: {perm}'.format(idx=idx + 1, perm=result[idx])
+    print('{idx}: {perm}'.format(idx=idx + 1, perm=result[idx]))
 
 if __name__ == '__main__':
   main()
