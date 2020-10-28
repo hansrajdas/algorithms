@@ -32,12 +32,11 @@ def insertAtPosition(string, char, pos):
   """
   return string[:pos] + char + string[pos:]
 
-def computePermutationsUniqueChars(string, length):
+def computePermutationsUniqueChars(string):
   """Generates list of all permutations of a given string.
   
   Args:
     string: Input string.
-    length: Length of string.
   """
   if not len(string):
     return []
@@ -47,7 +46,7 @@ def computePermutationsUniqueChars(string, length):
   permutations = []
   first = string[0]
   remainder = string[1:]
-  words = computePermutationsUniqueChars(remainder, len(remainder))
+  words = computePermutationsUniqueChars(remainder)
   for word in words:
     for idx in range(len(word) + 1):  # Insert all positions so +1 used.
       s = insertAtPosition(word, first, idx)
@@ -55,10 +54,10 @@ def computePermutationsUniqueChars(string, length):
   return permutations;
 
 def main():
-  string = raw_input("Enter input string (having unique characters): ")
-  permutations = computePermutationsUniqueChars(string, len(string))
+  string = input('Enter input string(having unique characters): ')
+  permutations = computePermutationsUniqueChars(string)
   for idx in range(len(permutations)):
-    print '{idx}: {perm}'.format(idx=idx + 1, perm=permutations[idx])
+    print('{idx}: {perm}'.format(idx=idx + 1, perm=permutations[idx]))
 
 if __name__ == '__main__':
   main()
