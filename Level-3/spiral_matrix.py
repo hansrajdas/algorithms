@@ -32,7 +32,7 @@
 # Approach-1 is simpler than this one
 #
 # This can also be done used 4 loops for 4 directions like this:
-# https://github.com/hansrajdas/algorithms/blob/master/Level-3/print_matrix_in_spiral.py
+# Level-3/print_matrix_in_spiral.py
 #
 # Complexity:
 # O(N^2)
