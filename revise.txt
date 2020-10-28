@@ -7,7 +7,6 @@ Level-2/are_two_strings_one_edit_away.c
 Level-2/string_compression.c
 Level-2/flip_a_bit_to_get_max_seq_of_ones.c
 Level-2/swap_odd_even_bits.c
-Level-2/pair_of_parens.py
 Level-2/is_happy_number.c
 Level-2/is_linked_list_palindrome.py
 Level-2/is_prime.go
@@ -62,7 +61,8 @@ Level-3/sum_of_linked_list_same_order.py
 Level-3/sorted_list_to_bst.py
 Level-3/robot_in_a_grid.py
 Level-3/magic_index_with_duplicates.c
+Level-3/compute_all_permutations_unique_chars.py
+Level-3/pair_of_parens.py
 Level-4/starting_of_loop_in_linked_list.py
 Level-4/knapsack.c
 Level-4/place_eight_queens.py
-Level-3/compute_all_permutations_unique_chars.py
