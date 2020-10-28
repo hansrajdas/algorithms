@@ -55,7 +55,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Multiply 2 integers](Level-2/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 2.
 - [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 - [Compute all permutations - Unique chars\*](Level-3/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 3.
-- [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n * n!) | Level 4.
+- [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n^2 * n!) | Level 4.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
