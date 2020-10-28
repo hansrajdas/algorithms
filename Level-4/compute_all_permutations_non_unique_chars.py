@@ -67,7 +67,7 @@ def getHashMap(string):
     
 def main():
   result = []
-  string = input("Enter input string (having unique characters): ")
+  string = input("Enter input string: ")
   hashMap = getHashMap(string)
   computePermutationsNonUniqueChars(hashMap, "", len(string), result)
   for idx in range(len(result)):

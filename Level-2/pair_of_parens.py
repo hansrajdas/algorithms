@@ -37,7 +37,7 @@ def generatePairOfParens(n):
     newParensPairs.append('()' + parens[idx])
     newParensPairs.append('(' + parens[idx] + ')')
 
-    # Symmetric parens (list of open/close parens '()()...()') is stored at 0th
+    # Symmetric parens(list of open/close parens '()()...()') is stored at 0th
     # index we should not add '()' at the end of this pair otherwise we would
     # get repeated entries i.e '()' + ()() will be same as ()() + '()' so
     # skipping first index while suffixing '()', only prefixed in this case.
@@ -46,31 +46,36 @@ def generatePairOfParens(n):
   return newParensPairs
 
 def main():
-  n = input("Enter input string (having unique characters): ")
-  parens = generatePairOfParens(n)
+  n = input("Enter number: ")
+  try:
+    n = int(n)
+  except ValueError:
+    print('Invalid input')
+    return
+  parens = generatePairOfParens(int(n))
   for idx in range(len(parens)):
-    print '{idx}: {parens}'.format(idx=idx + 1, parens=parens[idx])
+    print('{idx}: {parens}'.format(idx=idx + 1, parens=parens[idx]))
 
 if __name__ == '__main__':
   main()
 
 # Output:
 #
-# Enter input string (having unique characters): 1
+# Enter input string: 1
 # 1: ()
 #
-# Enter input string (having unique characters): 2
+# Enter input string: 2
 # 1: ()()
 # 2: (())
 #
-# Enter input string (having unique characters): 3
+# Enter input string: 3
 # 1: ()()()
 # 2: (()())
 # 3: ()(())
 # 4: ((()))
 # 5: (())()
 #
-# Enter input string (having unique characters): 4
+# Enter input string: 4
 # 1: ()()()()
 # 2: (()()())
 # 3: ()(()())

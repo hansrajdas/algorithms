@@ -65,3 +65,4 @@ Level-3/magic_index_with_duplicates.c
 Level-4/starting_of_loop_in_linked_list.py
 Level-4/knapsack.c
 Level-4/place_eight_queens.py
+Level-3/compute_all_permutations_unique_chars.py
