@@ -18,8 +18,7 @@
 #
 # There is another method also to solve this problem, it uses variant of quick
 # sort - Has an average case complexity of O(N) but worst case comes out to be
-# O(N^2). Implemented here for kth smallest:
-# https://github.com/hansrajdas/algorithms/blob/master/Level-3/find_kth_smallest_num.py
+# O(N^2). Implemented here for kth smallest: Level-3/find_kth_smallest_num.py
 
 def min_heapify(A, n, idx):
   smallest_idx = idx
