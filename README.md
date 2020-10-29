@@ -60,7 +60,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(r * c) | Level 2.
 - [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
-- [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
+- [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(n) | Level 4.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
