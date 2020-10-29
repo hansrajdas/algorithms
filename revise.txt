@@ -65,4 +65,5 @@ Level-3/compute_all_permutations_unique_chars.py
 Level-3/pair_of_parens.py
 Level-4/starting_of_loop_in_linked_list.py
 Level-4/knapsack.c
+Level-4/ways_to_represent_n_cents.c
 Level-4/place_eight_queens.py

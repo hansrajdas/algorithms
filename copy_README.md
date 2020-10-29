@@ -18,7 +18,6 @@
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
-- [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(2^n) | Level 4.
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
