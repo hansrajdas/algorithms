@@ -60,7 +60,7 @@ def stackMaxHeight(boxes, bottom, offset, stackMap):
       stackMap[offset] += newBottom.height
     heightWithBottom = stackMap[offset]
 
-  # Check height without current box (at index offset of boxes i.e newBottom)
+  # Check height without current box(at index offset of boxes i.e newBottom)
   heightWithoutBottom = stackMaxHeight(boxes, bottom, offset + 1, stackMap)
 
   return max(heightWithBottom, heightWithoutBottom)
@@ -77,15 +77,14 @@ def createStack(boxes):
 
 def main():
   boxes = []
-  n = input('Enter number of boxes: ')
-  for i in xrange (n):
-    print '\n'
-    h = input('Enter height of box[%d]:' % i)
-    w = input('Enter width of box[%d]:' % i)
-    d = input('Enter depth of box[%d]:' % i)
+  n = int(input('Enter number of boxes: '))
+  for i in range(n):
+    h = int(input('Enter height of box[%d]: ' % i))
+    w = int(input('Enter width of box[%d]: ' % i))
+    d = int(input('Enter depth of box[%d]: ' % i))
     boxes.append(Box(h, w, d))
 
-  print '\nMax height achieved: {height}'.format(height=createStack(boxes))
+  print('\nMax height achieved: {height}'.format(height=createStack(boxes)))
 
 if __name__ == '__main__':
   main()
