@@ -55,7 +55,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Multiply 2 integers](Level-2/multiply_integers.c): Multiply 2 positive integers without using multiply operator | O(log(s)) | Level 2.
 - [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 - [Compute all permutations - Unique chars\*](Level-3/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 3.
-- [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py.py): Compute all permutations of a given string having repeated characters | O(n^2 * n!) | Level 4.
+- [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py): Compute all permutations of a given string having repeated characters | O(n^2 * n!) | Level 4.
 - [Pair of valid parens](Level-3/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(...) | Level 3.
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(r * c) | Level 2.
 - [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
