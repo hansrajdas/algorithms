@@ -64,6 +64,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
 ### 10. Sorting and searching
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
+- [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -107,7 +108,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Knapsack problem - python](Level-4/knapsack.py): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
 - [Knapsack problem, Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Knapsack problem, Maximize weight - python](Level-4/knapsack_maximize_weight.py): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
-- [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 - [Sorted search, no size](Level-2/search_in_infinite_sorted_array.c): Search an element from an infinite sized(size of array not given) sorted array | O(log(p)) | Level 2.
 - [Search in sparse array](Level-2/search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
 - [Find all duplicates in array](Level-2/find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
