@@ -42,7 +42,6 @@ Level-3/tree_spiral_level_order.py
 Level-3/quick_sort.py
 Level-3/find_kth_smallest_num.py
 Level-3/rank_k_element_in_2_sorted_array_log_k.c
-Level-3/search_in_rotated_sorted_array.c
 Level-3/min_in_sorted_rotated_array.c
 Level-3/rotate_matrix.c
 Level-3/spiral_matrix.py
