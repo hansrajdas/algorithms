@@ -65,6 +65,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 ### 10. Sorting and searching
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
+- [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -83,7 +84,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Find element with rank k - python](Level-2/rank_k_element_in_2_sorted_arrays_O_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 2.
 - [Find element with rank k - log(k)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Find element with rank k - log(k), python\*](Level-3/rank_k_element_in_2_sorted_array_log_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
-- [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
 - [2 strings are permutations](Level-2/strings_permutation_check.c): Check if 2 strings are permutations of each other or not | Level 2.
 - [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
