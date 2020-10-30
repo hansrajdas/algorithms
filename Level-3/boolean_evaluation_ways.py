@@ -14,11 +14,11 @@
 # countEval("0&0&0&1^1|0", true) -> 10
 #
 # Approach:
-# Split (at each boolean operator) expression recursively into left and right
+# Split(at each boolean operator) expression recursively into left and right
 # sub expressions and calculate total combinations and which resulted as True.
-# So if expected is True, we can add this to number of ways other we can
-# subtract total true from total to get number of ways to get false. This can be
-# done vice versa also.
+# So if expected is True, we can add this to number of ways otherwise we can
+# subtract total true from total to get number of ways to get false. This can
+# be done vice versa also.
 #
 # Complexity:
 # n = Number of binary operators in expression
@@ -93,7 +93,7 @@ def countEval(s, result, memo):
                      leftTrue * rightTrue)
     else:
         totalTrue = 0
-        print 'In valid operator: {op}'.format(op=booleanOperator)
+        print('In valid operator: {op}'.format(op=booleanOperator))
 
     # If expected result is False we can get that from total substrings which
     # evaluated and total substring which evaluated to True.
@@ -104,10 +104,10 @@ def countEval(s, result, memo):
 
 def main():
   memo = collections.defaultdict(int)
-  s = raw_input('Enter boolean expression: ')
-  result = input('Enter expected result (0 or 1): ')
+  s = input('Enter boolean expression: ')
+  result = int(input('Enter expected result(0 or 1): '))
   result = bool(result)
-  print 'Number of ways: {ways}'.format(ways=countEval(s, result, memo))
+  print('Number of ways: {ways}'.format(ways=countEval(s, result, memo)))
 
 if __name__ == '__main__':
   main()
