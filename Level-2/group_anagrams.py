@@ -37,10 +37,10 @@ def group_anagrams(array):
   return [v for k in hash_map for v in hash_map[k]]
 
 def main():
-  array = ["abc", "adb", "bac", "bad", "cat"]
-  print "Input array of strings:", array
+  array = ['abc', 'adb', 'bac', 'bad', 'cat']
+  print(f'Input array of strings: {array}')
   grouped = group_anagrams(array)
-  print "Anagrams grouped:\t", grouped
+  print(f'Anagrams grouped: {grouped}')
 
 
 if __name__ == '__main__':
