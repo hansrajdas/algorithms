@@ -31,6 +31,11 @@
  * While fetching rank we just have to add left_size when traversing in right
  * sub tree.
  *
+ * Note:
+ * Another approach would be to keep count of each node so while inserting we
+ * can increment count if same node is inserted and while fetching rank, we can
+ * add up counts of all nodes being traversed: Level-3/rank_from_stream.py
+ *
  * Complexity:
  * Insert: O(log(n)), find rank: O(log(n)) 
  */
