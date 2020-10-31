@@ -31,7 +31,7 @@ def search_string_in_sparse_array(strings, string, l, r):
   Returns:
     -1 if string not found otherwise index of searched string.
   """
-  m = l + (r - l)/2
+  m = l + (r - l) // 2
   
   if strings[m] == string:
     return m
@@ -59,13 +59,13 @@ def main():
   key = 'att'
 
   for i in range(len(array)):
-    print 'Array[{index}]: {string!r}'.format(index=i, string=array[i])
+    print('Array[{index}]: {string!r}'.format(index=i, string=array[i]))
   
   idx = search_string_in_sparse_array(array, key, 0, len(array) - 1)
   if idx == -1:
-    print '\nString {key!r} not found in array'.format(key=key)
+    print('String {key!r} not found in array'.format(key=key))
   else:
-    print '\nString {key!r} found at index: {idx}'.format(key=key, idx=idx)
+    print('String {key!r} found at index: {idx}'.format(key=key, idx=idx))
 
 
 if __name__ == '__main__':
