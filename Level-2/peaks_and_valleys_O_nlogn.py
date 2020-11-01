@@ -32,16 +32,16 @@ def getPeaksAndValleys(a, n):
 
 def main():
   arr = [5, 3, 1, 2, 3]
-  print 'Input: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
   arr = [10, 5, 2, 3, 9, 8, 7, 6, 1, 4]
-  print '\nInput: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
   arr = [5, 10]
-  print '\nInput: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
 if __name__ == '__main__':
   main()
