@@ -14,8 +14,9 @@
 # Approach:
 # Process numbers in batches of 3 and if middle number is not smallest then swap
 # it with smallest among 3.
-# Like in [0, 1, 2, 4, 5] -> Process [0, 1, 2] => [1, 0, 2, 4, 5]
-# -> Process [2, 4, 5] => [1, 0, 4, 2, 5], this is peak-valley-peak sequence.
+# Like in [0, 1, 2, 4, 5]
+# >> Process [0, 1, 2] => [1, 0, 2, 4, 5]
+# >> Process [2, 4, 5] => [1, 0, 4, 2, 5], this is peak-valley-peak sequence.
 #
 # Complexity:
 # O(n)
@@ -46,20 +47,20 @@ def getPeaksAndValleys(a, n):
 
 def main():
   arr = [5, 3, 1, 2, 3]
-  print 'Input: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
   arr = [10, 5, 2, 3, 9, 8, 7, 6, 1, 4]
-  print '\nInput: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
   arr = [5, 10]
-  print '\nInput: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
   arr = [9, 1, 0, 4, 8, 7]
-  print '\nInput: ', arr
-  print 'Peak valley pattern: ', getPeaksAndValleys(arr, len(arr))
+  print(f'Input: {arr}')
+  print('Peak valley pattern:', getPeaksAndValleys(arr, len(arr)))
 
 if __name__ == '__main__':
   main()
