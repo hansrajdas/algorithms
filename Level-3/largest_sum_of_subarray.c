@@ -34,10 +34,10 @@ int main() {
     scanf("%d", &A[i]);
   }
 
-  for (i = 0; i < n; i++) {
-    sum_so_far += A[i];
-    if (0 > sum_so_far)
-      sum_so_far = 0;
+  sum_so_far = A[0];
+  max_sum = A[0];
+  for (i = 1; i < n; i++) {
+    sum_so_far = A[i] > sum_so_far + A[i] ? A[i] : sum_so_far + A[i];
 
     if (max_sum < sum_so_far)
       max_sum = sum_so_far;
@@ -50,6 +50,12 @@ int main() {
 /*
  * Output:
  * ---------------------------
+ * Enter number of elements: 3
+ * Enter element[0]: -1
+ * Enter element[1]: -2
+ * Enter element[2]: -3
+ * Max sum of subarray is: -1
+ *
  * Enter number of elements: 5
  * Enter element[0]: -2
  * Enter element[1]: 3
