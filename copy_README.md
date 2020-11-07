@@ -2,9 +2,6 @@
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
 - [Longest increasing subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
 - [Longest increasing subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
-- [Swap odd and even bits](Level-2/swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
-- [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
-- [Find all duplicates in array](Level-2/find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
 - [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
