@@ -62,6 +62,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(n) | Level 4.
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
+
 ### 10. Sorting and searching
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
@@ -72,6 +73,11 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Rank from stream - python](Level-3/rank_from_stream.py): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
+
+### 5. Bit manipulation
+- [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
+- [Decimal fraction to binary](Level-1/decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
+- [Flip a bit, get max sequence of 1s](Level-2/flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -102,9 +108,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Longest increainng subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
 - [Longest increainng subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Binary representation](Level-1/binary_representation.c): Print binary representation of an integer | Level 1.
-- [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
-- [Decimal fraction to binary](Level-1/decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
-- [Flip a bit, get max sequence of 1s](Level-2/flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
 - [Next largest number, same set bits](Level-4/next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
 - [Previous number, same set bits](Level-4/previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
 - [Bit flips required to convert](Level-2/bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
