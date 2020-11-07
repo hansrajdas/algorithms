@@ -10,6 +10,10 @@
  * be combined (more than one 0 case). If previous bit is 1 set previous length
  * to current length.
  *
+ * Alternate approach:
+ * Keep track of right and left 1s surrounded by a 0. Check 0 is surrounded
+ * by max ones(sum of right 1s and left 1s)
+ *
  * Complexity:
  * Time(: O(b), b number of bits in number
  */
@@ -24,7 +28,7 @@ unsigned int flip_a_bit_to_get_max_seq_of_ones(int n) {
   unsigned short int current_len = 0, previous_len = 0, max_len = 1;
 
   // If -1, all bits set as 1, return max bits in integer.
-  if (~0 == n)  
+  if (~0 == n)
     return sizeof(int) * 8;
 
   while (n) {
@@ -37,10 +41,35 @@ unsigned int flip_a_bit_to_get_max_seq_of_ones(int n) {
       previous_len = n & 2 ? current_len : 0;
       current_len = 0;
     }
-    n = n >> 1; 
+    n = n >> 1;
     max_len = max(max_len, previous_len + current_len + 1);
   }
   return max_len;
+}
+
+/*
+ * Alternate approach:
+ * Keep track of right and left 1s surrounded by a 0. Check 0 is surrounded
+ * by max ones(sum of right 1s and left 1s)
+ */
+unsigned int flip_a_bit_to_get_max_seq_of_ones_alternative(int n) {
+    unsigned short int left = 0, right = 0, _max = 1;
+
+    // If -1, all bits set as 1, return max bits in integer
+    if (~0 == n)
+        return sizeof(int) * 8;
+
+    while (n) {
+        if (n & 1)
+            right += 1;
+        else {
+            left = right;
+            right = 0;
+        }
+        _max = left + right + 1 > _max ? left + right + 1 : _max;
+        n >>= 1;
+    }
+    return _max;
 }
 
 void binary_representation(int n) {
@@ -50,7 +79,7 @@ void binary_representation(int n) {
   printf("Binary representation of %d is: ", n);
 
   // Checking bit at individual position and printing 0 or 1.
-  for (i = 1 << size - 1; i > 0; i = i >> 1) {
+  for (i = 1 << (size - 1); i > 0; i = i >> 1) {
     if (space & 0x04) {
       space = 0;
       (n & i) ? printf(" 1") : printf(" 0");  // Add space between each nibble.
@@ -69,6 +98,8 @@ int main() {
   binary_representation(number);
   printf("Max number of 1s in sequence after flipping bit is: %d\n",
       flip_a_bit_to_get_max_seq_of_ones(number));
+  printf("Max number of 1s in sequence after flipping bit is(alternative): %d\n",
+      flip_a_bit_to_get_max_seq_of_ones_alternative(number));
   return 0;
 }
 
