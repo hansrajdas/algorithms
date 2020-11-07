@@ -13,7 +13,7 @@
  * 5. Insert c1 + 1 ones to the right of bit position p.
  *
  * Complexity:
- * Time(: O(b), b number of bits in number.
+ * Time: O(b), b number of bits in number.
  */
 
 #include "stdio.h"
