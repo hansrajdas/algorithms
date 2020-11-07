@@ -19,12 +19,12 @@ unsigned short int bits_flipped_to_convert(int from, int dst) {
   unsigned short int count = 0;
 
   /*
-   * count can also be incremented using temp >>= 1 and count += count & 1 but
-   * with that we will have to check all 32 bits, suppose:
+   * `count` can also be incremented using temp >>= 1 and count += count & 1,
+   * but with that we will have to check all 32 bits, suppose:
    * from^dst = 10000000...31 times, in this case we will have to iterate 32
    * times to find that count = 1 but with below approach we can get count in
    * only one iteration. In general below loop will execute as many times as the
-   * number of ones in from^dat.
+   * number of ones in from^dst.
    */
   for (temp = from^dst; temp != 0; temp = temp & (temp - 1))
     count++;
