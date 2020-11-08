@@ -40,7 +40,7 @@ def findKthLargest(nums, k):
   :rtype: int
   """
   # Heapify first k elements
-  for idx in range(int(k/2), -1, -1):
+  for idx in range(int(k // 2), -1, -1):
     min_heapify(nums, k, idx)
     
   for idx in range(k, len(nums)):
