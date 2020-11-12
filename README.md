@@ -86,6 +86,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 
 ### 16. Moderate
 - [Swap 2 numbers](Level-1/swap_2_numbers.py): Swap 2 numbers, inplace | O(1) | Level 1.
+- [Word frequency](Level-2/word_frequency.py): Find frequency of words in list of words | O(N) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
