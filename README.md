@@ -84,6 +84,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Swap odd and even bits](Level-2/swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
 
+### 16. Moderate
+- [Swap 2 numbers](Level-1/swap_2_numbers.py): Swap 2 numbers, inplace | O(1) | Level 1.
+
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
 - [Level order tree traversal](Level-2/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 2.
