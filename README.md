@@ -91,6 +91,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Tic tac win: Design
 - [Factorial zeros](Level-2/factorial_zeros.py): Compute number of trailing 0s in n factorial | log(n) | Level 2.
 - [Smallest difference](Level-2/smallest_difference.py): Find smallest difference b/w pair of elements from 2 arrays | O(Alog(A) + Blog(B)) | Level 2.
+- Number max: Skipped, do in C language
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
