@@ -89,6 +89,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Word frequency](Level-2/word_frequency.py): Find frequency of words in list of words | O(N) | Level 2.
 - Intersection: Pending(mathematical)
 - Tic tac win: Design
+- [Factorial zeros](Level-2/factorial_zeros.py): Compute number of trailing 0s in n factorial | log(n) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
