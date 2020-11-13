@@ -45,6 +45,16 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Get random node: Pending
 - [Paths with sum](Level-3/paths_with_sum_in_bst.py): Count number of paths in binary tree having given sum | O(nlogn) | Level 3.
 
+### 5. Bit manipulation
+- [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
+- [Decimal fraction to binary](Level-1/decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
+- [Flip a bit, get max sequence of 1s](Level-2/flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
+- [Next largest number, same set bits](Level-4/next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
+- [Previous number, same set bits](Level-4/previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
+- [Bit flips required to convert](Level-2/bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
+- [Swap odd and even bits](Level-2/swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
+- [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
+
 ### 8. Recursion and dynamic programming
 - [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
 - [Path of robot in grid](Level-3/robot_in_a_grid.py): Find path traversed by robot to reach from 0, 0 to row - 1, col - 1 | O(rc) | Level 3.
@@ -74,19 +84,11 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
 
-### 5. Bit manipulation
-- [Insert M into N](Level-2/insert_bits_from_M_into_N.c): Insert bits in M to N at positions between i and j | Level 2.
-- [Decimal fraction to binary](Level-1/decimal_fraction_to_binary.c): Convert binary fraction number between 0 and 1 to binary representation | Level 1.
-- [Flip a bit, get max sequence of 1s](Level-2/flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
-- [Next largest number, same set bits](Level-4/next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
-- [Previous number, same set bits](Level-4/previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
-- [Bit flips required to convert](Level-2/bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
-- [Swap odd and even bits](Level-2/swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
-- [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
-
 ### 16. Moderate
 - [Swap 2 numbers](Level-1/swap_2_numbers.py): Swap 2 numbers, inplace | O(1) | Level 1.
 - [Word frequency](Level-2/word_frequency.py): Find frequency of words in list of words | O(N) | Level 2.
+- Intersection: Pending(mathematical)
+- Tic tac win: Design
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
