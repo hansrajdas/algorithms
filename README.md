@@ -96,6 +96,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
 - [Diving board](Level-2/diving_board.py): Find number of lengths possible using 2 lengths k times | O(2^k) | Level 2.
 - [Diving board - optimized](Level-3/diving_board_optimized.py): Find number of lengths possible using 2 lengths k times | O(k) | Level 3.
+- XML encoding: Skipped, uses some predefined methods - refer random/practice/xml_encoding.py
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
