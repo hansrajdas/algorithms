@@ -94,6 +94,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Number max: Skipped, do in C language
 - English int: Skipped code
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
+- [Diving board](Level-2/diving_board.py): Find number of lengths possible using 2 lengths k times | O(2^k) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
