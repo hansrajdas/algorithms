@@ -97,6 +97,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Diving board](Level-2/diving_board.py): Find number of lengths possible using 2 lengths k times | O(2^k) | Level 2.
 - [Diving board - optimized](Level-3/diving_board_optimized.py): Find number of lengths possible using 2 lengths k times | O(k) | Level 3.
 - XML encoding: Skipped, uses some predefined methods - refer random/practice/xml_encoding.py
+- Bisect squares: Skipped, not clear
+- Best line: Pending
+- [Master mind](Level-2/master_mind_game.py): Given solution and guess for 4 slots of RGBY string, find hits and pseudo hits | O(n) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
