@@ -100,7 +100,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Bisect squares: Skipped, not clear
 - Best line: Pending
 - [Master mind](Level-2/master_mind_game.py): Given solution and guess for 4 slots of RGBY string, find hits and pseudo hits | O(n) | Level 2.
-[Sub sort](Level-3/sub_sort.py): Find indices of array which needs to be sorted to make whole array sorted | O(N) | Level 3.
+- [Sub sort](Level-3/sub_sort.py): Find indices of array which needs to be sorted to make whole array sorted | O(N) | Level 3.
+- [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -208,7 +209,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Subarray having given sum](Level-3/subarray_having_given_sum.c): Find a sub array(positive numbers) having sum | O(N) | Level 3.
 - [Triplets in GP](Level-2/find_triplets_in_gp.c): Given a sorted array, print triplets in GP | O(N^2) | Level 2.
 - [ASCII to int](Level-2/atoi_using_bitwise.c): Given an ascii string convert it to integer, atoi conversion | O(N) | Level 2.
-- [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
 - [Largest sum of rotated subarray](Level-3/largest_sum_of_rotated_subarray.c): Find max sum of rotated subarray | O(N) | Level 3.
 - [Triplet having given sum](Level-2/triplets_with_given_sum.c): Find triplets in a sorted array which sums to a given sum | O(N^2) | Level 2.
 - [Triplet having smaller sum](Level-2/triplets_with_smaller_sum.c): Find triplets in a sorted array which sums less than given sum | O(N^2) | Level 2.
