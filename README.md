@@ -39,10 +39,10 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Is tree balanced](Level-2/check_tree_balanced.py): Check if a binary tree is balanced | O(N) | Level 2.
 - [BST inorder successor](Level-2/bst_inorder_successor.py): Find inorder successor of a node in binary search tree | O(h) | Level 2.
 - [Project build order](Level-2/project_build_order.py): Given projects and there dependent projects, find build order. Graph topological sort problem | O(P + D) | Level 2.
-- BST sequence: Pending
+- BST sequence: Skipped, not clear
 - [Check subtree](Level-2/check_subtree.py): Given 2 trees, check if one tree is exact subtree of another | O(n + km) | Level 2.
 - [Check subtree - using preorder](Level-2/check_subtree_using_preorder.py): Given 2 trees, check if one tree is exact subtree of another | O(n + m) | Level 2.
-- Get random node: Pending
+- Get random node: Skipped, not clear
 - [Paths with sum](Level-3/paths_with_sum_in_bst.py): Count number of paths in binary tree having given sum | O(nlogn) | Level 3.
 
 ### 5. Bit manipulation
@@ -87,7 +87,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 ### 16. Moderate
 - [Swap 2 numbers](Level-1/swap_2_numbers.py): Swap 2 numbers, inplace | O(1) | Level 1.
 - [Word frequency](Level-2/word_frequency.py): Find frequency of words in list of words | O(N) | Level 2.
-- Intersection: Pending(mathematical)
+- Intersection: Skipped, mathematical
 - Tic tac win: Design
 - [Factorial zeros](Level-2/factorial_zeros.py): Compute number of trailing 0s in n factorial | log(n) | Level 2.
 - [Smallest difference](Level-2/smallest_difference.py): Find smallest difference b/w pair of elements from 2 arrays | O(Alog(A) + Blog(B)) | Level 2.
@@ -98,10 +98,11 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Diving board - optimized](Level-3/diving_board_optimized.py): Find number of lengths possible using 2 lengths k times | O(k) | Level 3.
 - XML encoding: Skipped, uses some predefined methods - refer random/practice/xml_encoding.py
 - Bisect squares: Skipped, not clear
-- Best line: Pending
+- Best line: Skipped code
 - [Master mind](Level-2/master_mind_game.py): Given solution and guess for 4 slots of RGBY string, find hits and pseudo hits | O(n) | Level 2.
 - [Sub sort](Level-3/sub_sort.py): Find indices of array which needs to be sorted to make whole array sorted | O(N) | Level 3.
 - [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
+- Pattern matching: Skipped, not clear
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
