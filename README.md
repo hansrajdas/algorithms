@@ -100,6 +100,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Bisect squares: Skipped, not clear
 - Best line: Pending
 - [Master mind](Level-2/master_mind_game.py): Given solution and guess for 4 slots of RGBY string, find hits and pseudo hits | O(n) | Level 2.
+[Sub sort](Level-3/sub_sort.py): Find indices of array which needs to be sorted to make whole array sorted | O(N) | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
