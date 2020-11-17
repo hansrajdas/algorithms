@@ -103,6 +103,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Sub sort](Level-3/sub_sort.py): Find indices of array which needs to be sorted to make whole array sorted | O(N) | Level 3.
 - [Largest sum of subarray](Level-3/largest_sum_of_subarray.c): Given an unsorted array(+ve and -ve numbers), find max sum possible of a subarray | Kadane's algo | O(N) | Level 3.
 - Pattern matching: Skipped, not clear
+- [Pond sizes](Level-2/pond_sizes.py): Given matrix having water(0) and land, find the size of ponds | O(MN) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
