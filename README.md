@@ -110,6 +110,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Rand7 from rand5](Level-3/rand7_using_rand5.py): Implement rand7 using rand5 | Level 3.
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
 - [Pairs with sum - python](Level-2/pairs_with_sum.py): Find all pairs of integers with an array which sum to specified sum | O(N) | Level 2.
+- [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -260,7 +261,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Max sum after k negations](Level-2/max_sum_after_k_negations.c): Find max sum of array elements after k negations | O(K * N) | Level 2.
 - [Max 0s after flipping subarray - O(N^2)](Level-2/max_0s_in_array_after_subarray_flip_n2.c): Find max 0s in binary array after flipping a subarray | O(N^2) | Level 2.
 - [Max 0s after flipping subarray - O(N)](Level-3/max_0s_in_array_after_subarray_flip_n.c): Find max 0s in binary array after flipping a subarray | O(N) | Level 3.
-- [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
 - [Find floor and ceil in array - O(N)](Level-1/find_ceil_n_floor_in_array_O_n.c): Find floor and ceil of X from sorted array | O(N) | Level 1.
 - [Find floor and ceil in array](Level-2/find_ceil_n_floor_in_array_logn.c): Find floor and ceil of X from sorted array | O(logn) | Level 2.
 - [Find floor and ceil in array - python](Level-2/find_ceil_and_floor_in_sorted_array.py): Find floor and ceil of X from sorted array | O(logn) | Level 2.
