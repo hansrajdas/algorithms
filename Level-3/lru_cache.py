@@ -1,86 +1,94 @@
 #!/usr/bin/python
 
-# Date: 2018-11-09
+# Date: 2020-11-21
 #
 # Description:
-# Implementation of LRU cache.
-# LRU is least recently used. LRU cache discards cache entries which are not
-# accessed in recent times that is which is least recently used.
+# Design and build a "least recently used" cache, which evicts the least
+# recently used item. The cache should map from keys to values(allowing you to
+# insert and retrieve a value associated with a particular key) and be
+# initialized with a max size. When it is full, it should evict the least
+# recently used item.
 #
 # Approach:
-# This can be implemented using a dictionary which keeps reference to keys that
-# are cached. And a doubly linked list which keeps cached values based on how
-# recently they are accessed.
+# - To get an item is constant time, we need a map
+# - To maintain order, which item was used least recently we need a list so we
+#   can use doubly linked list as we has to keep to most and least recently
+#   items
+# - If a key is accessed, it should be moved to head - indicate this item has
+#   been accessed most recently
+# - When cache is full, we will remove item from tail
 #
-# When we access a cached entry, it is deleted from doubly linked list and moved
-# to head.
-# When DLL is full(reached cache limit) we remove en entry from DLL tail and
-# delete from dictionary also to indicate this entry is no longer cached.
-#
-# DLL requirement arises from the fact we require insert at head and remove from
-# tail as fast as possible.
-#
-# NOTE:
-# This is a sample code NOT a running one. Just to get an idea of implementation
-# details.
+# Complexity:
+# O(1) for get, set and delete key
 
 
-class Node:
-	def __init__(self, key, value):
-		self.key = key
-		self.value = value
-		self.next = None
-		self.back = None
+class DoublyLinkedListNode:
+    def __init__(self, key, value):
+        self.key = key
+        self.value = value
+        self.next = None
+        self.prev = None
+        
+class Cache:
+    def __init__(self, max_size):
+        self.max_size = max_size
+        self.map = {}
+        self.head = None
+        self.tail = None
 
+    def get_value(self, key):
+        if key not in self.map:
+            return None
+        item = self.map[key]
+        if item != self.head:
+            self.remove_from_linked_list(item)
+            self.insert_at_head_of_linked_list(item)
+        return item.value
 
-class DoublyLinkedList:
-	def __init__():
-		self.head = None
-		self.tail = None
-		self.size = 0
+    def remove_from_linked_list(self, node):
+        if node is None:
+            return
+        if node.prev is not None:
+            node.prev.next = node.next
+        if node.next is not None:
+            node.next.prev = node.prev
 
-	def insertAtHead(key, value):
-		node = Node(key, value)
-    ...
-    self.size += 1
-		return newNode
+        if self.tail == node:
+            self.tail = node.prev
+        if self.head == node:
+            self.head = node.next
 
-	def removeFromTail(self):
-		...
-    return tailNode
+    def insert_at_head_of_linked_list(self, node):
+        if self.head is None:
+            self.head = node
+            self.tail = node
+        else:
+            self.head.prev = node
+            node.next = self.head
+            self.head = node
 
-  def removeFromQ(self, key):
-    ...
-    return node
-	
-	def getLen(self):
-		return self.size
+    def remove_key(self, key):
+        item = self.map.pop(key, None)
+        self.remove_from_linked_list(item)
 
+    def set_key_value(self, key, value):
+        self.remove_key(key)  # Remove if key is already present
 
-class LRUCache:
-	def __init__(self, size):
-		self.cache = {}
-		self.Q = DoublyLinkedList()
-		self.size = size
+        # If cache is full, remove from tail - least recently used
+        if len(self.map) >= self.max_size and self.tail is not None:
+            self.remove_key(self.tail.key)
 
-  def put(self, key, value):
-	  if key in self.cache:
-		  self.Q.removeFromQ(key)
+        # Insert new item
+        node = DoublyLinkedListNode(key, value)
+        self.insert_at_head_of_linked_list(node)
+        self.map[key] = node
 
-	  if self.Q.len == size:
-		  node = self.Q.removeFromTail()
-		  del self.cache[node.key]
-	  node = self.Q.insertAtHead(key, value)
-	  self.cache[key] = node
+def main():
+    cache = Cache(5)
 
-  def get(self, key):
-    if key not in self.cache:
-      return None
-    node = removeFromQ(key)
-    node = insertAtHead(node.key, node.value)
-    self.cache[key] = node
-    return node.value
+    for i in range(10):
+        cache.set_key_value(i, i * 10)
+        print(cache.get_value(i))
 
-
-c = LRUCache(10)
-c.put(k, v)
+if __name__ == '__main__':
+    main()
