@@ -108,6 +108,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Sum swap](Level-3/sum_swap.py): Find pair of elements from 2 given array to make sum of 2 arrays same | O(A + B) | Level 3.
 - Langton's Ant: Skipped code
 - [Rand7 from rand5](Level-3/rand7_using_rand5.py): Implement rand7 using rand5 | Level 3.
+- [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
+- [Pairs with sum - python](Level-2/pairs_with_sum.py): Find all pairs of integers with an array which sum to specified sum | O(N) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
@@ -193,7 +195,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
 - [Substring matching, Rabin karp](Level-3/rabin_karp.c): Implement rabin karp algo for substring matching | O(m + n) | Level 4.
 - [Substring matching, Rabin karp - python](Level-3/rabin_karp.py): Implement rabin karp algo for substring matching | O(m + n) | Level 4.
-- [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
 - [Connections in matrix](Level-2/connections_in_matrix.py): Count possible connections in matrix of 0s and 1s | O(MxN) | Level 2.
 - [Next power of 2](Level-1/next_pow_of_2.c): Find next power of 2 for a given number | Level 1.
 - [Round off float](Level-1/round_off.c): Round off a float number to nearest integer | Level 1.
