@@ -106,6 +106,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Pond sizes](Level-2/pond_sizes.py): Given matrix having water(0) and land, find the size of ponds | O(MN) | Level 2.
 - T9 number to string: Skipped code
 - [Sum swap](Level-3/sum_swap.py): Find pair of elements from 2 given array to make sum of 2 arrays same | O(A + B) | Level 3.
+- Langton's Ant: Skipped code
+- [Rand7 from rand5](Level-3/rand7_using_rand5.py): Implement rand7 using rand5 | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
