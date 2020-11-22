@@ -111,6 +111,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Pairs having given sum](Level-2/pairs_having_given_sum.c): Given an array and required sum, find pairs in array that sums to required sum | O(n) time and space | Level 2.
 - [Pairs with sum - python](Level-2/pairs_with_sum.py): Find all pairs of integers with an array which sum to specified sum | O(N) | Level 2.
 - [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
+- [Evaluate expression](Level-3/evaluate_expression.py): Evaluate arithmetic expression(without parentheses) | O(N) | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
