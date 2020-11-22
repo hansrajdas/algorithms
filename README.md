@@ -113,6 +113,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [LRU cache impelementation](Level-3/lru_cache.py): Put and Get operations implemented in LRU cache | Level 3.
 - [Evaluate expression](Level-3/evaluate_expression.py): Evaluate arithmetic expression(without parentheses) | O(N) | Level 3.
 
+### 17. Hard
+- [Add 2 numbers](Level-2/add_2_numbers.py): Add 2 numbers without arithmatic operations | OlogN) | Level 2.
+
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
 - [Level order tree traversal](Level-2/level_order_tree_traversal.c): Level order traversal of a tree | O(n^2) | Level 2.
