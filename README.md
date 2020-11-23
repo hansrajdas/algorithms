@@ -115,6 +115,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 
 ### 17. Hard
 - [Add 2 numbers](Level-2/add_2_numbers.py): Add 2 numbers without arithmatic operations | OlogN) | Level 2.
+- [Shuffle cards](Level-2/shuffle_cards.py): Given deck of cards, shuffle it | O(N) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
