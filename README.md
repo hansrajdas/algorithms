@@ -117,6 +117,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Add 2 numbers](Level-2/add_2_numbers.py): Add 2 numbers without arithmatic operations | OlogN) | Level 2.
 - [Shuffle cards](Level-2/shuffle_cards.py): Given deck of cards, shuffle it | O(N) | Level 2.
 - [Random set](Level-2/random_set.py): Generate random set having m elements from an array having n elements | O(N) | Level 2.
+- Missing number: Skipped, not clear
+- [Letters and numbers](Level-3/letter_and_numbers.py): Find longest subarry having same number of letters and numbers | O(N) | Level 3.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
