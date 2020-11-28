@@ -120,8 +120,27 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Missing number: Skipped, not clear
 - [Letters and numbers](Level-3/letter_and_numbers.py): Find longest subarry having same number of letters and numbers | O(N) | Level 3.
 - Count 2's: Skipped, not clear
+- Baby names: Pending
+- Circus tower: Pending
+- Kth multiple: Pending
 - [Majority element from array](Level-2/majority_element_in_array.c): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Majority element from array - python](Level-2/majority_element.py): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
+- Word distance: Pending
+- BiNode: Pending
+- Re-shape: Pending
+- Smallest K: Pending
+- Longest word: Pending
+- The masseuse: Pending
+- Multi search: Pending
+- Shortest supersequence: Pending
+- Missing two: Pending
+- Continuous median: Pending
+- Volume of histogram: Pending
+- Word transform: Pending
+- Max black square: Pending
+- Max submatrix: Pending
+- Word rectangle: Pending
+- Sparse similarity: Pending
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
