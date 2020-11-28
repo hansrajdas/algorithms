@@ -114,11 +114,12 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Evaluate expression](Level-3/evaluate_expression.py): Evaluate arithmetic expression(without parentheses) | O(N) | Level 3.
 
 ### 17. Hard
-- [Add 2 numbers](Level-2/add_2_numbers.py): Add 2 numbers without arithmatic operations | OlogN) | Level 2.
-- [Shuffle cards](Level-2/shuffle_cards.py): Given deck of cards, shuffle it | O(N) | Level 2.
-- [Random set](Level-2/random_set.py): Generate random set having m elements from an array having n elements | O(N) | Level 2.
-- Missing number: Skipped, not clear
-- [Letters and numbers](Level-3/letter_and_numbers.py): Find longest subarry having same number of letters and numbers | O(N) | Level 3.
+- [1. Add 2 numbers](Level-2/add_2_numbers.py): Add 2 numbers without arithmatic operations | OlogN) | Level 2.
+- [2. Shuffle cards](Level-2/shuffle_cards.py): Given deck of cards, shuffle it | O(N) | Level 2.
+- [3. Random set](Level-2/random_set.py): Generate random set having m elements from an array having n elements | O(N) | Level 2.
+- 4. Missing number: Skipped, not clear
+- [5. Letters and numbers](Level-3/letter_and_numbers.py): Find longest subarry having same number of letters and numbers | O(N) | Level 3.
+- 6. Count 2's: Skipped, not clear
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
