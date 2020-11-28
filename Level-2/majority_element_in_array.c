@@ -7,11 +7,12 @@
  * such element which occurs more than n/2 times.
  *
  * Approach:
- * - Assume first element as max occurring element, taking count = 1
+ * - Assume first element as majority element, taking count = 1
  * - Scan further in array, if same element appears, increment count by 1
  *   otherwise decrement count by 1
  * - If count becomes 0, consider new element as max occurring element and
  *   reset count to 1
+ * - Do another pass to verify if given element occurred more than n/2 times.
  *
  * This cancellation algorithm is called Moore's voting algorithm.
  *
@@ -22,7 +23,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-int find_max_occuring_num (int arr[], int n) {
+int get_majority_element(int arr[], int n) {
   int i = 0;
   int count = 1;
   int maj_idx = 0;
@@ -38,7 +39,16 @@ int find_max_occuring_num (int arr[], int n) {
       count = 1;
     }
   }
-  return arr[maj_idx];
+
+  // Validate if we found majority element
+  count = 0;
+  for (i = 0; i < n; i ++) {
+    if (arr[maj_idx] == arr[i])
+        count++;
+  }
+  if (count > n / 2)
+      return arr[maj_idx];
+  return -1;
 }
 
 int main() {
@@ -55,8 +65,8 @@ int main() {
     scanf("%d", &a[i]);
   }
 
-  num_max_times = find_max_occuring_num(a, n);
-  printf("Number occurring maximum times is: %d\n", num_max_times);
+  num_max_times = get_majority_element(a, n);
+  printf("Majority element: %d\n", num_max_times);
   return 0;
 }
 
@@ -75,5 +85,5 @@ int main() {
  * Enter element[7]: 4
  * Enter element[8]: 4
  * Enter element[9]: 15
- * Number occurring maximum times is: 4
+ * Majority element: 4
  */
