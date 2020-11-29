@@ -15,14 +15,15 @@
 # versa if this is the case.
 #
 # At any time median will be:
-# - Avg of root elements of 2 heaps, if they have number of elements
+# - Avg of root elements of 2 heaps, if they have same number of elements or
 # - Root element of heap which has one more element.
 #
 # Algorithm reference:
 # https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
 #
 # Complexity:
-# O(nlogn) Time, O(n) Space
+# O(logn) to track new element
+# O(1) to get median
 
 
 def min_heapify(a, n, idx):
@@ -59,7 +60,7 @@ def main():
   max_heap = []
   min_heap = []
   while True:
-    n = input('Enter next number: ')
+    n = int(input('Enter next number: '))
     if not max_heap:
       median = n
       max_heap.append(n)
@@ -113,7 +114,7 @@ def main():
 
         median = max_heap[0]
 
-    print 'Median is: %f' % median
+    print(f'Median is: {median}')
 
 
 if __name__ == '__main__':
