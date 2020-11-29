@@ -134,6 +134,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Multi search: Pending
 - Shortest supersequence: Pending
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
+- [Missing 2 numbers](Level-2/find_2_missing_numbers.py): Given an array having numbers from 1 to N but 2 numbers missing, find missing numbers | O(N) | Level 2.
 - Continuous median: Pending
 - Volume of histogram: Pending
 - Word transform: Pending
