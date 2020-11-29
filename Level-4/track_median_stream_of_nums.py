@@ -18,6 +18,8 @@
 # - Avg of root elements of 2 heaps, if they have same number of elements or
 # - Root element of heap which has one more element.
 #
+# NOTE: This program is not working, revisit this
+#
 # Algorithm reference:
 # https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
 #
