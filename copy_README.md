@@ -20,8 +20,6 @@
 - [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
 - [Repeating numbers](Level-2/find_repeating_elements.c): Find all repeating numbers in a array | O(N) | Level 2.
 - [Inversion of 3](Level-2/inversion_of_3.c): Find number of combinations which follows: a[i] > a[j] > a[k] with i < j < k in a unsorted array | O(N^2) | Level 2.
-- [Odd occurring numberr](Level-2/find_2_odd_occurring_numbers.c): A array has all numbers occurring even numbers of times and 2 occurring odd number of times, find these 2 numbers | O(N) | Level 2.
-- [Even occurring numbers](Level-3/find_2_even_occurring_numbers.c): Find 2 numbers in array(numbers from 1 to n - 2) occurring even number of times, other all occur odd number of times | O(N) | Level 3.
 - [Sorted subsequence of size 3](Level-3/sorted_subsequence_of_size_3.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time and space | Level 3.
 - [Sorted subsequence of size 3, O(1) space](Level-4/sorted_subsequence_of_size_3_without_space.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time | Level 4.
 - [Max average of len K](Level-2/max_average_of_len_k.c): Find sub array of len K having maximum average | O(N) | Level 2.
@@ -75,3 +73,5 @@
 - [Generic linked list](Level-3/generic_linked_list.c): Generic linked list in C language | Level 3.
 - [JSON parser](Level-2/json_parser.py): Partial JSON parser, Ecko question | Level 2.
 - [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
+- [Odd occurring numberr](Level-2/find_2_odd_occurring_numbers.c): A array has all numbers occurring even numbers of times and 2 occurring odd number of times, find these 2 numbers | O(N) | Level 2.
+- [Even occurring numbers](Level-3/find_2_even_occurring_numbers.c): Find 2 numbers in array(numbers from 1 to n - 2) occurring even number of times, other all occur odd number of times | O(N) | Level 3.
