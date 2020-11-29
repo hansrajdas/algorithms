@@ -133,7 +133,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - The masseuse: Pending
 - Multi search: Pending
 - Shortest supersequence: Pending
-- Missing two: Pending
+- [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
 - Continuous median: Pending
 - Volume of histogram: Pending
 - Word transform: Pending
