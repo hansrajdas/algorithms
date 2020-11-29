@@ -135,7 +135,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Shortest supersequence: Pending
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
 - [Missing 2 numbers](Level-2/find_2_missing_numbers.py): Given an array having numbers from 1 to N but 2 numbers missing, find missing numbers | O(N) | Level 2.
-- Continuous median: Pending
+- [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(logn) track and O(1) get median | Level 4.
 - Volume of histogram: Pending
 - Word transform: Pending
 - Max black square: Pending
@@ -222,7 +222,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [LCM and HCF](Level-1/gcd_and_lcm.py): Find GCD(or HCF) and LCM of 2 numbers | Level 1.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem, problem adapted from sort array of 0s and 1s | O(n) | Level 2.
 - [Track kth largest, stream of numbers](Level-2/track_kth_largest_stream_of_nums.py): Keep track of kth largest number from a stream of numbers | O(k) | Level 2.
-- [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
 - [Substring matching, Rabin karp](Level-3/rabin_karp.c): Implement rabin karp algo for substring matching | O(m + n) | Level 4.
