@@ -183,8 +183,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Print fibonacci numbers](Level-1/fibonacci.c): Print first n fibonacci numbers | O(n) | Level 1.
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
-- [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
-- [Min positive integer missing - O(1) space\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
+- [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number missing from an array having random integers | O(n) | Level 2.
+- [Min positive integer missing - O(1) space\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number missing from an array having random integers | O(n) | Level 3.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Check strings same](Level-1/case_insensitive_strcmp.c): Write a function to check if 2 strings are same, ignoring case | Level 1.
 - [Multiple of 4](Level-1/check_multiple_of_4.c): Check if a number of 4 or not | Level 1.
