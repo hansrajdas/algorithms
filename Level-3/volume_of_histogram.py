@@ -18,6 +18,8 @@
 # - Compute the volumes between the tallest and the second tallest
 # - Recurse towards left and right
 #
+# Other simpler approaches: https://www.geeksforgeeks.org/trapping-rain-water/
+#
 # Complexity:
 # O(N^2)
 
