@@ -139,7 +139,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Volume of histogram](Level-3/volume_of_histogram_optimized.py): Given set of histogram bars, find max water logged | O(N) | Level 3.
 - Word transform: Pending
 - Max black square: Pending
-- Max submatrix: Pending
+- [Max submatrix](Level-2/max_submatrix.py): Given NxN matrix having +ve and -ve numbers, find submtrix having max sum | O(N^6) | Level 2.
 - Word rectangle: Pending
 - Sparse similarity: Pending
 
