@@ -63,6 +63,7 @@ Level-3/magic_index_with_duplicates.c
 Level-3/compute_all_permutations_unique_chars.py
 Level-3/pair_of_parens.py
 Level-3/boolean_evaluation_ways.py
+Level-3/volume_of_histogram_optimized.py
 Level-4/compute_all_permutations_non_unique_chars.py
 Level-4/starting_of_loop_in_linked_list.py
 Level-4/knapsack.c
