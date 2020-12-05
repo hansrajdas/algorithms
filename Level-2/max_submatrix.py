@@ -13,6 +13,8 @@
 #
 # Complexity:
 # O(N^6)
+#
+# NOTE: CTCI has optimal solution, not clear
 
 class SubMatrix:
     def __init__(self, r1, c1, r2, c2, _sum):
