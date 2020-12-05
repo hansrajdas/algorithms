@@ -132,7 +132,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Longest word: Pending
 - The masseuse: Pending
 - Multi search: Pending
-- Shortest supersequence: Pending
+- [Shortest supersequence](Level-2/shortest_supersequence.py): Find smallest subarray of bigger array having all elements of smaller array | O(SB^2) | Level 2.
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
 - [Missing 2 numbers](Level-2/find_2_missing_numbers.py): Given an array having numbers from 1 to N but 2 numbers missing, find missing numbers | O(N) | Level 2.
 - [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(logn) track and O(1) get median | Level 4.
