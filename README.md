@@ -128,7 +128,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Word distance: Pending
 - BiNode: Pending
 - Re-shape: Pending
-- Smallest K: Pending
+- [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
 - Longest word: Pending
 - The masseuse: Pending
 - Multi search: Pending
