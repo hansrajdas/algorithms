@@ -122,14 +122,14 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Count 2's: Skipped, not clear
 - Baby names: Pending
 - Circus tower: Pending
-- [Kth multiple](Level-3/kth_multiple_3_5_7.py): Find kth number such that the only factors are 3, 5 and 7 | O(k) | Level 3.
+- [Kth multiple - 3, 5 and 7](Level-3/kth_multiple_3_5_7.py): Find kth number such that the only factors are 3, 5 and 7 | O(k) | Level 3.
 - [Majority element from array](Level-2/majority_element_in_array.c): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Majority element from array - python](Level-2/majority_element.py): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - Word distance: Pending
 - BiNode: Pending
 - Re-shape: Pending
 - [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
-- Longest word: Pending
+- [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
 - The masseuse: Pending
 - Multi search: Pending
 - [Shortest supersequence](Level-2/shortest_supersequence.py): Find smallest subarray of bigger array having all elements of smaller array | O(SB^2) | Level 2.
