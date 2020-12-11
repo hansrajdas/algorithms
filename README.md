@@ -125,7 +125,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Kth multiple - 3, 5 and 7](Level-3/kth_multiple_3_5_7.py): Find kth number such that the only factors are 3, 5 and 7 | O(k) | Level 3.
 - [Majority element from array](Level-2/majority_element_in_array.c): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Majority element from array - python](Level-2/majority_element.py): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
-- Word distance: Pending
+- [Word distance](Level-2/word_distance.py): Given list of words, find shortest distance b/w 2 given words | O(A + B) | Level 2.
 - BiNode: Pending
 - Re-shape: Pending
 - [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
