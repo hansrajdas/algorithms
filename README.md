@@ -126,7 +126,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Majority element from array](Level-2/majority_element_in_array.c): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Majority element from array - python](Level-2/majority_element.py): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Word distance](Level-2/word_distance.py): Given list of words, find shortest distance b/w 2 given words | O(A + B) | Level 2.
-- BiNode: Pending
+- [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
 - Re-shape: Pending
 - [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
 - [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
@@ -320,7 +320,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Subset having equal sum, DP](Level-3/subset_equal_sum_dp.py): Given an array, check if it can be partitioned in 2 subsets having equal sum | O(N * SUM) | Level 3.
 - [Kth smallest from BST](Level-3/kth_smallest_from_bst.py): Find Kth smallest number from a BST | O(K) | Level 3.
 - [Next greater element](Level-3/next_greater_element.py): Print NGEs for all elements in given array | O(N) | Level 3.
-- [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
 - [Cut rod to have max profit](Level-3/cut_rod_to_max_profit.py): Find max profit obtainable by cutting up the rod and selling the pieces | O(N^2) | Level 3.
 - [Max product, rope cutting](Level-3/max_product_cutting.py): Find max product obtained by cutting rope of different sizes | O(N^2) | Level 3.
 - [Custom split string](Level-2/custom_split.py): Split string with substrings enclosed in quotes as single | O(N) | Level 2.

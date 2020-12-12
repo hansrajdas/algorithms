@@ -15,7 +15,7 @@
 #
 # Approach:
 # We traverse the tree in inorder fashion. We add nodes at the beginning of
-# current linked list and update head of the list using pointer to head pointer.
+# current linked list and update head of the list using pointer to head.
 # Since we insert at the beginning, we need to process leaves in reverse order.
 # For reverse order, we first traverse the right subtree before the left subtree
 # .i.e. do a reverse inorder traversal.
@@ -33,17 +33,23 @@ class Node:
     self.left = None
     self.right = None
 
-def BTtoDLL(root, head):
-  """Converts a binary tree with given root pointer to doubly linked list."""
-  if root is None:
-    return None
+class Wrapper:
+    def BTtoDLL(self, root):
+        """Converts a binary tree with given root pointer to doubly linked list."""
+        self.head = None
 
-  BTtoDLL(root.right, head)
-  root.right = head[0]
-  if head[0]:
-    head[0].left = root
-  head[0] = root
-  BTtoDLL(root.left, head)
+        def _BTtoDLL(root):
+            if root is None:
+                return None
+
+            _BTtoDLL(root.right)
+            root.right = self.head
+            if self.head:
+                self.head.left = root
+            self.head = root
+            _BTtoDLL(root.left)
+        _BTtoDLL(root)
+        return self.head
 
 
 def inorder(root):
@@ -74,21 +80,19 @@ def print_dll(head):
 
 ## TC - 1
 root = None
-head = [None]  # Make head mutable
 
 print('Inorder traversal:', end=' ')
 inorder(root)
-BTtoDLL(root, head)
-print_dll(head[0])
+head = Wrapper().BTtoDLL(root)
+print_dll(head)
 
 ## TC - 2
 root = Node(1)
-head = [None]
 
 print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 1
-BTtoDLL(root, head)
-print_dll(head[0])  # forward: 1, backward: 1
+head = Wrapper().BTtoDLL(root)
+print_dll(head)  # forward: 1, backward: 1
 
 ## TC - 3
 #   1
@@ -96,12 +100,11 @@ print_dll(head[0])  # forward: 1, backward: 1
 # 2
 root = Node(1)
 root.left = Node(2)
-head = [None]
 
 print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 2 1
-BTtoDLL(root, head)
-print_dll(head[0])  # forward: 2 1, backward: 1 2
+head = Wrapper().BTtoDLL(root)
+print_dll(head)  # forward: 2 1, backward: 1 2
 
 ## TC - 4
 #   1
@@ -110,9 +113,8 @@ print_dll(head[0])  # forward: 2 1, backward: 1 2
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)
-head = [None]
 
 print('\n\nInorder traversal:', end=' ')
 inorder(root)  # 2 1 3
-BTtoDLL(root, head)
-print_dll(head[0])  # forward: 2 1 3, backward: 3 1 2
+head = Wrapper().BTtoDLL(root)
+print_dll(head)  # forward: 2 1 3, backward: 3 1 2
