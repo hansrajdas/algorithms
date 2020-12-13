@@ -127,7 +127,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Majority element from array - python](Level-2/majority_element.py): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
 - [Word distance](Level-2/word_distance.py): Given list of words, find shortest distance b/w 2 given words | O(A + B) | Level 2.
 - [Binary tree to doubly linked list](Level-3/binary_tree_to_doubly_linked_list.py): Convert a binary tree to doubly linked list | O(N) | Level 3.
-- Re-shape: Pending
+- [Re-space](Level-4/re-space-sentence.py): Add spaces in sentence to have min unrecognized chars | O(N^2) | Level 4.
 - [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
 - [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
 - The masseuse: Pending
