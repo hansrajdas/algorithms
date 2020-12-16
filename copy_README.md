@@ -4,7 +4,6 @@
 - [Longest increasing subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
-- [Min positive integer missing](Level-2/smallest_positive_missing.py): Find minimum positive number from an array having random integers | O(n) | Level 2.
 - [Min positive integer missing - O(1) space\*](Level-3/smallest_positive_num_missing_O_1_space.c): Find minimum positive number from an array having random integers | O(n) | Level 3.
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
@@ -14,7 +13,6 @@
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem, problem adapted from sort array of 0s and 1s | O(n) | Level 2.
 - [Track kth largest, stream of numbers](Level-2/track_kth_largest_stream_of_nums.py): Keep track of kth largest number from a stream of numbers | O(k) | Level 2.
-- [Track median, stream of numbers](Level-4/track_median_stream_of_nums.py): Keep track of median from stream of numbers | O(nlogn) | Level 4.
 - [Check prime](Level-2/is_prime.go): Check if a given number is prime or not | O(sqrt(n)) | Level 2.
 - [Find square root](Level-4/babylonian_square_root.go): Find square root of a number using babylonian convergence method | Level 4.
 - [Count frequency, without space](Level-2/frequency_of_elements_without_space.c): Count frequency of numbers in array | O(N) time and O(1) space | Level 2.
@@ -22,7 +20,6 @@
 - [Inversion of 3](Level-2/inversion_of_3.c): Find number of combinations which follows: a[i] > a[j] > a[k] with i < j < k in a unsorted array | O(N^2) | Level 2.
 - [Sorted subsequence of size 3](Level-3/sorted_subsequence_of_size_3.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time and space | Level 3.
 - [Sorted subsequence of size 3, O(1) space](Level-4/sorted_subsequence_of_size_3_without_space.c): Find sorted subsequence of size 3 in an unsorted array | O(N) time | Level 4.
-- [Max average of len K](Level-2/max_average_of_len_k.c): Find sub array of len K having maximum average | O(N) | Level 2.
 - [Subarray having given sum](Level-3/subarray_having_given_sum.c): Find a sub array(positive numbers) having sum | O(N) | Level 3.
 - [Triplets in GP](Level-2/find_triplets_in_gp.c): Given a sorted array, print triplets in GP | O(N^2) | Level 2.
 - [Largest sum of rotated subarray](Level-3/largest_sum_of_rotated_subarray.c): Find max sum of rotated subarray | O(N) | Level 3.
@@ -55,7 +52,6 @@
 - [RGB merging, get min count](Level-2/RGB_merging_min_count.c): Array has RGBs, merge different element and get min elements left O(N) | Level 2.
 - [Count strictly increasing subarrays](Level-2/count_strictly_increasing_subarrays.c): Count the number of strictly increasing subarrays possible | O(N) | Level 2.
 - [Count subarrays with even sum](Level-3/count_subarrays_with_even_sum.c): Given an unsorted array, count the number of subarrays with even sum | O(N) | Level 3.
-- [Smallest number missing](Level-2/find_smallest_num_missing.c): Given a sorted array - size n, elements 0 to n - 1. Find smallest number missing | O(logn) | Level 2.
 - [Max sum path, 2 sorted arrays](Level-3/max_sum_path_of_2_sorted_arrays.c): Given 2 sorted arrays, find max sum path | O(M + N) | Level 3.
 - [Stock buy sell to maximize profit](Level-3/stock_buy_sell_max_profit.c): Given stock prices, find days to buy and sell so that profit can be maximized | O(N) | Level 3.
 - [Merge 2 sorted arrays as contiguous sorted](Level-4/merge_2_sorted_array_as_contigous_sorted.c): Given 2 sorted arrays, merge them as contiguous sorted arrays | O(M * N) | Level 4.
