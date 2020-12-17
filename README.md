@@ -120,7 +120,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Missing number: Skipped, not clear
 - [Letters and numbers](Level-3/letter_and_numbers.py): Find longest subarry having same number of letters and numbers | O(N) | Level 3.
 - Count 2's: Skipped, not clear
-- Baby names: Pending
+- [Baby names](Level-3/baby_names_synonyms.py): Get count of synonym names | O(B + P) | Level 3.
 - Circus tower: Pending
 - [Kth multiple - 3, 5 and 7](Level-3/kth_multiple_3_5_7.py): Find kth number such that the only factors are 3, 5 and 7 | O(k) | Level 3.
 - [Majority element from array](Level-2/majority_element_in_array.c): Find majority(more than n/2 times) element from an array | Moore's voting algo | O(N) | Level 2.
