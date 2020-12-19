@@ -1,6 +1,5 @@
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 - [Flip your caps](Level-3/flip_your_cap.c): You all will conform | flip your cap(s) puzzle | Level 3.
-- [Longest increasing subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
 - [Longest increasing subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Print prime numbers](Level-4/print_all_prime_numbers.py): Print all prime numbers from 1 to n, sieve of eratosthenes method | O(sqrt(n)log(log(n))) | Level 3.
 - [Find min range, k sorted arrays](Level-3/min_range_k_sorted_arrays.c): Find min range which will have elements from all k arrays | O(n * k) | Level 3.
@@ -71,3 +70,4 @@
 - [Nodes with distance K in binary tree](Level-4/node_with_k_distance_in_tree.py): Print all nodes which are K distance away from given node in binary tree | O(N) | Level 4.
 - [Odd occurring numberr](Level-2/find_2_odd_occurring_numbers.c): A array has all numbers occurring even numbers of times and 2 occurring odd number of times, find these 2 numbers | O(N) | Level 2.
 - [Even occurring numbers](Level-3/find_2_even_occurring_numbers.c): Find 2 numbers in array(numbers from 1 to n - 2) occurring even number of times, other all occur odd number of times | O(N) | Level 3.
+- [Longest increasing subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
