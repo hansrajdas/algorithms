@@ -130,7 +130,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Re-space](Level-4/re-space-sentence.py): Add spaces in sentence to have min unrecognized chars | O(N^2) | Level 4.
 - [Smallest K numbers](Level-3/find_k_smallest_nums.py): Given unsorted array find k smallest numbers | O(N) | Level 3.
 - [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
-- The masseuse: Pending
+- [The masseuse](Level-2/max_minutes.py): Given list of meetings, find max meeting minutes without taking any consicutive meetings | O(N) | Level 2.
 - Multi search: Pending
 - [Shortest supersequence](Level-2/shortest_supersequence.py): Find smallest subarray of bigger array having all elements of smaller array | O(SB^2) | Level 2.
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
