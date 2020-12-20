@@ -32,6 +32,14 @@ def max_minutes(meetings, index, cache):
         max_minutes(meetings, index + 1, cache))
     return cache[index]
 
+def max_minutes_iterative(meetings):
+    memo = [0 for _ in range(len(meetings) + 2)]
+    for i in range(len(meetings) - 1, -1, -1):
+        best_with = meetings[i] + memo[i + 2]
+        best_without = memo[i + 1]
+        memo[i] = max(best_with, best_without)
+    return memo[0]
+
 
 def main():
     cache = {}
@@ -42,6 +50,10 @@ def main():
 
     cache = {}
     assert max_minutes([45, 60, 45, 15], 0, cache) == 90
+
+    assert max_minutes_iterative([30, 15, 60, 75, 45, 15, 15, 45]) == 180
+    assert max_minutes_iterative([75, 105, 120, 75, 90, 135]) == 330
+    assert max_minutes_iterative([45, 60, 45, 15]) == 90
 
 if __name__ == '__main__':
     main()
