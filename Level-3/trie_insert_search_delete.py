@@ -32,6 +32,9 @@
 # https://www.geeksforgeeks.org/trie-insert-and-search/
 # https://www.geeksforgeeks.org/trie-delete/
 #
+# NOTE: Trie can also be implemented using python dictionary instead of list
+# of 26 characters, refer: `Level-3/multi_search.py`
+#
 # Complexity:
 # Space to store trie - O(ALPHABET_SET*L*N)
 # Insert - O(L)
