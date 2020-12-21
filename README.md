@@ -132,7 +132,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
 - [The masseuse](Level-2/max_minutes.py): Given list of meetings, find max meeting minutes without taking any adjacent meetings | O(N) | Level 2.
 - [The masseuse - space optimized](Level-3/max_minutes_space_optimized.py): Given list of meetings, find max meeting minutes without taking any adjacent meetings | O(N) | Level 3.
-- Multi search: Pending
+- [Multi search](Level-3/multi_search.py): Given a string and list of smaller strings, search all smaller strings in bigger string | O(b^2 + kt) | Level 3.
 - [Shortest supersequence](Level-2/shortest_supersequence.py): Find smallest subarray of bigger array having all elements of smaller array | O(SB^2) | Level 2.
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
 - [Missing 2 numbers](Level-2/find_2_missing_numbers.py): Given an array having numbers from 1 to N but 2 numbers missing, find missing numbers | O(N) | Level 2.
