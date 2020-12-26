@@ -40,6 +40,10 @@
 # O(D^2 * W)
 # D = Number of documents
 # W = Max words in a document
+#
+# NOTE: Slightly better approach given in CTCI, refer that. Worst case
+# complexity remains same in that approach also but most of the time runs
+# better than this one
 
 
 class Document:
