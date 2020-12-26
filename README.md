@@ -142,8 +142,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - Word transform: Skipped, not clear
 - Max black square: Skipped, not clear
 - [Max submatrix](Level-2/max_submatrix.py): Given NxN matrix having +ve and -ve numbers, find submtrix having max sum | O(N^6) | Level 2.
-- Word rectangle: Pending
-- Sparse similarity: Pending
+- Word rectangle: Skipped code
+- [Sparse similarity](Level-2/sparse_similarity.py): Given list of documents, find similarity b/w pairs | O(D^2 * W) | Level 2.
 
 ## Uncategorised
 - [Karatsuba algo](Level-4/karatsuba.py): Efficient way to multiply 2 numbers, karatsuba algo | O(n^1.58) | Level 4.
