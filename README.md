@@ -33,15 +33,15 @@ All programs are categorized in level 1 to 4(1 being easiest)
 
 ## Cracking the coding interview(6th edition)
 ### 1. Arrays and strings
-- [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
-- [2 strings are permutations](Level-2/strings_permutation_check.c): Check if 2 strings are permutations of each other or not | Level 2.
-- [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
-- [Is permutation palindrome](Level-2/is_any_permutation_palindrome.c): Check if any permutation of given string is palindrome or not | Level 2.
-- [Check 2 strings, one edit away](Level-2/are_two_strings_one_edit_away.c): Check if 2 strings are max one edit away or not | O(n) | Level 2.
-- [String compression](Level-2/string_compression.c): Compress string, show count for consecutive repeating characters | O(n) | Level 2.
-- [Rotate square matrix](Level-3/rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n) | Level 3.
-- [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
-- [2 strings are rotations](Level-2/are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
+1. [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
+1. [2 strings are permutations](Level-2/strings_permutation_check.c): Check if 2 strings are permutations of each other or not | Level 2.
+1. [Update input string](Level-2/url_formatter.c): Update(in-place) input string to have space replaced with %20 | O(n) | Level 2.
+1. [Is permutation palindrome](Level-2/is_any_permutation_palindrome.c): Check if any permutation of given string is palindrome or not | Level 2.
+1. [Check 2 strings, one edit away](Level-2/are_two_strings_one_edit_away.c): Check if 2 strings are max one edit away or not | O(n) | Level 2.
+1. [String compression](Level-2/string_compression.c): Compress string, show count for consecutive repeating characters | O(n) | Level 2.
+1. [Rotate square matrix](Level-3/rotate_matrix.c): Rotate square matrix clockwise by 90 degrees | O(n) | Level 3.
+1. [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
+1. [2 strings are rotations](Level-2/are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
 
 ### 2. Linked List
 - [Remove duplicates from linked list](Level-2/remove_duplicates_from_linked_list.py): Remove duplicates from a linked list | O(n) time and space | Level 2.
