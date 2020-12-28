@@ -43,7 +43,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Clear row and column if 0 found](Level-3/clear_matrix_rows_and_coulmns.c): If an element in a matrix is 0, its entire row and column are set to 0 | O(MxN) | Level 3.
 - [2 strings are rotations](Level-2/are_2_strings_rotations.c): Check if 2 strings are rotations of each other or not | O(n) | Level 2.
 
-### 2. Linked List
+### 2. Linked list
 - [Remove duplicates from linked list](Level-2/remove_duplicates_from_linked_list.py): Remove duplicates from a linked list | O(n) time and space | Level 2.
 - [kth from last in linked list](Level-3/kth_from_last_in_linked_list.py): Find kth element from last of a singly linked list | O(n) | Level 3.
 - [Delete node from linked list](Level-2/delete_node_from_linked_list.py): Given only reference to an arbitary node of a linked list, delete that node | O(1) | Level 2.
@@ -54,13 +54,19 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Linked list intersection](Level-2/linked_list_intersection.py): Find if two linked list intersect each other | O(m + n) | Level 2.
 - [Starting node of loop in linked list](Level-4/starting_of_loop_in_linked_list.py): Detect loop in linked list and find starting node of loop | O(n) | Level 4.
 
+### 3. Stacks and queues
+- Skipped code, mostly theoritical/design questions
+
 ### 4. Trees and graphs
 - [Route between 2 nodes](Level-2/route_between_2_vertices.py): Given a directed graph, check if there is a route b/w 2 nodes | O(V + E) | Level 2.
 - [Sorted array to BST](Level-3/sorted_list_to_bst.py): Given a sorted array, create binary search tree(BST) with minimal height | O(N) | Level 3.
 - [List of depths](Level-2/list_of_depths.py): Binary tree to linked list for each level | O(N) | Level 2.
 - [Is tree balanced](Level-2/check_tree_balanced.py): Check if a binary tree is balanced | O(N) | Level 2.
+- [Is BST valid](Level-3/is_valid_bst.py): Check if a tree is valid BST or not | O(N) | Level 3.
 - [BST inorder successor](Level-2/bst_inorder_successor.py): Find inorder successor of a node in binary search tree | O(h) | Level 2.
 - [Project build order](Level-2/project_build_order.py): Given projects and there dependent projects, find build order. Graph topological sort problem | O(P + D) | Level 2.
+- [LCA in binary tree](Level-3/lowest_common_ancestor_in_binary_tree.py): Find lowest common ancestor in binary tree | O(n) | Level 3.
+- [LCA in BST](Level-2/lowest_common_ancestor_in_bst.py): Find lowest common ancestor in binary search tree | O(logn) | Level 2.
 - BST sequence: Skipped, not clear
 - [Check subtree](Level-2/check_subtree.py): Given 2 trees, check if one tree is exact subtree of another | O(n + km) | Level 2.
 - [Check subtree - using preorder](Level-2/check_subtree_using_preorder.py): Given 2 trees, check if one tree is exact subtree of another | O(n + m) | Level 2.
@@ -73,9 +79,16 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Flip a bit, get max sequence of 1s](Level-2/flip_a_bit_to_get_max_seq_of_ones.c): Flip a bit to get maximum sequence of 1s in sequence | O(b) | Level 2.
 - [Next largest number, same set bits](Level-4/next_largest_same_num_of_bits_set.c): Given a positive integer, find next largest number having same number of set bits | O(b) | Level 4.
 - [Previous number, same set bits](Level-4/previous_num_having_same_num_of_bits_set.c): Given a positive integer, find previous number having same number of set bits | O(b) | Level 4.
+- Debugger: Explain what does `((n & (n - 1)) == 0)` does
 - [Bit flips required to convert](Level-2/bits_flipped_to_convert.c): Determine the number of bits need to flip to convert integer A to B | Level 2.
 - [Swap odd and even bits](Level-2/swap_odd_even_bits.c): Program to swap odd and even bits in an integer | Level 2.
 - [Update screen array, draw line](Level-3/draw_line.c): Update pixels array based on input pixel points to draw a line | Level 3.
+
+### 6. Math and logic puzzles
+- Skipped, puzzles and mathematical questions
+
+### 7. Object oriented design
+- LLD questions
 
 ### 8. Recursion and dynamic programming
 - [Count ways to run n steps](Level-2/count_steps.py): Count the number of ways possible to run stairs having n steps (can take 1, 2 or 3 steps) | O(n) | Level 2.
@@ -95,16 +108,38 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Stack boxes to maximize height](Level-4/stack_boxes.py): Stack boxes to to have maximum height | O(n) | Level 4.
 - [Boolean evaluation ways](Level-3/boolean_evaluation_ways.py): Total number of ways to get expected boolean result from a boolean expression | O(n) | Level 3.
 
+### 9. System design and scalability
+- System design questions
+
 ### 10. Sorting and searching
 - [Merge 2 sorted arrays, in place](Level-2/merge_2_sorted_arrays_in_place.c): Merge 2 sorted arrays, in place | O(A + B) | Level 2.
 - [Groups anagrams](Level-2/group_anagrams.py): Write a method to sort an array of strings so that all the anagrams are next to each other. | O(MxNxlog(N)) | Level 2.
 - [Search element in rotated sorted array](Level-3/search_in_rotated_sorted_array.c): Search an element from rotated sorted array | Level 3.
 - [Sorted search, no size](Level-2/search_in_infinite_sorted_array.c): Search an element from an infinite sized(size of array not given) sorted array | O(log(p)) | Level 2.
 - [Search in sparse array](Level-2/search_string_in_sparse_array.py): Search a string from sparsely populated array of strings (other places has empty string) | O(log(n)) | Level 2.
+- Sort big file: Skipped code, conceptual
+- Missing int: Skipped code, conceptual
+- [Find all duplicates in array](Level-2/find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
+- [Search in sorted matrix](Level-2/sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 2.
 - [Rank from stream](Level-3/rank_from_stream.c): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Rank from stream - python](Level-3/rank_from_stream.py): Find rank of an element from a stream of data | O(logn) | Level 3.
 - [Peaks and valleys, sorting method](Level-2/peaks_and_valleys_O_nlogn.py): Arrange an unsorted in alternating sequence of peaks and valleys | O(NlogN) | Level 2.
 - [Peak and valley, O(n) method\*](Level-3/peaks_and_valleys_O_n.py): Arrange an unsorted array in alternating sequence of peaks and valleys | O(n) | Level 3.
+
+### 11. Testing
+- Skipped
+
+### 12. C and C++
+- Skipped
+
+### 13. Java
+- Skipped
+
+### 14. Databases
+- General DB concepts and questions
+
+### 15. Threads and locks
+- Questions on thread and concurrency issues
 
 ### 16. Moderate
 - [Swap 2 numbers](Level-1/swap_2_numbers.py): Swap 2 numbers, inplace | O(1) | Level 1.
@@ -115,6 +150,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Smallest difference](Level-2/smallest_difference.py): Find smallest difference b/w pair of elements from 2 arrays | O(Alog(A) + Blog(B)) | Level 2.
 - Number max: Skipped, do in C language
 - English int: Skipped code
+- Arithmetic operations: Skipped code
 - [Year with max population](Level-3/year_with_max_population.py): Given birth and death years, find year with max population | O(Y + P) | Level 3.
 - [Diving board](Level-2/diving_board.py): Find number of lengths possible using 2 lengths k times | O(2^k) | Level 2.
 - [Diving board - optimized](Level-3/diving_board_optimized.py): Find number of lengths possible using 2 lengths k times | O(k) | Level 3.
@@ -191,8 +227,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Knapsack problem - python](Level-4/knapsack.py): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
 - [Knapsack problem, Maximize weight](Level-4/knapsack_maximize_weight.c): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
 - [Knapsack problem, Maximize weight - python](Level-4/knapsack_maximize_weight.py): Given a knapsack, maximize weights that can be carried in given knapsack, No item values given | O(nxW) | Level 4.
-- [Find all duplicates in array](Level-2/find_duplicates_in_4k_space.c): Find all duplicates in array (range 1 to 32,000) with memory 4k | O(n) | Level 2.
-- [Search in sorted matrix](Level-2/sorted_matrix_search.c): Search for an element in a matrix having each row and each column sorted | O(M + N) | Level 2.
 - [Min from sorted rotated](Level-3/min_in_sorted_rotated_array.c): Find min element from sorted rotated array | O(log(n)) | Level 3.
 - [Tree level with max width](Level-2/level_with_max_width.c): Find tree level having max width/nodes | O(n) | Level 2.
 - [Tree level with max width - python](Level-2/level_with_max_width.py): Find tree level having max width/nodes | O(n) | Level 2.
@@ -219,8 +253,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
 - [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
-- [LCA in binary tree](Level-3/lowest_common_ancestor_in_binary_tree.py): Find lowest common ancestor in binary tree | O(n) | Level 3.
-- [LCA in BST](Level-2/lowest_common_ancestor_in_bst.py): Find lowest common ancestor in binary search tree | O(logn) | Level 2.
 - [Spiral matrix](Level-3/spiral_matrix.py): Given a number N, create matrix having values from 1 to N^2 in spiral form | O(N^2) | Level 3.
 - [Print matrix in spiral](Level-3/print_matrix_in_spiral.py): Given a matrix, print its elements in clockwise spiral form | O(MxN) | Level 3.
 - [Print matrix in spiral reverse](Level-3/print_matrix_in_spiral_reverse.py): Given a matrix, print its elements in anticlockwise spiral form | O(MxN) | Level 3.
@@ -302,7 +334,6 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Convert integer to comma format](Level-2/format_nums.cc): Given an integer, convert it to string with comma notation - Indian and US | O(N) | Level 2.
 - [Reverse sentence](Level-2/reverse_sentence.cc): Given a sentence, reverse it's individual words | O(N) | Level 2.
 - [Reverse sentence - python](Level-2/reverse_sentence.py): Given a sentence, reverse it's individual words | O(N) | Level 2.
-- [Is BST valid](Level-3/is_valid_bst.py): Check if a tree is valid BST or not | O(N) | Level 3.
 - [Is symmetric tree](Level-2/is_tree_symmetric.py): Check if a given tree is symmetric/self mirror image or not | O(N) | Level 2.
 - [Find mirror image](Level-2/find_tree_mirror.py): Find mirror image of a given binary tree | O(N) | Level 2.
 - [Left and right views of tree](Level-2/left_right_views_of_tree.py): Print left and right views of binary tree | O(N) | Level 2.
