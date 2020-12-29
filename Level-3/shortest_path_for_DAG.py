@@ -54,12 +54,9 @@ class Graph(object):
     """
 
     visited[source] = True
-    for adjacent, weight in self.graph[source]:
-      if self.graph.has_key(adjacent) and (not visited[adjacent]):
+    for adjacent, weight in self.graph.get(source, []):
+      if adjacent not in visited or not visited[adjacent]:
         self.toplogical_sort(adjacent, visited, stack)
-      else:
-        if adjacent not in stack:
-          stack.append(adjacent)
     stack.append(source)
 
   def shortest_path(self, s):
@@ -71,7 +68,7 @@ class Graph(object):
 
     stack = [] # To store topological order.
 
-    if self.graph.has_key(s):
+    if s in self.graph:
       visited = {v: False for v in self.graph.keys()}
       self.toplogical_sort(s, visited, stack)  # Find topological order
     else:
