@@ -24,9 +24,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Pattern matching using suffix tries](Level-3/pattern_matching_using_suffix_tries.py): Implement suffix tries for pattern matching | O(m) | Level 3.
 
 ## Graphs
-- [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
+- [DFS traversal](Level-2/graph_depth_first_search.py): Create a directed graph and performs depth first search(DFS) traversal | O(V + E) | Level 2.
+- [BFS traversal](Level-2/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 2.
 - [Connected components](Level-2/find_connected_components.py): Find all connected components in a graph | O(V + E) | Level 2.
-- [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Topological sort](Level-3/topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS | O(V + E) | Level 3.
 - [Shortest path of DAG](Level-3/shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E) | Level 3.
