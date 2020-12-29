@@ -6,9 +6,8 @@
 # Depth first search of a directed graph.
 #
 # Approach:
-# Dictionary is used to store graph # information as adjacency list. Uses
-# dictionary to store adjacency list of graph having list of adjacent nodes
-# corresponding to each node.
+# Uses dictionary to store adjacency list of graph having list of adjacent
+# nodes corresponding to each node.
 #
 # Recursion is used to visit all reachable nodes with respect to start node.
 # Use a visited dictionary to keep track all nodes that are already visited.
