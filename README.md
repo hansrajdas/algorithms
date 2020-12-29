@@ -25,6 +25,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 
 ## Graphs
 - [DFS traversal](Level-3/graph_depth_first_search.py): Creates a directed graph and performs DFS traversal | O(V + E) | Level 3.
+- [Connected components](Level-2/find_connected_components.py): Find all connected components in a graph | O(V + E) | Level 2.
 - [Graph BFS traversal](Level-3/graph_breadth_first_search.py): Breadth first search(BFS) traversal of directed graph | O(V + E) | Level 3.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
 - [Topological sort](Level-3/topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS | O(V + E) | Level 3.
