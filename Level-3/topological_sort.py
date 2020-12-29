@@ -36,12 +36,9 @@ class Graph(object):
     """Performs DFS to find the topological ordering from the current node."""
     
     visited[current_node] = True
-    for adjacent_vertex in self.graph[current_node]:
-      if self.graph.has_key(adjacent_vertex) and not visited[adjacent_vertex]:
+    for adjacent_vertex in self.graph.get(current_node, []):
+      if adjacent_vertex not in visited or not visited[adjacent_vertex]:
           self.topological_sort_util(adjacent_vertex, visited, stack)
-      else:
-          if adjacent_vertex not in stack:
-            stack.append(adjacent_vertex)
     stack.append(current_node)
 
   def topological_sort(self):
