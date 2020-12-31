@@ -42,6 +42,7 @@ class Graph:
                 if next_node not in visited:
                     Q.append(next_node)
                     prev[next_node] = node  # Save parent of next_node as node
+                # if next_node == end: return prev  # Break early if shortest path only to a specific dest is required
         return prev
 
     def reconstruct_path(self, src, dst, prev):
