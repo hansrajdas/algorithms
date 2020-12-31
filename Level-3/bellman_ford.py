@@ -7,15 +7,17 @@
 # vertexes. Graph can have both positive and negative weights and cycles.
 #
 # Implementation:
-# - Relax all edges |V| -1 times as there can be max of |V| -1 edges in any
+# - Relax all edges |V| - 1 times as there can be max of |V| - 1 edges in any
 #   simple path(from source any vertex in graph).
-# - If there is a negative weight cycle then it reports and marks shortest
+# - Run above step second time and if there is a negative weight cycle(if we
+#   still see more optimal shortest path) then it reports and marks shortest
 #   distance as undefined.
 #
 # Reference:
 # https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
 # 
-# Complexity: O(VE)
+# Complexity:
+# O(VE)
 
 
 class Graph(object):
@@ -41,8 +43,8 @@ class Graph(object):
     # As we are required to iterate over edges so it's better to keep edges as
     # list instead of coventional way of adjacency list.
     self.edges.append([src, dst, wgt])
-    self.dist[src] = float("Inf")
-    self.dist[dst] = float("Inf")
+    self.dist[src] = float('Inf')
+    self.dist[dst] = float('Inf')
 
   def bellman_ford(self, source):
     """Finds shortest path or detects negative weight cycle in graph.
@@ -52,29 +54,30 @@ class Graph(object):
     """
 
     number_of_vrtx = len(self.dist)
-    self.dist[source] = 0 # Source is reachable with distance 0.
+    self.dist[source] = 0  # Source is reachable with distance 0.
 
+    # For each vertex, apply relaxation for all edges
     for ctr in range(number_of_vrtx - 1):
       for u, v, w in self.edges:
         if self.dist[v] > self.dist[u] + w:
           self.dist[v] = self.dist[u] + w
     
-    # If there is still scope of improvement, there is a negative weight cycle
-    # in graph.
+    # Run algorithm a second time to detect which nodes are part of a negative
+    # cycle. A negative cycle has occurred if we can find a better path beyond
+    # the optimal solution that is if there is still scope of improvement,
+    # there is a negative weight cycle in graph.
     # As the distance will keep on decreasing with each iteration of negative
-    # edge cycle(will eventually become negative infinity if loop runs forever).
-    cycle = False
-    for u, v, w in self.edges:
-      if self.dist[v] > self.dist[u] + w:
-        cycle = True
+    # edge cycle(will eventually become negative infinity if loop runs forever)
+    for ctr in range(number_of_vrtx - 1):
+      for u, v, w in self.edges:
+        if self.dist[v] > self.dist[u] + w:
+          self.dist[v] = float('-inf')
+          print(f'Node {v} is part of negative cycle - undefined shortest path')
     
-    if cycle:
-      print "There is negative wight cycle in graph so shortest path is undefined."
-    else:
-      for k in self.dist.keys(): 
-        print "Vertex: {} \t Distance: {}".format(k, self.dist[k])
+    for k in self.dist:
+      print('Vertex: {} \t Distance: {}'.format(k, self.dist[k]))
 
-print "\n*********** Test case 1 ***********"
+print('\n*********** Test case 1 ***********')
 g = Graph()
 g.add_edge(0, 1, -1)
 g.add_edge(0, 2, 4)
@@ -87,7 +90,7 @@ g.add_edge(4, 3, -3)
  
 g.bellman_ford(0)
 
-print "\n*********** Test case 2 ***********"
+print('\n*********** Test case 2 ***********')
 g1 = Graph()
 g1.add_edge(0, 1, -1)
 g1.add_edge(1, 0, -1)
