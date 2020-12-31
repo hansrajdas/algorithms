@@ -60,7 +60,7 @@ class Graph:
 
     def shortest_path(self, src, dst):
         """Finds shortest path from source to dst in an unweighted graph."""
-        prev = self.bfs(src)
+        prev = self.bfs(src)  # Get SSSP
         path = self.reconstruct_path(src, dst, prev)
         print(f'Shortest path from {src} to {dst}: {path}')
 
@@ -84,8 +84,8 @@ if __name__ == '__main__':
 
 # Output:
 # -------
-# Shortest path from 10 to 14: 10->11->13->14
-# Shortest path from 10 to 12: 10->12
-# Shortest path from 11 to 14: 11->13->14
-# Shortest path from 15 to 16: 15->16
-# Shortest path from 13 to 16: not found
+# Shortest path from 10 to 14: [10, 11, 13, 14]
+# Shortest path from 10 to 12: [10, 12]
+# Shortest path from 11 to 14: [11, 13, 14]
+# Shortest path from 15 to 16: [15, 16]
+# Shortest path from 13 to 16: []
