@@ -20,8 +20,10 @@
 # For more explaination check problem 8.9 of cracking the coding interview(6th
 # edition)
 #
+# Simple approach: https://leetcode.com/problems/generate-parentheses/solution/
+#
 # Complexity:
-# ...
+# O(2^n)
 
 def generatePairOfParens(left_rem, right_rem, holder, idx, parens):
     if left_rem < 0 or right_rem < left_rem:
@@ -35,6 +37,18 @@ def generatePairOfParens(left_rem, right_rem, holder, idx, parens):
         if right_rem > left_rem:
             holder[idx] = ')'
             generatePairOfParens(left_rem, right_rem - 1, holder, idx + 1, parens)
+
+def generateParenthesis_simple(n):
+    ans = []
+    def dfs(s, left, right):
+        if len(s) == 2 * n:
+            ans.append(s)
+        if left < n:
+            dfs(s + '(', left + 1, right)
+        if right < left:
+            dfs(s + ')', left, right + 1)
+    dfs('', 0, 0)
+    return ans
 
 def main():
   n = input("Enter number: ")
@@ -52,6 +66,10 @@ def main():
                        parens)  # Store response
   for idx in range(len(parens)):
     print('{idx}: {parens}'.format(idx=idx + 1, parens=parens[idx]))
+
+  parens = generateParenthesis_simple(n)
+  for idx in range(len(parens)):
+    print('[SIMPLE] {idx}: {parens}'.format(idx=idx + 1, parens=parens[idx]))
 
 if __name__ == '__main__':
   main()
