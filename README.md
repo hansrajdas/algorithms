@@ -104,7 +104,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Tower of hanoi](Level-3/tower_of_hanoi.c): Print steps to solve tower of hanoi problem for n disks | O(2^n) | Level 3.
 - [Compute all permutations - Unique chars\*](Level-3/compute_all_permutations_unique_chars.py): Compute all permutations of a given string having unique characters | O(n^2 * n!) | Level 3.
 - [Compute all permutations - Repeated chars](Level-4/compute_all_permutations_non_unique_chars.py): Compute all permutations of a given string having repeated characters | O(n^2 * n!) | Level 4.
-- [Pair of valid parens](Level-3/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(...) | Level 3.
+- [Pair of valid parens](Level-3/pair_of_parens.py): Print all valid combinations of n pairs of parentheses | O(2^n) | Level 3.
 - [Paint fill](Level-2/paint_fill.py): Fill surrounding area with new color | O(r * c) | Level 2.
 - [Ways to represent n cents](Level-4/ways_to_represent_n_cents.c): Find number of ways to represent n cents using quarters, dimens, nickels and pennies | O(n * NUM_OF_DENOMS) | Level 4.
 - [Place 8 queens on 8x8](Level-4/place_eight_queens.py): Print all ways to arrange 8 queens on a 8x8 chessboard so that none attack any other | O(GRID_SIZE^3) | Level 4.
@@ -193,7 +193,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Longest word](Level-3/longest_word.py): Given list of words, find longest word that can be found using other words | O(nlogn + L^2) | Level 3.
 - [The masseuse](Level-2/max_minutes.py): Given list of meetings, find max meeting minutes without taking any adjacent meetings | O(N) | Level 2.
 - [The masseuse - space optimized](Level-3/max_minutes_space_optimized.py): Given list of meetings, find max meeting minutes without taking any adjacent meetings | O(N) | Level 3.
-- [Multi search](Level-3/multi_search.py): Given a string and list of smaller strings, search all smaller strings in bigger string | O(b^2 + kt) | Level 3.
+- [Multi search](Level-3/multi_search.py): Given a string and list of smaller strings, search all smaller strings in bigger string - trie using dict | O(b^2 + kt) | Level 3.
 - [Multi search - optimal](Level-3/multi_search_optimal.py): Given a string and list of smaller strings, search all smaller strings in bigger string | O(kt + bk) | Level 3.
 - [Shortest supersequence](Level-2/shortest_supersequence.py): Find smallest subarray of bigger array having all elements of smaller array | O(SB^2) | Level 2.
 - [Missing number](Level-2/find_missing_number.py): Given an array having numbers from 1 to N but one missing, find missing | O(N) | Level 2.
