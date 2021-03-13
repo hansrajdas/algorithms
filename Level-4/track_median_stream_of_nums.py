@@ -1,137 +1,60 @@
 #!/usr/bin/python
 
-# Date: 2018-09-23
+# Date: 2020-03-13
 #
 # Description:
 # There is a running stream of numbers, keep track of median.
 #
 # Approach:
-# Maintain 2 heaps - One max and one min. Put all smaller half elements in max
-# heap and larger half in min heap.
-# When new element is streamed - if it is more than previous median then it
-# should go in min heap otherwise in max heap.
-# Another important point to notice is difference between number of elements in
-# both heaps should not exceed 1, need to move elements from min to max or vice
-# versa if this is the case.
+# - We has to maintain smaller half elements in max-heap and larger half of elements to min-heap
+# - Keep min-heap equal to max-heap or 1 more element
+# - Adding new number:
+#     - Always add to min-heap
+#     - Take min from min-heap and push to max-heap
+#     - If max-heap has more elements, take max from max-heap and push to min-heap
 #
-# At any time median will be:
-# - Avg of root elements of 2 heaps, if they have same number of elements or
-# - Root element of heap which has one more element.
-#
-# NOTE: This program is not working, revisit this
-#
-# Algorithm reference:
-# https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
+# https://leetcode.com/problems/find-median-from-data-stream/submissions/
 #
 # Complexity:
 # O(logn) to track new element
 # O(1) to get median
 
 
-def min_heapify(a, n, idx):
-  """Min heapifies an array of size n w.r.t index idx."""
-  min_idx = idx
-  left = 2*idx + 1
-  right = 2*idx + 2
+import heapq
 
-  if left < n and a[left] < a[min_idx]:
-    min_idx = left
-  if right < n and a[right] < a[min_idx]:
-    min_idx = right
+class MedianFinder:
 
-  if min_idx != idx:
-    a[min_idx], a[idx] = a[idx], a[min_idx]
-    min_heapify(a, n, min_idx)
+    def __init__(self):
+        """
+        initialize your data structure here.
+        """
+        self.min_heap = []
+        self.max_heap = []
 
-def max_heapify(a, n, idx):
-  """Max heapifies an array of size n w.r.t index idx."""
-  max_idx = idx
-  left = 2*idx + 1
-  right = 2*idx + 2
+    def addNum(self, num: int) -> None:
+        """
+        - We has to maintain smaller half elements in max-heap and larger half of elements to min-heap
+        - Keep min-heap equal to max-heap or 1 more element
+        - Steps:
+            - Always add to min-heap
+            - Take min from min-heap and push to max-heap
+            - If max-heap has more elements, take max from max-heap and push to min-heap
+        """
+        heapq.heappush(self.min_heap, num)
+        heapq.heappush(self.max_heap, -heapq.heappop(self.min_heap))
+        if len(self.max_heap) > len(self.min_heap):
+            heapq.heappush(self.min_heap, -heapq.heappop(self.max_heap))
 
-  if left < n and a[left] > a[max_idx]:
-    max_idx = left
-  if right < n and a[right] > a[max_idx]:
-    max_idx = right
-
-  if max_idx != idx:
-    a[max_idx], a[idx] = a[idx], a[max_idx]
-    max_heapify(a, n, max_idx)
-
-def main():
-  max_heap = []
-  min_heap = []
-  while True:
-    n = int(input('Enter next number: '))
-    if not max_heap:
-      median = n
-      max_heap.append(n)
-    elif len(max_heap) > len(min_heap):
-      if n < median:
-        # Pop max from max heap and insert in min heap
-        min_heap.append(max_heap[0])
-        min_heap[0], min_heap[len(min_heap) - 1] = min_heap[len(min_heap) - 1], min_heap[0]
-        min_heapify(min_heap, len(min_heap), 0)
-
-        # Insert n in max_heap
-        max_heap[0] = n
-        max_heapify(max_heap, len(max_heap), 0)
-      else:
-        # Insert in min heap
-        min_heap.append(n)
-        min_heap[0], min_heap[len(min_heap) - 1] = min_heap[len(min_heap) - 1], min_heap[0]
-        min_heapify(min_heap, len(min_heap), 0)
-
-      median = (max_heap[0] + min_heap[0]) / 2.0
-    elif len(max_heap) < len(min_heap):
-      if n > median:
-        # Pop min from min heap and insert in max heap
-        max_heap.append(min_heap[0])
-        max_heap[0], max_heap[len(max_heap) - 1] = max_heap[len(max_heap) - 1], max_heap[0]
-        max_heapify(max_heap, len(max_heap), 0)
-
-        # Insert n in min heap
-        min_heap[0] = n
-        min_heapify(min_heap, len(min_heap), 0)
-      else:
-        # Insert in max heap
-        max_heap.append(n)
-        max_heap[0], max_heap[len(max_heap) - 1] = max_heap[len(max_heap) - 1], max_heap[0]
-        max_heapify(max_heap, len(max_heap), 0)
-
-      median = (max_heap[0] + min_heap[0]) / 2.0
-    elif len(max_heap) == len(min_heap):
-      if n > median:
-        # Insert in min heap
-        min_heap.append(n)
-        min_heap[0], min_heap[len(min_heap) - 1] = min_heap[len(min_heap) - 1], min_heap[0]
-        min_heapify(min_heap, len(min_heap), 0)
-
-        median = min_heap[0]
-      else:
-        # Insert in max heap
-        max_heap.append(n)
-        max_heap[0], max_heap[len(max_heap) - 1] = max_heap[len(max_heap) - 1], max_heap[0]
-        max_heapify(max_heap, len(max_heap), 0)
-
-        median = max_heap[0]
-
-    print(f'Median is: {median}')
+    def findMedian(self) -> float:
+        if len(self.min_heap) == len(self.max_heap):
+            return (self.min_heap[0] - self.max_heap[0]) / 2
+        return self.min_heap[0]
 
 
-if __name__ == '__main__':
-  main()
-
-
-# Output:
-# -------
-# Enter next number: 20
-# Median is: 20.000000
-# Enter next number: 22
-# Median is: 21.000000
-# Enter next number: 1
-# Median is: 20.000000
-# Enter next number: 21
-# Median is: 20.500000
-# Enter next number: 5
-# Median is: 20.000000
+obj = MedianFinder()
+obj.addNum(1)
+print(obj.findMedian())  # 1
+obj.addNum(3)
+print(obj.findMedian())  # 2.0
+obj.addNum(2)
+print(obj.findMedian())  # 2
