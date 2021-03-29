@@ -34,6 +34,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Dijkstras shortest path](Level-3/dijkstras_shortest_path.py): Implement Dijkstras shortest path algo | O(E * log(V)) | Level 3.
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.
 
+## Union find(disjoint sets)
+- [Implement disjoint sets](Level-2/union_find.py): Implement union find data structure with path compression and rank | O(1) | Level 2.
+
 ## Cracking the coding interview(6th edition)
 ### 1. Arrays and strings
 - [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
