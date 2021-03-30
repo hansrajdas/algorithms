@@ -22,7 +22,10 @@ class Disjoint:
         self.parent = [i for i in range(n)]
 
     def find(self, x):
-        """Recursive method of find with path compression."""
+        """
+        Recursive method of find with path compression. This is same as iterative
+        approach implemented here: https://github.com/hansrajdas/algorithms/blob/master/Level-2/union_find.py#L37
+        """
         if self.parent[x] != x:
             self.parent[x] = self.find(self.parent[x])  # Path compression
         return self.parent[x]
