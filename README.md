@@ -37,6 +37,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 ## Union find(disjoint sets)
 - [Implement disjoint sets](Level-2/union_find.py): Implement union find data structure with path compression and rank | O(1) | Level 2.
 - [Undirected graph cycle detection](Level-2/graph_cycle_detection_union_find.py): Check if undirected graph has cycle or not using union find | O(V + E) | Level 2.
+- [Kruskals algo - MST](Level-3/kruskals_algo_min_spanning_tree.py): Kruskals algorithm to find minimum spanning tree(MST) of undirected graph | O(ElogE) | Level 3.
 
 ## Cracking the coding interview(6th edition)
 ### 1. Arrays and strings
