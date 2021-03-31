@@ -3,7 +3,7 @@
 # Date: 2021-03-30
 #
 # Description:
-# Check if graph has cycle using union find(disjoint sets)
+# Check if an undirected graph has cycle using union find(disjoint sets)
 #
 # Approach:
 # Iterate over all edges of graph and keep on checking if any 2 vertice already
