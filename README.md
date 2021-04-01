@@ -370,6 +370,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Max product, rope cutting](Level-3/max_product_cutting.py): Find max product obtained by cutting rope of different sizes | O(N^2) | Level 3.
 - [Custom split string](Level-2/custom_split.py): Split string with substrings enclosed in quotes as single | O(N) | Level 2.
 - [Infix to postfix expression converter](Level-3/infix_to_postfix.c): Convert infix expression into postfix | O(N * N) | Level 3.
+- [Job sequencing problem](Level-3/job_scheduling_problem.py): Given set of jobs with deadline and profit, find seq for max profit | O(N^2) | Level 3.
 
 ## Other problems
 - https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
