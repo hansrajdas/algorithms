@@ -3,8 +3,8 @@
 # Date: 2020-12-03
 #
 # Description:
-# Given an NxN matrix of positive and negative integers, write ode to find the
-# submatrix with the largest possible sum.
+# Given an NxN matrix of positive and negative integers, find the submatrix
+# with the largest possible sum.
 #
 # Approach:
 # Brute force approach, consider all possible submatrices. This will require

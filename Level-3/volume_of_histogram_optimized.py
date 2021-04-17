@@ -46,7 +46,7 @@ def compute_histrogram_volume(histogram):
         second_tallest = min(left_max[i], right_max[i])
 
         # If there are taller things on the left and right side, then there is
-        # water above this bar. Compute the colume and add to the `volume`.
+        # water above this bar. Compute the volume and add to the result.
         if second_tallest > histogram[i]:
             volume += second_tallest - histogram[i]
     return volume
