@@ -374,6 +374,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Infix to postfix expression converter](Level-3/infix_to_postfix.c): Convert infix expression into postfix | O(N * N) | Level 3.
 - [Job sequencing problem](Level-3/job_scheduling_problem.py): Given set of jobs with deadline and profit, find seq for max profit | O(N^2) | Level 3.
 - [Subarray sum less than K](Level-3/subarrays_sum_less_than_k.py): Count subarrays having sum less that k | O(N) | Level 3.
+- [Smallest num not subset sum](Level-3/not_subset_sum.py): Given sorted array, find min num which is not subset sum of array | O(N) | Level 3
 
 ## Other problems
 - https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
