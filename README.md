@@ -39,6 +39,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Undirected graph cycle detection](Level-2/graph_cycle_detection_union_find.py): Check if undirected graph has cycle or not using union find | O(V + E) | Level 2.
 - [Kruskals algo - MST](Level-3/kruskals_algo_min_spanning_tree.py): Kruskals algorithm to find minimum spanning tree(MST) of undirected graph | O(ElogE) | Level 3.
 - [Job sequencing problem](Level-4/job_scheduling_problem_using_disjoint_set.py): Given set of jobs with deadline and profit, find seq for max profit | O(N) | Level 4.
+- [Triagles in graph](Level-2/triangles_in_graph.py): Given a graph(directed or undirected), count the number of triagles present | O(N^3) | Level 2.
 
 ## Cracking the coding interview(6th edition)
 ### 1. Arrays and strings
@@ -372,6 +373,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Custom split string](Level-2/custom_split.py): Split string with substrings enclosed in quotes as single | O(N) | Level 2.
 - [Infix to postfix expression converter](Level-3/infix_to_postfix.c): Convert infix expression into postfix | O(N * N) | Level 3.
 - [Job sequencing problem](Level-3/job_scheduling_problem.py): Given set of jobs with deadline and profit, find seq for max profit | O(N^2) | Level 3.
+- [Subarray sum less than K](Level-3/subarrays_sum_less_than_k.py): Count subarrays having sum less that k | O(N) | Level 3.
 
 ## Other problems
 - https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
