@@ -51,7 +51,7 @@ def computePermutationsUniqueChars(string):
     for idx in range(len(word) + 1):  # Insert all positions so +1 used.
       s = insertAtPosition(word, first, idx)
       permutations.append(s)
-  return permutations;
+  return permutations
 
 def main():
   string = input('Enter input string(having unique characters): ')
