@@ -59,6 +59,11 @@ class Graph:
         for node in self.g:
             self.print_topological_order(node, visited)
         print()
+"""
+x > [y, z]
+y > [w]
+z > [w]
+"""
         
 def main():
     # Case: 1
@@ -74,6 +79,15 @@ def main():
     g.print_project_build_order()  # f a b d c e
 
     # Case: 2
+    g = Graph(['w', 'x', 'y', 'z'])
+    g.add_dependency('x', 'y')
+    g.add_dependency('x', 'z')
+    g.add_dependency('y', 'w')
+    g.add_dependency('z', 'w')
+
+    g.print_project_build_order()
+
+    # Case: 3
     g = Graph(['a', 'b', 'c', 'd', 'e', 'f'])
 
     g.add_dependency('a', 'd')  # d depends on a
