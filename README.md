@@ -9,7 +9,7 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Heap sort using min heap](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order | Level 3.
 - [Heap sort using min heap - python](Level-3/heap_sort_using_min_heap.py): Build a min heap and sort array in descending order | Level 3.
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
-- [Merge sort - python](Level-3/merge_sort.c): Implement merge sort in python | O(nlogn) | Level 3.
+- [Merge sort - python](Level-3/merge_sort.py): Implement merge sort in python | O(nlogn) | Level 3.
 - [Quick sort](Level-3/quick_sort.c): Implement quick sort(C) for array of random numbers | O(nlogn) | Level 3.
 - [Quick sort - python](Level-3/quick_sort.py): Implement quick sort(python) for array of random numbers | O(nlogn) | Level 3.
 - [Counting sort](Level-2/counting_sort.c): Implement count sort | O(n + k) | Level 2.
