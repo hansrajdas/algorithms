@@ -3,7 +3,7 @@
 # Date: 2017-12-29
 #
 # Description:
-# Program to check if there exists a cycle in a graph or not.
+# Program to check if there exists a cycle in a directed graph or not.
 #
 # Approach:
 # - Graph has cycle if it contains a back edge(there is some other path which
@@ -37,14 +37,14 @@ class Graph(object):
 
   def cycle_wrt_vertex(self, current_vertex, visited):
     """Uses DFS to check if cycle exists with respect to current vertex."""
-    visited[current_vertex] = True
-
-    for x in self.graph[current_vertex]:
-      if x in visited:
-        if not visited[x]:
-          return self.cycle_wrt_vertex(x, visited)
-        else:
-          return True
+    if current_vertex in visited:
+        return True
+    visited.add(current_vertex)
+    for x in self.graph.get(current_vertex, []):
+        if self.cycle_wrt_vertex(x, visited):
+            return True
+    visited.remove(current_vertex)
+    return False
 
   def check_cycle(self):
     """Checks if cycle is present in a graph."""
@@ -52,9 +52,8 @@ class Graph(object):
       # This can't be done using set as we have to check for back edge and node
       # which has an outgoing edge can only have back edge so to keep track of
       # nodes having outgoing edges, we has to use dict with True/False values
-      visited = {n: False for n in self.graph}
-      has_cycle = self.cycle_wrt_vertex(k, visited)
-      if has_cycle:
+      visited = set()
+      if self.cycle_wrt_vertex(k, visited):
         print('Graph has cycle!')
         print('Has a back edge with ancestor node - {0}'.format(k))
         break
