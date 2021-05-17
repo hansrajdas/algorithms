@@ -14,6 +14,8 @@
  *
  * Complexity:
  * O(N^2)
+ *
+ * See approach 2: https://leetcode.com/problems/rotate-image/
  */
 
 #include "stdio.h"

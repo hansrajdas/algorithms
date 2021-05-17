@@ -1,3 +1,18 @@
+#!/usr/bin/python
+
+# Date: 2018-09-22
+#
+# Description:
+# Given a matrix, print that in reverse clockwise spiral form.
+#
+# Approach:
+# Check on the number of elements processed keeping track of 4 boundaries - top,
+# right, bottom, left
+#
+# Complexity:
+# O(M*N) M = Rows, N = Columns
+
+
 def print_matrix_in_spiral_reverse(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
