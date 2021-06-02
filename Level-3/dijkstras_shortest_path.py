@@ -46,8 +46,11 @@ class Graph:
         # priority) and second one is node.
         heapq.heappush(pq, (0, start))  # start node is at 0 distance
         prev = {}  # Parent of a node, used to find path from start to end
-        distance = {}  # Distance of a node from start
-        distance[start] = 0  # start node is at 0 distance
+
+        # Distance of a node from start
+        distance = {
+            start: 0
+        }
 
         visited = set()
 
