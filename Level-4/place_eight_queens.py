@@ -21,7 +21,8 @@
 GRID_SIZE = 8
 
 def checkValid(columns, row1, col1):
-  """Checks whether can queen be placed at row1, col1.
+  """
+  Checks whether can queen be placed at row1, col1.
 
   Some queens are already placed (on lesser indexed row, r < row1) on the board
   having positions in columns. It checks if a new queen is placed at row1, col1
@@ -50,7 +51,8 @@ def checkValid(columns, row1, col1):
   return True
 
 def placeQueens(row, columns, results):
-  """Updated results list to have all valid 8 queen positions on the board.
+  """
+  Updated results list to have all valid 8 queen positions on the board.
 
   Such that none attach each other.
 
@@ -70,7 +72,7 @@ def placeQueens(row, columns, results):
 def printQueenPositions(columns):
   print ('*****************************')
   for idx in range(len(columns)):
-    print ('row={row}, col={col}'.format(row=idx, col=columns[idx]))
+    print('row={row}, col={col}'.format(row=idx, col=columns[idx]))
 
 def main():
   results = []
