@@ -26,18 +26,18 @@
 # Worst case - O(N^2)
 
 
-def partition(A, l, r):
+def partition(A, left, right):
   """
-  Picks the last element from array - A[r] and places it to correct position(
-  with respect to ascending order) and returns index of that position.
+  Picks the last element from array - A[right] and places it to correct
+  position(with respect to ascending order) and returns index of that position.
   """
-  pivot = A[r]
-  i = l  # Elements smaller than pivot
-  for j in range(l, r + 1):
+  pivot = A[right]
+  i = left  # Elements smaller than pivot
+  for j in range(left, right + 1):
     if A[j] < pivot:
       A[i], A[j] = A[j], A[i]
       i += 1
-  A[i], A[r] = A[r], A[i]  # Move pivot to correct position
+  A[i], A[right] = A[right], A[i]  # Move pivot to correct position
   return i
 
 def select(A, left, right, k):

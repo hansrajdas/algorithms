@@ -12,6 +12,10 @@
 # and right sides of pivot, but recur for one of them according to the position
 # of pivot.
 #
+# Note:
+# For k largest numbers, we can find (n-k) smallest num - which is
+# same as k largest.
+#
 # Reference:
 # Method 4: https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
 #
@@ -23,34 +27,39 @@
 # Worst case - O(N^2)
 
 
-def partition(A, l, r):
+def partition(A, left, right):
   """
-  Picks the last element from array - A[r] and places it to correct position(
-  with respect to ascending order) and returns index of that position.
+  Picks the last element from array - A[right] and places it to correct
+  position(with respect to ascending order) and returns index of that position.
   """
-  pivot = A[r]
-  i = l  # Elements smaller than pivot
-  for j in range(l, r):
-    if A[j] <= pivot:
+  pivot = A[right]
+  i = left  # Elements smaller than pivot
+  for j in range(left, right + 1):
+    if A[j] < pivot:
       A[i], A[j] = A[j], A[i]
       i += 1
-  A[i], A[r] = A[r], A[i]  # Move pivot to correct position
+  A[i], A[right] = A[right], A[i]  # Move pivot to correct position
   return i
       
-def kthSmallest(A, l, r, k):
-  """Returns kth smallest number in given array."""
-  if k > 0 and k <= r - l + 1:  # k is in bounds of array
-    pivotIdx = partition(A, l, r)
-    if pivotIdx - l == k - 1:
-      return A[:pivotIdx + 1]  # Return all numbers from 0 to pivot
-    elif pivotIdx - l > k - 1:  # Check left sub array
-      return kthSmallest(A, l, pivotIdx - 1, k)
-    return kthSmallest(A, pivotIdx + 1, r, k - pivotIdx + l - 1)  # Check right sub array
+def select(A, left, right, k):
+    """Returns k smallest numbers in given array."""
+    if left == right:
+        return A[:left + 1]
+    pivot_idx = partition(A, left, right)
+    if pivot_idx == k:
+        return A[:k + 1]
+    elif pivot_idx > k:
+        return select(A, left, pivot_idx - 1, k)
+    return select(A, pivot_idx + 1, right, k)
 
-  return None  # If k is out of bound return None
+def kthSmallest(A, k):
+    """Returns k smallest numbers in given array."""
+    if k >= len(A):
+        return None
+    return select(A, 0, len(A) - 1, k)
 
 A = [12, 3, 5, 7, 4, 19, 26]
-assert kthSmallest(A, 0, len(A) - 1, 3) == [3, 4, 5]
-assert kthSmallest(A, 0, len(A) - 1, 4) == [3, 4, 5, 7]
-assert kthSmallest(A, 0, len(A) - 1, 7) == [3, 4, 5, 7, 12, 19, 26]
-assert kthSmallest(A, 0, len(A) - 1, 8) == None
+assert kthSmallest(A, 2) == [3, 4, 5]  # may not always be sorted
+assert kthSmallest(A, 3) == [3, 4, 5, 7]
+assert kthSmallest(A, 6) == [3, 4, 5, 7, 12, 19, 26]
+assert kthSmallest(A, 7) == None
