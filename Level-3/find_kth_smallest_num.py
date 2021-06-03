@@ -11,11 +11,15 @@
 # recur for both left and right sides of pivot, but recur for one of them
 # according to the position of pivot.
 #
+# Note:
+# For kth largest number, we can find (n-k)th smallest num - which is
+# same as kth largest.
+#
 # Reference:
 # Method 4: https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
 #
 # Heap method is also given at above link which solves problem in
-# O(k + (n-k)logk) complexity in worst case.
+# O(k + (n-k)logk) complexity in worst case: Level-2/find_kth_largest_num.py
 #
 # Complexity:
 # Average case - O(N)
@@ -29,27 +33,34 @@ def partition(A, l, r):
   """
   pivot = A[r]
   i = l  # Elements smaller than pivot
-  for j in range(l, r):
-    if A[j] <= pivot:
+  for j in range(l, r + 1):
+    if A[j] < pivot:
       A[i], A[j] = A[j], A[i]
       i += 1
   A[i], A[r] = A[r], A[i]  # Move pivot to correct position
   return i
-      
-def kthSmallest(A, l, r, k):
-  """Returns kth smallest number in given array."""
-  if k > 0 and k <= r - l + 1:  # k is in bounds of array
-    pivotIdx = partition(A, l, r)
-    if pivotIdx - l == k - 1:
-      return A[pivotIdx]
-    elif pivotIdx - l > k - 1:  # Check left sub array
-      return kthSmallest(A, l, pivotIdx - 1, k)
-    return kthSmallest(A, pivotIdx + 1, r, k - pivotIdx + l - 1)  # Check right sub array
 
-  return None  # If k is out of bound return None
+def select(A, left, right, k):
+    if left == right:
+        return A[left]
+    pivot_idx = partition(A, left, right)
+    if pivot_idx == k:
+        return A[k]
+    elif pivot_idx > k:
+        return select(A, left, pivot_idx - 1, k)  # Check left sub array
+    return select(A, pivot_idx + 1, right, k)  # Check right sub array
+
+def kthSmallest(A, k):
+    """Returns kth(0 to len(A) - 1) smallest number in given array."""
+    if k >= len(A):
+        return None
+    return select(A, 0, len(A) - 1, k)
+
 
 A = [12, 3, 5, 7, 4, 19, 26]
-assert kthSmallest(A, 0, len(A) - 1, 3) == 5
-assert kthSmallest(A, 0, len(A) - 1, 4) == 7
-assert kthSmallest(A, 0, len(A) - 1, 7) == 26
-assert kthSmallest(A, 0, len(A) - 1, 8) == None
+sorted_nums = sorted(A)
+assert kthSmallest(A, 0) == sorted_nums[0]
+assert kthSmallest(A, 2) == sorted_nums[2]
+assert kthSmallest(A, 3) == sorted_nums[3]
+assert kthSmallest(A, 6) == sorted_nums[6]
+assert kthSmallest(A, 7) == None
