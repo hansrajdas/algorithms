@@ -1,0 +1,23 @@
+3
+3 5
+aaaaa
+bbbbb
+ccccc
+aaaaa
+bbbbb
+3 4
+aaaa
+bbbb
+cccc
+aabb
+bbaa
+5 6
+abcdef
+uuuuuu
+kekeke
+ekekek
+xyzklm
+xbcklf
+eueueu
+ayzdem
+ukukuk
