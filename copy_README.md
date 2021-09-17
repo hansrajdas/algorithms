@@ -6,7 +6,6 @@
 - [Create sequence of 'a' and 'b'](Level-3/three_non_consecutive_ab.py): Given 2 numbers A and B, create sequence with at max 2 consecutive 'a' and 'b' | O(A + B) | Level 3.
 - [Product of elements](Level-2/product_array_elements_except_self.c): Create a array having product of all elements except element at self index | Level 2.
 - [Happy number](Level-2/is_happy_number.c): Check if a given number is happy or not | O(n) | Level 2.
-- [Median in 2 sorted arrays](Level-4/median_in_2_sorted_arrays.py): Find median from 2 sorted arrays | O(log(min(m + n))) | Level 4.
 - [Longest palindrome](Level-3/longest_palindrome_in_a_string.py): Find longest palindrome from a given string | O(n^2) | Level 3.
 - [Look and say sequence](Level-2/look_and_say_seq.py): Print look and say sequence for given number of input lines | O(N) | Level 2.
 - [Separate positives and negatives](Level-2/separate_positive_and_negative_nums.c): Move all positive to start and negative to end of array, 2 pointer problem, problem adapted from sort array of 0s and 1s | O(n) | Level 2.
