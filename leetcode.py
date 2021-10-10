@@ -1,5 +1,6 @@
 class Solution:
     def restoreIpAddresses(self, s):
+        """This is function doc."""
         def solve(i, values, results):
             # import pdb;pdb.set_trace()
             print(i, values)
