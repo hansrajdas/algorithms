@@ -11,10 +11,12 @@
 # iteration of outer loop. Vice versa for descending.
 #
 # Complexity:
-# O(n^2)
+# O(n^2) time and O(1) space
+# n = number of elements
 
 
 def bubble_sort_ascending(A):
+    """Sorts list of element in ascending order."""
     for i in range(len(A)):
         swap_flag = False;
         for j in range(0, len(A) - 1 - i, 1):
@@ -26,6 +28,7 @@ def bubble_sort_ascending(A):
             break
 
 def bubble_sort_descending(A):
+    """Sorts list of elements in descending order."""
     i = 0
     while i < len(A):
         j = 1
@@ -45,7 +48,7 @@ def sort(A):
     bubble_sort_descending(B)
     return (A, B)
 
-
+# Test
 assert sort([3, 4, 5, 2, 1]) == ([1, 2, 3, 4, 5], [5, 4, 3, 2, 1])
 assert sort([3, 4, 5, 2, 1, 6]) == ([1, 2, 3, 4, 5, 6], [6, 5, 4, 3, 2, 1])
 assert sort([]) == ([], [])
