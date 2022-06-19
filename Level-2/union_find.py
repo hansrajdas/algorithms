@@ -35,7 +35,10 @@ class Disjoint:
         self.parent = [i for i in range(n)]  # All element are parent of itself
 
     def find(self, p):
-        """Return parent(subset id) of element p."""
+        """
+        Return parent(subset id) of element p. This can also be done *recursively* which is
+        more intuitive - please check other disjoint set programs from the list.
+        """
         # Find the root of the component/set
         root = p
         while root != self.parent[root]:
