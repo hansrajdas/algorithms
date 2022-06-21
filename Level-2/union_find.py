@@ -37,7 +37,7 @@ class Disjoint:
     def find(self, p):
         """
         Return parent(subset id) of element p. This can also be done *recursively* which is
-        more intuitive - please check other disjoint set programs from the list.
+        more intuitive and readable: Level-2/graph_cycle_detection_union_find.py.
         """
         # Find the root of the component/set
         root = p
