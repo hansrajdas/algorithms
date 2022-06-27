@@ -53,12 +53,14 @@ class SegmentTree:
 
     def update(self, pos: int, val: int) -> None:
         """
-        Updates segment tree with new value at index pos (original array position).
+        Updates segment tree with new value (replaces) at index pos (original array position).
 
         It first updates the leaf node with new value then travels back to root updating all
         ancestor nodes.
         """
         pos += self.n
+        # If we want to perform differential update, we can update below statement with
+        # self.tree[pos] += val and rest of tree will be build using this new value.
         self.tree[pos] = val
         while pos > 1:
             # XOR operation ensures that RHS always add up to 2i (left child) and 2i + 1 (right
