@@ -101,7 +101,7 @@ def main():
     # TC - 1
     a = [2, 4, 5, 7]
     s = SegmentTree(a)
-    assert s.sumRange(0, 3) == sum(a[0:])
+    assert s.sumRange(0, 3) == sum(a)
 
     # TC - 2
     a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
