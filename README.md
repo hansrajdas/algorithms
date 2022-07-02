@@ -44,6 +44,9 @@ All programs are categorized in level 1 to 4(1 being easiest)
 ## Segment tree
 - [Segment Tree - iterative](Level-3/segment-tree.py): Implement segment tree (iterative approach) | O(n) | Level 3.
 
+## Binary indexed (Fenwick) tree
+- [Binary indexed (Fenwick) tree](Level-3/binary-indexed-tree.py): Implement BIT (fenwick tree) | O(n) | Level 3.
+
 ## Cracking the coding interview(6th edition)
 ### 1. Arrays and strings
 - [Check strings has unique characters](Level-1/unique_characters_check_in_string.c): Check if a string has all unique characters or not | Level 1.
