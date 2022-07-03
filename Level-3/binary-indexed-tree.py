@@ -9,10 +9,12 @@ Implement binary indexed tree (fenwick tree) with `update` and `sumRange` suppor
 
 Approach
 --------
-BIT is implemeted using an 1-indexed array. Each element is responsible for other elements below
-it. The position of the set LSB determines the range of responsibility that cell has to the cells
-below itself. If set LSB is at position 0 (like 11 -> 1011) so this index is responsible for
-2^0 = 1 cell (itself) only.
+BIT is implemeted using an 1-indexed array.
+Each element is responsible for other elements below it. The position of the set LSB determines
+the range of responsibility that cell has to the cells below itself. If set LSB is at position 
+0 (like 11 -> 1011) so this index is responsible for 2^0 = 1 cell (itself) only.
+
+Function doc of each method explains specific details.
 
 Complexity
 ----------
@@ -33,7 +35,13 @@ class BIT:
         return i & -i
 
     def __init__(self, nums):
-        """Builds BIT for given list of numbers `nums`."""
+        """
+        Builds BIT for given list of numbers `nums`.
+
+        Initializes an auxillary array of size of N + 1 (0th position is not used) and for each
+        index, parent is found using right most set bit position. Value at parent index (if within
+        bounds) is added with childs value.
+        """
         self.n = len(nums) + 1
         self.tree = [0] + nums
         for child in range(1, self.n):
