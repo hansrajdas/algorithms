@@ -4,23 +4,23 @@ WilliamFiset lectures [starting 42](https://www.youtube.com/watch?v=zqKlL3ZpTqs&
 - For eg. SA of “camel” is
   1. Index and suffix of string
 
-    idx|suffix
-    ---|------
-    0|camel
-    1|amel
-    2|mel
-    3|el
-    4|l
+      idx|suffix
+      ---|------
+      0|camel
+      1|amel
+      2|mel
+      3|el
+      4|l
 
   2. SORTED by suffix
 
-    idx|suffix
-    ---|------
-    1|amel
-    0|camel
-    3|el
-    4|l
-    2|mel
+      idx|suffix
+      ---|------
+      1|amel
+      0|camel
+      3|el
+      4|l
+      2|mel
 
   3. So SA of “camel” is __[1, 0, 3, 4, 2]__
 
