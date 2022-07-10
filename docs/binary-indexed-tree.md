@@ -17,6 +17,10 @@
 ### Implementation
 - https://github.com/hansrajdas/algorithms/blob/master/Level-3/binary-indexed-tree.py
 
+### Segment tree vs fenwick tree
+- Both solves same problem - answering range queries efficiently but ST are more generic, it can solve more problems than FT like getting min, max, XOR b/w range. So always go with ST if memory is not a constraint (as FT takes less m/m than ST)
+
 ### References
 - 4 WilliamFiset lectures: https://www.youtube.com/playlist?list=PLDV1Zeh2NRsCvoyP-bztk6uXAYoyZg_U9
 - https://leetcode.com/discuss/general-discussion/1093346/introduction-to-fenwick-treebinary-indexed-treebit
+- FT vs segment tree: https://www.quora.com/What-is-a-segment-tree-and-what-are-its-applications/answer/Aman-Nidhi-1
