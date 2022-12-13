@@ -53,7 +53,6 @@ void towerOfHanoi(int n, char srcTower, char dstTower, char bufferTower) {
 }
 
 int main() {
-  int i = 0;
   int n = 0;
   printf("Enter number of disks: ");
   scanf("%d", &n);
