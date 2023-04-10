@@ -59,6 +59,18 @@ def inorder_simple(root):
         node = node.right
     print()
 
+def inorder_simple2(root):
+    stack = []
+    node = root
+    while node or stack:
+        while node:
+            stack.append(node)
+            node = node.left
+        node = stack.pop()
+        print(node.data, end=' ')
+        node = node.right
+    print()
+
 def main():
   root = Node(10)
   root.left = Node(5)
@@ -71,6 +83,7 @@ def main():
 
   inorder(root)  # 3 5 8 10 12 15 18
   inorder_simple(root)  # 3 5 8 10 12 15 18
+  inorder_simple2(root)  # 3 5 8 10 12 15 18
 
 if __name__ == '__main__':
   main()
