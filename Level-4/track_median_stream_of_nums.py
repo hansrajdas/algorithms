@@ -9,16 +9,15 @@
 # - We has to maintain smaller half elements in max-heap and larger half of elements to min-heap
 # - Keep min-heap equal to max-heap or 1 more element
 # - Adding new number:
-#     - Always add to min-heap
-#     - Take min from min-heap and push to max-heap
-#     - If max-heap has more elements, take max from max-heap and push to min-heap
-#
-# https://leetcode.com/problems/find-median-from-data-stream/submissions/
+#   - Always add to min-heap
+#   - Take min from min-heap and push to max-heap
+#   - If max-heap has more elements, take max from max-heap and push to min-heap
 #
 # Complexity:
 # O(logn) to track new element
 # O(1) to get median
-
+#
+# Problem link: https://leetcode.com/problems/find-median-from-data-stream/
 
 import heapq
 
@@ -28,27 +27,27 @@ class MedianFinder:
         """
         initialize your data structure here.
         """
-        self.min_heap = []
-        self.max_heap = []
+        self.minHeap = []
+        self.maxHeap = []
 
     def addNum(self, num: int) -> None:
         """
         - We has to maintain smaller half elements in max-heap and larger half of elements to min-heap
         - Keep min-heap equal to max-heap or 1 more element
         - Steps:
-            - Always add to min-heap
-            - Take min from min-heap and push to max-heap
-            - If max-heap has more elements, take max from max-heap and push to min-heap
+          - Always add to min-heap
+          - Take min from min-heap and push to max-heap
+          - If max-heap has more elements, take max from max-heap and push to min-heap
         """
-        heapq.heappush(self.min_heap, num)
-        heapq.heappush(self.max_heap, -heapq.heappop(self.min_heap))
-        if len(self.max_heap) > len(self.min_heap):
-            heapq.heappush(self.min_heap, -heapq.heappop(self.max_heap))
+        heapq.heappush(self.minHeap, num)
+        heapq.heappush(self.maxHeap, -heapq.heappop(self.minHeap))
+        if len(self.maxHeap) > len(self.minHeap):
+            heapq.heappush(self.minHeap, -heapq.heappop(self.maxHeap))
 
     def findMedian(self) -> float:
-        if len(self.min_heap) == len(self.max_heap):
-            return (self.min_heap[0] - self.max_heap[0]) / 2
-        return self.min_heap[0]
+        if len(self.minHeap) == len(self.maxHeap):
+            return (self.minHeap[0] - self.maxHeap[0]) / 2
+        return self.minHeap[0]
 
 
 obj = MedianFinder()
