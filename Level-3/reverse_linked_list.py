@@ -67,13 +67,13 @@ class LinkedList:
       Explained here(premium): https://leetcode.com/problems/reverse-nodes-in-k-group/solution/
       """
       # Reverse k nodes of the given linked list.
-      # This function assumes that the list contains 
+      # This function assumes that the list contains
       # atleast k nodes.
       new_head = None
       ptr = head
       while k:
           next_node = ptr.next
-          
+
           # Insert the node pointed to by "ptr"
           # at the beginning of the reversed list
           ptr.next = new_head
@@ -81,6 +81,16 @@ class LinkedList:
           ptr = next_node
           k -= 1
       return new_head
+
+  def reverse_recursive(self):
+      def _reverse(prev, curr):
+          if curr is None:
+              return prev
+          newHead = _reverse(curr, curr.next)
+          curr.next = prev
+          return newHead
+      return _reverse(None, self.head)
+
 
 
 def main():
@@ -90,10 +100,11 @@ def main():
   linked_list.insert_at_end(3)
   linked_list.insert_at_end(4)
   linked_list.insert_at_end(5)
-  linked_list.traverse()
 
+  print('\nOriginal list: ', end=' ')
+  linked_list.traverse()
   linked_list.reverse()
-  print('\nReversed linked list', end=' ')
+  print('\nReversed linked list: ', end=' ')
   linked_list.traverse()
 
   print()
@@ -103,12 +114,29 @@ def main():
   linked_list.insert_at_end(3)
   linked_list.insert_at_end(4)
   linked_list.insert_at_end(5)
-  linked_list.traverse()
 
+  print('\nOriginal list: ', end=' ')
+  linked_list.traverse()
   rev_head = linked_list.reverse_list_using_insert_at_head(linked_list.head, 5)
-  print('\nReversing by insert at head', end=' ')
+  print('\nReversing by insert at head: ', end=' ')
   linked_list.head = rev_head
   linked_list.traverse()
+
+  print()
+  linked_list = LinkedList()
+  linked_list.insert_at_end(1)
+  linked_list.insert_at_end(2)
+  linked_list.insert_at_end(3)
+  linked_list.insert_at_end(4)
+  linked_list.insert_at_end(5)
+
+  print('\nOriginal list: ', end=' ')
+  linked_list.traverse()
+  rev_head = linked_list.reverse_recursive()
+  print('\nReversing using recursion: ', end=' ')
+  linked_list.head = rev_head
+  linked_list.traverse()
+  print()
 
 
 if __name__ == '__main__':
@@ -117,15 +145,11 @@ if __name__ == '__main__':
 
 # Output:
 # -------------
-# 1
-# 2
-# 3
-# 4
-# 5
-
-# Reversed linked list
-# 5
-# 4
-# 3
-# 2
-# 1
+# Original list:  1 2 3 4 5
+# Reversed linked list:  5 4 3 2 1
+#
+# Original list:  1 2 3 4 5
+# Reversing by insert at head:  5 4 3 2 1
+#
+# Original list:  1 2 3 4 5
+# Reversing using recursion:  5 4 3 2 1
