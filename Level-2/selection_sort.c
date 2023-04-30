@@ -1,3 +1,14 @@
+/*
+ * Date: 2023-05-01
+ *
+ * Description:
+ * Implement selection sort
+ *
+ * Complexity:
+ * Time: O(n^2)
+ * Space: O(1)
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #define N 15 // Max length of the array, could be changed...
