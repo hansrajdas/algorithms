@@ -9,32 +9,32 @@ void Selection_Sort_ASCENDING(int[], int); // Sort the array in ascending order
 void Selection_Sort_DESCENDING(int[], int); // Sort the array in descending order
 
 int main(){
-  int arr[N], length;
-  
+  int arr[N], len;
+
   do{
-    length = length();
-  }while(length<=0 || length > N);
-  
-  load(arr, length);
+    len = length();
+  }while(len<=0 || len > N);
+
+  load(arr, len);
   printf("The array before the ascending sorting:\n");
-  Print_Array(arr, length);
-  
-  Selection_Sort_ASCENDING(arr, length);
+  Print_Array(arr, len);
+
+  Selection_Sort_ASCENDING(arr, len);
   printf("\nThe array after the ascending sorting:\n");
-  Print_Array(arr, length);
-  
-  Selection_Sort_DESCENDING(arr, length);
+  Print_Array(arr, len);
+
+  Selection_Sort_DESCENDING(arr, len);
   printf("\nThe array after the descending sorting:\n");
-  Print_Array(arr, length);
+  Print_Array(arr, len);
   return 0;
 }
 
 int length(){
   int len;
-  
+
   printf("Put the size of the array: ");
   scanf("%d", &len);
-  
+
   return len;
 }
 
@@ -53,7 +53,7 @@ void Print_Array(int arr[], int len){
 
 void Selection_Sort_ASCENDING(int arr[], int len){
   int i, j, temp;
-  
+
   for(i=0; i<len-1; i++){
     for(j=i+1; j<len; j++){
       if(arr[j]<arr[i]){
@@ -67,7 +67,7 @@ void Selection_Sort_ASCENDING(int arr[], int len){
 
 void Selection_Sort_DESCENDING(int arr[], int len){
   int i, j, temp;
-  
+
   for(i=0; i<len-1; i++){
     for(j=i+1; j<len; j++){
       if(arr[j]>arr[i]){
