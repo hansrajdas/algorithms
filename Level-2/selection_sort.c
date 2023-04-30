@@ -40,14 +40,14 @@ int length(){
 
 void load(int arr[], int len){
  for(int i = 0; i<len; i++){
-   printf("#%d value: ");
+   printf("#%d value: ", i+1);
    scanf("%d", &arr[i]);
  }
 }
 
 void Print_Array(int arr[], int len){
   for(int i = 0; i<len; i++){
-   printf("value at the index(%d) = %d", i, arr[i]);
+   printf("value at the index(%d) = %d\n", i, arr[i]);
  }
 }
 
