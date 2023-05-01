@@ -1,30 +1,53 @@
 #!/usr/bin/python
 
-# Date: 2019-01-29
-#
-# Description:
-# Determine whether a given set can be partitioned into two subsets such that
-# the sum of elements in both subsets is same.
-#
-# Approach:
-# - If sum of all elements in list comes out to be odd, then it is not possible
-#   to partition list in 2 subsets having same sum
-# - We can use DP(bottom up) approach to solve the problem, similar to solve
-#   knapsack problem. We can take a 2D array of size (sum/2 + 1)*(n + 1) and
-#   fill this array using bottom up approach, see comments in program.
-#
-# Above approach becomes inefficient when n is smaller and sum is very large, we
-# waste a lot of memory. In those cases we can use recursion to check all
-# combinations - At each element we will have 2 conditions whether to take this
-# element or not. This approach will have complexity of O(2^n).
-#
-# Reference:
-# https://www.geeksforgeeks.org/partition-problem-dp-18/
-#
-# Complexity:
-# O(N*SUM), this is pseudo-polynomial
+"""
+Date: 2019-01-29
 
-def setsWithEqualSumPossible(A):
+Description:
+Determine whether a given set can be partitioned into two subsets such that
+the sum of elements in both subsets is same.
+
+Approach:
+- Top down
+  - Check all possibilities - if we are able to sum(A) // 2 by checking all
+    possibilities to take a number or skip that number.
+  - Use caching to save results so that it can be reused later.
+- Bottom up
+  - If sum of all elements in list comes out to be odd, then it is not possible
+    to partition list in 2 subsets having same sum
+  - We can use DP(bottom up) approach to solve the problem, similar to solve
+    knapsack problem. We can take a 2D array of size (sum/2 + 1)*(n + 1) and
+    fill this array using bottom up approach, see comments in program.
+  - Above approach becomes inefficient when n is smaller and sum is very large, we
+    waste a lot of memory. In those cases we can use recursion to check all
+    combinations - At each element we will have 2 conditions whether to take this
+    element or not.
+
+Reference:
+https://leetcode.com/problems/partition-equal-subset-sum/
+https://www.geeksforgeeks.org/partition-problem-dp-18/
+
+Complexity:
+O(N*SUM), this is pseudo-polynomial
+"""
+
+def setWithEqualSumTopDown(A):
+    S = sum(A)
+    if S % 2:
+        return False
+    cache = {}
+    def isSum(idx, remSum):
+        if remSum == 0:
+            return True
+        if idx == len(A) or remSum < 0:
+            return False
+        if (idx, remSum) in cache:
+            return cache[(idx, remSum)]
+        cache[(idx, remSum)] = isSum(idx + 1, remSum) or isSum(idx + 1, remSum - A[idx])
+        return cache[(idx, remSum)]
+    return isSum(0, S // 2)
+
+def setWithEqualSumBottomUp(A):
   """
   Returns True is list A can be divided in 2 subsets having equal sum other
   False.
@@ -73,10 +96,19 @@ def setsWithEqualSumPossible(A):
   return dp[half_sum][n]
 
 
-assert setsWithEqualSumPossible([3, 1, 1, 2, 2, 1]) == True  # 3,1,1 == 2,2,1
-assert setsWithEqualSumPossible([3, 1, 1, 2, 2, 10]) == False
-assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
-assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7]) == True
-assert setsWithEqualSumPossible([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
-assert setsWithEqualSumPossible([1, 10, 5, 21, 4]) == False
-assert setsWithEqualSumPossible([1, 10, 5, 21, 4, 1]) == True
+
+assert setWithEqualSumTopDown([3, 1, 1, 2, 2, 1]) == True  # 3,1,1 == 2,2,1
+assert setWithEqualSumTopDown([3, 1, 1, 2, 2, 10]) == False
+assert setWithEqualSumTopDown([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setWithEqualSumTopDown([1, 2, 3, 4, 5, 6, 7]) == True
+assert setWithEqualSumTopDown([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setWithEqualSumTopDown([1, 10, 5, 21, 4]) == False
+assert setWithEqualSumTopDown([1, 10, 5, 21, 4, 1]) == True
+
+assert setWithEqualSumBottomUp([3, 1, 1, 2, 2, 1]) == True  # 3,1,1 == 2,2,1
+assert setWithEqualSumBottomUp([3, 1, 1, 2, 2, 10]) == False
+assert setWithEqualSumBottomUp([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setWithEqualSumBottomUp([1, 2, 3, 4, 5, 6, 7]) == True
+assert setWithEqualSumBottomUp([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == True
+assert setWithEqualSumBottomUp([1, 10, 5, 21, 4]) == False
+assert setWithEqualSumBottomUp([1, 10, 5, 21, 4, 1]) == True
