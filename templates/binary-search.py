@@ -1,7 +1,7 @@
 def binary_search(nums, x):
     low = 0
     high = len(nums) - 1
-    while low < high:
+    while low <= high:
         mid = (high + low) // 2
         if nums[mid] == x:
             return mid
