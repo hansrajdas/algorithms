@@ -52,8 +52,8 @@ class MedianFinder:
 
 obj = MedianFinder()
 obj.addNum(1)
-print(obj.findMedian())  # 1
+assert obj.findMedian() == 1
 obj.addNum(3)
-print(obj.findMedian())  # 2.0
+assert obj.findMedian() == 2.0
 obj.addNum(2)
-print(obj.findMedian())  # 2
+assert obj.findMedian() == 2
