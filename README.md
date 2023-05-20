@@ -237,8 +237,8 @@ All programs are categorized in level 1 to 4(1 being easiest)
 - [Find element with rank k - python](Level-2/rank_k_element_in_2_sorted_arrays_O_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted | O(k) | Level 2.
 - [Find element with rank k - log(k)\*](Level-3/rank_k_element_in_2_sorted_array_log_k.c): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
 - [Find element with rank k - log(k), python\*](Level-3/rank_k_element_in_2_sorted_array_log_k.py): Find element with rank k(or kth smallest number) between 2 sorted arrays in ascending sorted having distinct elements | O(log(k)) | Level 3.
-- [Longest increainng subsequence - O(n^2)](Level-3/LIS_O_n2.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
-- [Longest increainng subsequence - O(nlogn)\*](Level-3/LIS_O_nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
+- [Longest increainng subsequence - O(n^2)](Level-3/longest-increasing-subsequence.c): Find length of longest increasing subsequence from an unsorted array | O(n^2) | Level 3.
+- [Longest increainng subsequence - O(nlogn)\*](Level-3/longest-increasing-subsequence-nlogn.c): Find length of longest increasing subsequence from an unsorted array | O(nlogn) | Level 3.
 - [Binary representation](Level-1/binary_representation.c): Print binary representation of an integer | Level 1.
 - [Knapsack problem](Level-4/knapsack.c): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
 - [Knapsack problem - python](Level-4/knapsack.py): Given a knapsack (bag with capacity W), and N items having weights and values, select items such that value is maximized | O(nxW) | Level 4.
