@@ -18,6 +18,8 @@
  * All active lists are maintained using a single array as we only require
  * length of LIS not elements in LIS.
  *
+ * Explained here: https://leetcode.com/problems/longest-increasing-subsequence/solutions/1326308/c-python-dp-binary-search-bit-segment-tree-solutions-picture-explain-o-nlogn/
+ *
  * Reference:
  * https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
  *
