@@ -17,25 +17,25 @@
 # Time: O(3^m)
 
 
-def _min_edit_distance(s1, s2, i, j):
-    if i == len(s1) - 1:
-        return len(s2) - j - 1
-    if j == len(s2) - 1:
-        return len(s1) - i - 1
-    if s1[i] == s2[j]:
-        return _min_edit_distance(s1, s2, i + 1, j + 1)
-    return 1 + min(
-        _min_edit_distance(s1, s2, i + 1, j + 1),  # Replace
-        _min_edit_distance(s1, s2, i + 1, j),  # Add
-        _min_edit_distance(s1, s2, i, j + 1)  # Delete
-    )
-
-def min_edit_distance(s1, s2):
-    if not s1:
-        return len(s2)
-    if not s2:
-        return len(s1)
-    return _min_edit_distance(s1, s2, 0, 0)
+def min_edit_distance(word1, word2):
+    cache = {}
+    def _min_edit_distance(i, j):
+        if i == len(word1):
+            return len(word2) - j
+        if j == len(word2):
+            return len(word1) - i
+        if (i, j) in cache:
+            return cache[(i, j)]
+        if word1[i] == word2[j]:
+            cache[(i, j)] = _min_edit_distance(i + 1, j + 1)
+        else:
+            cache[(i, j)] = 1 + min(
+                _min_edit_distance(i + 1, j),     # Delete
+                _min_edit_distance(i, j + 1),     # Insert
+                _min_edit_distance(i + 1, j + 1)  # Replace
+                )
+        return cache[(i, j)]
+    return _min_edit_distance(0, 0)
 
 assert min_edit_distance('abc', 'abc') == 0
 assert min_edit_distance('abc', 'ac') == 1
