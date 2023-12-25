@@ -12,7 +12,7 @@
 #
 # References:
 # https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/
-# 
+#
 # Complexity:
 # Space: O(V + E)
 
@@ -23,13 +23,22 @@ class Disjoint:
 
     def find(self, x):
         """
-        Recursive method of find with path compression. This is same as iterative
-        approach implemented here: Level-2/union_find.py. However recursive is more
-        intuitive and readable.
+        Return parent (subset id) of element x. This can also be done *recursively*
+        which is more intuitive and readable: Level-2/union_find.py.
         """
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])  # Path compression
-        return self.parent[x]
+        # Find the root of the component/set
+        root = x
+        while root != self.parent[root]:
+            root = self.parent[root]
+
+        # Compress the path leading back to the root.
+        # Doing this operation is called "path compression"
+        # and is what gives us amortized time complexity.
+        while x != root:
+            _next = self.parent[x]
+            self.parent[x] = root
+            x = _next
+        return root
 
     def union(self, x, y):
         xset = self.find(x)

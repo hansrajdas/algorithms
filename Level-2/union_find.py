@@ -34,24 +34,15 @@ class Disjoint:
         self.rank = [0] * n
         self.parent = [i for i in range(n)]  # All element are parent of itself
 
-    def find(self, p):
+    def find(self, x):
         """
-        Return parent(subset id) of element p. This can also be done *recursively* which is
-        more intuitive and readable: Level-2/graph_cycle_detection_union_find.py.
+        Recursive method of find with path compression. This is same as iterative
+        approach implemented here: Level-2/graph_cycle_detection_union_find.py.
+        However recursive is more intuitive and readable.
         """
-        # Find the root of the component/set
-        root = p
-        while root != self.parent[root]:
-            root = self.parent[root]
-
-        # Compress the path leading back to the root.
-        # Doing this operation is called "path compression"
-        # and is what gives us amortized time complexity.
-        while p != root:
-            _next = self.parent[p]
-            self.parent[p] = root
-            p = _next
-        return root 
+        if self.parent[x] != x:
+            self.parent[x] = self.find(self.parent[x])  # Path compression
+        return self.parent[x]
 
     def union(self, x, y):
         """Merges element x and y to same group not already in same."""
