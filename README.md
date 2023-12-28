@@ -1,7 +1,8 @@
 # List of Algorithms
 All programs are categorized in level 1 to 4(1 being easiest)
 ## Sorting
-- [Bubble sort](Level-2/bubble_sort.py): Implement bubble sort | O(n^2) | Level 2.
+- [Bubble sort (Python)](Level-2/bubble_sort.py): Implement bubble sort in Python | O(n^2) | Level 2.
+- [Bubble sort (Go)](Level-2/bubble-sort.go): Implement bubble sort in Golang | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.py): Implement selection sort in python | O(n^2) | Level 2.
 - [Selection sort](Level-2/selection_sort.c): Implement selection sort in C| O(n^2) | Level 2.
 - [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
