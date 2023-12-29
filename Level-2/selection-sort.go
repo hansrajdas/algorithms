@@ -21,6 +21,7 @@ import (
 	"reflect"
 )
 
+// Sorts slice in increasing order using selection sort.
 func selectionSort(nums []int) {
 	for i := 0; i < len(nums); i++ {
 		minIdx := i

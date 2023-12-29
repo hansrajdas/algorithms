@@ -1,11 +1,12 @@
 # List of Algorithms
-All programs are categorized in level 1 to 4(1 being easiest)
+All programs are categorized in level 1 to 4 (1 being easiest)
 ## Sorting
 - [Bubble sort (Python)](Level-2/bubble_sort.py): Implement bubble sort in Python | O(n^2) | Level 2.
 - [Bubble sort (Go)](Level-2/bubble-sort.go): Implement bubble sort in Golang | O(n^2) | Level 2.
 - [Selection sort (Python)](Level-2/selection_sort.py): Implement selection sort in Python | O(n^2) | Level 2.
 - [Selection sort (Go)](Level-2/selection-sort.go): Implement selection sort in Golang | O(n^2) | Level 2.
-- [Insertion sort](Level-2/insertion_sort.py): Implement insertion sort | O(n^2) | Level 2.
+- [Insertion sort (Python)](Level-2/insertion_sort.py): Implement insertion sort in Python | O(n^2) | Level 2.
+- [Insertion sort (Go)](Level-2/insertion-sort.go): Implement insertion sort in Golang | O(n^2) | Level 2.
 - [Heap sort using max heap](Level-3/heap_sort_using_max_heap.c): Build a max heap and sort array in ascending order | Level 3.
 - [Heap sort using max heap - python](Level-3/heap_sort_using_max_heap.py): Build a max heap and sort array in ascending order | Level 3.
 - [Heap sort using min heap](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order | Level 3.

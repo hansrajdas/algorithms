@@ -1,13 +1,12 @@
 /*
-Date: 2023-12-28
+Date: 2023-12-29
 
 Description:
-Implement bubble sort.
+Implement insertion sort.
 
 Approach:
-Compares adjacent elements and pushes to it's extreme end. While
-sorting in ascending order largest element reaches at last place after first
-iteration of outer loop. For descending smallest reaches to the last place.
+Scans from right in sorted sub-array and inserts current element at correct
+place by shifting all the elements to right.
 
 Complexity:
 O(n^2)
@@ -20,20 +19,17 @@ import (
 	"reflect"
 )
 
-// Sorts slice in increasing order using bubble sort.
-func bubbleSort(nums []int) {
-	swap := true
-	for i := 0; i < len(nums); i++ {
-		swap = false
-		for j := 0; j < len(nums)-1-i; j++ {
-			if nums[j] > nums[j+1] { // For descending order, reverse this condition.
-				nums[j], nums[j+1] = nums[j+1], nums[j]
-				swap = true
-			}
+// Sorts slice in increasing order using insertion sort.
+func insertionSort(nums []int) {
+	var j int
+	for i := 1; i < len(nums); i++ {
+		key := nums[i]
+		// Loop until elements are sorted.
+		// For decreasing order, reverse the condition.
+		for j = i; j > 0 && nums[j-1] > key; j-- {
+			nums[j] = nums[j-1]
 		}
-		if !swap {
-			break
-		}
+		nums[j] = key
 	}
 }
 
@@ -51,7 +47,7 @@ func main() {
 	for idx, tc := range testCases {
 		inputCopy := make([]int, len(tc.input))
 		copy(inputCopy, tc.input)
-		bubbleSort(inputCopy)
+		insertionSort(inputCopy)
 		if !reflect.DeepEqual(inputCopy, tc.expected) {
 			fmt.Printf("\nTC %d failed. Expected %v, got %v", idx, tc.expected, inputCopy)
 		}

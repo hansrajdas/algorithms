@@ -1,35 +1,36 @@
 #!/usr/bin/python
 
-# Date: 2018-09-08
-#
-# Description:
-# Implement insertion sort.
-#
-# Approach:
-# Scans from right in sorted sub-array and inserts current element at correct
-# place by shifting all the elements to right.
-#
-# Complexity:
-# O(n^2)
+"""
+Date: 2018-09-08
 
+Description:
+Implement insertion sort.
+
+Approach:
+Scans from right in sorted sub-array and inserts current element at correct
+place by shifting all the elements to right.
+
+Complexity:
+O(n^2)
+"""
 
 def insertion_sort_increasing(A):
     for i in range(1, len(A)):
         key = A[i]
-        j = i - 1
-        while j >= 0 and A[j] > key:
-            A[j + 1] = A[j]
+        j = i
+        while j > 0 and A[j - 1] > key:
+            A[j] = A[j - 1]
             j -= 1
-        A[j + 1] = key  # Insert current element at correct place.
+        A[j] = key  # Insert current element at correct place.
 
 def insertion_sort_descending(A):
     for i in range(1, len(A)):  # Fisrt element is sorted in itself
-        element = A[i]
+        key = A[i]
         j = i
-        while j and A[j - 1] < element:
+        while j and A[j - 1] < key:
             A[j] = A[j - 1]
             j -= 1
-        A[j] = element
+        A[j] = key  # Insert current element at correct place.
 
 def sort(A):
     B = A[:]
