@@ -1,19 +1,20 @@
 #!/usr/bin/python
 
-# Date: 2018-09-08
-#
-# Description:
-# Implement selection sort.
-#
-# Approach:
-# Finds index of minimum(when sorting in ascending) element from the remaining
-# array and swap it with element at the end of sorted sub-array.
-# While sorting in ascending order minimum element reaches at first place after
-# first iteration of outer loop.
-#
-# Complexity:
-# O(n^2)
+"""
+Date: 2018-09-08
 
+Description:
+Implement selection sort.
+
+Approach:
+Finds index of minimum(when sorting in ascending) element from the remaining
+array and swap it with element at the end of sorted sub-array.
+While sorting in ascending order minimum element reaches at first place after
+first iteration of outer loop.
+
+Complexity:
+O(n^2)
+"""
 
 def selection_sort_ascending(A):
     for i in range(len(A)):

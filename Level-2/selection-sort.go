@@ -1,13 +1,14 @@
 /*
-Date: 2023-12-28
+Date: 2023-12-29
 
 Description:
-Implement bubble sort.
+Implement selection sort.
 
 Approach:
-Compares adjacent elements and pushes to it's extreme end. While
-sorting in ascending order largest element reaches at last place after first
-iteration of outer loop. For descending smallest reaches to the last place.
+Finds index of minimum (when sorting in ascending) element from the remaining
+array and swap it with element at the end of sorted sub-array.
+While sorting in ascending order minimum element reaches at first place after
+first iteration of outer loop.
 
 Complexity:
 O(n^2)
@@ -20,19 +21,16 @@ import (
 	"reflect"
 )
 
-func bubbleSort(nums []int) {
-	swap := true
+func selectionSort(nums []int) {
 	for i := 0; i < len(nums); i++ {
-		swap = false
-		for j := 0; j < len(nums)-1-i; j++ {
-			if nums[j] > nums[j+1] { // For descending order, reverse this condition.
-				nums[j], nums[j+1] = nums[j+1], nums[j]
-				swap = true
+		minIdx := i
+		for j := i + 1; j < len(nums); j++ {
+			// For sorting in descending order, find maxIdx.
+			if nums[j] < nums[minIdx] {
+				minIdx = j
 			}
 		}
-		if !swap {
-			break
-		}
+		nums[minIdx], nums[i] = nums[i], nums[minIdx]
 	}
 }
 
@@ -50,7 +48,7 @@ func main() {
 	for idx, tc := range testCases {
 		inputCopy := make([]int, len(tc.input))
 		copy(inputCopy, tc.input)
-		bubbleSort(inputCopy)
+		selectionSort(inputCopy)
 		if !reflect.DeepEqual(inputCopy, tc.expected) {
 			fmt.Printf("\nTC %d failed. Expected %v, got %v", idx, tc.expected, inputCopy)
 		}
