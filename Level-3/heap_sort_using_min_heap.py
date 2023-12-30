@@ -1,18 +1,20 @@
 #!/usr/bin/python
 
-# Date: 2020-08-25
-#
-# Description:
-# Transform an array to min heap and sort in descending order. Min heap has
-# smallest element at 0th index always. In sorting we can copy 0th index
-# element to last index and run min-heapify again to have next min at 0th
-# index.
-# So min heap is used to sort array in descending order and max heap can be
-# used to sort array in ascending order.
-#
-# Complexity:
-# Building heap has O(n)
-# Sorting takes O(n*log(n))
+"""
+Date: 2020-08-25
+
+Description:
+Transform an array to min heap and sort in descending order. Min heap has
+smallest element at 0th index always. In sorting we can copy 0th index
+element to last index and run min-heapify again to have next min at 0th
+index.
+So min heap is used to sort array in descending order and max heap can be
+used to sort array in ascending order.
+
+Complexity:
+Building heap has O(n)
+Sorting takes O(n*log(n))
+"""
 
 def min_heapify(A, n, i):
     left = (i << 1) + 1
