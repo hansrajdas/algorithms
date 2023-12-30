@@ -12,6 +12,7 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Heap sort using max heap (Go)](Level-3/heap-sort-using-max-heap.go): Build a max heap and sort array in ascending order in Golang | Level 3.
 - [Heap sort using min heap (C)](Level-3/heap_sort_using_min_heap.c): Build a min heap and sort array in descending order in C | Level 3.
 - [Heap sort using min heap (Python)](Level-3/heap_sort_using_min_heap.py): Build a min heap and sort array in descending order in Python | Level 3.
+- [Heap sort using min heap (Go)](Level-3/heap-sort-using-min-heap.go): Build a min heap and sort array in descending order in Golang | Level 3.
 - [Merge sort](Level-3/merge_sort.c): Implement merge sort | O(nlogn) | Level 3.
 - [Merge sort - python](Level-3/merge_sort.py): Implement merge sort in python | O(nlogn) | Level 3.
 - [Quick sort](Level-3/quick_sort.c): Implement quick sort(C) for array of random numbers | O(nlogn) | Level 3.

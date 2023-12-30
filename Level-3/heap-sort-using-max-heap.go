@@ -25,9 +25,10 @@ func maxHeapify(nums []int, n, idx int) {
 	left := 2*idx + 1
 	right := 2*idx + 2
 
-	// Select min b/w left and right child if current(i) is not maximum then
-	// swap. Compared with left child fist because heap should always be left
-	// filled.
+	// Check if current element is larger than it's left and right child.
+	// If not take index of largest element between left and right child as
+	// largest index. Also larger among left and right child should become parent
+	// of current node so 2 if used instead of if..else if.
 	if left < n && nums[left] > nums[largestIdx] {
 		largestIdx = left
 	}
