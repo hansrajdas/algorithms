@@ -21,9 +21,10 @@ def min_heapify(A, n, i):
     right = (i << 1) + 2
     min_idx = i
     
-    # Select min b/w left and right child if current(i) is not minimum then
-    # swap. Compared with left child fist because heap should always be left
-    # filled.
+    # Check if current element is smaller than it's left and right child.
+    # If not take index of smaller element between left and right child as
+    # smallest index. Also smaller among left and right child should become parent
+    # of current node so 2 if used instead of if..else if.
     if left < n and A[min_idx] > A[left]:
         min_idx = left
     if right < n and A[min_idx] > A[right]:

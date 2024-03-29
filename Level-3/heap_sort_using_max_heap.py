@@ -20,9 +20,10 @@ def max_heapify(A, n, i):
     right = (i << 1) + 2
     max_idx = i
 
-    # Select min b/w left and right child if current(i) is not maximum then
-    # swap. Compared with left child fist because heap should always be left
-    # filled.
+    # Check if current element is larger than it's left and right child.
+    # If not take index of largest element between left and right child as
+    # largest index. Also larger among left and right child should become parent
+    # of current node so 2 if used instead of if..else if.
     if left < n and A[max_idx] < A[left]:
         max_idx = left
     if right < n and A[max_idx] < A[right]:

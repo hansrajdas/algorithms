@@ -36,8 +36,10 @@ void min_heapify(int a[], int n, int i) {
   int left = 2*i + 1;
   int right = 2*i + 2;
 
-  // Check if current element is smallest among 3 elements(self, left and
-  // right child) or not. If not, swap with smallest.
+  // Check if current element is smaller than it's left and right child.
+  // If not take index of smaller element between left and right child as
+  // smallest index. Also smaller among left and right child should become parent
+  // of current node so 2 if used instead of if..else if.
   if (left < n && a[lowest_idx] > a[left])
     lowest_idx = left;
   if (right < n && a[lowest_idx] > a[right])
