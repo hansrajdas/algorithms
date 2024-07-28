@@ -27,7 +27,7 @@ class LinkedList:
   def traverse(self):
     current = self.head
     while current:
-      print current.data
+      print(current.data)
       current = current.next
 
   def insert_at_end(self, data):
@@ -75,8 +75,8 @@ def main():
 
   linked_list.traverse()
 
-  k = input('Enter k: ')
-  print ('%d-th element from last is: %d' % (k, linked_list.kth_from_last(k)))
+  k = int(input('Enter k: '))
+  print('%d-th element from last is: %d' % (k, linked_list.kth_from_last(k)))
 
 
 if __name__ == '__main__':

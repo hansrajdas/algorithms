@@ -41,8 +41,6 @@ def partition(A, left, right):
   return i
 
 def select(A, left, right, k):
-    if left == right:
-        return A[left]
     pivot_idx = partition(A, left, right)
     if pivot_idx == k:
         return A[k]

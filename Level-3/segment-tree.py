@@ -79,6 +79,9 @@ class SegmentTree:
         - Similarly, If right node is left child (at 2i) then we are NOT interested in it's parent
           as it will be fall outside the range so we add right node to res and decrement right such
           that half of it goes to one previous parent
+
+        Note: To better understand this function, take an example to draw tree. Make sure to use
+        index from 1 instead of 0.
         """
         left += self.n
         right += self.n

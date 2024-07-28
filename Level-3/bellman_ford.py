@@ -1,23 +1,25 @@
 #!/usr/bin/python
 
-# Date: 2018-01-28
-#
-# Description:
-# Bellman ford can be used to find shortest path from a source to all reachable
-# vertexes. Graph can have both positive and negative weights and cycles.
-#
-# Implementation:
-# - Relax all edges |V| - 1 times as there can be max of |V| - 1 edges in any
-#   simple path(from source any vertex in graph).
-# - Run above step second time and if there is a negative weight cycle(if we
-#   still see more optimal shortest path) then it reports and marks shortest
-#   distance as undefined.
-#
-# Reference:
-# https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
-# 
-# Complexity:
-# O(VE)
+"""
+Date: 2018-01-28
+
+Description:
+Bellman ford can be used to find shortest path from a source to all reachable
+vertexes. Graph can have both positive and negative weights and cycles.
+
+Implementation:
+- Relax all edges |V| - 1 times as there can be max of |V| - 1 edges in any
+  simple path(from source any vertex in graph).
+- Run above step second time and if there is a negative weight cycle(if we
+  still see more optimal shortest path) then it reports and marks shortest
+  distance as undefined.
+
+Reference:
+https://www.geeksforgeeks.org/dynamic-programming-set-23-bellman-ford-algorithm/
+
+Complexity:
+O(VE)
+"""
 
 
 class Graph(object):
@@ -96,3 +98,19 @@ g1.add_edge(0, 1, -1)
 g1.add_edge(1, 0, -1)
 
 g1.bellman_ford(0)
+
+"""
+Output:
+*********** Test case 1 ***********
+Vertex: 0 	 Distance: 0
+Vertex: 1 	 Distance: -1
+Vertex: 2 	 Distance: 2
+Vertex: 3 	 Distance: -2
+Vertex: 4 	 Distance: 1
+
+*********** Test case 2 ***********
+Node 1 is part of negative cycle - undefined shortest path
+Node 0 is part of negative cycle - undefined shortest path
+Vertex: 0 	 Distance: -inf
+Vertex: 1 	 Distance: -inf
+"""
