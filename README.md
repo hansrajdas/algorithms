@@ -41,7 +41,8 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Triagles in graph](Level-2/triangles_in_graph.py): Given a graph(directed or undirected), count the number of triagles present | O(N^3) | Level 2.
 
 ## Union find(disjoint sets)
-- [Implement disjoint sets](Level-2/union_find.py): Implement union find data structure with path compression and rank | O(1) | Level 2.
+- [Implement disjoint sets (Python)](Level-2/union_find.py): Implement union find data structure with path compression and rank in Python | O(1) | Level 2.
+- [Implement disjoint sets (Go)](Level-2/union_find.go): Implement union find data structure with path compression and rank in Go | O(1) | Level 2.
 - [Undirected graph cycle detection](Level-2/graph_cycle_detection_union_find.py): Check if undirected graph has cycle or not using union find | O(V + E) | Level 2.
 - [Kruskals algo - MST](Level-3/kruskals_algo_min_spanning_tree.py): Kruskals algorithm to find minimum spanning tree(MST) of undirected graph | O(ElogE) | Level 3.
 - [Job sequencing problem](Level-4/job_scheduling_problem_using_disjoint_set.py): Given set of jobs with deadline and profit, find seq for max profit | O(N) | Level 4.
