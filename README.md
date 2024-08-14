@@ -47,6 +47,9 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Kruskals algo - MST](Level-3/kruskals_algo_min_spanning_tree.py): Kruskals algorithm to find minimum spanning tree(MST) of undirected graph | O(ElogE) | Level 3.
 - [Job sequencing problem](Level-4/job_scheduling_problem_using_disjoint_set.py): Given set of jobs with deadline and profit, find seq for max profit | O(N) | Level 4.
 
+## Square root decomposition
+- [Square root decomposition](Level-2/sqrt-decomposition.py): Implement square root decomposition method for range sum query | O(sqrt(n)) | Level 2.
+
 ## Segment tree
 - [Segment Tree - iterative](Level-3/segment-tree.py): Implement segment tree (iterative approach) | O(n) | Level 3.
 
