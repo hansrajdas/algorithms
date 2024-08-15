@@ -48,7 +48,8 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Job sequencing problem](Level-4/job_scheduling_problem_using_disjoint_set.py): Given set of jobs with deadline and profit, find seq for max profit | O(N) | Level 4.
 
 ## Square root decomposition
-- [Square root decomposition](Level-2/sqrt-decomposition.py): Implement square root decomposition method for range sum query | O(sqrt(n)) | Level 2.
+- [Square root decomposition - Python](Level-2/sqrt-decomposition.py): Implement square root decomposition method for range sum query in Python | O(sqrt(n)) | Level 2.
+- [Square root decomposition - Go](Level-2/sqrt-decomposition.go): Implement square root decomposition method for range sum query in Go | O(sqrt(n)) | Level 2.
 
 ## Segment tree
 - [Segment Tree - iterative](Level-3/segment-tree.py): Implement segment tree (iterative approach) | O(n) | Level 3.
