@@ -52,7 +52,8 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Square root decomposition - Go](Level-2/sqrt-decomposition.go): Implement square root decomposition method for range sum query in Go | O(sqrt(n)) | Level 2.
 
 ## Segment tree
-- [Segment Tree - iterative](Level-3/segment-tree.py): Implement segment tree (iterative approach) | O(n) | Level 3.
+- [Segment Tree - Python](Level-3/segment-tree.py): Implement segment tree (iterative approach) in Python | O(logn) | Level 3.
+- [Segment Tree - Go](Level-3/segment-tree.go): Implement segment tree (iterative approach) in Golang | O(logn) | Level 3.
 
 ## Binary indexed (Fenwick) tree
 - [Binary indexed (Fenwick) tree](Level-3/binary-indexed-tree.py): Implement BIT (fenwick tree) | O(n) | Level 3.
