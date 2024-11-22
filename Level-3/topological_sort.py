@@ -47,7 +47,7 @@ class Graph(object):
     # Maintain topological order in stack.
     stack = []
 
-    visited = {v : False for v in self.graph}
+    visited = {v: False for v in self.graph}
     for vertex in self.graph:
       if not visited[vertex]:
         self.topological_sort_util(vertex, visited, stack)
@@ -64,14 +64,10 @@ g.add_edge(4, 1)
 g.add_edge(2, 3)
 g.add_edge(3, 1)
 
-g.topological_sort()
-
-# Output: [5, 4, 0, 2, 3, 1]
+g.topological_sort() # Output: [4, 5, 0, 2, 3, 1]
 
 g1 = Graph()
 g1.add_edge(5, 2)
 g1.add_edge(6, 2)
 
-g1.topological_sort()
-
-# Output: [6, 5, 2]
+g1.topological_sort() # Output: [6, 5, 2]

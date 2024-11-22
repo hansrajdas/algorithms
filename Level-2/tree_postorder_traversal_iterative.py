@@ -1,16 +1,24 @@
 #!/usr/bin/python
 
-# Date: 2020-02-14
-#
-# Description:
-# Write an iterative program to do postorder traversal of binary tree.
-#
-# Approach:
-# - Hacky method is used to do preoder traversal and reverse the results
-# - Actual postoder iterative is bit complex than pre and inorder
-# 
-# Complexity:
-# O(N) Time and Space
+"""
+Date: 2020-02-14
+
+Description
+-----------
+Write an iterative program to do postorder traversal of binary tree.
+
+Approach
+--------
+Hacky method is used to manipulate preoder traversal, then reverse the result.
+
+NOTE
+----
+Actual postoder iterative is bit complex than pre and inorder
+
+Complexity
+----------
+O(N) Time and Space
+"""
 
 class Node:
   def __init__(self, data):
@@ -23,7 +31,7 @@ def postorder(root):
 
 def postorder_hacky(root):
     if root is None:
-            return []
+        return []
     stack = [root]
     res = []
     while stack:

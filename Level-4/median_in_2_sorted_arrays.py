@@ -31,8 +31,11 @@ def median_of_2_sorted_arrays(A, B):
   high = x
 
   while low <= high:
-    partition_x = low + (high - low)/2
-    partition_y = (x + y + 1)/2 - partition_x
+    partition_x = (low + high) // 2  # Partition array A
+
+    # Partition B so that the number of elements on left side of array and B is same as
+    # the number of elements on right side of array A and B.
+    partition_y = (x + y + 1) // 2 - partition_x
 
     max_left_x = A[partition_x - 1] if partition_x else float('-inf')
     min_right_x = A[partition_x] if partition_x < x else float('inf')

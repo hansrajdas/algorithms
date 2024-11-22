@@ -329,7 +329,7 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Max product of subarray, size k](Level-2/max_product_of_subarray_size_k.c): Find max product of a subarray, size k | O(N) | Level 2.
 - [Max and min product of subset](Level-2/max_and_min_prod_of_subset.c): Find max and min product of subset in array | O(N) | Level 2.
 - [Max subarray product, 2 traversal](Level-3/max_subarray_product_2_traversal.c): Find max subarray product, 2 traversals used | O(N) | Level 3.
-- [Max subarray product, single traversal\*](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
+- [Max subarray product, single traversal](Level-3/max_subarray_product.c): Find max subarray product, single traversal | O(N) | Level 3.
 - [Triplet with max product](Level-2/triplet_with_max_product.c): Find triplet in array with max product | O(N) | Level 2.
 - [Max product - index diff and min](Level-2/max_product_of_indx_diff_and_min.c): Find max value of abs(i - j) * MIN(a[i], a[j]) from unsorted array | O(N) | Level 2.
 - [Max product of increasing triplet](Level-2/max_prod_of_increasing_triplet.c): Find max product of increasing triplet from unsorted array | O(N^2) | Level 3.
