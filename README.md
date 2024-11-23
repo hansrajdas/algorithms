@@ -34,7 +34,8 @@ All programs are categorized in level 1 to 4 (1 being easiest)
 - [Connected components](Level-2/find_connected_components.py): Find all connected components in a graph | O(V + E) | Level 2.
 - [Shortest path in unweighted graph](Level-2/shortest_path_of_unweighted_graph.py): Find shortest path from src to dst in an unweighted graph | O(V + E) | Level 2.
 - [Cycle in graph](Level-3/cycle_in_graph.py): Check if there is cycle in a directed graph, uses DFS | O(V + E) | Level 3.
-- [Topological sort](Level-3/topological_sort.py): Topological order of directed acyclic graph(DAG) using DFS | O(V + E) | Level 3.
+- [Topological sort](Level-3/topological-sort-dfs.py): Topological order of directed acyclic graph (DAG) using DFS | O(V + E) | Level 3.
+- [Topological sort (Kahn's algo)](Level-3/topological-sort-kahns.py): Topological order of directed acyclic graph (DAG) using Kahn's algorithm | O(V + E) | Level 3.
 - [Shortest path of DAG](Level-3/shortest_path_for_DAG.py): Find shortest in a directed acyclic graph from a source vertex to all reachable vertex | O(V + E) | Level 3.
 - [Dijkstras shortest path](Level-3/dijkstras_shortest_path.py): Implement Dijkstras shortest path algo | O(E * log(V)) | Level 3.
 - [Bellman ford](Level-3/bellman_ford.py): Bellman ford algo to find shortest path in a graph | O(VE) | Level 3.

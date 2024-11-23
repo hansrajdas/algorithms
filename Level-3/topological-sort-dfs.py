@@ -34,7 +34,6 @@ class Graph(object):
 
   def topological_sort_util(self, current_node, visited, stack):
     """Performs DFS to find the topological ordering from the current node."""
-    
     visited[current_node] = True
     for adjacent_vertex in self.graph.get(current_node, []):
       if adjacent_vertex not in visited or not visited[adjacent_vertex]:
@@ -42,7 +41,7 @@ class Graph(object):
     stack.append(current_node)
 
   def topological_sort(self):
-    """Finds topological ordering of DAG 'self'."""
+    """Returns topological ordering of DAG 'self'."""
     
     # Maintain topological order in stack.
     stack = []
@@ -53,7 +52,7 @@ class Graph(object):
         self.topological_sort_util(vertex, visited, stack)
 
     stack.reverse()
-    print(stack)
+    return stack
 
 
 g = Graph()
@@ -64,10 +63,10 @@ g.add_edge(4, 1)
 g.add_edge(2, 3)
 g.add_edge(3, 1)
 
-g.topological_sort() # Output: [4, 5, 0, 2, 3, 1]
+print(g.topological_sort()) # [4, 5, 0, 2, 3, 1]
 
 g1 = Graph()
 g1.add_edge(5, 2)
 g1.add_edge(6, 2)
 
-g1.topological_sort() # Output: [6, 5, 2]
+print(g1.topological_sort()) # [6, 5, 2]
